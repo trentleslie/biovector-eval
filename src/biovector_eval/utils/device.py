@@ -58,12 +58,14 @@ def check_gpu_status() -> dict:
 
         for i in range(status["device_count"]):
             props = torch.cuda.get_device_properties(i)
-            status["devices"].append({
-                "index": i,
-                "name": props.name,
-                "total_memory_gb": props.total_memory / 1024**3,
-                "compute_capability": f"{props.major}.{props.minor}",
-            })
+            status["devices"].append(
+                {
+                    "index": i,
+                    "name": props.name,
+                    "total_memory_gb": props.total_memory / 1024**3,
+                    "compute_capability": f"{props.major}.{props.minor}",
+                }
+            )
 
         # Try to actually use CUDA
         test_tensor = torch.zeros(1, device="cuda")

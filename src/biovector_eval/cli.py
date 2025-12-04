@@ -100,7 +100,9 @@ def cmd_evaluate_models(args: argparse.Namespace) -> int:
         models = list(METABOLITE_MODELS.values())
     else:
         models = [
-            METABOLITE_MODELS[m] for m in args.models.split(",") if m in METABOLITE_MODELS
+            METABOLITE_MODELS[m]
+            for m in args.models.split(",")
+            if m in METABOLITE_MODELS
         ]
 
     for m in models:
@@ -184,32 +186,60 @@ def main() -> int:
     cg.set_defaults(func=cmd_check_gpu)
 
     # generate-ground-truth
-    gt = subparsers.add_parser("generate-ground-truth", help="Generate ground truth dataset")
-    gt.add_argument("--metabolites", required=True, help="Path to metabolites JSON file")
+    gt = subparsers.add_parser(
+        "generate-ground-truth", help="Generate ground truth dataset"
+    )
+    gt.add_argument(
+        "--metabolites", required=True, help="Path to metabolites JSON file"
+    )
     gt.add_argument("--output", required=True, help="Output path for ground truth JSON")
-    gt.add_argument("--exact", type=int, default=150, help="Number of exact match queries")
-    gt.add_argument("--synonym", type=int, default=150, help="Number of synonym match queries")
-    gt.add_argument("--fuzzy", type=int, default=100, help="Number of fuzzy match queries")
+    gt.add_argument(
+        "--exact", type=int, default=150, help="Number of exact match queries"
+    )
+    gt.add_argument(
+        "--synonym", type=int, default=150, help="Number of synonym match queries"
+    )
+    gt.add_argument(
+        "--fuzzy", type=int, default=100, help="Number of fuzzy match queries"
+    )
     gt.add_argument("--edge", type=int, default=100, help="Number of edge case queries")
     gt.add_argument("--seed", type=int, default=42, help="Random seed")
     gt.set_defaults(func=cmd_generate_ground_truth)
 
     # evaluate-models
     em = subparsers.add_parser("evaluate-models", help="Evaluate embedding models")
-    em.add_argument("--metabolites", required=True, help="Path to metabolites JSON file")
-    em.add_argument("--ground-truth", required=True, help="Path to ground truth JSON file")
+    em.add_argument(
+        "--metabolites", required=True, help="Path to metabolites JSON file"
+    )
+    em.add_argument(
+        "--ground-truth", required=True, help="Path to ground truth JSON file"
+    )
     em.add_argument("--output", required=True, help="Output directory for results")
-    em.add_argument("--models", default="all", help="Comma-separated model names or 'all'")
-    em.add_argument("--device", default="auto", help="Device for inference (auto/cpu/cuda)")
+    em.add_argument(
+        "--models", default="all", help="Comma-separated model names or 'all'"
+    )
+    em.add_argument(
+        "--device", default="auto", help="Device for inference (auto/cpu/cuda)"
+    )
     em.set_defaults(func=cmd_evaluate_models)
 
     # evaluate-quantization
-    eq = subparsers.add_parser("evaluate-quantization", help="Evaluate quantization strategies")
-    eq.add_argument("--metabolites", required=True, help="Path to metabolites JSON file")
-    eq.add_argument("--ground-truth", required=True, help="Path to ground truth JSON file")
-    eq.add_argument("--model", default="BAAI/bge-small-en-v1.5", help="Embedding model to use")
+    eq = subparsers.add_parser(
+        "evaluate-quantization", help="Evaluate quantization strategies"
+    )
+    eq.add_argument(
+        "--metabolites", required=True, help="Path to metabolites JSON file"
+    )
+    eq.add_argument(
+        "--ground-truth", required=True, help="Path to ground truth JSON file"
+    )
+    eq.add_argument(
+        "--model", default="BAAI/bge-small-en-v1.5", help="Embedding model to use"
+    )
     eq.add_argument("--output", required=True, help="Output path for results JSON")
-    eq.add_argument("--device", default="auto", help="Device for inference (auto/cpu/cuda)")
+    eq.add_argument(
+        "--device", default="auto", help="Device for inference (auto/cpu/cuda)"
+    )
     eq.set_defaults(func=cmd_evaluate_quantization)
 
     args = parser.parse_args()

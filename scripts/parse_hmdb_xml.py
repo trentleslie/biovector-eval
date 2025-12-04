@@ -53,7 +53,7 @@ def parse_hmdb_xml(
         file_handle = zf.open(xml_name)
     else:
         print(f"Opening XML file: {input_path}")
-        file_handle = open(input_path, "rb")
+        file_handle = input_path.open("rb")
         zf = None
 
     metabolites: list[dict] = []
@@ -65,7 +65,7 @@ def parse_hmdb_xml(
 
         pbar = tqdm(desc="Parsing metabolites", unit=" compounds")
 
-        for event, elem in context:
+        for _event, elem in context:
             # Handle namespace - check if tag ends with 'metabolite'
             if elem.tag.endswith("metabolite"):
                 # Extract fields
@@ -90,11 +90,13 @@ def parse_hmdb_xml(
                             if trad and trad not in synonyms:
                                 synonyms.append(trad)
 
-                    metabolites.append({
-                        "hmdb_id": hmdb_id,
-                        "name": name,
-                        "synonyms": synonyms,
-                    })
+                    metabolites.append(
+                        {
+                            "hmdb_id": hmdb_id,
+                            "name": name,
+                            "synonyms": synonyms,
+                        }
+                    )
                     processed += 1
                     pbar.update(1)
 
@@ -129,23 +131,13 @@ def parse_hmdb_xml(
 
 def main() -> None:
     """Main entry point."""
-    parser = argparse.ArgumentParser(
-        description="Parse HMDB XML and export to JSON"
-    )
+    parser = argparse.ArgumentParser(description="Parse HMDB XML and export to JSON")
     parser.add_argument(
-        "--input",
-        required=True,
-        help="HMDB XML file or zip archive path"
+        "--input", required=True, help="HMDB XML file or zip archive path"
     )
+    parser.add_argument("--output", required=True, help="Output JSON file path")
     parser.add_argument(
-        "--output",
-        required=True,
-        help="Output JSON file path"
-    )
-    parser.add_argument(
-        "--limit",
-        type=int,
-        help="Limit number of metabolites to process"
+        "--limit", type=int, help="Limit number of metabolites to process"
     )
     args = parser.parse_args()
 
