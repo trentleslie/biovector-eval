@@ -220,6 +220,6 @@ class TestHMDBGroundTruthGenerator:
         queries2 = list(gen2.generate_exact_matches(n=3))
 
         assert len(queries1) == len(queries2)
-        for q1, q2 in zip(queries1, queries2):
+        for q1, q2 in zip(queries1, queries2, strict=True):
             assert q1.query == q2.query
             assert q1.expected == q2.expected
