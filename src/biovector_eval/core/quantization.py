@@ -188,7 +188,9 @@ class QuantizationEvaluator:
         return QuantizationResult(
             config=config,
             accuracy=accuracy,
-            compression_ratio=original_size / compressed_size if compressed_size > 0 else 1.0,
+            compression_ratio=(
+                original_size / compressed_size if compressed_size > 0 else 1.0
+            ),
             original_size_mb=original_size,
             compressed_size_mb=compressed_size,
             accuracy_loss=loss,

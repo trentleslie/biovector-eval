@@ -185,6 +185,110 @@ def build_pq_index(
     return index
 
 
+def build_ivf_flat_index(
+    embeddings: np.ndarray,
+    nlist: int | None = None,
+    nprobe: int = 32,
+) -> faiss.Index:
+    """Build IVFFlat index (clustering + exhaustive search within clusters).
+
+    IVF (Inverted File) indexes partition vectors into clusters using k-means.
+    At search time, only vectors in the nprobe nearest clusters are searched.
+
+    This is useful for large-scale datasets (100M+) where HNSW becomes memory-
+    intensive. The trade-off is accuracy vs speed (controlled by nprobe).
+
+    Args:
+        embeddings: Normalized float32 embeddings (N x D).
+        nlist: Number of clusters. If None, uses sqrt(N) as default.
+        nprobe: Number of clusters to search (speed/accuracy trade-off).
+
+    Returns:
+        FAISS IVFFlat index (trained and populated).
+    """
+    n_vectors, dimension = embeddings.shape
+
+    # Default nlist to sqrt(n) if not specified
+    if nlist is None:
+        nlist = max(1, int(np.sqrt(n_vectors)))
+
+    # Ensure nlist doesn't exceed number of vectors
+    nlist = min(nlist, n_vectors)
+
+    # Create quantizer (coarse search structure)
+    quantizer = faiss.IndexFlatIP(dimension)
+
+    # Create IVFFlat index
+    index = faiss.IndexIVFFlat(quantizer, dimension, nlist, faiss.METRIC_INNER_PRODUCT)
+
+    # Train on embeddings (learns cluster centroids)
+    index.train(embeddings)
+
+    # Add vectors
+    index.add(embeddings)
+
+    # Set nprobe for search
+    index.nprobe = nprobe
+
+    return index
+
+
+def build_ivf_pq_index(
+    embeddings: np.ndarray,
+    nlist: int | None = None,
+    pq_m: int = 32,
+    pq_nbits: int = 8,
+    nprobe: int = 32,
+) -> faiss.Index:
+    """Build IVFPQ index (clustering + product quantization).
+
+    Combines IVF clustering with product quantization for maximum compression.
+    This is the most memory-efficient index type, suitable for billion-scale
+    datasets.
+
+    Args:
+        embeddings: Normalized float32 embeddings (N x D).
+        nlist: Number of clusters. If None, uses sqrt(N) as default.
+        pq_m: Number of subquantizers (must divide dimension evenly).
+        pq_nbits: Bits per subquantizer (usually 8).
+        nprobe: Number of clusters to search.
+
+    Returns:
+        FAISS IVFPQ index (trained and populated).
+    """
+    n_vectors, dimension = embeddings.shape
+
+    # Default nlist to sqrt(n) if not specified
+    if nlist is None:
+        nlist = max(1, int(np.sqrt(n_vectors)))
+
+    # Ensure nlist doesn't exceed number of vectors
+    nlist = min(nlist, n_vectors)
+
+    # Adjust pq_m to divide dimension evenly
+    while dimension % pq_m != 0 and pq_m > 1:
+        pq_m -= 1
+
+    # Create quantizer (coarse search structure)
+    quantizer = faiss.IndexFlatIP(dimension)
+
+    # Create IVFPQ index
+    index = faiss.IndexIVFPQ(
+        quantizer, dimension, nlist, pq_m, pq_nbits, faiss.METRIC_INNER_PRODUCT
+    )
+
+    # Train on embeddings (learns cluster centroids and PQ codebook)
+    index.train(embeddings)
+
+    # Add vectors
+    index.add(embeddings)
+
+    # Set nprobe for search
+    index.nprobe = nprobe
+
+    return index
+
+
 def build_all_indices(
     embeddings: np.ndarray,
     output_dir: Path | str,
