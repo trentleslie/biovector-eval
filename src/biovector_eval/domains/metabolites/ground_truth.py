@@ -1,14 +1,11 @@
 """Ground truth generation for HMDB metabolite evaluation.
 
-This module re-exports domain-agnostic ground truth classes from base/
-and provides the HMDBGroundTruthGenerator for metabolite-specific query
-generation.
-
-For new code, prefer importing from biovector_eval.base:
-    from biovector_eval.base import GroundTruthQuery, GroundTruthDataset
-
-For backward compatibility, imports from this module continue to work:
-    from biovector_eval.metabolites.ground_truth import GroundTruthQuery
+This module contains the HMDBGroundTruthGenerator which creates evaluation
+queries from HMDB metabolite data. It generates various query types:
+- Exact matches: Primary metabolite names
+- Synonym matches: Alternative names for metabolites
+- Fuzzy matches: Typo variations (substitution, transposition, deletion, insertion)
+- Edge cases: Greek letters, numeric prefixes, special prefixes
 """
 
 from __future__ import annotations
@@ -18,22 +15,17 @@ import re
 from collections.abc import Iterator
 from datetime import datetime
 
-# Re-export from base for backward compatibility
-from biovector_eval.base.ground_truth import (
-    GroundTruthDataset,
-    GroundTruthQuery,
-)
-
-__all__ = [
-    "GroundTruthQuery",
-    "GroundTruthDataset",
-    "HMDBGroundTruthGenerator",
-]
+from biovector_eval.base.ground_truth import GroundTruthDataset, GroundTruthQuery
 
 
 class HMDBGroundTruthGenerator:
-    """Generate ground truth queries from HMDB metabolite data."""
+    """Generate ground truth queries from HMDB metabolite data.
 
+    Creates a balanced dataset of evaluation queries across different
+    difficulty levels and categories.
+    """
+
+    # Greek letter mappings for edge case detection
     GREEK_MAPPINGS = {
         "α": "alpha",
         "β": "beta",
@@ -279,6 +271,7 @@ class HMDBGroundTruthGenerator:
         dataset = GroundTruthDataset(
             metadata={
                 "source": "HMDB",
+                "domain": "metabolites",
                 "generated": datetime.now().isoformat(),
                 "version": "1.0",
             }

@@ -56,21 +56,57 @@ def cmd_check_gpu(args: argparse.Namespace) -> int:
 
 def cmd_generate_ground_truth(args: argparse.Namespace) -> int:
     """Generate ground truth dataset."""
-    from biovector_eval.metabolites.ground_truth import HMDBGroundTruthGenerator
+    # Resolve entities path: --metabolites takes precedence for backward compat
+    entities_path = args.metabolites or args.entities
 
-    logger.info(f"Loading metabolites from {args.metabolites}")
-    with open(args.metabolites) as f:
-        metabolites = json.load(f)
+    if not entities_path:
+        logger.error("Either --metabolites or --entities is required")
+        return 1
 
-    generator = HMDBGroundTruthGenerator(metabolites, seed=args.seed)
-    dataset = generator.generate_dataset(
-        exact=args.exact,
-        synonym=args.synonym,
-        fuzzy=args.fuzzy,
-        greek=args.greek,
-        numeric=args.numeric,
-        special=args.special,
-    )
+    domain_name = args.domain
+
+    if domain_name == "metabolites":
+        # Use metabolite-specific generator (backward compatible)
+        from biovector_eval.metabolites.ground_truth import HMDBGroundTruthGenerator
+
+        logger.info(f"Loading metabolites from {entities_path}")
+        with open(entities_path) as f:
+            metabolites = json.load(f)
+
+        generator = HMDBGroundTruthGenerator(metabolites, seed=args.seed)
+        dataset = generator.generate_dataset(
+            exact=args.exact,
+            synonym=args.synonym,
+            fuzzy=args.fuzzy,
+            greek=args.greek,
+            numeric=args.numeric,
+            special=args.special,
+        )
+    else:
+        # Use domain registry for other domains
+        from biovector_eval.base.loaders import load_entities
+        from biovector_eval.domains import get_domain
+
+        try:
+            domain = get_domain(domain_name)
+        except KeyError as e:
+            logger.error(str(e))
+            return 1
+
+        logger.info(f"Loading entities from {entities_path}")
+        entities = load_entities(entities_path)
+
+        dataset = domain.generate_ground_truth(
+            entities,
+            seed=args.seed,
+            exact=args.exact,
+            synonym=args.synonym,
+            fuzzy=args.fuzzy,
+            greek=args.greek,
+            numeric=args.numeric,
+            special=args.special,
+        )
+
     dataset.save(args.output)
     logger.info(f"Generated {len(dataset.queries)} queries -> {args.output}")
     return 0
@@ -195,7 +231,17 @@ def main() -> int:
         "generate-ground-truth", help="Generate ground truth dataset"
     )
     gt.add_argument(
-        "--metabolites", required=True, help="Path to metabolites JSON file"
+        "--domain",
+        default="metabolites",
+        help="Domain to generate ground truth for (default: metabolites)",
+    )
+    gt.add_argument(
+        "--entities",
+        help="Path to entities file (JSON or TSV)",
+    )
+    gt.add_argument(
+        "--metabolites",
+        help="[DEPRECATED] Use --entities. Path to metabolites JSON file",
     )
     gt.add_argument("--output", required=True, help="Output path for ground truth JSON")
     gt.add_argument(
