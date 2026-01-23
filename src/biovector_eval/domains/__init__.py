@@ -67,10 +67,8 @@ def list_domains() -> list[str]:
 # Import domain modules to trigger registration
 # These imports must be at the end to avoid circular imports
 from biovector_eval.domains import metabolites  # noqa: E402, F401
-
-# Future domains - scaffolded but not yet implemented
-# from biovector_eval.domains import demographics  # noqa: E402, F401
-# from biovector_eval.domains import questionnaires  # noqa: E402, F401
+from biovector_eval.domains import questionnaires  # noqa: E402, F401
+from biovector_eval.domains import demographics  # noqa: E402, F401
 
 
 __all__ = [

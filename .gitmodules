@@ -1,0 +1,3 @@
+[submodule "external/genoma"]
+	path = external/genoma
+	url = https://github.com/geneialco/GenOMA-Geneial-Ontology-Mapping-Agent.git

@@ -33,6 +33,13 @@ notebooks = [
     "scipy>=1.11.0",
     "pyarrow>=22.0.0",
 ]
+genoma = [
+    # GenOMA LLM-based ontology mapping dependencies
+    "langgraph>=0.2.0",
+    "langchain>=0.3.0",
+    "langchain-openai>=0.2.0",
+    "openai>=1.0.0",
+]
 
 [project.scripts]
 biovector-eval = "biovector_eval.cli:main"
@@ -63,6 +70,9 @@ testpaths = ["tests"]
 python_files = ["test_*.py"]
 python_functions = ["test_*"]
 addopts = "-v"
+markers = [
+    "integration: mark test as integration test (requires API keys, may incur costs)",
+]
 
 [tool.pyright]
 pythonVersion = "3.12"
