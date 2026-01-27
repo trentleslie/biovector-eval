@@ -186,6 +186,7 @@ notebooks = [
 dev = [
     { name = "black" },
     { name = "pyright" },
+    { name = "ruff" },
 ]
 
 [package.metadata]
@@ -222,6 +223,7 @@ provides-extras = ["dev", "notebooks", "genoma"]
 dev = [
     { name = "black", specifier = ">=25.11.0" },
     { name = "pyright", specifier = ">=1.1.407" },
+    { name = "ruff", specifier = ">=0.14.6" },
 ]
 
 [[package]]
