@@ -1,23 +1,22 @@
-"""Demographics domain scaffold.
+"""Demographics domain for cross-cohort variable harmonization.
 
-This module will provide support for demographic variable evaluation
-once data is available. Demographics data typically includes:
-- Variable codes/identifiers
-- Variable labels/descriptions
-- Category values and labels
+This module provides support for demographic variable evaluation
+across multiple cohort sources (Arivale, Israeli10K, UK Biobank).
 
-Expected data format: TSV with columns like:
-- variable_code: Unique identifier
-- variable_label: Human-readable name
-- description: Detailed description (used as synonym)
-- category: Variable category
+Example:
+    from biovector_eval.domains import get_domain
 
-TODO: Implement DemographicsDomain class when data is ready.
+    demographics = get_domain("demographics")
+    entities = demographics.load_entities()
+    ground_truth = demographics.generate_ground_truth(entities)
 """
 
-# Domain will be registered when implementation is complete
-# from biovector_eval.domains import register_domain
-# from biovector_eval.domains.demographics.domain import DemographicsDomain
-# register_domain("demographics", DemographicsDomain)
+from biovector_eval.domains import register_domain
+from biovector_eval.domains.demographics.domain import DemographicsDomain
 
-__all__: list[str] = []
+# Register the domain
+register_domain("demographics", DemographicsDomain)
+
+__all__ = [
+    "DemographicsDomain",
+]

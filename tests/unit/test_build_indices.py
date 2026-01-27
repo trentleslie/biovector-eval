@@ -72,9 +72,13 @@ def temp_output_dir(tmp_path: Path) -> Path:
 class TestIndexTypes:
     """Tests for INDEX_TYPES configuration."""
 
-    def test_index_types_contains_all_seven(self) -> None:
-        """INDEX_TYPES should contain all 7 index types."""
-        expected_types = {"flat", "hnsw", "sq8", "sq4", "pq", "ivf_flat", "ivf_pq"}
+    def test_index_types_contains_all_nine(self) -> None:
+        """INDEX_TYPES should contain all 9 index types."""
+        expected_types = {
+            "flat", "hnsw",
+            "hnsw_sq8", "hnsw_sq4", "hnsw_pq",
+            "ivf_flat", "ivf_pq", "ivf_sq8", "ivf_sq4",
+        }
         assert set(INDEX_TYPES.keys()) == expected_types
 
     def test_index_types_have_builder_functions(self) -> None:
@@ -382,8 +386,8 @@ class TestBuildAllIndices:
             skip_existing=False,
         )
 
-        # Should build all 7 index types
-        assert len(results) == 7
+        # Should build all 9 index types
+        assert len(results) == 9
         for index_type in INDEX_TYPES:
             expected_path = temp_output_dir / f"test_single-primary_{index_type}.faiss"
             assert expected_path.exists(), f"Missing {index_type} index"

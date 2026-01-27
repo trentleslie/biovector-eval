@@ -1,1 +1,1 @@
-"""Integration tests for biovector-eval."""
+"""Integration tests requiring external services or API keys."""

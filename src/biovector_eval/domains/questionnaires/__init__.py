@@ -1,24 +1,54 @@
-"""Questionnaires domain scaffold.
+"""Questionnaires domain for survey item evaluation and harmonization.
 
-This module will provide support for questionnaire item evaluation
-once data is available. Questionnaire data typically includes:
-- Question codes/identifiers
-- Question text
-- Response options
-- Scale labels
+This module provides support for:
+- Questionnaire item parsing from multiple sources (NHANES, UK Biobank, etc.)
+- LOINC code mapping for standardized clinical terminology
+- Cross-questionnaire harmonization via vector similarity
+- Ground truth generation for evaluation
 
-Expected data format: TSV with columns like:
-- question_id: Unique identifier
-- question_text: Full question text
-- short_label: Brief label (used as name)
-- response_options: Semicolon-separated response choices
+Domain Registration:
+- "questionnaires": Main domain for consolidated question entities
+- "loinc": Sub-domain for LOINC codes (registered separately)
 
-TODO: Implement QuestionnairesDomain class when data is ready.
+Data Format:
+Questions are stored as BaseEntity objects with metadata tracking
+source questionnaire, year, variable names, and response options.
+
+Example usage:
+    from biovector_eval.domains import get_domain
+
+    # Load questionnaire items
+    questionnaires = get_domain("questionnaires")
+    questions = questionnaires.load_entities()
+
+    # Load LOINC codes
+    loinc = get_domain("loinc")
+    loinc_codes = loinc.load_entities()
 """
 
-# Domain will be registered when implementation is complete
-# from biovector_eval.domains import register_domain
-# from biovector_eval.domains.questionnaires.domain import QuestionnairesDomain
-# register_domain("questionnaires", QuestionnairesDomain)
+from biovector_eval.domains import register_domain
+from biovector_eval.domains.questionnaires.domain import QuestionnairesDomain
+from biovector_eval.domains.questionnaires.loinc.domain import LOINCDomain
+from biovector_eval.domains.questionnaires.models import (
+    LOINC_MODELS,
+    QUESTIONNAIRE_MODELS,
+    ModelConfig,
+    get_model_config,
+    list_models,
+)
 
-__all__: list[str] = []
+# Register both domains
+register_domain("questionnaires", QuestionnairesDomain)
+register_domain("loinc", LOINCDomain)
+
+__all__ = [
+    # Domain classes
+    "QuestionnairesDomain",
+    "LOINCDomain",
+    # Model configuration
+    "QUESTIONNAIRE_MODELS",
+    "LOINC_MODELS",
+    "ModelConfig",
+    "get_model_config",
+    "list_models",
+]
