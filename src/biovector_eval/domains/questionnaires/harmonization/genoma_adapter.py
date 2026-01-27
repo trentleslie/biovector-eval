@@ -49,6 +49,26 @@ if TYPE_CHECKING:
 logger = logging.getLogger(__name__)
 
 
+def _find_project_root() -> Path:
+    """Find project root by walking up to pyproject.toml.
+
+    This is more robust than using a fixed parent index (e.g., parents[5])
+    because it works regardless of how deeply the file is nested.
+
+    Returns:
+        Path to project root directory
+
+    Raises:
+        RuntimeError: If no pyproject.toml found in any parent directory
+    """
+    current = Path(__file__).resolve().parent
+    while current != current.parent:
+        if (current / "pyproject.toml").exists():
+            return current
+        current = current.parent
+    raise RuntimeError("Could not find project root (no pyproject.toml found)")
+
+
 @dataclass
 class GenOMAResult:
     """Parsed result from GenOMA mapping.
@@ -154,7 +174,8 @@ class GenOMAAdapter:
         """
         if self._genoma_graph is None:
             # Add GenOMA to path if needed
-            genoma_path = Path(__file__).parents[5] / "external" / "genoma" / "src"
+            project_root = _find_project_root()
+            genoma_path = project_root / "external" / "genoma" / "src"
             if str(genoma_path) not in sys.path:
                 sys.path.insert(0, str(genoma_path))
 
