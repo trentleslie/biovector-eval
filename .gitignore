@@ -225,3 +225,4 @@ hmdb_metabolites.xml
 # HuggingFace cache (models downloaded at runtime)
 .cache/
 ~/.cache/huggingface/
+data/review/
