@@ -174,13 +174,15 @@ class GenOMAAdapter:
         """
         if self._genoma_graph is None:
             # Add GenOMA to path if needed
+            # GenOMA uses absolute imports like "from src.graph.builder import ..."
+            # so we need to add external/genoma (parent of src) to the path
             project_root = _find_project_root()
-            genoma_path = project_root / "external" / "genoma" / "src"
+            genoma_path = project_root / "external" / "genoma"
             if str(genoma_path) not in sys.path:
                 sys.path.insert(0, str(genoma_path))
 
             try:
-                from graph.builder import umls_mapping_graph
+                from src.graph.builder import umls_mapping_graph
 
                 self._genoma_graph = umls_mapping_graph
             except ImportError as e:

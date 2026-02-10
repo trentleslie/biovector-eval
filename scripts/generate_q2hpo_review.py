@@ -37,6 +37,14 @@ import time
 from pathlib import Path
 from typing import Any
 
+# Load .env file if present (for OPENAI_API_KEY)
+try:
+    from dotenv import load_dotenv
+
+    load_dotenv()
+except ImportError:
+    pass  # dotenv not installed, rely on environment variable
+
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s | %(levelname)s | %(message)s",

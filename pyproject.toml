@@ -11,6 +11,11 @@ dependencies = [
     "pandas>=2.1.0",
     "scikit-learn>=1.4.0",
     "psutil>=5.9.0",
+    "langgraph>=1.0.7",
+    "langchain>=1.2.6",
+    "langchain-openai>=1.1.7",
+    "openai>=2.15.0",
+    "python-dotenv>=1.2.1",
 ]
 
 [project.optional-dependencies]
