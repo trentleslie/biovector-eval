@@ -1,0 +1,1498 @@
+[
+  {
+    "id": "arivale_1be3f0b97278",
+    "name": "Anorexia",
+    "synonyms": [],
+    "metadata": {
+      "source_questionnaire": "Arivale",
+      "variable_name": "Anorexia",
+      "response_options": "['Currently', 'Within the last year', 'More than a year ago', 'Mother', 'Father', 'Sibling(s)', \"Mother's side\", \"Father's side\"]",
+      "assessment": "Health History"
+    }
+  },
+  {
+    "id": "arivale_ae80cff35b6f",
+    "name": "Ice cream",
+    "synonyms": [],
+    "metadata": {
+      "source_questionnaire": "Arivale",
+      "variable_name": "Ice cream",
+      "response_options": "['Less than once per month', '1-3 times per month', 'Once per week', '2-4 times per week', '5-6 times per week', 'Once per day', '2-3 times per day', '4-5 times per day', '6+ times per day']",
+      "assessment": "Diet"
+    }
+  },
+  {
+    "id": "arivale_41eb4d814a64",
+    "name": "Anemia (iron deficiency)",
+    "synonyms": [],
+    "metadata": {
+      "source_questionnaire": "Arivale",
+      "variable_name": "Anemia (iron deficiency)",
+      "response_options": "['Currently', 'Within the last year', 'More than a year ago', 'Mother', 'Father', 'Sibling(s)', \"Mother's side\", \"Father's side\"]",
+      "assessment": "Health History"
+    }
+  },
+  {
+    "id": "arivale_89c2a8e59b9e",
+    "name": "Malignant hyperthermia",
+    "synonyms": [],
+    "metadata": {
+      "source_questionnaire": "Arivale",
+      "variable_name": "Malignant hyperthermia",
+      "response_options": "['Currently', 'Within the last year', 'More than a year ago', 'Mother', 'Father', 'Sibling(s)', \"Mother's side\", \"Father's side\"]",
+      "assessment": "Health History"
+    }
+  },
+  {
+    "id": "arivale_d3b973db7de4",
+    "name": "Blocked lung artery (pulmonary embolus)",
+    "synonyms": [],
+    "metadata": {
+      "source_questionnaire": "Arivale",
+      "variable_name": "Blocked lung artery (pulmonary embolus)",
+      "response_options": "['Currently', 'Within the last year', 'More than a year ago', 'Mother', 'Father', 'Sibling(s)', \"Mother's side\", \"Father's side\"]",
+      "assessment": "Health History"
+    }
+  },
+  {
+    "id": "arivale_97d72368c67d",
+    "name": "Other neurocognitive condition",
+    "synonyms": [],
+    "metadata": {
+      "source_questionnaire": "Arivale",
+      "variable_name": "Other neurocognitive condition",
+      "response_options": "['Currently', 'Within the last year', 'More than a year ago', 'Mother', 'Father', 'Sibling(s)', \"Mother's side\", \"Father's side\"]",
+      "assessment": "Health History"
+    }
+  },
+  {
+    "id": "arivale_8ad13f6d5c50",
+    "name": "Are you currently lactating?",
+    "synonyms": [],
+    "metadata": {
+      "source_questionnaire": "Arivale",
+      "variable_name": "Are you currently lactating?",
+      "response_options": "['Yes', 'No']",
+      "assessment": "Health History"
+    }
+  },
+  {
+    "id": "arivale_931bf5f05cde",
+    "name": "Heart Transplantation",
+    "synonyms": [],
+    "metadata": {
+      "source_questionnaire": "Arivale",
+      "variable_name": "Heart Transplantation",
+      "response_options": "['Currently', 'Previously', 'Mother', 'Father', 'Siblings', 'Grandmother', 'Grandfather']",
+      "assessment": "Health History (Old)"
+    }
+  },
+  {
+    "id": "arivale_2ded7ae8a8c0",
+    "name": "I don't find it easy to make decisions.",
+    "synonyms": [],
+    "metadata": {
+      "source_questionnaire": "Arivale",
+      "variable_name": "I don't find it easy to make decisions.",
+      "response_options": "['Strongly Agree', 'Moderately Agree', 'Slightly Agree', 'Slightly Disagree', 'Moderately Disagree', 'Strongly Disagree']",
+      "assessment": "Happiness"
+    }
+  },
+  {
+    "id": "arivale_0b2423d12c80",
+    "name": "I keep in the background.",
+    "synonyms": [],
+    "metadata": {
+      "source_questionnaire": "Arivale",
+      "variable_name": "I keep in the background.",
+      "response_options": "['Strongly agree', 'Agree', 'Neither disagree nor agree', 'Disagree', 'Strongly disagree']",
+      "assessment": "Personality"
+    }
+  },
+  {
+    "id": "arivale_76a6b5abdde3",
+    "name": "What type of alcohol do you most often drink?",
+    "synonyms": [],
+    "metadata": {
+      "source_questionnaire": "Arivale",
+      "variable_name": "What type of alcohol do you most often drink?",
+      "response_options": "['Beer', 'Wine', 'Liquor', 'Other kind', 'No usual type', 'I do not know', 'I do not drink alcohol']",
+      "assessment": "Diet"
+    }
+  },
+  {
+    "id": "arivale_7bd7893bc719",
+    "name": "Water (e.g. 8 oz. cups)",
+    "synonyms": [],
+    "metadata": {
+      "source_questionnaire": "Arivale",
+      "variable_name": "Water (e.g. 8 oz. cups)",
+      "response_options": "['Less than once per month', '1-3 times per month', 'Once per week', '2-4 times per week', '5-6 times per week', 'Once per day', '2-3 times per day', '4-5 times per day', '6+ times per day']",
+      "assessment": "Diet"
+    }
+  },
+  {
+    "id": "arivale_695e2bfe8d61",
+    "name": "I don't have particularly happy memories of the past.",
+    "synonyms": [],
+    "metadata": {
+      "source_questionnaire": "Arivale",
+      "variable_name": "I don't have particularly happy memories of the past.",
+      "response_options": "['Strongly Agree', 'Moderately Agree', 'Slightly Agree', 'Slightly Disagree', 'Moderately Disagree', 'Strongly Disagree']",
+      "assessment": "Happiness"
+    }
+  },
+  {
+    "id": "arivale_8967173e8387",
+    "name": "Bronchitis (chronic)",
+    "synonyms": [],
+    "metadata": {
+      "source_questionnaire": "Arivale",
+      "variable_name": "Bronchitis (chronic)",
+      "response_options": "['Currently', 'Within the last year', 'More than a year ago', 'Mother', 'Father', 'Sibling(s)', \"Mother's side\", \"Father's side\"]",
+      "assessment": "Health History"
+    }
+  },
+  {
+    "id": "arivale_7479d3921284",
+    "name": "Myasthenia Gravis",
+    "synonyms": [],
+    "metadata": {
+      "source_questionnaire": "Arivale",
+      "variable_name": "Myasthenia Gravis",
+      "response_options": "['Currently', 'Within the last year', 'More than a year ago', 'Mother', 'Father', 'Sibling(s)', \"Mother's side\", \"Father's side\"]",
+      "assessment": "Health History"
+    }
+  },
+  {
+    "id": "arivale_8d5730691993",
+    "name": "High Blood Pressure",
+    "synonyms": [],
+    "metadata": {
+      "source_questionnaire": "Arivale",
+      "variable_name": "High Blood Pressure",
+      "response_options": "['Currently', 'Previously', 'Mother', 'Father', 'Siblings', 'Grandmother', 'Grandfather']",
+      "assessment": "Health History (Old)"
+    }
+  },
+  {
+    "id": "arivale_6e8bad147b51",
+    "name": "100% fruit juice",
+    "synonyms": [],
+    "metadata": {
+      "source_questionnaire": "Arivale",
+      "variable_name": "100% fruit juice",
+      "response_options": "['Less than once per month', '1-3 times per month', 'Once per week', '2-4 times per week', '5-6 times per week', 'Once per day', '2-3 times per day', '4-5 times per day', '6+ times per day']",
+      "assessment": "Diet"
+    }
+  },
+  {
+    "id": "arivale_1c0039994c07",
+    "name": "Vitiligo",
+    "synonyms": [],
+    "metadata": {
+      "source_questionnaire": "Arivale",
+      "variable_name": "Vitiligo",
+      "response_options": "['Currently', 'Within the last year', 'More than a year ago', 'Mother', 'Father', 'Sibling(s)', \"Mother's side\", \"Father's side\"]",
+      "assessment": "Health History"
+    }
+  },
+  {
+    "id": "arivale_79119a07647d",
+    "name": "I pay attention to details.",
+    "synonyms": [],
+    "metadata": {
+      "source_questionnaire": "Arivale",
+      "variable_name": "I pay attention to details.",
+      "response_options": "['Strongly disagree', 'Disagree', 'Neither disagree nor agree', 'Agree', 'Strongly agree']",
+      "assessment": "Personality"
+    }
+  },
+  {
+    "id": "arivale_b088236b2e1b",
+    "name": "Sarcoidosis",
+    "synonyms": [],
+    "metadata": {
+      "source_questionnaire": "Arivale",
+      "variable_name": "Sarcoidosis",
+      "response_options": "['Currently', 'Within the last year', 'More than a year ago', 'Mother', 'Father', 'Sibling(s)', \"Mother's side\", \"Father's side\"]",
+      "assessment": "Health History"
+    }
+  },
+  {
+    "id": "arivale_6c326e1f1132",
+    "name": "I follow a schedule.",
+    "synonyms": [],
+    "metadata": {
+      "source_questionnaire": "Arivale",
+      "variable_name": "I follow a schedule.",
+      "response_options": "['Strongly disagree', 'Disagree', 'Neither disagree nor agree', 'Agree', 'Strongly agree']",
+      "assessment": "Personality"
+    }
+  },
+  {
+    "id": "arivale_937205d1b550",
+    "name": "Chronic Fatigue Syndrome",
+    "synonyms": [],
+    "metadata": {
+      "source_questionnaire": "Arivale",
+      "variable_name": "Chronic Fatigue Syndrome",
+      "response_options": "['Currently', 'Within the last year', 'More than a year ago', 'Mother', 'Father', 'Sibling(s)', \"Mother's side\", \"Father's side\"]",
+      "assessment": "Health History"
+    }
+  },
+  {
+    "id": "arivale_d53bb9034eb7",
+    "name": "Do you usually take sugar in tea?",
+    "synonyms": [],
+    "metadata": {
+      "source_questionnaire": "Arivale",
+      "variable_name": "Do you usually take sugar in tea?",
+      "response_options": "[\"I don't drink tea\", 'No', 'Yes']",
+      "assessment": "Diet"
+    }
+  },
+  {
+    "id": "arivale_7970f2fd9a8f",
+    "name": "Diverticulosis",
+    "synonyms": [],
+    "metadata": {
+      "source_questionnaire": "Arivale",
+      "variable_name": "Diverticulosis",
+      "response_options": "['Currently', 'Within the last year', 'More than a year ago', 'Mother', 'Father', 'Sibling(s)', \"Mother's side\", \"Father's side\"]",
+      "assessment": "Health History"
+    }
+  },
+  {
+    "id": "arivale_3b5cad159bd8",
+    "name": "Carpal tunnel syndrome",
+    "synonyms": [],
+    "metadata": {
+      "source_questionnaire": "Arivale",
+      "variable_name": "Carpal tunnel syndrome",
+      "response_options": "['Currently', 'Within the last year', 'More than a year ago', 'Mother', 'Father', 'Sibling(s)', \"Mother's side\", \"Father's side\"]",
+      "assessment": "Health History"
+    }
+  },
+  {
+    "id": "arivale_3b770a326602",
+    "name": "Peptic ulcer",
+    "synonyms": [],
+    "metadata": {
+      "source_questionnaire": "Arivale",
+      "variable_name": "Peptic ulcer",
+      "response_options": "['Currently', 'Within the last year', 'More than a year ago', 'Mother', 'Father', 'Sibling(s)', \"Mother's side\", \"Father's side\"]",
+      "assessment": "Health History"
+    }
+  },
+  {
+    "id": "arivale_af342ae45a5f",
+    "name": "Shortness of breath",
+    "synonyms": [],
+    "metadata": {
+      "source_questionnaire": "Arivale",
+      "variable_name": "Shortness of breath",
+      "response_options": "['Currently', 'Within the last year', 'More than a year ago', 'Mother', 'Father', 'Sibling(s)', \"Mother's side\", \"Father's side\"]",
+      "assessment": "Health History"
+    }
+  },
+  {
+    "id": "arivale_2224d17bff1f",
+    "name": "Back pain or back problems",
+    "synonyms": [],
+    "metadata": {
+      "source_questionnaire": "Arivale",
+      "variable_name": "Back pain or back problems",
+      "response_options": "['Currently', 'Within the last year', 'More than a year ago', 'Mother', 'Father', 'Sibling(s)', \"Mother's side\", \"Father's side\"]",
+      "assessment": "Health History"
+    }
+  },
+  {
+    "id": "arivale_648d4a3aa164",
+    "name": "I don't feel particularly healthy.",
+    "synonyms": [],
+    "metadata": {
+      "source_questionnaire": "Arivale",
+      "variable_name": "I don't feel particularly healthy.",
+      "response_options": "['Strongly Agree', 'Moderately Agree', 'Slightly Agree', 'Slightly Disagree', 'Moderately Disagree', 'Strongly Disagree']",
+      "assessment": "Happiness"
+    }
+  },
+  {
+    "id": "arivale_e18a76d42266",
+    "name": "Are you exposed to second-hand smoke?",
+    "synonyms": [],
+    "metadata": {
+      "source_questionnaire": "Arivale",
+      "variable_name": "Are you exposed to second-hand smoke?",
+      "response_options": "['No', 'Rarely/Occasionally', 'Yes']",
+      "assessment": "Lifestyle"
+    }
+  },
+  {
+    "id": "arivale_e6ddd9ce6755",
+    "name": "Please list all current prescription medications with dosages.",
+    "synonyms": [],
+    "metadata": {
+      "source_questionnaire": "Arivale",
+      "variable_name": "Please list all current prescription medications with dosages.",
+      "response_options": "[None]",
+      "assessment": "Health History"
+    }
+  },
+  {
+    "id": "arivale_39df161f4405",
+    "name": "When it comes to accountability:",
+    "synonyms": [],
+    "metadata": {
+      "source_questionnaire": "Arivale",
+      "variable_name": "When it comes to accountability:",
+      "response_options": "['Be strict. I need you to hold me accountable no matter what. Ask me the hard questions even when it might make me uncomfortable.', \"Let's collaborate. I want to talk about what system of accountability might work for me. Let's figure this out together.\", \"I need a cheerleader. Please just encourage me. I'm doing the best I can right now, and I need your unwavering support.\", \"I'm self-directed. I'm going to work on these changes on my own and I'll report back when we talk next.\"]",
+      "assessment": "Journey"
+    }
+  },
+  {
+    "id": "arivale_8415249413a9",
+    "name": "I feel rundown and don't have much energy.",
+    "synonyms": [],
+    "metadata": {
+      "source_questionnaire": "Arivale",
+      "variable_name": "I feel rundown and don't have much energy.",
+      "response_options": "['Strongly disagree', 'Disagree', 'Neither Disagree Nor Agree', 'Agree', 'Strongly agree']",
+      "assessment": "Journey"
+    }
+  },
+  {
+    "id": "arivale_cc6c2cb4aa20",
+    "name": "Seizures or Epilepsy",
+    "synonyms": [],
+    "metadata": {
+      "source_questionnaire": "Arivale",
+      "variable_name": "Seizures or Epilepsy",
+      "response_options": "['Currently', 'Within the last year', 'More than a year ago', 'Mother', 'Father', 'Sibling(s)', \"Mother's side\", \"Father's side\"]",
+      "assessment": "Health History"
+    }
+  },
+  {
+    "id": "il10k_abdomen_pain_current_distension",
+    "name": "Currently suffer from abdominal distension",
+    "synonyms": [
+      "Do you currently suffer from abdominal distension? (bloating, swollen or tight tummy) Women please ignore distension related to your period."
+    ],
+    "metadata": {
+      "source_questionnaire": "Israeli10K",
+      "variable_name": "abdomen_pain_current_distension",
+      "dataset_name": "medical_symptoms",
+      "table_name": "digestive_health",
+      "field_type": "Categorical (single)",
+      "data_type_pandas": "int",
+      "data_coding": "503",
+      "category": "Questionnaires",
+      "strata": "Primary"
+    }
+  },
+  {
+    "id": "il10k_health_eyes_other_serious_condition_eye_start_age",
+    "name": "Age other serious eye condition diagnosed",
+    "synonyms": [
+      "What was your age when the other serious eye condition was first diagnosed?"
+    ],
+    "metadata": {
+      "source_questionnaire": "Israeli10K",
+      "variable_name": "health_eyes_other_serious_condition_eye_start_age",
+      "dataset_name": "health_and_medical_history",
+      "table_name": "ukbb",
+      "field_type": "Integer",
+      "data_type_pandas": "int",
+      "units": "Years",
+      "category": "Questionnaires",
+      "strata": "Primary"
+    }
+  },
+  {
+    "id": "il10k_repeat_colonoscopy_years",
+    "name": "Recommendation to repeat colonoscopy in XXX years",
+    "synonyms": [
+      "What is the follow-up frequency (in years) assigned to perform a repeated colonoscopy test"
+    ],
+    "metadata": {
+      "source_questionnaire": "Israeli10K",
+      "variable_name": "repeat_colonoscopy_years",
+      "dataset_name": "medical_procedures",
+      "table_name": "initial_medical",
+      "field_type": "Integer",
+      "data_type_pandas": "int",
+      "category": "Questionnaires",
+      "strata": "Primary"
+    }
+  },
+  {
+    "id": "il10k_alcohol_weekly_other_intake_number",
+    "name": "Average weekly intake of other alcoholic drinks",
+    "synonyms": [
+      "In an average WEEK, how many glasses of other alcoholic drinks (such as alcopops) would you drink?"
+    ],
+    "metadata": {
+      "source_questionnaire": "Israeli10K",
+      "variable_name": "alcohol_weekly_other_intake_number",
+      "dataset_name": "lifestyle_and_environment",
+      "table_name": "lifestyle_and_environment",
+      "field_type": "Integer",
+      "data_type_pandas": "int",
+      "units": "glasses",
+      "category": "Questionnaires",
+      "strata": "Primary"
+    }
+  },
+  {
+    "id": "il10k_history_ibs_first_symptoms_fever",
+    "name": "Fever when IBS symptoms first began",
+    "synonyms": [
+      "When your IBS symptoms first began (or up to two weeks before), did you have a fever?"
+    ],
+    "metadata": {
+      "source_questionnaire": "Israeli10K",
+      "variable_name": "history_ibs_first_symptoms_fever",
+      "dataset_name": "medical_symptoms",
+      "table_name": "digestive_health",
+      "field_type": "Categorical (single)",
+      "data_type_pandas": "int",
+      "data_coding": "503",
+      "category": "Questionnaires",
+      "strata": "Primary"
+    }
+  },
+  {
+    "id": "il10k_smoking_current_difficulty_to_avoid_one_day",
+    "name": "Difficulty not smoking for 1 day",
+    "synonyms": [
+      "How easy or difficult would you find it to go without smoking for a whole day?"
+    ],
+    "metadata": {
+      "source_questionnaire": "Israeli10K",
+      "variable_name": "smoking_current_difficulty_to_avoid_one_day",
+      "dataset_name": "lifestyle_and_environment",
+      "table_name": "lifestyle_and_environment",
+      "field_type": "Categorical (single)",
+      "data_type_pandas": "int",
+      "data_coding": "100357",
+      "category": "Questionnaires",
+      "strata": "Primary"
+    }
+  },
+  {
+    "id": "il10k_alcohol_monthly_spirits_intake_choice",
+    "name": "Average monthly spirits intake",
+    "synonyms": [
+      "In an average MONTH, how many measures of spirits or liqueurs would you drink? (there are 25 standard measures in a normal sized bottle; spirits include drinks such as whisky, gin, rum, vodka, brandy)"
+    ],
+    "metadata": {
+      "source_questionnaire": "Israeli10K",
+      "variable_name": "alcohol_monthly_spirits_intake_choice",
+      "dataset_name": "lifestyle_and_environment",
+      "table_name": "lifestyle_and_environment",
+      "field_type": "Categorical (single)",
+      "data_type_pandas": "int",
+      "data_coding": "P100291_1",
+      "category": "Questionnaires",
+      "strata": "Primary"
+    }
+  },
+  {
+    "id": "il10k_family_history",
+    "name": "Family history",
+    "synonyms": [
+      "Has one or more of your close family members suffered or is suffering from any of the following medical issues?"
+    ],
+    "metadata": {
+      "source_questionnaire": "Israeli10K",
+      "variable_name": "family_history",
+      "dataset_name": "family_history",
+      "table_name": "initial_medical",
+      "field_type": "Categorical (multiple)",
+      "data_type_pandas": "object",
+      "data_coding": "052_01",
+      "category": "Questionnaires",
+      "strata": "Primary"
+    }
+  },
+  {
+    "id": "il10k_history_family_ibs",
+    "name": "Family history of IBS",
+    "synonyms": [
+      "Do you have a family history of IBS in your parents/siblings/children?"
+    ],
+    "metadata": {
+      "source_questionnaire": "Israeli10K",
+      "variable_name": "history_family_ibs",
+      "dataset_name": "medical_symptoms",
+      "table_name": "digestive_health",
+      "field_type": "Categorical (single)",
+      "data_type_pandas": "int",
+      "data_coding": "502",
+      "category": "Questionnaires",
+      "strata": "Primary"
+    }
+  },
+  {
+    "id": "il10k_bowl_movements_current_satisfaction",
+    "name": "Satisfaction with bowel habits",
+    "synonyms": [
+      "How happy/satisfied are you with your bowel habits?"
+    ],
+    "metadata": {
+      "source_questionnaire": "Israeli10K",
+      "variable_name": "bowl_movements_current_satisfaction",
+      "dataset_name": "medical_symptoms",
+      "table_name": "digestive_health",
+      "field_type": "Integer",
+      "data_type_pandas": "int",
+      "category": "Questionnaires",
+      "strata": "Primary"
+    }
+  },
+  {
+    "id": "il10k_family_history_mother_age_passing",
+    "name": "Mother's age at death",
+    "synonyms": [
+      "What was her age when she died?"
+    ],
+    "metadata": {
+      "source_questionnaire": "Israeli10K",
+      "variable_name": "family_history_mother_age_passing",
+      "dataset_name": "family_history",
+      "table_name": "ukbb",
+      "field_type": "Integer",
+      "data_type_pandas": "int",
+      "units": "Years",
+      "category": "Questionnaires",
+      "strata": "Primary"
+    }
+  },
+  {
+    "id": "il10k_smoking_current_cigar_age_stop_number",
+    "name": "Age stopped smoking cigarettes (current cigar/pipe or previous cigarette smoker)",
+    "synonyms": [
+      "How old were you when you last smoked cigarettes on most days?"
+    ],
+    "metadata": {
+      "source_questionnaire": "Israeli10K",
+      "variable_name": "smoking_current_cigar_age_stop_number",
+      "dataset_name": "lifestyle_and_environment",
+      "table_name": "lifestyle_and_environment",
+      "field_type": "Integer",
+      "data_type_pandas": "int",
+      "units": "Years",
+      "category": "Questionnaires",
+      "strata": "Primary"
+    }
+  },
+  {
+    "id": "il10k_history_ibs_first_symptoms_diarrhoea",
+    "name": "Diarrhoea when IBS symptoms first began",
+    "synonyms": [
+      "When your IBS symptoms first began (or up to two weeks before), did you have diarrhoea?"
+    ],
+    "metadata": {
+      "source_questionnaire": "Israeli10K",
+      "variable_name": "history_ibs_first_symptoms_diarrhoea",
+      "dataset_name": "medical_symptoms",
+      "table_name": "digestive_health",
+      "field_type": "Categorical (single)",
+      "data_type_pandas": "int",
+      "data_coding": "503",
+      "category": "Questionnaires",
+      "strata": "Primary"
+    }
+  },
+  {
+    "id": "il10k_family_history_past_adopted_mother_illness_2",
+    "name": "Illnesses of adopted mother",
+    "synonyms": [
+      "Has/did your ADOPTED mother ever suffer from? (You can select more than one answer)"
+    ],
+    "metadata": {
+      "source_questionnaire": "Israeli10K",
+      "variable_name": "family_history_past_adopted_mother_illness_2",
+      "dataset_name": "family_history",
+      "table_name": "ukbb",
+      "field_type": "Categorical (multiple)",
+      "data_type_pandas": "object",
+      "data_coding": "1010",
+      "category": "Questionnaires",
+      "strata": "Primary"
+    }
+  },
+  {
+    "id": "il10k_splenectomy_year",
+    "name": "Splenectomy year",
+    "synonyms": [
+      "What year did you undergo a spleen removal (splenectomy) surgery?"
+    ],
+    "metadata": {
+      "source_questionnaire": "Israeli10K",
+      "variable_name": "splenectomy_year",
+      "dataset_name": "medical_procedures",
+      "table_name": "initial_medical",
+      "field_type": "Continuous",
+      "data_type_pandas": "int",
+      "category": "Questionnaires",
+      "strata": "Primary"
+    }
+  },
+  {
+    "id": "il10k_alcohol_present_vs_past",
+    "name": "Alcohol intake versus 10 years previously",
+    "synonyms": [
+      "Compared to 10 years ago, do you drink?"
+    ],
+    "metadata": {
+      "source_questionnaire": "Israeli10K",
+      "variable_name": "alcohol_present_vs_past",
+      "dataset_name": "lifestyle_and_environment",
+      "table_name": "lifestyle_and_environment",
+      "field_type": "Categorical (single)",
+      "data_type_pandas": "int",
+      "data_coding": "100417",
+      "category": "Questionnaires",
+      "strata": "Primary"
+    }
+  },
+  {
+    "id": "il10k_sleep_snoring",
+    "name": "Snoring",
+    "synonyms": [
+      "Does your partner or a close relative or friend complain about your snoring?"
+    ],
+    "metadata": {
+      "source_questionnaire": "Israeli10K",
+      "variable_name": "sleep_snoring",
+      "dataset_name": "lifestyle_and_environment",
+      "table_name": "lifestyle_and_environment",
+      "field_type": "Categorical (single)",
+      "data_type_pandas": "int",
+      "data_coding": "100345",
+      "category": "Questionnaires",
+      "strata": "Primary"
+    }
+  },
+  {
+    "id": "il10k_health_eyes_injury_trauma_eye_start_age",
+    "name": "Age when loss of vision due to injury or trauma diagnosed",
+    "synonyms": [
+      "What was your age when injury or trauma resulting in loss of vision was first diagnosed?"
+    ],
+    "metadata": {
+      "source_questionnaire": "Israeli10K",
+      "variable_name": "health_eyes_injury_trauma_eye_start_age",
+      "dataset_name": "health_and_medical_history",
+      "table_name": "ukbb",
+      "field_type": "Integer",
+      "data_type_pandas": "int",
+      "units": "Years",
+      "category": "Questionnaires",
+      "strata": "Primary"
+    }
+  },
+  {
+    "id": "il10k_alcohol_monthly_fortified_wine_intake_number",
+    "name": "Average monthly fortified wine intake",
+    "synonyms": [
+      "In an average MONTH, how many glasses of fortified wine would you drink? (There are 12 glasses in an average bottle)\n(Fortified wines include drinks such as sherry, port, vermouth)"
+    ],
+    "metadata": {
+      "source_questionnaire": "Israeli10K",
+      "variable_name": "alcohol_monthly_fortified_wine_intake_number",
+      "dataset_name": "lifestyle_and_environment",
+      "table_name": "lifestyle_and_environment",
+      "field_type": "Integer",
+      "data_type_pandas": "int",
+      "units": "glasses",
+      "category": "Questionnaires",
+      "strata": "Primary"
+    }
+  },
+  {
+    "id": "il10k_kidney_artery_doppler_past_year",
+    "name": "Renal Doppler [ultrasound]",
+    "synonyms": [
+      "(22)? Have you had one of these tests in the last year? [Kidney Artery Doppler]"
+    ],
+    "metadata": {
+      "source_questionnaire": "Israeli10K",
+      "variable_name": "kidney_artery_doppler_past_year",
+      "dataset_name": "medical_procedures",
+      "table_name": "follow_up_medical",
+      "field_type": "Categorical (multiple)",
+      "data_type_pandas": "object",
+      "data_coding": "046_01",
+      "category": "Questionnaires",
+      "strata": "Primary"
+    }
+  },
+  {
+    "id": "il10k_alcohol_weekly_white_champagne_intake_number",
+    "name": "Average weekly champagne plus white wine intake",
+    "synonyms": [
+      "In an average WEEK, how many glasses of WHITE wine or champagne would you drink? (There are six glasses in an average bottle)"
+    ],
+    "metadata": {
+      "source_questionnaire": "Israeli10K",
+      "variable_name": "alcohol_weekly_white_champagne_intake_number",
+      "dataset_name": "lifestyle_and_environment",
+      "table_name": "lifestyle_and_environment",
+      "field_type": "Integer",
+      "data_type_pandas": "int",
+      "units": "glasses",
+      "category": "Questionnaires",
+      "strata": "Primary"
+    }
+  },
+  {
+    "id": "il10k_alcohol_past_status",
+    "name": "Former alcohol drinker",
+    "synonyms": [
+      "Did you previously drink alcohol?"
+    ],
+    "metadata": {
+      "source_questionnaire": "Israeli10K",
+      "variable_name": "alcohol_past_status",
+      "dataset_name": "lifestyle_and_environment",
+      "table_name": "lifestyle_and_environment",
+      "field_type": "Categorical (single)",
+      "data_type_pandas": "int",
+      "data_coding": "100352",
+      "category": "Questionnaires",
+      "strata": "Primary"
+    }
+  },
+  {
+    "id": "il10k_early_life_comparative_body_height",
+    "name": "Comparative height size at age 10",
+    "synonyms": [
+      "When you were 10 years old, compared to average would you describe yourself as:"
+    ],
+    "metadata": {
+      "source_questionnaire": "Israeli10K",
+      "variable_name": "early_life_comparative_body_height",
+      "dataset_name": "family_history",
+      "table_name": "ukbb",
+      "field_type": "Categorical (single)",
+      "data_type_pandas": "int",
+      "data_coding": "100429",
+      "category": "Questionnaires",
+      "strata": "Primary"
+    }
+  },
+  {
+    "id": "il10k_activity_indoors_pc_daily",
+    "name": "Time spent using computer",
+    "synonyms": [
+      "In a typical DAY, how many hours do you spend using the computer? (Do not include using a computer at work; put 0 if you do not spend any time doing it)"
+    ],
+    "metadata": {
+      "source_questionnaire": "Israeli10K",
+      "variable_name": "activity_indoors_pc_daily",
+      "dataset_name": "lifestyle_and_environment",
+      "table_name": "lifestyle_and_environment",
+      "field_type": "Integer",
+      "data_type_pandas": "int",
+      "category": "Questionnaires",
+      "strata": "Primary"
+    }
+  },
+  {
+    "id": "il10k_history_childhood_antibiotics",
+    "name": "Long-term/recurrent antibiotics as child or teenager",
+    "synonyms": [
+      "During childhood or as a teenager did you receive long-term or recurrent courses (3 or more per year) of antibiotics (for example for tonsillitis or acne)?"
+    ],
+    "metadata": {
+      "source_questionnaire": "Israeli10K",
+      "variable_name": "history_childhood_antibiotics",
+      "dataset_name": "medical_symptoms",
+      "table_name": "digestive_health",
+      "field_type": "Categorical (single)",
+      "data_type_pandas": "int",
+      "data_coding": "502",
+      "category": "Questionnaires",
+      "strata": "Primary"
+    }
+  },
+  {
+    "id": "il10k_pre_pregnancy_genetic_testing",
+    "name": "Pre pregnancy genetic testing",
+    "synonyms": [
+      "Have you done genetic tests before getting pregnant?"
+    ],
+    "metadata": {
+      "source_questionnaire": "Israeli10K",
+      "variable_name": "pre_pregnancy_genetic_testing",
+      "dataset_name": "children",
+      "table_name": "children",
+      "field_type": "Categorical (single)",
+      "data_type_pandas": "int",
+      "data_coding": "7.0",
+      "category": "Questionnaires",
+      "strata": "Primary"
+    }
+  },
+  {
+    "id": "il10k_activity_walking_10min_days_weekly",
+    "name": "Number of days/week walked 10+ minutes",
+    "synonyms": [
+      "In a typical WEEK, on how many days did you walk for at least 10 minutes at a time? (Include walking that you do at work, travelling to and from work, and for sport or leisure)"
+    ],
+    "metadata": {
+      "source_questionnaire": "Israeli10K",
+      "variable_name": "activity_walking_10min_days_weekly",
+      "dataset_name": "lifestyle_and_environment",
+      "table_name": "lifestyle_and_environment",
+      "field_type": "Integer",
+      "data_type_pandas": "int",
+      "units": "Days/Week",
+      "category": "Questionnaires",
+      "strata": "Primary"
+    }
+  },
+  {
+    "id": "il10k_chest_abdomen_pevlis_head_ct_mri_past_year",
+    "name": "Chest / abdomen / pelvis / head CT / MRI examination",
+    "synonyms": [
+      "(22)? Have you had one of these tests in the last year? [Chest / abdomen / pelvis / head CT / MRI examination]"
+    ],
+    "metadata": {
+      "source_questionnaire": "Israeli10K",
+      "variable_name": "chest_abdomen_pevlis_head_ct_mri_past_year",
+      "dataset_name": "medical_procedures",
+      "table_name": "follow_up_medical",
+      "field_type": "Categorical (multiple)",
+      "data_type_pandas": "object",
+      "data_coding": "046_01",
+      "category": "Questionnaires",
+      "strata": "Primary"
+    }
+  },
+  {
+    "id": "il10k_health_general_past_year_weight_change",
+    "name": "Weight change compared with 1 year ago",
+    "synonyms": [
+      "Compared with one year ago, has your weight changed?"
+    ],
+    "metadata": {
+      "source_questionnaire": "Israeli10K",
+      "variable_name": "health_general_past_year_weight_change",
+      "dataset_name": "health_and_medical_history",
+      "table_name": "ukbb",
+      "field_type": "Categorical (single)",
+      "data_type_pandas": "int",
+      "data_coding": "100540",
+      "category": "Questionnaires",
+      "strata": "Primary"
+    }
+  },
+  {
+    "id": "il10k_alcohol_current_with_meals",
+    "name": "Alcohol usually taken with meals",
+    "synonyms": [
+      "When you drink alcohol is it usually with meals?"
+    ],
+    "metadata": {
+      "source_questionnaire": "Israeli10K",
+      "variable_name": "alcohol_current_with_meals",
+      "dataset_name": "lifestyle_and_environment",
+      "table_name": "lifestyle_and_environment",
+      "field_type": "Categorical (single)",
+      "data_type_pandas": "int",
+      "data_coding": "100416",
+      "category": "Questionnaires",
+      "strata": "Primary"
+    }
+  },
+  {
+    "id": "il10k_mobile_phone_years",
+    "name": "Length of mobile phone use",
+    "synonyms": [
+      "For approximately how many years have you been using a mobile phone at least once per week to make or receive calls?"
+    ],
+    "metadata": {
+      "source_questionnaire": "Israeli10K",
+      "variable_name": "mobile_phone_years",
+      "dataset_name": "lifestyle_and_environment",
+      "table_name": "lifestyle_and_environment",
+      "field_type": "Categorical (single)",
+      "data_type_pandas": "int",
+      "units": "Years",
+      "data_coding": "100335",
+      "category": "Questionnaires",
+      "strata": "Primary"
+    }
+  },
+  {
+    "id": "il10k_family_history_adopted_father_age_passing",
+    "name": "Father's age at death",
+    "synonyms": [
+      "What was his age when he died?"
+    ],
+    "metadata": {
+      "source_questionnaire": "Israeli10K",
+      "variable_name": "family_history_adopted_father_age_passing",
+      "dataset_name": "family_history",
+      "table_name": "ukbb",
+      "field_type": "Integer",
+      "data_type_pandas": "int",
+      "units": "Years",
+      "category": "Questionnaires",
+      "strata": "Primary"
+    }
+  },
+  {
+    "id": "il10k_diet_vegeterian_indicator",
+    "name": "Are you vegeterian?",
+    "synonyms": [],
+    "metadata": {
+      "source_questionnaire": "Israeli10K",
+      "variable_name": "diet_vegeterian_indicator",
+      "dataset_name": "lifestyle_and_environment",
+      "table_name": "lifestyle_and_environment",
+      "field_type": "Categorical (single)",
+      "data_type_pandas": "int",
+      "data_coding": "7",
+      "category": "Questionnaires",
+      "strata": "Primary"
+    }
+  },
+  {
+    "id": "ukbb_2684",
+    "name": "ACE touchscreen question How many years ago was your last screen?",
+    "synonyms": [
+      "Years since last breast cancer screening / mammogram"
+    ],
+    "metadata": {
+      "source_questionnaire": "UKBB",
+      "variable_name": "2684",
+      "parent_category": "Sex_specific_factors",
+      "subcategory": "100069",
+      "data_type": "Integer",
+      "units": "Years",
+      "value_encoding": "Coding 100567",
+      "participant_count": "228,499"
+    }
+  },
+  {
+    "id": "ukbb_2030",
+    "name": "ACE touchscreen question Are you often troubled by feelings of guilt?",
+    "synonyms": [
+      "Guilty feelings"
+    ],
+    "metadata": {
+      "source_questionnaire": "UKBB",
+      "variable_name": "2030",
+      "parent_category": "Psychosocial_factors",
+      "subcategory": "100060",
+      "data_type": "Categorical",
+      "value_encoding": "Coding 100349",
+      "participant_count": "501,276"
+    }
+  },
+  {
+    "id": "ukbb_2070",
+    "name": "ACE touchscreen question Over the past two weeks, how often have you felt tense, fidgety or restless?",
+    "synonyms": [
+      "Frequency of tenseness / restlessness in last 2 weeks"
+    ],
+    "metadata": {
+      "source_questionnaire": "UKBB",
+      "variable_name": "2070",
+      "parent_category": "Psychosocial_factors",
+      "subcategory": "100060",
+      "data_type": "Categorical",
+      "value_encoding": "Coding 100484",
+      "participant_count": "501,274"
+    }
+  },
+  {
+    "id": "ukbb_6773",
+    "name": "Interval between previous point and current one in alphanumeric path (trail #2). Note that these intervals are unlikely to sum to",
+    "synonyms": [
+      "Interval between previous point and current one in alphanumeric path (trail #2)"
+    ],
+    "metadata": {
+      "source_questionnaire": "UKBB",
+      "variable_name": "6773",
+      "parent_category": "Cognitive_function",
+      "subcategory": "505",
+      "data_type": "Integer",
+      "units": "second",
+      "participant_count": "73,902"
+    }
+  },
+  {
+    "id": "ukbb_4292",
+    "name": "Participants were allowed up to 2 attempts to correctly recall the colour/shape shown to them earlier in the touchscreen section. This is the first answer they gave.",
+    "synonyms": [
+      "PM: initial answer"
+    ],
+    "metadata": {
+      "source_questionnaire": "UKBB",
+      "variable_name": "4292",
+      "parent_category": "Cognitive_function",
+      "subcategory": "100031",
+      "data_type": "Categorical",
+      "value_encoding": "Coding 16",
+      "participant_count": "236,375"
+    }
+  },
+  {
+    "id": "ukbb_20122",
+    "name": "This derived data field has come from Professor Jill Pell from the Institute of Health Wellbeing, University of Glasgow. Methods on how these fields were derived can be found in the Additional Resourc...",
+    "synonyms": [
+      "Bipolar disorder status"
+    ],
+    "metadata": {
+      "source_questionnaire": "UKBB",
+      "variable_name": "20122",
+      "parent_category": "Psychosocial_factors",
+      "subcategory": "100060",
+      "data_type": "Categorical",
+      "value_encoding": "Coding 100694",
+      "participant_count": "1,613"
+    }
+  },
+  {
+    "id": "ukbb_6317",
+    "name": "This is the time that a participant looked at each word/picture group before selecting a picture.",
+    "synonyms": [
+      "Duration of selection in each round"
+    ],
+    "metadata": {
+      "source_questionnaire": "UKBB",
+      "variable_name": "6317",
+      "parent_category": "Cognitive_function",
+      "subcategory": "504",
+      "data_type": "Integer",
+      "participant_count": "74,249"
+    }
+  },
+  {
+    "id": "ukbb_4653",
+    "name": "ACE touchscreen question Have you ever had a period of time lasting at least two days when you were so irritable that you found yourself shouting at people or starting fights or arguments?",
+    "synonyms": [
+      "Ever highly irritable/argumentative for 2 days"
+    ],
+    "metadata": {
+      "source_questionnaire": "UKBB",
+      "variable_name": "4653",
+      "parent_category": "Psychosocial_factors",
+      "subcategory": "100060",
+      "data_type": "Categorical",
+      "value_encoding": "Coding 100349",
+      "participant_count": "240,523"
+    }
+  },
+  {
+    "id": "ukbb_5430",
+    "name": "ACE touchscreen question What was your age when injury or trauma resulting in loss of vision was first diagnosed?",
+    "synonyms": [
+      "Age when loss of vision due to injury or trauma diagnosed"
+    ],
+    "metadata": {
+      "source_questionnaire": "UKBB",
+      "variable_name": "5430",
+      "parent_category": "Health_and_medical_history",
+      "subcategory": "100041",
+      "data_type": "Integer",
+      "units": "years",
+      "value_encoding": "Coding 100291",
+      "participant_count": "1,403"
+    }
+  },
+  {
+    "id": "ukbb_4022",
+    "name": "ACE touchscreen question What was your age when the blood clot in the lung was first diagnosed?",
+    "synonyms": [
+      "Age pulmonary embolism (blood clot in lung) diagnosed"
+    ],
+    "metadata": {
+      "source_questionnaire": "UKBB",
+      "variable_name": "4022",
+      "parent_category": "Health_and_medical_history",
+      "subcategory": "100044",
+      "data_type": "Integer",
+      "units": "years",
+      "value_encoding": "Coding 100291",
+      "participant_count": "4,700"
+    }
+  },
+  {
+    "id": "ukbb_5452",
+    "name": "ACE touchscreen question Does this pain ever begin when you are standing still or sitting?",
+    "synonyms": [
+      "Leg pain when standing still or sitting"
+    ],
+    "metadata": {
+      "source_questionnaire": "UKBB",
+      "variable_name": "5452",
+      "parent_category": "Health_and_medical_history",
+      "subcategory": "100038",
+      "data_type": "Categorical",
+      "value_encoding": "Coding 100349",
+      "participant_count": "60,451"
+    }
+  },
+  {
+    "id": "ukbb_6492",
+    "name": "The correct word associated with long was curtains.",
+    "synonyms": [
+      "Word associated with &quot;long&quot;"
+    ],
+    "metadata": {
+      "source_questionnaire": "UKBB",
+      "variable_name": "6492",
+      "parent_category": "Cognitive_function",
+      "subcategory": "506",
+      "data_type": "Categorical",
+      "value_encoding": "Coding 6492",
+      "participant_count": "74,695"
+    }
+  },
+  {
+    "id": "ukbb_10136",
+    "name": "This is the number of correct matches in the round. It should always be 3 for a 2x3 game and 6 for a 3x4 game, unless the participant abandoned before finishing.",
+    "synonyms": [
+      "Number of correct matches in round (pilot)"
+    ],
+    "metadata": {
+      "source_questionnaire": "UKBB",
+      "variable_name": "10136",
+      "parent_category": "Cognitive_function",
+      "subcategory": "100030",
+      "data_type": "Integer",
+      "participant_count": "3,712"
+    }
+  },
+  {
+    "id": "ukbb_120",
+    "name": "Field description available on UK Biobank website",
+    "synonyms": [
+      "Birth weight known"
+    ],
+    "metadata": {
+      "source_questionnaire": "UKBB",
+      "variable_name": "120",
+      "parent_category": "Verbal_interview",
+      "subcategory": "100072",
+      "data_type": "Categorical",
+      "value_encoding": "Coding 100258",
+      "participant_count": "501,293"
+    }
+  },
+  {
+    "id": "ukbb_20006",
+    "name": "This is the interpolated time when the participant indicated the corresponding cancer was first diagnosed by a doctor, measured in years.",
+    "synonyms": [
+      "Interpolated Year when cancer first diagnosed"
+    ],
+    "metadata": {
+      "source_questionnaire": "UKBB",
+      "variable_name": "20006",
+      "parent_category": "Verbal_interview",
+      "subcategory": "100074",
+      "data_type": "Continuous",
+      "units": "Year",
+      "value_encoding": "Coding 13",
+      "participant_count": "50,513"
+    }
+  },
+  {
+    "id": "ukbb_1110",
+    "name": "ACE touchscreen question For approximately how many years have you been using a mobile phone at least once per week to make or receive calls?",
+    "synonyms": [
+      "Length of mobile phone use"
+    ],
+    "metadata": {
+      "source_questionnaire": "UKBB",
+      "variable_name": "1110",
+      "parent_category": "Lifestyle",
+      "subcategory": "100053",
+      "data_type": "Categorical",
+      "units": "years",
+      "value_encoding": "Coding 100335",
+      "participant_count": "501,298"
+    }
+  },
+  {
+    "id": "ukbb_3546",
+    "name": "ACE touchscreen question How old were you when you last used HRT?",
+    "synonyms": [
+      "Age last used hormone-replacement therapy (HRT)"
+    ],
+    "metadata": {
+      "source_questionnaire": "UKBB",
+      "variable_name": "3546",
+      "parent_category": "Sex_specific_factors",
+      "subcategory": "100069",
+      "data_type": "Integer",
+      "units": "years",
+      "value_encoding": "Coding 100598",
+      "participant_count": "108,555"
+    }
+  },
+  {
+    "id": "ukbb_3486",
+    "name": "ACE touchscreen question Have you tried to give up smoking?",
+    "synonyms": [
+      "Ever tried to stop smoking"
+    ],
+    "metadata": {
+      "source_questionnaire": "UKBB",
+      "variable_name": "3486",
+      "parent_category": "Lifestyle",
+      "subcategory": "100058",
+      "data_type": "Categorical",
+      "value_encoding": "Coding 100358",
+      "participant_count": "39,650"
+    }
+  },
+  {
+    "id": "ukbb_2267",
+    "name": "ACE touchscreen question Do you wear sun protection (e.g. sunscreen lotion, hat) when you spend time outdoors in the summer?",
+    "synonyms": [
+      "Use of sun/uv protection"
+    ],
+    "metadata": {
+      "source_questionnaire": "UKBB",
+      "variable_name": "2267",
+      "parent_category": "Lifestyle",
+      "subcategory": "100055",
+      "data_type": "Categorical",
+      "value_encoding": "Coding 100536",
+      "participant_count": "498,686"
+    }
+  },
+  {
+    "id": "ukbb_10853",
+    "name": "ACE touchscreen question Why did you stop drinking?",
+    "synonyms": [
+      "Reason former drinker stopped drinking alcohol (pilot)"
+    ],
+    "metadata": {
+      "source_questionnaire": "UKBB",
+      "variable_name": "10853",
+      "parent_category": "Lifestyle",
+      "subcategory": "100051",
+      "data_type": "Categorical",
+      "value_encoding": "Coding 100669",
+      "participant_count": "138"
+    }
+  },
+  {
+    "id": "ukbb_3894",
+    "name": "ACE touchscreen question What was your age when the heart attack was first diagnosed?",
+    "synonyms": [
+      "Age heart attack diagnosed"
+    ],
+    "metadata": {
+      "source_questionnaire": "UKBB",
+      "variable_name": "3894",
+      "parent_category": "Health_and_medical_history",
+      "subcategory": "100044",
+      "data_type": "Integer",
+      "units": "years",
+      "value_encoding": "Coding 100291",
+      "participant_count": "12,994"
+    }
+  },
+  {
+    "id": "ukbb_3710",
+    "name": "ACE touchscreen question How many days is your usual menstrual cycle? (The number of days between each menstrual period)",
+    "synonyms": [
+      "Length of menstrual cycle"
+    ],
+    "metadata": {
+      "source_questionnaire": "UKBB",
+      "variable_name": "3710",
+      "parent_category": "Sex_specific_factors",
+      "subcategory": "100069",
+      "data_type": "Integer",
+      "value_encoding": "Coding 100582",
+      "participant_count": "64,155"
+    }
+  },
+  {
+    "id": "ukbb_129",
+    "name": "Place born - north co-ordinate",
+    "synonyms": [
+      "Place of birth in UK - north co-ordinate"
+    ],
+    "metadata": {
+      "source_questionnaire": "UKBB",
+      "variable_name": "129",
+      "parent_category": "Verbal_interview",
+      "subcategory": "100072",
+      "data_type": "Integer",
+      "value_encoding": "Coding 170",
+      "participant_count": "451,996"
+    }
+  },
+  {
+    "id": "ukbb_1060",
+    "name": "ACE touchscreen question In a typical DAY in winter, how many hours do you spend outdoors?",
+    "synonyms": [
+      "Time spent outdoors in winter"
+    ],
+    "metadata": {
+      "source_questionnaire": "UKBB",
+      "variable_name": "1060",
+      "parent_category": "Lifestyle",
+      "subcategory": "100055",
+      "data_type": "Integer",
+      "value_encoding": "Coding 100329",
+      "participant_count": "498,722"
+    }
+  },
+  {
+    "id": "ukbb_4067",
+    "name": "ACE touchscreen question Have you had facial pains for more than 3 months?",
+    "synonyms": [
+      "Facial pains for 3+ months"
+    ],
+    "metadata": {
+      "source_questionnaire": "UKBB",
+      "variable_name": "4067",
+      "parent_category": "Health_and_medical_history",
+      "subcategory": "100048",
+      "data_type": "Categorical",
+      "value_encoding": "Coding 100349",
+      "participant_count": "10,331"
+    }
+  },
+  {
+    "id": "ukbb_5780",
+    "name": "Field description available on UK Biobank website",
+    "synonyms": [
+      "FI11 : duration viewed"
+    ],
+    "metadata": {
+      "source_questionnaire": "UKBB",
+      "variable_name": "5780",
+      "parent_category": "Cognitive_function",
+      "subcategory": "100027",
+      "data_type": "Integer",
+      "participant_count": "27,322"
+    }
+  },
+  {
+    "id": "ukbb_4717",
+    "name": "ACE touchscreen question Do you get short of breath walking with people of your own age on level ground?",
+    "synonyms": [
+      "Shortness of breath walking on level ground"
+    ],
+    "metadata": {
+      "source_questionnaire": "UKBB",
+      "variable_name": "4717",
+      "parent_category": "Health_and_medical_history",
+      "subcategory": "100037",
+      "data_type": "Categorical",
+      "value_encoding": "Coding 100349",
+      "participant_count": "240,523"
+    }
+  },
+  {
+    "id": "ukbb_5700",
+    "name": "Field description available on UK Biobank website",
+    "synonyms": [
+      "FI10 : duration viewed"
+    ],
+    "metadata": {
+      "source_questionnaire": "UKBB",
+      "variable_name": "5700",
+      "parent_category": "Cognitive_function",
+      "subcategory": "100027",
+      "data_type": "Integer",
+      "participant_count": "51,754"
+    }
+  },
+  {
+    "id": "ukbb_10139",
+    "name": "Field description available on UK Biobank website",
+    "synonyms": [
+      "Index for card A in round (pilot)"
+    ],
+    "metadata": {
+      "source_questionnaire": "UKBB",
+      "variable_name": "10139",
+      "parent_category": "Cognitive_function",
+      "subcategory": "100032",
+      "data_type": "Categorical",
+      "value_encoding": "Coding 92",
+      "participant_count": "3,712"
+    }
+  },
+  {
+    "id": "ukbb_20162",
+    "name": "Average number of pack-years smoked by an individual each year, over their adult lifetime, calculated using pack-years data field. Pack years as a proportion of lifespan exposed to smoking is defined ...",
+    "synonyms": [
+      "Pack years adult smoking as proportion of life span exposed to smoking"
+    ],
+    "metadata": {
+      "source_questionnaire": "UKBB",
+      "variable_name": "20162",
+      "parent_category": "Lifestyle",
+      "subcategory": "100058",
+      "data_type": "Continuous",
+      "units": "years",
+      "participant_count": "153,624"
+    }
+  },
+  {
+    "id": "ukbb_10776",
+    "name": "ACE touchscreen question What type of bread do you mainly eat?",
+    "synonyms": [
+      "Bread type/intake (pilot)"
+    ],
+    "metadata": {
+      "source_questionnaire": "UKBB",
+      "variable_name": "10776",
+      "parent_category": "Lifestyle",
+      "subcategory": "100052",
+      "data_type": "Categorical",
+      "value_encoding": "Coding 100674",
+      "participant_count": "3,650"
+    }
+  },
+  {
+    "id": "ukbb_1478",
+    "name": "ACE touchscreen question Do you add salt to your food? (Do not include salt used in cooking)",
+    "synonyms": [
+      "Salt added to food"
+    ],
+    "metadata": {
+      "source_questionnaire": "UKBB",
+      "variable_name": "1478",
+      "parent_category": "Lifestyle",
+      "subcategory": "100052",
+      "data_type": "Categorical",
+      "units": "year",
+      "value_encoding": "Coding 100394",
+      "participant_count": "501,286"
+    }
+  },
+  {
+    "id": "ukbb_2316",
+    "name": "ACE touchscreen question In the last year have you ever had wheeze or whistling in the chest?",
+    "synonyms": [
+      "Wheeze or whistling in the chest in last year"
+    ],
+    "metadata": {
+      "source_questionnaire": "UKBB",
+      "variable_name": "2316",
+      "parent_category": "Health_and_medical_history",
+      "subcategory": "100037",
+      "data_type": "Categorical",
+      "units": "year",
+      "value_encoding": "Coding 100349",
+      "participant_count": "501,262"
+    }
+  }
+]

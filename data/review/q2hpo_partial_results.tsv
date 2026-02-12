@@ -1,0 +1,101 @@
+idx	source	id	question	hpo_code	hpo_term	confidence
+1	Arivale	arivale_1be3f0b97278	Anorexia	HP:0002039	Anorexia	1.00
+2	Arivale	arivale_ae80cff35b6f	Ice cream	HP:0002315	Headache	1.00
+3	Arivale	arivale_41eb4d814a64	Anemia (iron deficiency)	HP:0001891	Iron deficiency anemia	1.00
+4	Arivale	arivale_89c2a8e59b9e	Malignant hyperthermia	HP:0002047	Malignant hyperthermia	1.00
+5	Arivale	arivale_d3b973db7de4	Blocked lung artery (pulmonary embolus)	HP:0002204	Pulmonary embolism	1.00
+6	Arivale	arivale_97d72368c67d	Other neurocognitive condition	HP:0001328	Specific learning disability	0.50
+7	Arivale	arivale_8ad13f6d5c50	Are you currently lactating?	NO_MATCH	no_match	0.0
+8	Arivale	arivale_931bf5f05cde	Heart Transplantation	HP:0001635	Congestive heart failure	0.50
+9	Arivale	arivale_2ded7ae8a8c0	I don't find it easy to make decisions	HP:0012671	Abulia	0.70
+10	Arivale	arivale_0b2423d12c80	I keep in the background	NO_MATCH	no_match	0.0
+11	Arivale	arivale_76a6b5abdde3	What type of alcohol do you most often drink?	NO_MATCH	no_match	0.0
+12	Arivale	arivale_7bd7893bc719	Water (e.g. 8 oz. cups)	NO_MATCH	no_match	0.0
+13	Arivale	arivale_695e2bfe8d61	I don't have particularly happy memories of the past	NO_MATCH	no_match	0.0
+14	Arivale	arivale_8967173e8387	Bronchitis (chronic)	HP:0004469	Chronic bronchitis	1.00
+15	Arivale	arivale_7479d3921284	Myasthenia Gravis	HP:0003398	Abnormal synaptic transmission at the neuromuscular junction	0.90
+16	Arivale	arivale_8d5730691993	High Blood Pressure	HP:0000822	Hypertension	1.00
+17	Arivale	arivale_6e8bad147b51	100% fruit juice	NO_MATCH	no_match	0.0
+18	Arivale	arivale_1c0039994c07	Vitiligo	HP:0001045	Vitiligo	1.00
+19	Arivale	arivale_79119a07647d	I pay attention to details	NO_MATCH	no_match	0.0
+20	Arivale	arivale_b088236b2e1b	Sarcoidosis	HP:0034388	Hilar lymph node enlargement	0.70
+21	Arivale	arivale_6c326e1f1132	I follow a schedule	NO_MATCH	no_match	0.0
+22	Arivale	arivale_937205d1b550	Chronic Fatigue Syndrome	HP:0003326	Myalgia	0.70
+23	Arivale	arivale_d53bb9034eb7	Do you usually take sugar in tea?	NO_MATCH	no_match	0.0
+24	Arivale	arivale_7970f2fd9a8f	Diverticulosis	HP:0005222	Bowel diverticulosis	1.00
+25	Arivale	arivale_3b5cad159bd8	Carpal tunnel syndrome	HP:0012185	Constrictive median neuropathy	0.90
+26	Arivale	arivale_3b770a326602	Peptic ulcer	HP:0004398	Peptic ulcer	1.00
+27	Arivale	arivale_af342ae45a5f	Shortness of breath	HP:0002094	Dyspnea	1.00
+28	Arivale	arivale_2224d17bff1f	Back pain or back problems	HP:0003416	Spinal canal stenosis	0.50
+29	Arivale	arivale_648d4a3aa164	I don't feel particularly healthy	NO_MATCH	no_match	0.0
+30	Arivale	arivale_e18a76d42266	Are you exposed to second-hand smoke?	HP:0430032	Electronic cigarette exposure history	0.70
+31	Arivale	arivale_e6ddd9ce6755	Please list all current prescription medications with dosage	NO_MATCH	no_match	0.0
+32	Arivale	arivale_39df161f4405	When it comes to accountability:	NO_MATCH	no_match	0.0
+33	Arivale	arivale_8415249413a9	I feel rundown and don't have much energy	HP:0012378	Fatigue	0.90
+34	Arivale	arivale_cc6c2cb4aa20	Seizures or Epilepsy	HP:0033349	Seizure cluster	0.70
+35	Israeli10K	il10k_abdomen_pain_current_distension	Currently suffer from abdominal distension	HP:0003270	Abdominal distention	1.00
+36	Israeli10K	il10k_health_eyes_other_serious_condition_eye_start_age	Age other serious eye condition diagnosed	HP:0000478	Abnormality of the eye	0.70
+37	Israeli10K	il10k_repeat_colonoscopy_years	Recommendation to repeat colonoscopy in XXX years	NO_MATCH	no_match	0.0
+38	Israeli10K	il10k_alcohol_weekly_other_intake_number	Average weekly intake of other alcoholic drinks	NO_MATCH	no_match	0.0
+39	Israeli10K	il10k_history_ibs_first_symptoms_fever	Fever when IBS symptoms first began	HP:0004370	Abnormality of temperature regulation	0.70
+40	Israeli10K	il10k_smoking_current_difficulty_to_avoid_one_day	Difficulty not smoking for 1 day	HP:6000785	Protein craving	0.50
+41	Israeli10K	il10k_alcohol_monthly_spirits_intake_choice	Average monthly spirits intake	NO_MATCH	no_match	0.0
+42	Israeli10K	il10k_family_history	Family history	NO_MATCH	no_match	0.0
+43	Israeli10K	il10k_history_family_ibs	Family history of IBS	NO_MATCH	no_match	0.0
+44	Israeli10K	il10k_bowl_movements_current_satisfaction	Satisfaction with bowel habits	HP:0011024	Abnormality of the gastrointestinal tract	0.70
+45	Israeli10K	il10k_family_history_mother_age_passing	Mother's age at death	NO_MATCH	no_match	0.0
+46	Israeli10K	il10k_smoking_current_cigar_age_stop_number	Age stopped smoking cigarettes (current cigar/pipe or previo	NO_MATCH	no_match	0.0
+47	Israeli10K	il10k_history_ibs_first_symptoms_diarrhoea	Diarrhoea when IBS symptoms first began	HP:0002014	Diarrhea	0.90
+48	Israeli10K	il10k_family_history_past_adopted_mother_illness_2	Illnesses of adopted mother	HP:0032316	Family history	0.70
+49	Israeli10K	il10k_splenectomy_year	Splenectomy year	HP:0008338	Partial functional complement factor D deficiency	0.50
+50	Israeli10K	il10k_alcohol_present_vs_past	Alcohol intake versus 10 years previously	HP:0000708	Atypical behavior	0.90
+51	Israeli10K	il10k_sleep_snoring	Snoring	HP:0025267	Snoring	1.00
+52	Israeli10K	il10k_health_eyes_injury_trauma_eye_start_age	Age when loss of vision due to injury or trauma diagnosed	HP:0000572	Visual loss	0.70
+53	Israeli10K	il10k_alcohol_monthly_fortified_wine_intake_number	Average monthly fortified wine intake	NO_MATCH	no_match	0.0
+54	Israeli10K	il10k_kidney_artery_doppler_past_year	Renal Doppler [ultrasound]	HP:0001920	Renal artery stenosis	0.50
+55	Israeli10K	il10k_alcohol_weekly_white_champagne_intake_number	Average weekly champagne plus white wine intake	NO_MATCH	no_match	0.0
+56	Israeli10K	il10k_alcohol_past_status	Former alcohol drinker	HP:0430037	Abnormal alcohol consumption	0.70
+57	Israeli10K	il10k_early_life_comparative_body_height	Comparative height size at age 10	HP:0001510	Growth delay	0.70
+58	Israeli10K	il10k_activity_indoors_pc_daily	Time spent using computer	NO_MATCH	no_match	0.0
+59	Israeli10K	il10k_history_childhood_antibiotics	Long-term/recurrent antibiotics as child or teenager	HP:0002788	Recurrent upper respiratory tract infections	0.50
+60	Israeli10K	il10k_pre_pregnancy_genetic_testing	Pre pregnancy genetic testing	NO_MATCH	no_match	0.0
+61	Israeli10K	il10k_activity_walking_10min_days_weekly	Number of days/week walked 10+ minutes	NO_MATCH	no_match	0.0
+62	Israeli10K	il10k_chest_abdomen_pevlis_head_ct_mri_past_year	Chest / abdomen / pelvis / head CT / MRI examination	HP:0002492	Abnormal corticospinal tract morphology	0.50
+63	Israeli10K	il10k_health_general_past_year_weight_change	Weight change compared with 1 year ago	HP:0004323	Abnormality of body weight	0.90
+64	Israeli10K	il10k_alcohol_current_with_meals	Alcohol usually taken with meals	NO_MATCH	no_match	0.0
+65	Israeli10K	il10k_mobile_phone_years	Length of mobile phone use	NO_MATCH	no_match	0.0
+66	Israeli10K	il10k_family_history_adopted_father_age_passing	Father's age at death	NO_MATCH	no_match	0.0
+67	Israeli10K	il10k_diet_vegeterian_indicator	Are you vegeterian?	NO_MATCH	no_match	0.0
+68	UKBB	ukbb_2684	ACE touchscreen question How many years ago was your last sc	NO_MATCH	no_match	0.0
+69	UKBB	ukbb_2030	ACE touchscreen question Are you often troubled by feelings 	HP:6000011	Guilt	0.90
+70	UKBB	ukbb_2070	ACE touchscreen question Over the past two weeks, how often 	HP:0031943	Akathisia	0.70
+71	UKBB	ukbb_6773	Interval between previous point and current one in alphanume	NO_MATCH	no_match	0.0
+72	UKBB	ukbb_4292	Participants were allowed up to 2 attempts to correctly reca	NO_MATCH	no_match	0.0
+73	UKBB	ukbb_20122	This derived data field has come from Professor Jill Pell fr	NO_MATCH	no_match	0.0
+74	UKBB	ukbb_6317	This is the time that a participant looked at each word/pict	NO_MATCH	no_match	0.0
+75	UKBB	ukbb_4653	ACE touchscreen question Have you ever had a period of time 	HP:0000737	Irritability	0.90
+76	UKBB	ukbb_5430	ACE touchscreen question What was your age when injury or tr	HP:0000572	Visual loss	0.90
+77	UKBB	ukbb_4022	ACE touchscreen question What was your age when the blood cl	HP:0002204	Pulmonary embolism	0.90
+78	UKBB	ukbb_5452	ACE touchscreen question Does this pain ever begin when you 	HP:4000182	Positionally dependent pain	0.90
+79	UKBB	ukbb_6492	The correct word associated with long was curtains	NO_MATCH	no_match	0.0
+80	UKBB	ukbb_10136	This is the number of correct matches in the round. It shoul	NO_MATCH	no_match	0.0
+81	UKBB	ukbb_120	Field description available on UK Biobank website	NO_MATCH	no_match	0.0
+82	UKBB	ukbb_20006	This is the interpolated time when the participant indicated	NO_MATCH	no_match	0.0
+83	UKBB	ukbb_1110	ACE touchscreen question For approximately how many years ha	NO_MATCH	no_match	0.0
+84	UKBB	ukbb_3546	ACE touchscreen question How old were you when you last used	NO_MATCH	no_match	0.0
+85	UKBB	ukbb_3486	ACE touchscreen question Have you tried to give up smoking?	NO_MATCH	no_match	0.0
+86	UKBB	ukbb_2267	ACE touchscreen question Do you wear sun protection (e.g. su	NO_MATCH	unmappable	0.0
+87	UKBB	ukbb_10853	ACE touchscreen question Why did you stop drinking?	NO_MATCH	no_match	0.0
+88	UKBB	ukbb_3894	ACE touchscreen question What was your age when the heart at	HP:0001658	Myocardial infarction	0.90
+89	UKBB	ukbb_3710	ACE touchscreen question How many days is your usual menstru	HP:0100608	Metrorrhagia	0.50
+90	UKBB	ukbb_129	Place born - north co-ordinate	NO_MATCH	no_match	0.0
+91	UKBB	ukbb_1060	ACE touchscreen question In a typical DAY in winter, how man	NO_MATCH	no_match	0.0
+92	UKBB	ukbb_4067	ACE touchscreen question Have you had facial pains for more 	HP:0012532	Chronic pain	0.70
+93	UKBB	ukbb_5780	Field description available on UK Biobank website	NO_MATCH	no_match	0.0
+94	UKBB	ukbb_4717	ACE touchscreen question Do you get short of breath walking 	HP:0002875	Exertional dyspnea	0.90
+95	UKBB	ukbb_5700	Field description available on UK Biobank website	NO_MATCH	no_match	0.0
+96	UKBB	ukbb_10139	Field description available on UK Biobank website	NO_MATCH	no_match	0.0
+97	UKBB	ukbb_20162	Average number of pack-years smoked by an individual each ye	NO_MATCH	no_match	0.0
+98	UKBB	ukbb_10776	ACE touchscreen question What type of bread do you mainly ea	NO_MATCH	no_match	0.0
+99	UKBB	ukbb_1478	ACE touchscreen question Do you add salt to your food? (Do n	NO_MATCH	no_match	0.0
+100	UKBB	ukbb_2316	ACE touchscreen question In the last year have you ever had 	NO_MATCH	50	0.0

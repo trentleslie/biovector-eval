@@ -1,0 +1,22 @@
+{
+  "timestamp": "2026-02-10 12:45:12",
+  "elapsed_seconds": 7145.708411693573,
+  "elapsed_human": "119.1 minutes",
+  "total_questions": 100,
+  "processed": 100,
+  "successful_pairs": 50,
+  "no_match_pairs": 50,
+  "errors": 0,
+  "error_details": [],
+  "cache_hits": 3,
+  "cache_misses": 97,
+  "cache_hit_rate": 0.03,
+  "sample_distribution": {
+    "Arivale": 34,
+    "Israeli10K": 33,
+    "UKBB": 33
+  },
+  "model_version": "gpt-4",
+  "seed": 42,
+  "delay_seconds": 1.0
+}

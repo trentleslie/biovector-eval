@@ -1,0 +1,35 @@
+{
+  "timestamp": "2026-02-10T19:09:48.274947+00:00",
+  "elapsed_seconds": 2.18,
+  "elapsed_human": "2.2 seconds",
+  "total_questions": 1574,
+  "total_cross_source_pairs": 226,
+  "pairs_output": 100,
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "top_n": 100,
+  "top_k_candidates": 5,
+  "similarity_stats": {
+    "min": 0.6481,
+    "max": 1.0,
+    "mean": 0.7373,
+    "median": 0.7221,
+    "std": 0.067,
+    "histogram": {
+      "0.0-0.2": 0,
+      "0.2-0.4": 0,
+      "0.4-0.6": 0,
+      "0.6-0.8": 86,
+      "0.8-1.0": 14
+    }
+  },
+  "source_distribution": {
+    "Arivale\u2192Israeli10K": 48,
+    "Israeli10K\u2192UKBB": 46,
+    "Arivale\u2192UKBB": 6
+  },
+  "confidence_distribution": {
+    "high": 5,
+    "medium": 95,
+    "low": 0
+  }
+}

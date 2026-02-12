@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-01-26 20:54:54",
+  "elapsed_seconds": 1462.1771812438965,
+  "elapsed_human": "24.4 minutes",
+  "total_questions": 100,
+  "processed": 100,
+  "successful_pairs": 100,
+  "errors": 0,
+  "error_details": [],
+  "sample_distribution": {
+    "Arivale": 34,
+    "Israeli10K": 33,
+    "UKBB": 33
+  },
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "top_k": 5,
+  "seed": 42
+}

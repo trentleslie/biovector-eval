@@ -1,0 +1,101 @@
+source_id	source	question	hpo_code	hpo_term	hpo_conf	loinc_code	loinc_term	loinc_conf	agreement
+arivale_1be3f0b97278	Arivale	Anorexia	HP:0002039	Anorexia	1.0	NO_MATCH	NO_MATCH	0.75	HPO_ONLY
+arivale_ae80cff35b6f	Arivale	Ice cream	HP:0002315	Headache	1.0	NO_MATCH	NO_MATCH	0.85	HPO_ONLY
+arivale_41eb4d814a64	Arivale	Anemia (iron deficiency)	HP:0001891	Iron deficiency anemia	1.0	45676-4	Anemia [Minimum Data Set]	0.72	BOTH_MATCH
+arivale_89c2a8e59b9e	Arivale	Malignant hyperthermia	HP:0002047	Malignant hyperthermia	1.0	28120-4	Hyperthermia [CCC]	0.65	BOTH_MATCH
+arivale_d3b973db7de4	Arivale	Blocked lung artery (pulmonary embolus)	HP:0002204	Pulmonary embolism	1.0	54778-6	Deep venous thrombosis/pulmonary embolus or pulmon	0.72	BOTH_MATCH
+arivale_97d72368c67d	Arivale	Other neurocognitive condition	HP:0001328	Specific learning disability	0.5	NO_MATCH	NO_MATCH	0.75	HPO_ONLY
+arivale_8ad13f6d5c50	Arivale	Are you currently lactating?	NO_MATCH	Question not mappable to medical ontology	0.0	63895-7	Breastfeeding status	0.75	LOINC_ONLY
+arivale_931bf5f05cde	Arivale	Heart Transplantation	HP:0001635	Congestive heart failure	0.5	NO_MATCH	NO_MATCH	0.85	HPO_ONLY
+arivale_2ded7ae8a8c0	Arivale	I don't find it easy to make decisions.	HP:0012671	Abulia	0.7	48540-9	Is it easy for you to make decisions [GDS]	0.85	BOTH_MATCH
+arivale_0b2423d12c80	Arivale	I keep in the background.	NO_MATCH	Question not mappable to medical ontology	0.0	NO_MATCH	NO_MATCH	0.85	BOTH_NO_MATCH
+arivale_76a6b5abdde3	Arivale	What type of alcohol do you most often drink?	NO_MATCH	Question not mappable to medical ontology	0.0	NO_MATCH	NO_MATCH	0.85	BOTH_NO_MATCH
+arivale_7bd7893bc719	Arivale	Water (e.g. 8 oz. cups)	NO_MATCH	Question not mappable to medical ontology	0.0	NO_MATCH	NO_MATCH	0.85	BOTH_NO_MATCH
+arivale_695e2bfe8d61	Arivale	I don't have particularly happy memories of the past.	NO_MATCH	Question not mappable to medical ontology	0.0	NO_MATCH	NO_MATCH	0.85	BOTH_NO_MATCH
+arivale_8967173e8387	Arivale	Bronchitis (chronic)	HP:0004469	Chronic bronchitis	1.0	NO_MATCH	NO_MATCH	0.85	HPO_ONLY
+arivale_7479d3921284	Arivale	Myasthenia Gravis	HP:0003398	Abnormal synaptic transmission at the neuromuscula	0.9	NO_MATCH	NO_MATCH	0.85	HPO_ONLY
+arivale_8d5730691993	Arivale	High Blood Pressure	HP:0000822	Hypertension	1.0	NO_MATCH	NO_MATCH	0.75	HPO_ONLY
+arivale_6e8bad147b51	Arivale	100% fruit juice	NO_MATCH	Question not mappable to medical ontology	0.0	NO_MATCH	NO_MATCH	0.85	BOTH_NO_MATCH
+arivale_1c0039994c07	Arivale	Vitiligo	HP:0001045	Vitiligo	1.0	NO_MATCH	NO_MATCH	0.95	HPO_ONLY
+arivale_79119a07647d	Arivale	I pay attention to details.	NO_MATCH	Question not mappable to medical ontology	0.0	NO_MATCH	NO_MATCH	0.75	BOTH_NO_MATCH
+arivale_b088236b2e1b	Arivale	Sarcoidosis	HP:0034388	Hilar lymph node enlargement	0.7	NO_MATCH	NO_MATCH	0.85	HPO_ONLY
+arivale_6c326e1f1132	Arivale	I follow a schedule.	NO_MATCH	Question not mappable to medical ontology	0.0	NO_MATCH	NO_MATCH	0.75	BOTH_NO_MATCH
+arivale_937205d1b550	Arivale	Chronic Fatigue Syndrome	HP:0003326	Myalgia	0.7	NO_MATCH	NO_MATCH	0.85	HPO_ONLY
+arivale_d53bb9034eb7	Arivale	Do you usually take sugar in tea?	NO_MATCH	Question not mappable to medical ontology	0.0	NO_MATCH	NO_MATCH	0.95	BOTH_NO_MATCH
+arivale_7970f2fd9a8f	Arivale	Diverticulosis	HP:0005222	Bowel diverticulosis	1.0	NO_MATCH	NO_MATCH	0.85	HPO_ONLY
+arivale_3b5cad159bd8	Arivale	Carpal tunnel syndrome	HP:0012185	Constrictive median neuropathy	0.9	NO_MATCH	NO_MATCH	0.85	HPO_ONLY
+arivale_3b770a326602	Arivale	Peptic ulcer	HP:0004398	Peptic ulcer	1.0	NO_MATCH	NO_MATCH	0.85	HPO_ONLY
+arivale_af342ae45a5f	Arivale	Shortness of breath	HP:0002094	Dyspnea	1.0	98518-4	Shortness of breath in general in past 7 days	0.85	BOTH_MATCH
+arivale_2224d17bff1f	Arivale	Back pain or back problems	HP:0003416	Spinal canal stenosis	0.5	69672-4	Bothered by back pain in last 4 weeks [Reported.PH	0.75	BOTH_MATCH
+arivale_648d4a3aa164	Arivale	I don't feel particularly healthy.	NO_MATCH	Question not mappable to medical ontology	0.0	71901-3	I am as healthy as anyone I know [Veterans RAND]	0.45	LOINC_ONLY
+arivale_e18a76d42266	Arivale	Are you exposed to second-hand smoke?	HP:0430032	Electronic cigarette exposure history	0.7	98530-9	Regularly exposed to other people's smoke	0.92	BOTH_MATCH
+arivale_e6ddd9ce6755	Arivale	Please list all current prescription medications with dosages.	NO_MATCH	Question not mappable to medical ontology	0.0	66423-5	Medications Current medication	0.85	LOINC_ONLY
+arivale_39df161f4405	Arivale	When it comes to accountability:	NO_MATCH	Question not mappable to medical ontology	0.0	NO_MATCH	NO_MATCH	0.85	BOTH_NO_MATCH
+arivale_8415249413a9	Arivale	I feel rundown and don't have much energy.	HP:0012378	Fatigue	0.9	70405-6	I have a lack of energy in the past 7 days [FACIT]	0.85	BOTH_MATCH
+arivale_cc6c2cb4aa20	Arivale	Seizures or Epilepsy	HP:0033349	Seizure cluster	0.7	54814-9	Seizure disorder or epilepsy during assessment per	0.85	BOTH_MATCH
+il10k_abdomen_pain_current_distension	Israeli10K	Currently suffer from abdominal distension	HP:0003270	Abdominal distention	1.0	70525-1	I have a feeling of fullness or heaviness in my st	0.72	BOTH_MATCH
+il10k_health_eyes_other_serious_condition_eye_start_age	Israeli10K	Age other serious eye condition diagnosed	HP:0000478	Abnormality of the eye	0.7	63932-8	Age at diagnosis	0.65	BOTH_MATCH
+il10k_repeat_colonoscopy_years	Israeli10K	Recommendation to repeat colonoscopy in XXX years	NO_MATCH	Question not mappable to medical ontology	0.0	NO_MATCH	NO_MATCH	0.95	BOTH_NO_MATCH
+il10k_alcohol_weekly_other_intake_number	Israeli10K	Average weekly intake of other alcoholic drinks	NO_MATCH	Question not mappable to medical ontology	0.0	NO_MATCH	NO_MATCH	0.75	BOTH_NO_MATCH
+il10k_history_ibs_first_symptoms_fever	Israeli10K	Fever when IBS symptoms first began	HP:0004370	Abnormality of temperature regulation	0.7	NO_MATCH	NO_MATCH	0.85	HPO_ONLY
+il10k_smoking_current_difficulty_to_avoid_one_day	Israeli10K	Difficulty not smoking for 1 day	HP:6000785	Protein craving	0.5	63923-7	In the past, have you ever made a serious attempt 	0.72	BOTH_MATCH
+il10k_alcohol_monthly_spirits_intake_choice	Israeli10K	Average monthly spirits intake	NO_MATCH	Question not mappable to medical ontology	0.0	NO_MATCH	NO_MATCH	0.85	BOTH_NO_MATCH
+il10k_family_history	Israeli10K	Family history	NO_MATCH	Question not mappable to medical ontology	0.0	65947-4	Family history notes [Text] [DI-PAD]	0.72	LOINC_ONLY
+il10k_history_family_ibs	Israeli10K	Family history of IBS	NO_MATCH	Question not mappable to medical ontology	0.0	NO_MATCH	NO_MATCH	0.75	BOTH_NO_MATCH
+il10k_bowl_movements_current_satisfaction	Israeli10K	Satisfaction with bowel habits	HP:0011024	Abnormality of the gastrointestinal tract	0.7	NO_MATCH	NO_MATCH	0.75	HPO_ONLY
+il10k_family_history_mother_age_passing	Israeli10K	Mother's age at death	NO_MATCH	Question not mappable to medical ontology	0.0	54113-6	Age range at death Family member [USSG-FHT]	0.75	LOINC_ONLY
+il10k_smoking_current_cigar_age_stop_number	Israeli10K	Age stopped smoking cigarettes (current cigar/pipe or previous cigarette smoker)	NO_MATCH	Question not mappable to medical ontology	0.0	63925-2	How old were you when you most recently quit smoki	0.85	LOINC_ONLY
+il10k_history_ibs_first_symptoms_diarrhoea	Israeli10K	Diarrhoea when IBS symptoms first began	HP:0002014	Diarrhea	0.9	NO_MATCH	NO_MATCH	0.75	HPO_ONLY
+il10k_family_history_past_adopted_mother_illness_2	Israeli10K	Illnesses of adopted mother	HP:0032316	Family history	0.7	NO_MATCH	NO_MATCH	0.85	HPO_ONLY
+il10k_splenectomy_year	Israeli10K	Splenectomy year	HP:0008338	Partial functional complement factor D deficiency	0.5	67782-3	Surgical operation date	0.45	BOTH_MATCH
+il10k_alcohol_present_vs_past	Israeli10K	Alcohol intake versus 10 years previously	HP:0000708	Atypical behavior	0.9	NO_MATCH	NO_MATCH	0.85	HPO_ONLY
+il10k_sleep_snoring	Israeli10K	Snoring	HP:0025267	Snoring	1.0	NO_MATCH	NO_MATCH	0.85	HPO_ONLY
+il10k_health_eyes_injury_trauma_eye_start_age	Israeli10K	Age when loss of vision due to injury or trauma diagnosed	HP:0000572	Visual loss	0.7	63932-8	Age at diagnosis	0.45	BOTH_MATCH
+il10k_alcohol_monthly_fortified_wine_intake_number	Israeli10K	Average monthly fortified wine intake	NO_MATCH	Question not mappable to medical ontology	0.0	NO_MATCH	NO_MATCH	0.85	BOTH_NO_MATCH
+il10k_kidney_artery_doppler_past_year	Israeli10K	Renal Doppler [ultrasound]	HP:0001920	Renal artery stenosis	0.5	NO_MATCH	NO_MATCH	0.85	HPO_ONLY
+il10k_alcohol_weekly_white_champagne_intake_number	Israeli10K	Average weekly champagne plus white wine intake	NO_MATCH	Question not mappable to medical ontology	0.0	NO_MATCH	NO_MATCH	0.75	BOTH_NO_MATCH
+il10k_alcohol_past_status	Israeli10K	Former alcohol drinker	HP:0430037	Abnormal alcohol consumption	0.7	NO_MATCH	NO_MATCH	0.85	HPO_ONLY
+il10k_early_life_comparative_body_height	Israeli10K	Comparative height size at age 10	HP:0001510	Growth delay	0.7	NO_MATCH	NO_MATCH	0.85	HPO_ONLY
+il10k_activity_indoors_pc_daily	Israeli10K	Time spent using computer	NO_MATCH	Question not mappable to medical ontology	0.0	NO_MATCH	NO_MATCH	0.85	BOTH_NO_MATCH
+il10k_history_childhood_antibiotics	Israeli10K	Long-term/recurrent antibiotics as child or teenager	HP:0002788	Recurrent upper respiratory tract infections	0.5	NO_MATCH	NO_MATCH	0.85	HPO_ONLY
+il10k_pre_pregnancy_genetic_testing	Israeli10K	Pre pregnancy genetic testing	NO_MATCH	Question not mappable to medical ontology	0.0	NO_MATCH	NO_MATCH	0.85	BOTH_NO_MATCH
+il10k_activity_walking_10min_days_weekly	Israeli10K	Number of days/week walked 10+ minutes	NO_MATCH	Question not mappable to medical ontology	0.0	77587-4	During the last 7 days, on how many days did you w	0.85	LOINC_ONLY
+il10k_chest_abdomen_pevlis_head_ct_mri_past_year	Israeli10K	Chest / abdomen / pelvis / head CT / MRI examination	HP:0002492	Abnormal corticospinal tract morphology	0.5	NO_MATCH	NO_MATCH	0.95	HPO_ONLY
+il10k_health_general_past_year_weight_change	Israeli10K	Weight change compared with 1 year ago	HP:0004323	Abnormality of body weight	0.9	65488-9	Did you gain or lose weight without trying, or did	0.72	BOTH_MATCH
+il10k_alcohol_current_with_meals	Israeli10K	Alcohol usually taken with meals	NO_MATCH	Question not mappable to medical ontology	0.0	NO_MATCH	NO_MATCH	0.85	BOTH_NO_MATCH
+il10k_mobile_phone_years	Israeli10K	Length of mobile phone use	NO_MATCH	Question not mappable to medical ontology	0.0	NO_MATCH	NO_MATCH	0.85	BOTH_NO_MATCH
+il10k_family_history_adopted_father_age_passing	Israeli10K	Father's age at death	NO_MATCH	Question not mappable to medical ontology	0.0	54113-6	Age range at death Family member [USSG-FHT]	0.75	LOINC_ONLY
+il10k_diet_vegeterian_indicator	Israeli10K	Are you vegeterian?	NO_MATCH	Question not mappable to medical ontology	0.0	NO_MATCH	NO_MATCH	0.95	BOTH_NO_MATCH
+ukbb_2684	UKBB	ACE touchscreen question How many years ago was your last screen?	NO_MATCH	Question not mappable to medical ontology	0.0	NO_MATCH	NO_MATCH	0.85	BOTH_NO_MATCH
+ukbb_2030	UKBB	ACE touchscreen question Are you often troubled by feelings of guilt?	HP:6000011	Guilt	0.9	NO_MATCH	NO_MATCH	0.75	HPO_ONLY
+ukbb_2070	UKBB	ACE touchscreen question Over the past two weeks, how often have you felt tense,	HP:0031943	Akathisia	0.7	65236-2	How often do you feel restless or fidgety [ASRS]	0.75	BOTH_MATCH
+ukbb_6773	UKBB	Interval between previous point and current one in alphanumeric path (trail #2).	NO_MATCH	Question not mappable to medical ontology	0.0	NO_MATCH	NO_MATCH	0.85	BOTH_NO_MATCH
+ukbb_4292	UKBB	Participants were allowed up to 2 attempts to correctly recall the colour/shape 	NO_MATCH	Question not mappable to medical ontology	0.0	103700-1	Recall - blue during assessment period [CMS Assess	0.35	LOINC_ONLY
+ukbb_20122	UKBB	This derived data field has come from Professor Jill Pell from the Institute of 	NO_MATCH	Question not mappable to medical ontology	0.0	NO_MATCH	NO_MATCH	0.85	BOTH_NO_MATCH
+ukbb_6317	UKBB	This is the time that a participant looked at each word/picture group before sel	NO_MATCH	Question not mappable to medical ontology	0.0	NO_MATCH	NO_MATCH	0.85	BOTH_NO_MATCH
+ukbb_4653	UKBB	ACE touchscreen question Have you ever had a period of time lasting at least two	HP:0000737	Irritability	0.9	71562-3	At any time in your life, have you felt unusually 	0.78	BOTH_MATCH
+ukbb_5430	UKBB	ACE touchscreen question What was your age when injury or trauma resulting in lo	HP:0000572	Visual loss	0.9	63932-8	Age at diagnosis	0.45	BOTH_MATCH
+ukbb_4022	UKBB	ACE touchscreen question What was your age when the blood clot in the lung was f	HP:0002204	Pulmonary embolism	0.9	63932-8	Age at diagnosis	0.72	BOTH_MATCH
+ukbb_5452	UKBB	ACE touchscreen question Does this pain ever begin when you are standing still o	HP:4000182	Positionally dependent pain	0.9	NO_MATCH	NO_MATCH	0.85	HPO_ONLY
+ukbb_6492	UKBB	The correct word associated with long was curtains.	NO_MATCH	Question not mappable to medical ontology	0.0	NO_MATCH	NO_MATCH	0.95	BOTH_NO_MATCH
+ukbb_10136	UKBB	This is the number of correct matches in the round. It should always be 3 for a 	NO_MATCH	Question not mappable to medical ontology	0.0	NO_MATCH	NO_MATCH	0.85	BOTH_NO_MATCH
+ukbb_120	UKBB	Field description available on UK Biobank website	NO_MATCH	Question not mappable to medical ontology	0.0	NO_MATCH	NO_MATCH	0.85	BOTH_NO_MATCH
+ukbb_20006	UKBB	This is the interpolated time when the participant indicated the corresponding c	NO_MATCH	Question not mappable to medical ontology	0.0	63931-0	Date of diagnosis	0.45	LOINC_ONLY
+ukbb_1110	UKBB	ACE touchscreen question For approximately how many years have you been using a 	NO_MATCH	Question not mappable to medical ontology	0.0	NO_MATCH	NO_MATCH	0.85	BOTH_NO_MATCH
+ukbb_3546	UKBB	ACE touchscreen question How old were you when you last used HRT?	NO_MATCH	Question not mappable to medical ontology	0.0	NO_MATCH	NO_MATCH	0.95	BOTH_NO_MATCH
+ukbb_3486	UKBB	ACE touchscreen question Have you tried to give up smoking?	NO_MATCH	Question not mappable to medical ontology	0.0	63923-7	In the past, have you ever made a serious attempt 	0.85	LOINC_ONLY
+ukbb_2267	UKBB	ACE touchscreen question Do you wear sun protection (e.g. sunscreen lotion, hat)	NO_MATCH	Not mappable to HPO	0.0	NO_MATCH	NO_MATCH	0.85	BOTH_NO_MATCH
+ukbb_10853	UKBB	ACE touchscreen question Why did you stop drinking?	NO_MATCH	Question not mappable to medical ontology	0.0	NO_MATCH	NO_MATCH	0.85	BOTH_NO_MATCH
+ukbb_3894	UKBB	ACE touchscreen question What was your age when the heart attack was first diagn	HP:0001658	Myocardial infarction	0.9	63932-8	Age at diagnosis	0.72	BOTH_MATCH
+ukbb_3710	UKBB	ACE touchscreen question How many days is your usual menstrual cycle? (The numbe	HP:0100608	Metrorrhagia	0.5	NO_MATCH	NO_MATCH	0.85	HPO_ONLY
+ukbb_129	UKBB	Place born - north co-ordinate	NO_MATCH	Question not mappable to medical ontology	0.0	NO_MATCH	NO_MATCH	0.85	BOTH_NO_MATCH
+ukbb_1060	UKBB	ACE touchscreen question In a typical DAY in winter, how many hours do you spend	NO_MATCH	Question not mappable to medical ontology	0.0	63830-4	On a typical weekend day in the summer, about how 	0.55	LOINC_ONLY
+ukbb_4067	UKBB	ACE touchscreen question Have you had facial pains for more than 3 months?	HP:0012532	Chronic pain	0.7	NO_MATCH	NO_MATCH	0.85	HPO_ONLY
+ukbb_5780	UKBB	Field description available on UK Biobank website	NO_MATCH	Question not mappable to medical ontology	0.0	NO_MATCH	NO_MATCH	0.85	BOTH_NO_MATCH
+ukbb_4717	UKBB	ACE touchscreen question Do you get short of breath walking with people of your 	HP:0002875	Exertional dyspnea	0.9	89439-4	Do you get short of breath walking with other peop	0.98	BOTH_MATCH
+ukbb_5700	UKBB	Field description available on UK Biobank website	NO_MATCH	Question not mappable to medical ontology	0.0	NO_MATCH	NO_MATCH	0.85	BOTH_NO_MATCH
+ukbb_10139	UKBB	Field description available on UK Biobank website	NO_MATCH	Question not mappable to medical ontology	0.0	NO_MATCH	NO_MATCH	0.85	BOTH_NO_MATCH
+ukbb_20162	UKBB	Average number of pack-years smoked by an individual each year, over their adult	NO_MATCH	Question not mappable to medical ontology	0.0	NO_MATCH	NO_MATCH	0.85	BOTH_NO_MATCH
+ukbb_10776	UKBB	ACE touchscreen question What type of bread do you mainly eat?	NO_MATCH	Question not mappable to medical ontology	0.0	NO_MATCH	NO_MATCH	0.85	BOTH_NO_MATCH
+ukbb_1478	UKBB	ACE touchscreen question Do you add salt to your food? (Do not include salt used	NO_MATCH	Question not mappable to medical ontology	0.0	NO_MATCH	NO_MATCH	0.85	BOTH_NO_MATCH
+ukbb_2316	UKBB	ACE touchscreen question In the last year have you ever had wheeze or whistling 	HP:0030828	Wheezing	0.9	62081-5	I was bothered by the amount of time I spent wheez	0.65	BOTH_MATCH

@@ -1,0 +1,1575 @@
+cluster_id	cluster_size	sources	num_sources	question_id	question_text	source_survey	avg_cluster_similarity
+1	6	A,I,U	3	arivale_0a7e0a8029f4	Glaucoma	Arivale	0.776
+1	6	A,I,U	3	arivale_4e54b76d6511	Glaucoma	Arivale	0.776
+1	6	A,I,U	3	il10k_health_eyes_glaucoma_eye	Which eye(s) affected by glaucoma	Israeli10K	0.776
+1	6	A,I,U	3	il10k_health_eyes_glaucoma_eye_start_age	Age glaucoma diagnosed	Israeli10K	0.776
+1	6	A,I,U	3	ukbb_4689	ACE touchscreen question What was your age when glaucoma was first diagnosed?	UKBB	0.776
+1	6	A,I,U	3	ukbb_6119	ACE touchscreen question Which eye(s) are affected by glaucoma?	UKBB	0.776
+2	6	A,I,U	3	arivale_5ad437a9dcbe	Mild cognitive impairment (MCI)	Arivale	0.7493
+2	6	A,I,U	3	arivale_a5fa788f205b	Macular degeneration	Arivale	0.7493
+2	6	A,I,U	3	il10k_health_eyes_macular_degeneration_eye	Which eye(s) affected by macular degeneration	Israeli10K	0.7493
+2	6	A,I,U	3	il10k_health_eyes_macular_degeneration_eye_start_age	Age macular degeneration diagnosed	Israeli10K	0.7493
+2	6	A,I,U	3	ukbb_5912	ACE touchscreen question Which eye(s) are affected by macular degeneration?	UKBB	0.7493
+2	6	A,I,U	3	ukbb_5923	ACE touchscreen question What was your age when macular degeneration was first diagnosed?	UKBB	0.7493
+3	4	A,I,U	3	arivale_4dfab4b70190	Type 1 diabetes	Arivale	0.7317
+3	4	A,I,U	3	arivale_38096642c0ea	Diabetes - Type 1	Arivale	0.7317
+3	4	A,I,U	3	il10k_type_1_diabetes_family_number	Type 1 diabetes family number	Israeli10K	0.7317
+3	4	A,I,U	3	ukbb_2986	ACE touchscreen question Did you start insulin within one year of your diagnosis of diabetes?	UKBB	0.7317
+4	6	A,I,U	3	arivale_2c3eaefd1049	Cataracts	Arivale	0.7089
+4	6	A,I,U	3	arivale_ce498191911e	Cataracts	Arivale	0.7089
+4	6	A,I,U	3	il10k_cataract_year	Cataract year	Israeli10K	0.7089
+4	6	A,I,U	3	il10k_laser_eye_surgery_age	Vision correction surgery	Israeli10K	0.7089
+4	6	A,I,U	3	il10k_health_eyes_cataract_eye	Which eye(s) are affected by cataract	Israeli10K	0.7089
+4	6	A,I,U	3	ukbb_5441	ACE touchscreen question Which eye(s) are affected by a cataract?	UKBB	0.7089
+5	6	A,I,U	3	arivale_5c220be5e5b9	How often do you do MODERATE activities for at least 10 minutes? Moderate activities cause only light sweating or a moderate increase in breathing or heart rate (e.g., brisk walking, easy biking, tennis doubles, heavy cleaning or yard work).	Arivale	0.6872
+5	6	A,I,U	3	arivale_308fed4ec68d	How often do you do VIGOROUS activities for at least 10 minutes? Vigorous activities cause heavy sweating or large increases in breathing and heart rate (e.g., hiking, jogging at 6 mph, fast bicycling, playing soccer or basketball, tennis - singles).	Arivale	0.6872
+5	6	A,I,U	3	il10k_activity_moderate_days_weekly	Number of days/week of moderate physical activity 10+ minutes	Israeli10K	0.6872
+5	6	A,I,U	3	il10k_activity_vigorous_days_weekly	Number of days/week of vigorous physical activity 10+ minutes	Israeli10K	0.6872
+5	6	A,I,U	3	ukbb_884	ACE touchscreen question In a typical WEEK, on how many days did you do 10 minutes or more of moderate physical activities like carrying light loads, cycling at normal pace? (Do not include walking)	UKBB	0.6872
+5	6	A,I,U	3	ukbb_904	ACE touchscreen question In a typical WEEK, how many days did you do 10 minutes or more of vigorous physical activity? (These are activities that make you sweat or breathe hard such as fast cycling, a...	UKBB	0.6872
+6	4	A,I,U	3	arivale_af342ae45a5f	Shortness of breath	Arivale	0.6866
+6	4	A,I,U	3	il10k_shortness_of_breath_past_3_months	Degree bothered by shortness of breath in the last 3 months	Israeli10K	0.6866
+6	4	A,I,U	3	il10k_health_breathing_shortness_breath_walking	Shortness of breath walking on level ground	Israeli10K	0.6866
+6	4	A,I,U	3	ukbb_4717	ACE touchscreen question Do you get short of breath walking with people of your own age on level ground?	UKBB	0.6866
+7	10	A,I,U	3	arivale_72c6c46f5818	Cardiac catheterization	Arivale	0.6815
+7	10	A,I,U	3	arivale_c9e68a244e61	Pacemaker or implantable cardiac defibrillator	Arivale	0.6815
+7	10	A,I,U	3	arivale_7f41b9eeb670	Cardiac Catheterization	Arivale	0.6815
+7	10	A,I,U	3	arivale_931bf5f05cde	Heart Transplantation	Arivale	0.6815
+7	10	A,I,U	3	arivale_b32bd141060a	Pacemaker/implantable cardiac defibrillator	Arivale	0.6815
+7	10	A,I,U	3	il10k_cardiac_catheterization_results	Cardiac catheterization results	Israeli10K	0.6815
+7	10	A,I,U	3	il10k_ct_cd_results	Cardiac ct results	Israeli10K	0.6815
+7	10	A,I,U	3	il10k_cardiac_catheterization_past_year	Cardiac Catheterization	Israeli10K	0.6815
+7	10	A,I,U	3	il10k_cardiac_ct_past_year	Cardiac CT	Israeli10K	0.6815
+7	10	A,I,U	3	ukbb_3079	Participants asked by interviewer if they have a pace-maker before the body impedance measures. Impedance measurement was not performed if they had a pace-maker.	UKBB	0.6815
+8	8	A,I,U	3	arivale_7757444b1437	What kind of bread do you usually eat?	Arivale	0.6699
+8	8	A,I,U	3	arivale_7ec3f0045604	What do you usually spread on bread?	Arivale	0.6699
+8	8	A,I,U	3	arivale_4a53295091ba	Cakes, scones, sweet pies, or pastries	Arivale	0.6699
+8	8	A,I,U	3	il10k_diet_bread_intake_choice	Bread intake	Israeli10K	0.6699
+8	8	A,I,U	3	il10k_diet_bread_intake_number	Bread intake	Israeli10K	0.6699
+8	8	A,I,U	3	il10k_diet_bread_type	Bread type	Israeli10K	0.6699
+8	8	A,I,U	3	ukbb_1448	ACE touchscreen question What type of bread do you mainly eat?	UKBB	0.6699
+8	8	A,I,U	3	ukbb_10776	ACE touchscreen question What type of bread do you mainly eat?	UKBB	0.6699
+9	8	A,I,U	3	arivale_3f1474eccff3	How many packs a day?	Arivale	0.6681
+9	8	A,I,U	3	il10k_smoking_current_choice	Number of cigarettes currently smoked daily (current cigarette smokers)	Israeli10K	0.6681
+9	8	A,I,U	3	il10k_smoking_current_number	Number of cigarettes currently smoked daily (current cigarette smokers)	Israeli10K	0.6681
+9	8	A,I,U	3	il10k_smoking_present_choice_dup	Number of cigarettes currently smoked daily (current cigarette smokers)	Israeli10K	0.6681
+9	8	A,I,U	3	il10k_smoking_present_number_dup	Number of cigarettes currently smoked daily (current cigarette smokers)	Israeli10K	0.6681
+9	8	A,I,U	3	ukbb_2887	ACE touchscreen question About how many cigarettes did you smoke on average each day?	UKBB	0.6681
+9	8	A,I,U	3	ukbb_3456	ACE touchscreen question About how many cigarettes do you smoke on average each day?	UKBB	0.6681
+9	8	A,I,U	3	ukbb_6183	ACE touchscreen question About how many cigarettes did you smoke on average each day?	UKBB	0.6681
+10	9	A,I,U	3	arivale_29106ed87436	Do you use recreational drugs other than marijuana?	Arivale	0.6625
+10	9	A,I,U	3	arivale_be75347b9b3e	What major type of tobacco did you use?	Arivale	0.6625
+10	9	A,I,U	3	arivale_78032538b217	What major type of tobacco do you use?	Arivale	0.6625
+10	9	A,I,U	3	arivale_869a46c20372	What method do you most commonly use to smoke or consume marijuana?	Arivale	0.6625
+10	9	A,I,U	3	arivale_a5a141eed287	What method did you most commonly use to smoke or consume marijuana?	Arivale	0.6625
+10	9	A,I,U	3	il10k_smoking_tobacco_type_present	Type of tobacco currently smoked	Israeli10K	0.6625
+10	9	A,I,U	3	il10k_smoking_former_tobacco_type	Type of tobacco previously smoked	Israeli10K	0.6625
+10	9	A,I,U	3	ukbb_2877	ACE touchscreen question What type of tobacco did you usually smoke?	UKBB	0.6625
+10	9	A,I,U	3	ukbb_3446	ACE touchscreen question What type of tobacco do you mainly smoke?	UKBB	0.6625
+11	3	A,I,U	3	arivale_b77892f7d867	Psychiatric medications (e.g. antidepressants, anti-anxiety medications, stimulants)	Arivale	0.6541
+11	3	A,I,U	3	il10k_health_mental_past_psychiatrist	Seen a psychiatrist for nerves, anxiety, tension or depression	Israeli10K	0.6541
+11	3	A,I,U	3	ukbb_2100	ACE touchscreen question Have you ever seen a psychiatrist for nerves, anxiety, tension or depression?	UKBB	0.6541
+12	12	A,I,U	3	arivale_a1769ba7338b	How much do you weigh?	Arivale	0.6516
+12	12	A,I,U	3	il10k_birth_weight_1	Birth weight 1	Israeli10K	0.6516
+12	12	A,I,U	3	il10k_birth_weight_2	Birth weight 2	Israeli10K	0.6516
+12	12	A,I,U	3	il10k_birth_weight_3	Birth weight 3	Israeli10K	0.6516
+12	12	A,I,U	3	il10k_birth_weight_4	Birth weight 4	Israeli10K	0.6516
+12	12	A,I,U	3	il10k_birth_weight_5	Birth weight 5	Israeli10K	0.6516
+12	12	A,I,U	3	il10k_birth_weight_6	Birth weight 6	Israeli10K	0.6516
+12	12	A,I,U	3	il10k_birth_weight_7	Birth weight 7	Israeli10K	0.6516
+12	12	A,I,U	3	il10k_birth_weight_8	Birth weight 8	Israeli10K	0.6516
+12	12	A,I,U	3	il10k_birth_weight_9	Birth weight 9	Israeli10K	0.6516
+12	12	A,I,U	3	ukbb_2744	ACE touchscreen question What was the birth weight of your first child in pounds? (do not include twins)	UKBB	0.6516
+12	12	A,I,U	3	ukbb_20022	Participants were asked to enter their own birth-weight.	UKBB	0.6516
+13	10	A,I,U	3	arivale_e18a76d42266	Are you exposed to second-hand smoke?	Arivale	0.639
+13	10	A,I,U	3	il10k_smoking_exposure_home	Smoking/smokers in household	Israeli10K	0.639
+13	10	A,I,U	3	il10k_smoking_exposure_home_hours_choice	Exposure to tobacco smoke at home	Israeli10K	0.639
+13	10	A,I,U	3	il10k_smoking_exposure_home_hours_number	Exposure to tobacco smoke at home	Israeli10K	0.639
+13	10	A,I,U	3	il10k_smoking_exposure_outside_choice	Exposure to tobacco smoke outside home	Israeli10K	0.639
+13	10	A,I,U	3	il10k_smoking_exposure_outside_hours	Exposure to tobacco smoke outside home	Israeli10K	0.639
+13	10	A,I,U	3	ukbb_1259	ACE touchscreen question Does anyone in your household smoke?	UKBB	0.639
+13	10	A,I,U	3	ukbb_1269	ACE touchscreen question At home, about how many hours per WEEK are you exposed to other people's tobacco smoke?	UKBB	0.639
+13	10	A,I,U	3	ukbb_1279	ACE touchscreen question Outside of your home, about how many hours per WEEK are you exposed to other people's tobacco smoke?	UKBB	0.639
+13	10	A,I,U	3	ukbb_2936	ACE touchscreen question Do you think you may start smoking again?	UKBB	0.639
+14	3	A,I,U	3	arivale_f79c87bf8b46	Actinic keratosis	Arivale	0.6353
+14	3	A,I,U	3	il10k_health_eyes_astigmatism_eye	Which eye(s) affected by astigmatism	Israeli10K	0.6353
+14	3	A,I,U	3	ukbb_5855	ACE touchscreen question Which eye(s) are affected by astigmatism?	UKBB	0.6353
+15	28	A,I,U	3	arivale_40a827b2f3d7	For how many years have you been using tobacco?	Arivale	0.6244
+15	28	A,I,U	3	arivale_3741cade9303	For how many years did you use tobacco?	Arivale	0.6244
+15	28	A,I,U	3	arivale_4d21a9f1f54d	For how many years have you been using marijuana?	Arivale	0.6244
+15	28	A,I,U	3	arivale_1fd1ed8ca8aa	How often do you use marijuana?	Arivale	0.6244
+15	28	A,I,U	3	arivale_3c7777b1518f	For how many years did you use marijuana?	Arivale	0.6244
+15	28	A,I,U	3	arivale_398ba55980cd	How often did you use marijuana?	Arivale	0.6244
+15	28	A,I,U	3	il10k_smoking_current_age_start_choice	Age started smoking in current smokers	Israeli10K	0.6244
+15	28	A,I,U	3	il10k_smoking_current_age_start_number	Age started smoking in current smokers	Israeli10K	0.6244
+15	28	A,I,U	3	il10k_smoking_current_cigar_age_stop_choice	Age stopped smoking cigarettes (current cigar/pipe or previous cigarette smoker)	Israeli10K	0.6244
+15	28	A,I,U	3	il10k_smoking_current_cigar_age_stop_number	Age stopped smoking cigarettes (current cigar/pipe or previous cigarette smoker)	Israeli10K	0.6244
+15	28	A,I,U	3	il10k_smoking_present_vs_past	Smoking compared to 10 years previous	Israeli10K	0.6244
+15	28	A,I,U	3	il10k_smoking_former_age_start_choice	Age started smoking in former smokers	Israeli10K	0.6244
+15	28	A,I,U	3	il10k_smoking_former_age_start_number	Age started smoking in former smokers	Israeli10K	0.6244
+15	28	A,I,U	3	il10k_smoking_former_age_stop_choice	Age stopped smoking	Israeli10K	0.6244
+15	28	A,I,U	3	il10k_smoking_former_age_stop_number	Age stopped smoking	Israeli10K	0.6244
+15	28	A,I,U	3	il10k_smoking_former_stop_6_month	Ever stopped smoking for 6+ months	Israeli10K	0.6244
+15	28	A,I,U	3	ukbb_1249	ACE touchscreen question In the past, how often have you smoked tobacco?	UKBB	0.6244
+15	28	A,I,U	3	ukbb_2644	ACE touchscreen question In your lifetime, have you smoked a total of at least 100 times?	UKBB	0.6244
+15	28	A,I,U	3	ukbb_2867	ACE touchscreen question How old were you when you first started smoking on most days?	UKBB	0.6244
+15	28	A,I,U	3	ukbb_2897	ACE touchscreen question How old were you when you last smoked on most days?	UKBB	0.6244
+15	28	A,I,U	3	ukbb_2907	ACE touchscreen question In the time that you smoked, did you ever stop for more than 6 months?	UKBB	0.6244
+15	28	A,I,U	3	ukbb_3436	ACE touchscreen question How old were you when you first started smoking on most days?	UKBB	0.6244
+15	28	A,I,U	3	ukbb_3506	ACE touchscreen question Compared to 10 years ago do you smoke...	UKBB	0.6244
+15	28	A,I,U	3	ukbb_6194	ACE touchscreen question How old were you when you last smoked cigarettes on most days?	UKBB	0.6244
+15	28	A,I,U	3	ukbb_10827	ACE touchscreen question In the time that you smoked, did you ever stop for more than 6 months?	UKBB	0.6244
+15	28	A,I,U	3	ukbb_10895	ACE touchscreen question In your lifetime, have you smoked a total of at least 100 cigarettes or equivalent?	UKBB	0.6244
+15	28	A,I,U	3	ukbb_20162	Average number of pack-years smoked by an individual each year, over their adult lifetime, calculated using pack-years data field. Pack years as a proportion of lifespan exposed to smoking is defined ...	UKBB	0.6244
+15	28	A,I,U	3	ukbb_2684	ACE touchscreen question How many years ago was your last screen?	UKBB	0.6244
+16	12	A,I,U	3	arivale_7187e0f44b80	Do you currently use tobacco?	Arivale	0.6216
+16	12	A,I,U	3	arivale_e502e4cc4296	Do you use marijuana?	Arivale	0.6216
+16	12	A,I,U	3	arivale_58decd712347	Did you use tobacco in the past?	Arivale	0.6216
+16	12	A,I,U	3	arivale_edabffbc9a40	Did you use marijuana in the past?	Arivale	0.6216
+16	12	A,I,U	3	il10k_smoking_current_status	Current tobacco smoking	Israeli10K	0.6216
+16	12	A,I,U	3	il10k_smoking_past_frequency	Past tobacco smoking	Israeli10K	0.6216
+16	12	A,I,U	3	il10k_smoking_stop_tried	Ever tried to stop smoking	Israeli10K	0.6216
+16	12	A,I,U	3	il10k_smoking_reduced_why	Why reduced smoking	Israeli10K	0.6216
+16	12	A,I,U	3	ukbb_1239	ACE touchscreen question Do you smoke tobacco now?	UKBB	0.6216
+16	12	A,I,U	3	ukbb_3486	ACE touchscreen question Have you tried to give up smoking?	UKBB	0.6216
+16	12	A,I,U	3	ukbb_20116	This field summarises the current/past smoking status of the participant.	UKBB	0.6216
+16	12	A,I,U	3	ukbb_20160	Derived using variables Current tobacco smoking (	UKBB	0.6216
+17	19	A,I,U	3	arivale_da46b8152d80	When you do VIGOROUS activities, for how long do you typically do these activities?	Arivale	0.6079
+17	19	A,I,U	3	arivale_edb0f1247df6	Do you currently have a membership to a gym or fitness/yoga studio?	Arivale	0.6079
+17	19	A,I,U	3	arivale_894e11ce730f	What types of VIGOROUS activities do you typically do?	Arivale	0.6079
+17	19	A,I,U	3	arivale_c5a7a9a5fb34	When you do MUSCLE STRENGTHENING activities, for how long do you typically do these activities?	Arivale	0.6079
+17	19	A,I,U	3	arivale_1b874dc40590	What types of MUSCLE STRENGTHENING activities do you typically do?	Arivale	0.6079
+17	19	A,I,U	3	arivale_66e8872dc8b8	How often do you do STRETCHING/FLEXIBILITY activities (e.g. yoga, balance)?	Arivale	0.6079
+17	19	A,I,U	3	arivale_37c9e666ceac	When you do STRETCHING/FLEXIBILITY activities, for how long do you typically do these activities?	Arivale	0.6079
+17	19	A,I,U	3	arivale_335cdd685a5b	What types of STRETCHING/FLEXIBILITY activities do you typically do?	Arivale	0.6079
+17	19	A,I,U	3	il10k_activity_vigorous_minutes_daily	Duration of vigorous activity	Israeli10K	0.6079
+17	19	A,I,U	3	il10k_activity_physical_types	Types of physical activity in last 4 weeks	Israeli10K	0.6079
+17	19	A,I,U	3	il10k_activity_other_duration	Duration of other exercises	Israeli10K	0.6079
+17	19	A,I,U	3	il10k_activity_diy_light_monthly	Frequency of mild exercise	Israeli10K	0.6079
+17	19	A,I,U	3	il10k_activity_diy_light_duration	Duration of mild exercise	Israeli10K	0.6079
+17	19	A,I,U	3	il10k_activity_diy_heavy_monthly	Frequency of high exercise	Israeli10K	0.6079
+17	19	A,I,U	3	il10k_activity_diy_heavy_duration	Duration of high exercise	Israeli10K	0.6079
+17	19	A,I,U	3	ukbb_26306	Estimates the basic visuomotor processing times of a participant (i.e. regardless of the actual cognitive difficulty of the trial).	UKBB	0.6079
+17	19	A,I,U	3	ukbb_914	ACE touchscreen question How many minutes did you usually spend doing vigorous activities on a typical DAY?	UKBB	0.6079
+17	19	A,I,U	3	ukbb_3647	ACE touchscreen question Each time you did other exercises such as swimming, cycling, keep fit, about how long did you spend doing them?	UKBB	0.6079
+17	19	A,I,U	3	ukbb_10971	ACE touchscreen question How much time do you usually spend doing vigorous physical activities on one of those days?	UKBB	0.6079
+18	8	A,I,U	3	arivale_0921a83bfab0	Prostatitis (prostate inflammation)	Arivale	0.6071
+18	8	A,I,U	3	arivale_cb471223c42d	Prostate exam	Arivale	0.6071
+18	8	A,I,U	3	il10k_chest_abdomen_pevlis_head_ct_mri_past_year	Chest / abdomen / pelvis / head CT / MRI examination	Israeli10K	0.6071
+18	8	A,I,U	3	il10k_pap_test_past_year_result	Normal PSA test	Israeli10K	0.6071
+18	8	A,I,U	3	il10k_health_cancer_past_prostate_screening	Ever had prostate specific antigen (PSA) test	Israeli10K	0.6071
+18	8	A,I,U	3	il10k_health_cancer_past_prostate_screening_years	Time since last prostate specific antigen (PSA) test	Israeli10K	0.6071
+18	8	A,I,U	3	ukbb_4288	This is the time between completing the initial prompt and displaying answer. Between the initial prompt and the final challenge, various other tests were done so the time here depends strongly on how...	UKBB	0.6071
+18	8	A,I,U	3	ukbb_2365	ACE touchscreen question Have you ever had a blood test for prostate cancer (prostate specific antigen or PSA test)?	UKBB	0.6071
+19	3	A,I,U	3	arivale_cd140624ab35	Hip Fracture	Arivale	0.603
+19	3	A,I,U	3	il10k_health_pain_past_3_months_hip	Hip pain for 3+ months	Israeli10K	0.603
+19	3	A,I,U	3	ukbb_3414	ACE touchscreen question Have you had hip pains for more than 3 months?	UKBB	0.603
+20	10	A,I,U	3	arivale_a0d4b0313a7d	Binge eating disorder (BED)	Arivale	0.6001
+20	10	A,I,U	3	arivale_29a0e1ac1bee	Insomnia	Arivale	0.6001
+20	10	A,I,U	3	arivale_6f094f0a5a68	Other sleep condition	Arivale	0.6001
+20	10	A,I,U	3	arivale_1e7356591838	In the past six months, how has lack of sleep affected your productivity, motivation, and ability to concentrate?	Arivale	0.6001
+20	10	A,I,U	3	arivale_6462314d0f18	How often do you have trouble falling or staying asleep?	Arivale	0.6001
+20	10	A,I,U	3	il10k_sleeping_trouble_past_3_months	Degree bothered by trouble sleeping in the last 3 months	Israeli10K	0.6001
+20	10	A,I,U	3	il10k_sleep_insomnia	Sleeplessness / insomnia	Israeli10K	0.6001
+20	10	A,I,U	3	il10k_sleep_daytime	Daytime dozing / sleeping	Israeli10K	0.6001
+20	10	A,I,U	3	ukbb_1200	ACE touchscreen question Do you have trouble falling asleep at night or do you wake up in the middle of the night?	UKBB	0.6001
+20	10	A,I,U	3	ukbb_1220	ACE touchscreen question How likely are you to doze off or fall asleep during the daytime when you don't mean to? (e.g. when working, reading or driving)	UKBB	0.6001
+21	12	A,I,U	3	arivale_b323f42b3dcb	Meat (beef, lamb, or pork)	Arivale	0.5997
+21	12	A,I,U	3	arivale_90d14bac23d1	Processed meat (e.g. bacon, sausage, hot dogs, etc.)	Arivale	0.5997
+21	12	A,I,U	3	arivale_3c5b8d64599e	Poultry (e.g. chicken, turkey, duck, etc.)	Arivale	0.5997
+21	12	A,I,U	3	arivale_360fea358e87	Chicken Pox	Arivale	0.5997
+21	12	A,I,U	3	il10k_diet_processed_meat_intake	Processed meat intake	Israeli10K	0.5997
+21	12	A,I,U	3	il10k_diet_poultry_intake	Poultry intake	Israeli10K	0.5997
+21	12	A,I,U	3	il10k_diet_beef_intake	Beef intake	Israeli10K	0.5997
+21	12	A,I,U	3	il10k_diet_lamb_intake	Lamb intake	Israeli10K	0.5997
+21	12	A,I,U	3	ukbb_1349	ACE touchscreen question How often do you eat processed meats (such as bacon, ham, sausages, meat pies, kebabs, burgers, chicken nuggets)?	UKBB	0.5997
+21	12	A,I,U	3	ukbb_1359	ACE touchscreen question How often do you eat chicken, turkey or other poultry? (Do not count processed meats)	UKBB	0.5997
+21	12	A,I,U	3	ukbb_1369	ACE touchscreen question How often do you eat beef? (Do not count processed meats)	UKBB	0.5997
+21	12	A,I,U	3	ukbb_1379	ACE touchscreen question How often do you eat lamb/mutton? (Do not count processed meats)	UKBB	0.5997
+22	6	A,I,U	3	arivale_815157ba266f	Migraines	Arivale	0.599
+22	6	A,I,U	3	arivale_db75005aaa94	Migraine Headaches	Arivale	0.599
+22	6	A,I,U	3	il10k_how_often_headache	How often headache	Israeli10K	0.599
+22	6	A,I,U	3	il10k_headaches_past_3_months	Degree bothered by headaches in the last 3 months	Israeli10K	0.599
+22	6	A,I,U	3	il10k_health_pain_past_3_months_headache	Headaches for 3+ months	Israeli10K	0.599
+22	6	A,I,U	3	ukbb_3799	ACE touchscreen question Have you had headaches for more than 3 months?	UKBB	0.599
+23	7	A,I,U	3	arivale_fc1f975515ad	Ovarian cancer	Arivale	0.5985
+23	7	A,I,U	3	arivale_292b7024bbf9	Hysterectomy/oophorectomy	Arivale	0.5985
+23	7	A,I,U	3	il10k_hysterectomy_year	Hysterectomy year	Israeli10K	0.5985
+23	7	A,I,U	3	il10k_oophorectomy_year	Oophorectomy year	Israeli10K	0.5985
+23	7	A,I,U	3	ukbb_2824	ACE touchscreen question How old were you when you had your hysterectomy?	UKBB	0.5985
+23	7	A,I,U	3	ukbb_3591	ACE touchscreen question Have you had a hysterectomy (womb removed)?	UKBB	0.5985
+23	7	A,I,U	3	ukbb_3882	ACE touchscreen question How old were you when you had BOTH ovaries removed?	UKBB	0.5985
+24	6	A,I,U	3	arivale_5e385a618859	Fresh fruit	Arivale	0.5968
+24	6	A,I,U	3	arivale_6e8bad147b51	100% fruit juice	Arivale	0.5968
+24	6	A,I,U	3	il10k_diet_fruit_fresh_intake_choice	Fresh fruit daily intake	Israeli10K	0.5968
+24	6	A,I,U	3	il10k_diet_fruit_fresh_intake_number	Fresh fruit daily intake	Israeli10K	0.5968
+24	6	A,I,U	3	ukbb_6547	The correct word associated with new was plant.	UKBB	0.5968
+24	6	A,I,U	3	ukbb_4957	ACE touchscreen question Bud is to Flower as Child is to?. Part 3 of Fluid Intelligence test.	UKBB	0.5968
+25	3	A,I,U	3	arivale_f930e5a7f8fb	Tendinopathy (e.g. achilles tendinopathy)	Arivale	0.5938
+25	3	A,I,U	3	il10k_health_legs_calfs_pain	Leg pain in calf/calves	Israeli10K	0.5938
+25	3	A,I,U	3	ukbb_5463	ACE touchscreen question Do you get this pain in your calf (calves)?	UKBB	0.5938
+26	3	A,I,U	3	arivale_12c937f921fd	How often do you do MUSCLE STRENGTHENING activities (e.g. weight training, sit-ups, push-ups)?	Arivale	0.5933
+26	3	A,I,U	3	il10k_activity_other_monthly	Frequency of other exercises in last 4 weeks	Israeli10K	0.5933
+26	3	A,I,U	3	ukbb_3637	ACE touchscreen question How many times in the last 4 weeks did you do other exercises such as swimming, cycling, keep fit?	UKBB	0.5933
+27	7	A,I,U	3	arivale_8d7b1ad662f4	I take probiotic supplements/eat fermented foods	Arivale	0.5927
+27	7	A,I,U	3	arivale_e509afffde3f	HIV	Arivale	0.5927
+27	7	A,I,U	3	arivale_6126aa7eb6f8	Antibiotics	Arivale	0.5927
+27	7	A,I,U	3	il10k_history_childhood_antibiotics	Long-term/recurrent antibiotics as child or teenager	Israeli10K	0.5927
+27	7	A,I,U	3	il10k_triple_antibiotic_treatment_yn	Triple antibiotic treatment	Israeli10K	0.5927
+27	7	A,I,U	3	il10k_uti_treatment_antibiotics	Regular antibiotic use or relating to sexual intercourse	Israeli10K	0.5927
+27	7	A,I,U	3	ukbb_6671	Number of antibiotics taken	UKBB	0.5927
+28	3	A,I,U	3	arivale_d7e3c1a5bd30	Other heritable (Mendelian) disorder	Arivale	0.5903
+28	3	A,I,U	3	il10k_health_mental_past_two_week_depression_frequency	Frequency of depressed mood in last 2 weeks	Israeli10K	0.5903
+28	3	A,I,U	3	ukbb_20124	Probable recurrent major depression (moderate).	UKBB	0.5903
+29	4	A,I,U	3	arivale_eb6e7093291e	Oil rich fish (e.g. salmon, tuna, anchovies, etc.)	Arivale	0.588
+29	4	A,I,U	3	il10k_diet_oily_fish_intake	Oily fish intake	Israeli10K	0.588
+29	4	A,I,U	3	il10k_diet_non_oily_fish_intake	Non oily fish intake	Israeli10K	0.588
+29	4	A,I,U	3	ukbb_1329	ACE touchscreen question How often do you eat oily fish? (e.g. sardines, salmon, mackerel, herring)	UKBB	0.588
+30	6	A,I,U	3	arivale_762226298c44	Do you have a high appetite and/or overeat?	Arivale	0.588
+30	6	A,I,U	3	arivale_8a1a9a7c2b59	Do you have a poor appetite and/or skip meals?	Arivale	0.588
+30	6	A,I,U	3	arivale_5fda2e0dab7e	I feel I have a great deal of energy.	Arivale	0.588
+30	6	A,I,U	3	arivale_8415249413a9	I feel rundown and don't have much energy.	Arivale	0.588
+30	6	A,I,U	3	il10k_mlhfq_fatigue	Do you feel tired, weak, have low energy?	Israeli10K	0.588
+30	6	A,I,U	3	ukbb_2080	ACE touchscreen question Over the past two weeks, how often have you felt tired or had little energy?	UKBB	0.588
+31	6	A,I,U	3	arivale_e58f4164082a	Other Musculoskeletal Injury	Arivale	0.5836
+31	6	A,I,U	3	arivale_4d62014d21dd	Concussion or traumatic brain injury	Arivale	0.5836
+31	6	A,I,U	3	arivale_b9b6a62765d6	Ligament injuries (e.g. ACL tear or rupture)	Arivale	0.5836
+31	6	A,I,U	3	il10k_fmri_results	Brain imaging (CT or MRI) results	Israeli10K	0.5836
+31	6	A,I,U	3	il10k_health_eyes_injury_trauma_eye	Which eye(s) affected by injury or trauma resulting in loss of vision	Israeli10K	0.5836
+31	6	A,I,U	3	ukbb_5419	ACE touchscreen question Which eye(s) are affected by injury or trauma resulting in loss of vision?	UKBB	0.5836
+32	9	A,I,U	3	arivale_c40e6acd5002	Fibromyalgia	Arivale	0.5833
+32	9	A,I,U	3	arivale_2224d17bff1f	Back pain or back problems	Arivale	0.5833
+32	9	A,I,U	3	arivale_584323a14056	Fibromyalgia	Arivale	0.5833
+32	9	A,I,U	3	arivale_85c1a8b6f8fc	Back pain or joint pain	Arivale	0.5833
+32	9	A,I,U	3	il10k_back_pain_past_3_months	Degree bothered by back pain in the past 3 months	Israeli10K	0.5833
+32	9	A,I,U	3	il10k_legs_joint_pain_past_3_months	Degree bothered by pain in arms/legs/joints in the past 3 months	Israeli10K	0.5833
+32	9	A,I,U	3	il10k_health_pain_types_past_month	Pain type(s) experienced in last month	Israeli10K	0.5833
+32	9	A,I,U	3	il10k_health_pain_past_3_months_back	Back pain for 3+ months	Israeli10K	0.5833
+32	9	A,I,U	3	ukbb_3571	ACE touchscreen question Have you had back pains for more than 3 months?	UKBB	0.5833
+33	8	A,I,U	3	arivale_e72b763a9b7e	Restless leg syndrome	Arivale	0.5832
+33	8	A,I,U	3	il10k_leg_pain_stops_with_rest	Leg pain stops with rest	Israeli10K	0.5832
+33	8	A,I,U	3	il10k_health_legs_pain_walking	Leg pain on walking	Israeli10K	0.5832
+33	8	A,I,U	3	il10k_health_legs_pain_begin_standing_sitting	Leg pain when standing still or sitting	Israeli10K	0.5832
+33	8	A,I,U	3	il10k_health_legs_pain_walking_normal	Leg pain when walking normally	Israeli10K	0.5832
+33	8	A,I,U	3	il10k_health_legs_pain_dissapear_walking	Leg pain when walking ever disappears while walking	Israeli10K	0.5832
+33	8	A,I,U	3	ukbb_5452	ACE touchscreen question Does this pain ever begin when you are standing still or sitting?	UKBB	0.5832
+33	8	A,I,U	3	ukbb_5496	ACE touchscreen question Does the pain you get while walking ever disappear when you continue walking?	UKBB	0.5832
+34	8	A,I,U	3	arivale_dcedf572e559	Bipolar disorder	Arivale	0.5818
+34	8	A,I,U	3	arivale_4c71f77be8ac	Other mental health condition	Arivale	0.5818
+34	8	A,I,U	3	arivale_68d651923f08	Bipolar Disorder	Arivale	0.5818
+34	8	A,I,U	3	il10k_health_mental_past_manic_two_days	Ever manic/hyper for 2 days	Israeli10K	0.5818
+34	8	A,I,U	3	il10k_health_mental_past_manic_symptoms	Manic/hyper symptoms	Israeli10K	0.5818
+34	8	A,I,U	3	il10k_health_mental_past_manic_irritable_problems	Severity of manic/irritable episodes	Israeli10K	0.5818
+34	8	A,I,U	3	ukbb_4642	ACE touchscreen question Have you ever had a period of time lasting at least two days when you were feeling so good, high, excited or hyper that other people thought you were not your normal self or y...	UKBB	0.5818
+34	8	A,I,U	3	ukbb_20126	Bipolar and major depression status.	UKBB	0.5818
+35	16	A,I,U	3	arivale_5207ffc52c5b	I have abdominal/digestive pain	Arivale	0.5804
+35	16	A,I,U	3	arivale_7970f2fd9a8f	Diverticulosis	Arivale	0.5804
+35	16	A,I,U	3	arivale_2c9f4a21d0e0	Other gastrointestinal condition	Arivale	0.5804
+35	16	A,I,U	3	arivale_dc373b462a43	Pancreatitis	Arivale	0.5804
+35	16	A,I,U	3	arivale_95c9f27f7ce6	Other liver, pancreas, or gallbladder condition	Arivale	0.5804
+35	16	A,I,U	3	arivale_72b1ff105f74	Diverticulosis	Arivale	0.5804
+35	16	A,I,U	3	il10k_abdomen_pain_frequency_past_3_months	Frequency of discomfort/pain in abdomen in last 3 months	Israeli10K	0.5804
+35	16	A,I,U	3	il10k_abdomen_pain_past_6_months	Abdominal discomfort/pain for 6 months or longer	Israeli10K	0.5804
+35	16	A,I,U	3	il10k_hard_stool_during_abdomen_pain	Frequency of harder stools when abdominal discomfort/pain started	Israeli10K	0.5804
+35	16	A,I,U	3	il10k_abdomen_pain_current	Currently (in last 3 months) suffer from abdominal pain	Israeli10K	0.5804
+35	16	A,I,U	3	il10k_abdomen_pain_current_severity	Severity of current abdominal pain	Israeli10K	0.5804
+35	16	A,I,U	3	il10k_abdomen_pain_days_out_of_10	Number of days (out of 10) with abdominal pain	Israeli10K	0.5804
+35	16	A,I,U	3	il10k_abdomen_pain_current_distension	Currently suffer from abdominal distension	Israeli10K	0.5804
+35	16	A,I,U	3	il10k_abdomen_pain_current_distension_severity	Severity of current abdominal distension/tightness	Israeli10K	0.5804
+35	16	A,I,U	3	il10k_health_pain_past_3_months_stomach	Stomach/abdominal pain for 3+ months	Israeli10K	0.5804
+35	16	A,I,U	3	ukbb_3741	ACE touchscreen question Have you had stomach or abdominal pains for more than 3 months?	UKBB	0.5804
+36	3	A,I,U	3	arivale_1f72727a4517	Facial paralysis	Arivale	0.5795
+36	3	A,I,U	3	il10k_health_pain_past_3_months_facial	Facial pains for 3+ months	Israeli10K	0.5795
+36	3	A,I,U	3	ukbb_4067	ACE touchscreen question Have you had facial pains for more than 3 months?	UKBB	0.5795
+37	7	A,I,U	3	arivale_0515ab536eea	Cooked green vegetables (fresh or frozen)	Arivale	0.5789
+37	7	A,I,U	3	arivale_e78e35ecaec9	Cooked root vegetables (fresh or frozen)	Arivale	0.5789
+37	7	A,I,U	3	arivale_6a66a6ce0779	Cook meals at home	Arivale	0.5789
+37	7	A,I,U	3	arivale_87e39d8c06d5	How many servings of vegetables (including juice) do you have each day? (1 serving = 1 cup raw/leafy vegetables, ½ cup cooked vegetables, or ½ cup vegetable juice)	Arivale	0.5789
+37	7	A,I,U	3	il10k_diet_cooked_vegetable_intake_choice	Cooked vegetable daily intake	Israeli10K	0.5789
+37	7	A,I,U	3	il10k_diet_vegetable_cooked_intake_number	Cooked vegetable daily intake	Israeli10K	0.5789
+37	7	A,I,U	3	ukbb_1289	ACE touchscreen question On average how many heaped tablespoons of COOKED vegetables would you eat per DAY? (Do not include potatoes; put '0' if you do not eat any)	UKBB	0.5789
+38	7	A,I,U	3	arivale_a505386d75e4	Do you usually take sugar in coffee?	Arivale	0.5782
+38	7	A,I,U	3	arivale_63753ee808dd	Soft drinks/soda	Arivale	0.5782
+38	7	A,I,U	3	arivale_644bb0bb1559	Caffeinated beverages (e.g. 8 oz. cup of coffee or black tea, one shot of espresso, one energy drink)	Arivale	0.5782
+38	7	A,I,U	3	il10k_diet_coffee_intake_choice	Coffee intake	Israeli10K	0.5782
+38	7	A,I,U	3	il10k_diet_coffee_intake_number	Coffee intake	Israeli10K	0.5782
+38	7	A,I,U	3	il10k_diet_coffee_type	Coffee type	Israeli10K	0.5782
+38	7	A,I,U	3	ukbb_1508	ACE touchscreen question What type of coffee do you usually drink?	UKBB	0.5782
+39	3	A,I,U	3	arivale_cbfd51fd3c01	My personal relationship status is	Arivale	0.578
+39	3	A,I,U	3	il10k_health_mental_current_satisfaction_family_relations	Family relationship satisfaction	Israeli10K	0.578
+39	3	A,I,U	3	ukbb_4559	ACE touchscreen question In general how satisfied are you with your FAMILY RELATIONSHIPS?	UKBB	0.578
+40	5	A,I,U	3	arivale_6fab70c45342	What's the greatest source of stress in your life right now?	Arivale	0.5723
+40	5	A,I,U	3	arivale_664410f4f2da	What do you look forward to most each day?	Arivale	0.5723
+40	5	A,I,U	3	arivale_1f8b841a74a2	I change my mood a lot.	Arivale	0.5723
+40	5	A,I,U	3	il10k_mood_most_days	Mood most days	Israeli10K	0.5723
+40	5	A,I,U	3	ukbb_1920	ACE touchscreen question Does your mood often go up and down?	UKBB	0.5723
+41	4	A,I,U	3	arivale_31e0c7b61f6c	Concussion/TBI	Arivale	0.5716
+41	4	A,I,U	3	il10k_health_eyes_injury_trauma_eye_start_age	Age when loss of vision due to injury or trauma diagnosed	Israeli10K	0.5716
+41	4	A,I,U	3	il10k_eye_health_decreased_eyesight_age	Age when eyesight decreased	Israeli10K	0.5716
+41	4	A,I,U	3	ukbb_5430	ACE touchscreen question What was your age when injury or trauma resulting in loss of vision was first diagnosed?	UKBB	0.5716
+42	5	A,I,U	3	arivale_bd24dc3848ce	Asthma	Arivale	0.5697
+42	5	A,I,U	3	arivale_982febc3f354	Asthma medications	Arivale	0.5697
+42	5	A,I,U	3	arivale_b7f11b47fc0f	Asthma	Arivale	0.5697
+42	5	A,I,U	3	il10k_asthma_family_number	Asthma family number	Israeli10K	0.5697
+42	5	A,I,U	3	ukbb_3786	ACE touchscreen question What was your age when the asthma was first diagnosed?	UKBB	0.5697
+43	7	A,I,U	3	arivale_3cc6af8750bf	Raw vegetables or salad (including tomatoes)	Arivale	0.5676
+43	7	A,I,U	3	arivale_d51761272843	Cruciferous vegetables (e.g. broccoli, cabbage, cauliflower, etc.)	Arivale	0.5676
+43	7	A,I,U	3	arivale_3978a33b9909	Do you currently take supplements (e.g. vitamins, herbs, fish oil, probiotics)?	Arivale	0.5676
+43	7	A,I,U	3	arivale_11acd841809c	Please list all current supplements (e.g. vitamins, herbs, fish oil, probiotics) with dosages.	Arivale	0.5676
+43	7	A,I,U	3	il10k_diet_vegetable_raw_intake_choice	Raw vegetable daily intake	Israeli10K	0.5676
+43	7	A,I,U	3	il10k_diet_vegetable_raw_intake_number	Raw vegetable daily intake	Israeli10K	0.5676
+43	7	A,I,U	3	ukbb_1299	ACE touchscreen question On average how many heaped tablespoons of SALAD or RAW vegetables would you eat per DAY? (Include lettuce, tomato in sandwiches; put '0' if you do not eat any)	UKBB	0.5676
+44	20	A,I,U	3	arivale_ad12706cc756	Which type of breakfast cereal do you normally eat?	Arivale	0.5657
+44	20	A,I,U	3	arivale_ecadc44baacf	Breakfast cereal	Arivale	0.5657
+44	20	A,I,U	3	arivale_769d546be4e1	Potatoes, pasta, or rice	Arivale	0.5657
+44	20	A,I,U	3	arivale_2372dcb2a249	Beans or legumes (e.g. lentils, peas, pinto beans, etc.)	Arivale	0.5657
+44	20	A,I,U	3	arivale_da6f91363e16	Sweets or chocolates	Arivale	0.5657
+44	20	A,I,U	3	arivale_bc4e08abcc3b	Crackers, pretzels, chips, or savory snacks	Arivale	0.5657
+44	20	A,I,U	3	arivale_7c642378be13	Eggs	Arivale	0.5657
+44	20	A,I,U	3	arivale_b3c060fd85f6	Eat breakfast	Arivale	0.5657
+44	20	A,I,U	3	arivale_61625d27fcd9	Snack between meals	Arivale	0.5657
+44	20	A,I,U	3	arivale_2f2818c2413d	Nuts/seeds (e.g. almonds, walnuts, flax seeds, etc.)	Arivale	0.5657
+44	20	A,I,U	3	arivale_f0c7a36db27d	Do you avoid dairy products?	Arivale	0.5657
+44	20	A,I,U	3	arivale_a0c270715125	I like order.	Arivale	0.5657
+44	20	A,I,U	3	il10k_diet_never_eat_eggs_dairy_wheat_sugar	Never eat eggs, dairy, wheat, sugar	Israeli10K	0.5657
+44	20	A,I,U	3	il10k_diet_cereal_intake_choice	Cereal intake	Israeli10K	0.5657
+44	20	A,I,U	3	il10k_diet_cereal_intake_number	Cereal intake	Israeli10K	0.5657
+44	20	A,I,U	3	il10k_diet_cereal_type	Cereal type	Israeli10K	0.5657
+44	20	A,I,U	3	il10k_extra_diet_cereal_sugared	Eat breakfast cereal and/or quark porridge/granola	Israeli10K	0.5657
+44	20	A,I,U	3	ukbb_4924	ACE touchscreen question In this next game you will have two minutes to do as many puzzle questions as possible. Don't spend too long on any one puzzle - you can skip any puzzle if you wish.. Particip...	UKBB	0.5657
+44	20	A,I,U	3	ukbb_1458	ACE touchscreen question How many bowls of cereal do you eat a WEEK?	UKBB	0.5657
+44	20	A,I,U	3	ukbb_1468	ACE touchscreen question What type of cereal do you mainly eat?	UKBB	0.5657
+45	11	A,I,U	3	arivale_5726d26e49f2	If you had an extra hour each day, how would you spend it?	Arivale	0.5626
+45	11	A,I,U	3	arivale_8746149595a1	When you do MODERATE activities, for how long do you typically do these activities?	Arivale	0.5626
+45	11	A,I,U	3	arivale_dd6808436ea1	On an average weekday, how much time do you spend seated?	Arivale	0.5626
+45	11	A,I,U	3	arivale_91b88957cc67	Do you walk or bike to work, school, or to do errands?	Arivale	0.5626
+45	11	A,I,U	3	il10k_activity_moderate_minutes_daily	Duration of moderate activity	Israeli10K	0.5626
+45	11	A,I,U	3	ukbb_20016	This is a simple unweighted sum of the number of correct answers given to the 13 fluid intelligence questions. Participants who did not answer all of the questions within the allotted 2 minute limit a...	UKBB	0.5626
+45	11	A,I,U	3	ukbb_874	ACE touchscreen question How many minutes did you usually spend walking on a typical DAY?	UKBB	0.5626
+45	11	A,I,U	3	ukbb_894	ACE touchscreen question How many minutes did you usually spend doing moderate activities on a typical DAY?	UKBB	0.5626
+45	11	A,I,U	3	ukbb_10953	ACE touchscreen question How much time do you usually spend walking on one of those days?	UKBB	0.5626
+45	11	A,I,U	3	ukbb_10962	ACE touchscreen question How much time do you usually spend doing moderate physical activities on one of those days?	UKBB	0.5626
+45	11	A,I,U	3	ukbb_6160	ACE touchscreen question Which of the following do you attend once a week or more often? (You can select more than one)	UKBB	0.5626
+46	5	A,I,U	3	arivale_fc40f8f615e1	What kind of milk do you usually use for drinks in tea or coffee and on cereals etc?	Arivale	0.5602
+46	5	A,I,U	3	arivale_ae80cff35b6f	Ice cream	Arivale	0.5602
+46	5	A,I,U	3	arivale_0b9440a4a7b8	Hepatitis Type A	Arivale	0.5602
+46	5	A,I,U	3	il10k_diet_milk_type_used	Milk type	Israeli10K	0.5602
+46	5	A,I,U	3	ukbb_1418	ACE touchscreen question What type of milk do you mainly use?	UKBB	0.5602
+47	10	A,I,U	3	arivale_7bd7893bc719	Water (e.g. 8 oz. cups)	Arivale	0.5531
+47	10	A,I,U	3	arivale_76a6b5abdde3	What type of alcohol do you most often drink?	Arivale	0.5531
+47	10	A,I,U	3	arivale_58f2a65de87b	How many drinks do you have on a drinking day?	Arivale	0.5531
+47	10	A,I,U	3	il10k_diet_water_intake_choice	Water intake	Israeli10K	0.5531
+47	10	A,I,U	3	il10k_alcohol_weekly_other_intake_choice	Average weekly intake of other alcoholic drinks	Israeli10K	0.5531
+47	10	A,I,U	3	il10k_alcohol_weekly_other_intake_number	Average weekly intake of other alcoholic drinks	Israeli10K	0.5531
+47	10	A,I,U	3	il10k_alcohol_present_vs_past	Alcohol intake versus 10 years previously	Israeli10K	0.5531
+47	10	A,I,U	3	ukbb_1628	ACE touchscreen question Compared to 10 years ago, do you drink?	UKBB	0.5531
+47	10	A,I,U	3	ukbb_5364	ACE touchscreen question In an average WEEK, how many glasses of other alcoholic drinks (such as alcopops) would you drink?	UKBB	0.5531
+47	10	A,I,U	3	ukbb_1528	ACE touchscreen question How many glasses of water do you drink each DAY?	UKBB	0.5531
+48	6	A,I,U	3	arivale_aac9bfd7fc7e	Stroke (other or unknown type)	Arivale	0.5515
+48	6	A,I,U	3	arivale_b48ad2100623	Stroke (ischemic)	Arivale	0.5515
+48	6	A,I,U	3	arivale_ecedc397874d	Stroke (hemorrhagic)	Arivale	0.5515
+48	6	A,I,U	3	arivale_dbaea9d777c3	Stroke	Arivale	0.5515
+48	6	A,I,U	3	il10k_stroke_family_number	Stroke family number	Israeli10K	0.5515
+48	6	A,I,U	3	ukbb_4056	ACE touchscreen question What was your age when the stroke was first diagnosed?	UKBB	0.5515
+49	4	A,I,U	3	arivale_a1375811ff03	Hypertension (high blood pressure)	Arivale	0.5375
+49	4	A,I,U	3	arivale_8d5730691993	High Blood Pressure	Arivale	0.5375
+49	4	A,I,U	3	il10k_hypertension_family_number	Hypertension family number	Israeli10K	0.5375
+49	4	A,I,U	3	ukbb_2966	ACE touchscreen question What was your age when the high blood pressure was first diagnosed?	UKBB	0.5375
+50	4	A,I,U	3	arivale_72722d150961	Osteoarthritis	Arivale	0.5364
+50	4	A,I,U	3	arivale_739bcb107a09	Arthritis (Osteoarthritis)	Arivale	0.5364
+50	4	A,I,U	3	il10k_health_pain_past_3_months_knee	Knee pain for 3+ months	Israeli10K	0.5364
+50	4	A,I,U	3	ukbb_3773	ACE touchscreen question Have you had knee pains for more than 3 months?	UKBB	0.5364
+51	9	A,I,U	3	arivale_d8e637ae1418	Cheese	Arivale	0.534
+51	9	A,I,U	3	arivale_9974da68469f	Yogurt with live cultures	Arivale	0.534
+51	9	A,I,U	3	arivale_8d23781db7ca	Lactose intolerance	Arivale	0.534
+51	9	A,I,U	3	il10k_diet_cheese_intake	Cheese intake	Israeli10K	0.534
+51	9	A,I,U	3	il10k_extra_diet_margarine	Eat margerine	Israeli10K	0.534
+51	9	A,I,U	3	il10k_extra_diet_main_dairy_source	Main cheese and milk source	Israeli10K	0.534
+51	9	A,I,U	3	il10k_extra_diet_cheese_fat_percentage	Fat percentage in cheeses	Israeli10K	0.534
+51	9	A,I,U	3	il10k_extra_diet_moldy_cheese_frequency	Moldy cheese frequency	Israeli10K	0.534
+51	9	A,I,U	3	ukbb_1408	ACE touchscreen question How often do you eat cheese? (Include cheese in pizzas, quiches, cheese sauce etc)	UKBB	0.534
+52	9	A,I,U	3	arivale_689600ec4685	Alcohol abuse	Arivale	0.5336
+52	9	A,I,U	3	arivale_5087434794aa	Alcohol / Drug abuse	Arivale	0.5336
+52	9	A,I,U	3	il10k_alcohol_past_status	Former alcohol drinker	Israeli10K	0.5336
+52	9	A,I,U	3	il10k_alcohol_reduced_why	Reason for reducing amount of alcohol drunk	Israeli10K	0.5336
+52	9	A,I,U	3	il10k_alcohol_stopped_why	Reason former drinker stopped drinking alcohol	Israeli10K	0.5336
+52	9	A,I,U	3	ukbb_2664	ACE touchscreen question Why did you reduce the amount you drank?	UKBB	0.5336
+52	9	A,I,U	3	ukbb_3859	ACE touchscreen question Why did you stop drinking alcohol?	UKBB	0.5336
+52	9	A,I,U	3	ukbb_10818	ACE touchscreen question Why did you reduce the amount you drank?	UKBB	0.5336
+52	9	A,I,U	3	ukbb_10853	ACE touchscreen question Why did you stop drinking?	UKBB	0.5336
+53	12	A,I,U	3	arivale_65600fa5e4e7	Colon cancer	Arivale	0.5235
+53	12	A,I,U	3	arivale_6ac8c0009d88	Squamous cell carcinoma	Arivale	0.5235
+53	12	A,I,U	3	arivale_5c653fa0a23c	Do you have regular dental exams?	Arivale	0.5235
+53	12	A,I,U	3	arivale_61322c4623a2	Cancer Colon	Arivale	0.5235
+53	12	A,I,U	3	il10k_health_cancer_past_bowel_screening	Ever had bowel cancer screening	Israeli10K	0.5235
+53	12	A,I,U	3	il10k_health_cancer_past_bowel_screening_years	Most recent bowel cancer screening	Israeli10K	0.5235
+53	12	A,I,U	3	ukbb_2345	ACE touchscreen question Have you ever had a screening test for bowel (colorectal) cancer? (Please include tests for blood in the stool/faeces or a colonoscopy or a sigmoidoscopy)	UKBB	0.5235
+53	12	A,I,U	3	ukbb_3393	ACE touchscreen question Do you use a hearing aid most of the time?	UKBB	0.5235
+53	12	A,I,U	3	ukbb_4792	ACE touchscreen question Do you have a cochlear implant?	UKBB	0.5235
+53	12	A,I,U	3	ukbb_2453	ACE touchscreen question Has a doctor ever told you that you have had cancer?	UKBB	0.5235
+53	12	A,I,U	3	ukbb_2674	ACE touchscreen question Have you ever been for breast cancer screening (a mammogram)?	UKBB	0.5235
+53	12	A,I,U	3	ukbb_2694	ACE touchscreen question Have you ever had a cervical smear test?	UKBB	0.5235
+54	3	A,I,U	3	arivale_282e19c0a270	Psoriasis	Arivale	0.5224
+54	3	A,I,U	3	il10k_skin_past_sunburns	Childhood sunburn occasions	Israeli10K	0.5224
+54	3	A,I,U	3	ukbb_1737	ACE touchscreen question Before the age of 15, how many times did you suffer sunburn that was painful for at least 2 days or caused blistering?	UKBB	0.5224
+55	4	A,I,U	3	arivale_81713c08be3b	If you specified other dietary plan, please describe.	Arivale	0.5217
+55	4	A,I,U	3	il10k_diet_water_intake_number	Major dietary changes in the last 5 years	Israeli10K	0.5217
+55	4	A,I,U	3	il10k_diet_major_change_5_years	Major dietary changes in the last 5 years	Israeli10K	0.5217
+55	4	A,I,U	3	ukbb_1538	ACE touchscreen question Have you made any major changes to your diet in the last 5 years?	UKBB	0.5217
+56	11	A,I,U	3	arivale_dd5d491d22bb	Alcoholic beverages (e.g. 12 oz. of beer, 5 oz. of wine, 1.5 oz. shot of liquor)	Arivale	0.5198
+56	11	A,I,U	3	arivale_6bb43d6eea7d	Eat food prepared by someone outside of your home (e.g. dining out at a restaurant or take-out)	Arivale	0.5198
+56	11	A,I,U	3	il10k_alcohol_monthly_spirits_intake_choice	Average monthly spirits intake	Israeli10K	0.5198
+56	11	A,I,U	3	il10k_alcohol_monthly_spirits_intake_number	Average monthly spirits intake	Israeli10K	0.5198
+56	11	A,I,U	3	il10k_alcohol_weekly_spirits_intake_choice	Average weekly spirits intake	Israeli10K	0.5198
+56	11	A,I,U	3	il10k_alcohol_weekly_spirits_intake_number	Average weekly spirits intake	Israeli10K	0.5198
+56	11	A,I,U	3	il10k_alcohol_current_with_meals	Alcohol usually taken with meals	Israeli10K	0.5198
+56	11	A,I,U	3	ukbb_1598	ACE touchscreen question In an average WEEK, how many measures of spirits or liqueurs would you drink? (there are 25 standard measures in a normal sized bottle; spirits include drinks such as whisky, ...	UKBB	0.5198
+56	11	A,I,U	3	ukbb_1618	ACE touchscreen question When you drink alcohol is it usually with meals?	UKBB	0.5198
+56	11	A,I,U	3	ukbb_3731	ACE touchscreen question Did you previously drink alcohol?	UKBB	0.5198
+56	11	A,I,U	3	ukbb_4440	ACE touchscreen question In an average MONTH, how many measures of spirits or liqueurs would you drink? (there are 25 standard measures in a normal sized bottle; spirits include drinks such as whisky,...	UKBB	0.5198
+57	6	A,I,U	3	arivale_b38afa8f647b	Do you have a primary care provider (e.g. family physician, internist, naturopathic physician)?	Arivale	0.5178
+57	6	A,I,U	3	arivale_d0cc91e234f5	Are you actively practicing a stress management technique?	Arivale	0.5178
+57	6	A,I,U	3	arivale_4fb882099322	Seizure / Epilepsy	Arivale	0.5178
+57	6	A,I,U	3	il10k_ergometric_stress_testing_results	Ergometric stress testing results	Israeli10K	0.5178
+57	6	A,I,U	3	il10k_health_mental_past_doctor	Seen doctor (GP) for nerves, anxiety, tension or depression	Israeli10K	0.5178
+57	6	A,I,U	3	ukbb_2090	ACE touchscreen question Have you ever seen a general practitioner (GP) for nerves, anxiety, tension or depression?	UKBB	0.5178
+58	9	A,I,U	3	arivale_5577960cc1a6	How many children do you have?	Arivale	0.5164
+58	9	A,I,U	3	il10k_number_of_children	Number of children	Israeli10K	0.5164
+58	9	A,I,U	3	il10k_family_history_number_full_sisters	Number of full sisters	Israeli10K	0.5164
+58	9	A,I,U	3	ukbb_6373	This is the number of puzzles for which the participant gave the correct solution. It should be used in conjunction with	UKBB	0.5164
+58	9	A,I,U	3	ukbb_4258	This is the number entered by participant in each round.	UKBB	0.5164
+58	9	A,I,U	3	ukbb_2149	ACE touchscreen question About how many sexual partners have you had in your lifetime?	UKBB	0.5164
+58	9	A,I,U	3	ukbb_3669	ACE touchscreen question How many sexual partners of the same sex have you had in your lifetime?	UKBB	0.5164
+58	9	A,I,U	3	ukbb_2734	ACE touchscreen question How many children have you given birth to? (Please include live births only)	UKBB	0.5164
+58	9	A,I,U	3	ukbb_2405	ACE touchscreen question How many children have you fathered?	UKBB	0.5164
+59	6	A,I,U	3	arivale_86d7637b0006	Transient ischemic attack	Arivale	0.5092
+59	6	A,I,U	3	il10k_health_eyes_other_serious_condition_eye_start_age	Age other serious eye condition diagnosed	Israeli10K	0.5092
+59	6	A,I,U	3	il10k_eye_health_ona_age	Eye health AMD age	Israeli10K	0.5092
+59	6	A,I,U	3	il10k_eye_health_conjunctivitis_age	Eye health conjunctivitis age	Israeli10K	0.5092
+59	6	A,I,U	3	ukbb_5556	ACE touchscreen question Age is to Years as Height is to?. Part 9 of Fluid Intelligence test.	UKBB	0.5092
+59	6	A,I,U	3	ukbb_5945	ACE touchscreen question What was your age when the other serious eye condition was first diagnosed?	UKBB	0.5092
+60	6	A,I,U	3	arivale_c143913d2917	Vascular disease (blood vessel disease)	Arivale	0.5068
+60	6	A,I,U	3	arivale_d3b973db7de4	Blocked lung artery (pulmonary embolus)	Arivale	0.5068
+60	6	A,I,U	3	arivale_ca8765702013	Coronary Artery Disease (including CAD, bypass surgery, and/or stent)	Arivale	0.5068
+60	6	A,I,U	3	arivale_f1f6f0b55e09	Peripheral Vascular Disease	Arivale	0.5068
+60	6	A,I,U	3	il10k_health_legs_arteries_surgery	Surgery on leg arteries (other than for varicose veins)	Israeli10K	0.5068
+60	6	A,I,U	3	ukbb_5529	ACE touchscreen question Have you ever had surgery on the arteries of your legs (other than for varicose veins)?	UKBB	0.5068
+61	7	A,I,U	3	arivale_4bea36ddd2fe	I feel able to take anything on.	Arivale	0.5058
+61	7	A,I,U	3	arivale_bd886b816b9f	I get stressed out easily.	Arivale	0.5058
+61	7	A,I,U	3	arivale_53bb1b1aaee4	I am relaxed most of the time.	Arivale	0.5058
+61	7	A,I,U	3	arivale_6c326e1f1132	I follow a schedule.	Arivale	0.5058
+61	7	A,I,U	3	il10k_hard_to_routine	Hard to routine	Israeli10K	0.5058
+61	7	A,I,U	3	il10k_hard_to_relax	Hard to relax	Israeli10K	0.5058
+61	7	A,I,U	3	ukbb_6313	This is the time interval between the participant being able to make a selection and them actually doing so.	UKBB	0.5058
+62	19	A,I,U	3	arivale_8082d4bba143	Age at the time of menopause (age at final menstrual period)	Arivale	0.503
+62	19	A,I,U	3	il10k_conization_of_cervix_year	Conization of cervix year	Israeli10K	0.503
+62	19	A,I,U	3	il10k_cesarean_section_year	Cesarean section year	Israeli10K	0.503
+62	19	A,I,U	3	il10k_pregnancies_number	Pregnancies number	Israeli10K	0.503
+62	19	A,I,U	3	il10k_pregnancy_end_week_6	Pregnancy end week 6	Israeli10K	0.503
+62	19	A,I,U	3	il10k_pregnancy_end_week_8	Pregnancy end week 8	Israeli10K	0.503
+62	19	A,I,U	3	il10k_pregnancy_end_week_9	Pregnancy end week 9	Israeli10K	0.503
+62	19	A,I,U	3	il10k_early_life_multiple_birth	Part of a multiple birth	Israeli10K	0.503
+62	19	A,I,U	3	il10k_early_life_mother_smoking	Maternal smoking around birth	Israeli10K	0.503
+62	19	A,I,U	3	il10k_family_history_mother_alive	Mother still alive	Israeli10K	0.503
+62	19	A,I,U	3	il10k_family_history_current_mother_age	Mother's age	Israeli10K	0.503
+62	19	A,I,U	3	il10k_family_history_current_adopted_mother_age	Mother's age	Israeli10K	0.503
+62	19	A,I,U	3	il10k_family_history_mother_age_passing	Mother's age at death	Israeli10K	0.503
+62	19	A,I,U	3	il10k_family_history_adopted_mother_age_passing	Mother's age at death	Israeli10K	0.503
+62	19	A,I,U	3	il10k_family_history_past_mother_illness_1	Illnesses of mother	Israeli10K	0.503
+62	19	A,I,U	3	il10k_family_history_past_mother_illness_2	Illnesses of mother	Israeli10K	0.503
+62	19	A,I,U	3	ukbb_117	Mother's month of birth	UKBB	0.503
+62	19	A,I,U	3	ukbb_118	Mother's day of birth (this is the day-within-month)	UKBB	0.503
+62	19	A,I,U	3	ukbb_20115	This is the country of birth as described by the participant to an interviewer. The question was only asked to participants who identified themselves as having been born outside of the United Kingdom ...	UKBB	0.503
+63	38	A,I,U	3	arivale_6efe08dd9aaf	Fibroids/leiomyoma	Arivale	0.4979
+63	38	A,I,U	3	arivale_1f2a4a31b4c6	Gallstones	Arivale	0.4979
+63	38	A,I,U	3	arivale_2d5174b65a44	Radiation therapy	Arivale	0.4979
+63	38	A,I,U	3	arivale_d03d8ca499b8	Liver transplant	Arivale	0.4979
+63	38	A,I,U	3	arivale_53baecef71b6	Bone marrow transplant	Arivale	0.4979
+63	38	A,I,U	3	arivale_0231c51fa5ac	Other organ transplant	Arivale	0.4979
+63	38	A,I,U	3	arivale_15f8ff4b7006	Bariatric (weight loss) surgery	Arivale	0.4979
+63	38	A,I,U	3	arivale_60360f9d6cc6	Surgery for cancer (e.g. tumor removal)	Arivale	0.4979
+63	38	A,I,U	3	arivale_b92587348e63	Gallbladder removal surgery	Arivale	0.4979
+63	38	A,I,U	3	arivale_058dbe1b6215	Sinus or septum surgery	Arivale	0.4979
+63	38	A,I,U	3	arivale_1bd12ed8b975	Appendix removal	Arivale	0.4979
+63	38	A,I,U	3	arivale_84325ad15b6f	Other surgery or major medical procedure	Arivale	0.4979
+63	38	A,I,U	3	arivale_c55c25340eda	Are you under the care of one or more of the following specialists?	Arivale	0.4979
+63	38	A,I,U	3	arivale_86a6ceea33af	Gallbladder Disease	Arivale	0.4979
+63	38	A,I,U	3	arivale_e82ef9ee7618	Surgery in past 12 months	Arivale	0.4979
+63	38	A,I,U	3	arivale_eb46491de8f4	Bariatric Surgery	Arivale	0.4979
+63	38	A,I,U	3	il10k_invasive_procedure	Invasive procedure	Israeli10K	0.4979
+63	38	A,I,U	3	il10k_invasive_procedure_type	Invasive procedure type	Israeli10K	0.4979
+63	38	A,I,U	3	il10k_appendectomy_year	Appendectomy year	Israeli10K	0.4979
+63	38	A,I,U	3	il10k_cholecystectomy_year	Cholecystectomy year	Israeli10K	0.4979
+63	38	A,I,U	3	il10k_plastic_surgery_year_of_diagnosis	Plastic surgery year of diagnosis	Israeli10K	0.4979
+63	38	A,I,U	3	il10k_fess_year	FESS year	Israeli10K	0.4979
+63	38	A,I,U	3	il10k_tonsillectomy_year	Tonsillectomy year	Israeli10K	0.4979
+63	38	A,I,U	3	il10k_adenoidectomy_year	Adenoidectomy year	Israeli10K	0.4979
+63	38	A,I,U	3	il10k_myomectomy_year	Myomectomy year	Israeli10K	0.4979
+63	38	A,I,U	3	il10k_trauma_related_surgery_year	Trauma related surgery year	Israeli10K	0.4979
+63	38	A,I,U	3	il10k_orthopedic_surgery_year	Orthopedic surgery year	Israeli10K	0.4979
+63	38	A,I,U	3	il10k_splenectomy_year	Splenectomy year	Israeli10K	0.4979
+63	38	A,I,U	3	il10k_bcc_or_scc_resection_year	BCC or SCC resection year	Israeli10K	0.4979
+63	38	A,I,U	3	il10k_meningioma_resection_year	Meningioma resection year	Israeli10K	0.4979
+63	38	A,I,U	3	il10k_varicocele_or_hydrocele_repair_year	Varicocele or hydrocele repair year	Israeli10K	0.4979
+63	38	A,I,U	3	il10k_nephrectomy_year	Nephrectomy year	Israeli10K	0.4979
+63	38	A,I,U	3	il10k_hospitalization_this_year	Hospitalization this year	Israeli10K	0.4979
+63	38	A,I,U	3	il10k_eco_heart_past_year	What surgery	Israeli10K	0.4979
+63	38	A,I,U	3	il10k_health_legs_amputation	Surgery/amputation of toe or leg	Israeli10K	0.4979
+63	38	A,I,U	3	ukbb_5540	ACE touchscreen question Have you ever had surgery to remove any of the following?	UKBB	0.4979
+63	38	A,I,U	3	ukbb_2844	ACE touchscreen question Have you had any other major operations? (for example, operations that required an overnight stay in hospital)	UKBB	0.4979
+63	38	A,I,U	3	ukbb_20010	This is the year when the participant indicated the operation took place.	UKBB	0.4979
+64	14	A,I,U	3	arivale_39e633bad32a	Cirrhosis	Arivale	0.496
+64	14	A,I,U	3	arivale_b088236b2e1b	Sarcoidosis	Arivale	0.496
+64	14	A,I,U	3	arivale_e600a57841bb	Hashimoto's disease	Arivale	0.496
+64	14	A,I,U	3	il10k_family_history_father_alive	Father still alive	Israeli10K	0.496
+64	14	A,I,U	3	il10k_family_history_current_father_age	Father's age	Israeli10K	0.496
+64	14	A,I,U	3	il10k_family_history_current_adopted_father_age	Father's age	Israeli10K	0.496
+64	14	A,I,U	3	il10k_family_history_father_age_passing	Father's age at death	Israeli10K	0.496
+64	14	A,I,U	3	il10k_family_history_adopted_father_age_passing	Father's age at death	Israeli10K	0.496
+64	14	A,I,U	3	il10k_family_history_past_father_illness_1	Illnesses of father	Israeli10K	0.496
+64	14	A,I,U	3	il10k_family_history_past_father_illness_2	Illnesses of father	Israeli10K	0.496
+64	14	A,I,U	3	ukbb_5012	ACE touchscreen question If David is twenty-one and Owen is nineteen and Daniel is nine years younger than David, what is half their combined age?. Part 8 of Fluid Intelligence test.	UKBB	0.496
+64	14	A,I,U	3	ukbb_3872	ACE touchscreen question How old were you when you had your child?	UKBB	0.496
+64	14	A,I,U	3	ukbb_115	Father's month of birth	UKBB	0.496
+64	14	A,I,U	3	ukbb_146	Father's day of birth (this is the day-within-month)	UKBB	0.496
+65	12	A,I,U	3	arivale_c9fe2324c867	Acne	Arivale	0.4951
+65	12	A,I,U	3	arivale_4276611f1aeb	Rosacea	Arivale	0.4951
+65	12	A,I,U	3	arivale_c368fccbda5c	Other skin conditions	Arivale	0.4951
+65	12	A,I,U	3	arivale_81382893272c	I seldom feel blue.	Arivale	0.4951
+65	12	A,I,U	3	arivale_4d396c08ee9c	I often feel blue.	Arivale	0.4951
+65	12	A,I,U	3	arivale_2846346e9833	Skin Condition (Psoriasis)	Arivale	0.4951
+65	12	A,I,U	3	il10k_feeling_like_a_burdan	Feeling like a burdan	Israeli10K	0.4951
+65	12	A,I,U	3	il10k_skin_color	Skin colour	Israeli10K	0.4951
+65	12	A,I,U	3	il10k_skin_ease_of_burn	Ease of skin tanning	Israeli10K	0.4951
+65	12	A,I,U	3	ukbb_4292	Participants were allowed up to 2 attempts to correctly recall the colour/shape shown to them earlier in the touchscreen section. This is the first answer they gave.	UKBB	0.4951
+65	12	A,I,U	3	ukbb_4293	Participants were allowed up to 2 attempts to correctly recall the colour/shape shown to them earlier in the touchscreen section. This is the final answer they gave - whether it is their first or seco...	UKBB	0.4951
+65	12	A,I,U	3	ukbb_1717	ACE touchscreen question What best describes the colour of your skin without tanning?	UKBB	0.4951
+66	6	A,I,U	3	arivale_691de9fe5d58	Do you follow a specific dietary plan?	Arivale	0.4901
+66	6	A,I,U	3	arivale_d2bb517ecd2f	Other metabolic condition	Arivale	0.4901
+66	6	A,I,U	3	arivale_ec05d2bd054b	Other eating disorder	Arivale	0.4901
+66	6	A,I,U	3	il10k_diet_weekly_variation	Variation in diet	Israeli10K	0.4901
+66	6	A,I,U	3	ukbb_1548	ACE touchscreen question Does your diet vary much from week to week?	UKBB	0.4901
+66	6	A,I,U	3	ukbb_10912	ACE touchscreen question Does your diet vary much from week to week?	UKBB	0.4901
+67	7	A,I,U	3	arivale_1ee6fbe8d690	When was your last (most recent) menstrual period?	Arivale	0.4886
+67	7	A,I,U	3	il10k_pregnancy_end_week_5	Pregnancy end week 5	Israeli10K	0.4886
+67	7	A,I,U	3	il10k_pregnancy_end_week_7	Pregnancy end week 7	Israeli10K	0.4886
+67	7	A,I,U	3	ukbb_2714	ACE touchscreen question How old were you when your periods started?	UKBB	0.4886
+67	7	A,I,U	3	ukbb_3581	ACE touchscreen question How old were you when your periods stopped?	UKBB	0.4886
+67	7	A,I,U	3	ukbb_3700	ACE touchscreen question How many days since your last menstrual period?	UKBB	0.4886
+67	7	A,I,U	3	ukbb_3710	ACE touchscreen question How many days is your usual menstrual cycle? (The number of days between each menstrual period)	UKBB	0.4886
+68	17	A,I,U	3	arivale_25ef37ac0e16	Other eye, ear, nose, or throat condition	Arivale	0.486
+68	17	A,I,U	3	arivale_d0e3721159c5	Brugada syndrome	Arivale	0.486
+68	17	A,I,U	3	arivale_51f3dc1b33ba	Li Fraumeni syndrome	Arivale	0.486
+68	17	A,I,U	3	arivale_528ab81c9af7	Other allergies affecting either the eyes, ears, nose, or throat (e.g. dust, mold, or pet allergies)	Arivale	0.486
+68	17	A,I,U	3	arivale_a24cfdfafd7e	Lately, I'm unable to concentrate, I lose focus.	Arivale	0.486
+68	17	A,I,U	3	arivale_3920c0749fba	Liver Disease	Arivale	0.486
+68	17	A,I,U	3	arivale_ca6c33a7b211	Eating Disorder (Anorexia, Bulimia or Binge Eating Disorder)	Arivale	0.486
+68	17	A,I,U	3	il10k_fainting_past_3_months	Degree bothered by fainting spells in the last 3 months	Israeli10K	0.486
+68	17	A,I,U	3	il10k_health_eyes_other_condition_eye	Which eye(s) affected by other eye condition	Israeli10K	0.486
+68	17	A,I,U	3	il10k_health_eyes_other_problems	Other eye problems	Israeli10K	0.486
+68	17	A,I,U	3	il10k_health_eyes_problems_doctor_diagnosis	Eye problems/disorders	Israeli10K	0.486
+68	17	A,I,U	3	ukbb_5866	ACE touchscreen question If some flinks are plinks and some plinks are stinks then some flinks are definitely stinks?. Part 13 of Fluid Intelligence test.	UKBB	0.486
+68	17	A,I,U	3	ukbb_2227	ACE touchscreen question Do you have any other problems with your eyes or eyesight?	UKBB	0.486
+68	17	A,I,U	3	ukbb_5877	ACE touchscreen question Which eye(s) are affected by your other eye condition?	UKBB	0.486
+68	17	A,I,U	3	ukbb_6148	ACE touchscreen question Has a doctor told you that you have any of the following problems with your eyes? (You can select more than one answer)	UKBB	0.486
+68	17	A,I,U	3	ukbb_6159	ACE touchscreen question In the last month have you experienced any of the following that interfered with your usual activites? (You can select more than one answer)	UKBB	0.486
+68	17	A,I,U	3	ukbb_6156	ACE touchscreen question Please try to remember a period when you were in a high or irritable state and select which of the following apply.	UKBB	0.486
+69	37	A,I,U	3	arivale_141b569eab25	I feel that life is very rewarding.	Arivale	0.4855
+69	37	A,I,U	3	arivale_34731d5f5397	Life is good.	Arivale	0.4855
+69	37	A,I,U	3	arivale_aec5c453662c	I am well satisfied about everything in my life.	Arivale	0.4855
+69	37	A,I,U	3	arivale_e38e0b6e87a6	I am very happy.	Arivale	0.4855
+69	37	A,I,U	3	arivale_381e4632c3f8	I find beauty in some things.	Arivale	0.4855
+69	37	A,I,U	3	arivale_6e1e6239b1ef	I always have a cheerful effect on others.	Arivale	0.4855
+69	37	A,I,U	3	arivale_ceab464d1f3f	I often experience joy and elation.	Arivale	0.4855
+69	37	A,I,U	3	arivale_de1b8d235b12	Schizophrenia	Arivale	0.4855
+69	37	A,I,U	3	arivale_8ea8c9e43597	Depression	Arivale	0.4855
+69	37	A,I,U	3	arivale_ea92247a0926	Lupus	Arivale	0.4855
+69	37	A,I,U	3	arivale_1e589611d2f5	I feel like I've lost control of my life.	Arivale	0.4855
+69	37	A,I,U	3	arivale_2ef5df2ed135	I'm satisfied with the way I'm living my life.	Arivale	0.4855
+69	37	A,I,U	3	arivale_00dba1f0d6c2	I know how to live a healthy life.	Arivale	0.4855
+69	37	A,I,U	3	arivale_5512dbff587c	What do you hope to achieve on your wellness journey?	Arivale	0.4855
+69	37	A,I,U	3	arivale_70e76dcface4	"If you choose ""other"", please specify the goal that is most important to you as you start your Arivale journey."	Arivale	0.4855
+69	37	A,I,U	3	arivale_9650fbd6bb3b	In the last month, how often have you felt that things were going your way?	Arivale	0.4855
+69	37	A,I,U	3	arivale_1c80eff5f805	Depression	Arivale	0.4855
+69	37	A,I,U	3	arivale_639883ec5d13	Lupus	Arivale	0.4855
+69	37	A,I,U	3	il10k_depression_treatment_past	Ever been offered/sought treatment for depression	Israeli10K	0.4855
+69	37	A,I,U	3	il10k_data_source	Data source	Israeli10K	0.4855
+69	37	A,I,U	3	il10k_health_mental_current_miserable	Miserableness	Israeli10K	0.4855
+69	37	A,I,U	3	il10k_health_mental_current_lonely	Loneliness, isolation	Israeli10K	0.4855
+69	37	A,I,U	3	il10k_health_mental_current_happiness	Happiness	Israeli10K	0.4855
+69	37	A,I,U	3	il10k_health_mental_current_satisfaction_work	Work/job satisfaction	Israeli10K	0.4855
+69	37	A,I,U	3	il10k_health_mental_current_satisfaction_health	Health satisfaction	Israeli10K	0.4855
+69	37	A,I,U	3	il10k_health_mental_current_satisfaction_financial	Financial situation satisfaction	Israeli10K	0.4855
+69	37	A,I,U	3	il10k_health_mental_past_depression_week	Ever depressed for a whole week	Israeli10K	0.4855
+69	37	A,I,U	3	il10k_health_mental_past_depression_longest	Longest period of depression	Israeli10K	0.4855
+69	37	A,I,U	3	ukbb_6459	The correct word associated with happy was dog.	UKBB	0.4855
+69	37	A,I,U	3	ukbb_7669	Image displayed to participant. See Resources for corresponding image files.	UKBB	0.4855
+69	37	A,I,U	3	ukbb_1930	ACE touchscreen question Do you ever feel 'just miserable' for no reason?	UKBB	0.4855
+69	37	A,I,U	3	ukbb_4526	ACE touchscreen question In general how happy are you?	UKBB	0.4855
+69	37	A,I,U	3	ukbb_4581	ACE touchscreen question In general how satisfied are you with your FINANCIAL SITUATION?	UKBB	0.4855
+69	37	A,I,U	3	ukbb_4598	ACE touchscreen question Looking back over your life, have you ever had a time when you were feeling depressed or down for at least a whole week?	UKBB	0.4855
+69	37	A,I,U	3	ukbb_4609	ACE touchscreen question How many weeks was the longest period when you were feeling depressed or down?	UKBB	0.4855
+69	37	A,I,U	3	ukbb_20122	This derived data field has come from Professor Jill Pell from the Institute of Health Wellbeing, University of Glasgow. Methods on how these fields were derived can be found in the Additional Resourc...	UKBB	0.4855
+69	37	A,I,U	3	ukbb_20125	Probable recurrent major depression (severe).	UKBB	0.4855
+70	11	A,I,U	3	arivale_3891b4f7e3b1	Heart attack (myocardial infarction)	Arivale	0.4828
+70	11	A,I,U	3	arivale_8540b879cb2d	Heart failure	Arivale	0.4828
+70	11	A,I,U	3	arivale_24ea69ffdf98	Aneurysm	Arivale	0.4828
+70	11	A,I,U	3	arivale_03be8d505698	Gastroesophageal Reflux (Heartburn/GERD)	Arivale	0.4828
+70	11	A,I,U	3	arivale_99039e142afb	Heart Attack	Arivale	0.4828
+70	11	A,I,U	3	arivale_50eb9f110915	Aneurysm	Arivale	0.4828
+70	11	A,I,U	3	arivale_2444faf2bcc8	Heart Failure	Arivale	0.4828
+70	11	A,I,U	3	il10k_chest_pain_past_3_months	Degree bothered by chest pain in the last 3 months	Israeli10K	0.4828
+70	11	A,I,U	3	il10k_health_pain_chest	Chest pain or discomfort	Israeli10K	0.4828
+70	11	A,I,U	3	ukbb_2335	ACE touchscreen question Do you ever have any pain or discomfort in your chest?	UKBB	0.4828
+70	11	A,I,U	3	ukbb_3894	ACE touchscreen question What was your age when the heart attack was first diagnosed?	UKBB	0.4828
+71	7	A,I,U	3	arivale_1a7f0cb5e701	I sympathize with others' feelings.	Arivale	0.4827
+71	7	A,I,U	3	il10k_health_mental_current_sensitive	Sensitivity / hurt feelings	Israeli10K	0.4827
+71	7	A,I,U	3	il10k_health_mental_current_fed_up	Fed-up feelings	Israeli10K	0.4827
+71	7	A,I,U	3	il10k_health_mental_current_guilt	Guilty feelings	Israeli10K	0.4827
+71	7	A,I,U	3	ukbb_1950	ACE touchscreen question Are your feelings easily hurt?	UKBB	0.4827
+71	7	A,I,U	3	ukbb_1960	ACE touchscreen question Do you often feel 'fed-up'?	UKBB	0.4827
+71	7	A,I,U	3	ukbb_2030	ACE touchscreen question Are you often troubled by feelings of guilt?	UKBB	0.4827
+72	3	A,I,U	3	arivale_541185da05f5	Colon Polyp	Arivale	0.4808
+72	3	A,I,U	3	il10k_polyps_information	Polyps information	Israeli10K	0.4808
+72	3	A,I,U	3	ukbb_6312	This field contains the values the participant entered when shown each puzzle.	UKBB	0.4808
+73	15	A,I,U	3	arivale_6639fe1cdcaf	I eat under stress	Arivale	0.4766
+73	15	A,I,U	3	arivale_c50af95d8133	On a scale from 1-10 how would you rate your average stress level in the past month (1=no stress at all, 10=the most stress I've ever felt)	Arivale	0.4766
+73	15	A,I,U	3	arivale_3327cab7866f	In the last month, how often have you felt confident about your ability to handle your personal problems?	Arivale	0.4766
+73	15	A,I,U	3	il10k_ergometry_past_year	Stress test (ergometry)	Israeli10K	0.4766
+73	15	A,I,U	3	il10k_health_mental_past_depression_episodes_number	Number of depression episodes	Israeli10K	0.4766
+73	15	A,I,U	3	il10k_health_mental_past_disinterest_episodes_number	Number of unenthusiastic/disinterested episodes	Israeli10K	0.4766
+73	15	A,I,U	3	il10k_health_mental_past_manic_irritable_longest	Length of longest manic/irritable episode	Israeli10K	0.4766
+73	15	A,I,U	3	ukbb_6333	This is an array of values, one for each puzzle answered, detailing how long the participant spent looking at a puzzle before selecting their answer.	UKBB	0.4766
+73	15	A,I,U	3	ukbb_6364	This is the estimate of the participant's vocabulary level, at the end of the test according to the original scoring criteria. It ranges between -11 (most basic) and 11 (most complex) .	UKBB	0.4766
+73	15	A,I,U	3	ukbb_10612	Number of words beginning with 'S', or -1 if abandoned	UKBB	0.4766
+73	15	A,I,U	3	ukbb_2050	ACE touchscreen question Over the past two weeks, how often have you felt down, depressed or hopeless?	UKBB	0.4766
+73	15	A,I,U	3	ukbb_4620	ACE touchscreen question How many periods have you had when you were feeling depressed or down for at least a whole week?	UKBB	0.4766
+73	15	A,I,U	3	ukbb_5663	ACE touchscreen question What is the longest time period that these high or irritable periods have lasted?	UKBB	0.4766
+73	15	A,I,U	3	ukbb_20123	Single episode of probable major depression.	UKBB	0.4766
+73	15	A,I,U	3	ukbb_2110	ACE touchscreen question How often are you able to confide in someone close to you?	UKBB	0.4766
+74	6	A,I,U	3	arivale_b30e0132b24f	I spend time reflecting on things.	Arivale	0.4729
+74	6	A,I,U	3	il10k_activity_indoors_tv_daily	Time spent watching television (TV)	Israeli10K	0.4729
+74	6	A,I,U	3	ukbb_6317	This is the time that a participant looked at each word/picture group before selecting a picture.	UKBB	0.4729
+74	6	A,I,U	3	ukbb_7673	This is the time interval between presenting an image and participant making an initial selection. If the participant changed their mind about their selection then the time for that change is not reco...	UKBB	0.4729
+74	6	A,I,U	3	ukbb_4290	Time for which screen was visible.	UKBB	0.4729
+74	6	A,I,U	3	ukbb_1070	ACE touchscreen question In a typical DAY, how many hours do you spend watching TV? (Put 0 if you do not spend any time doing it)	UKBB	0.4729
+75	16	A,I,U	3	arivale_5a09e99558ec	I usually have a good influence on events.	Arivale	0.4718
+75	16	A,I,U	3	arivale_efcc6ade28a0	Do you regularly spend time with friends?	Arivale	0.4718
+75	16	A,I,U	3	arivale_3b4e1da122eb	Do you wish you had more close friends?	Arivale	0.4718
+75	16	A,I,U	3	arivale_f7446d2b95d4	Do you have people in your life (other than family) that you trust and go to for support?	Arivale	0.4718
+75	16	A,I,U	3	arivale_1f4fa944cc89	I am the life of the party.	Arivale	0.4718
+75	16	A,I,U	3	arivale_c207385e2c5d	I don't talk a lot.	Arivale	0.4718
+75	16	A,I,U	3	arivale_a92175c45608	I feel comfortable around people.	Arivale	0.4718
+75	16	A,I,U	3	arivale_73da8bc418cb	I talk to a lot of different people at parties.	Arivale	0.4718
+75	16	A,I,U	3	arivale_04f404d6133b	I am not really interested in others.	Arivale	0.4718
+75	16	A,I,U	3	arivale_a9a0686722c9	I am quiet around strangers.	Arivale	0.4718
+75	16	A,I,U	3	il10k_rarely_spent_time_friends_family	Rarely spent time firends family	Israeli10K	0.4718
+75	16	A,I,U	3	il10k_mlhfq_rarely_socialize	Do you rarely socialize with family and friends?	Israeli10K	0.4718
+75	16	A,I,U	3	il10k_health_mental_current_satisfaction_friends_relations	Friendships satisfaction	Israeli10K	0.4718
+75	16	A,I,U	3	ukbb_4825	ACE touchscreen question Have you ever worked in a noisy place where you had to shout to be heard?	UKBB	0.4718
+75	16	A,I,U	3	ukbb_2020	ACE touchscreen question Do you often feel lonely?	UKBB	0.4718
+75	16	A,I,U	3	ukbb_4570	ACE touchscreen question In general how satisfied are you with your FRIENDSHIPS?	UKBB	0.4718
+76	17	A,I,U	3	arivale_4a44ba997761	Are you adopted?	Arivale	0.4699
+76	17	A,I,U	3	arivale_1c0039994c07	Vitiligo	Arivale	0.4699
+76	17	A,I,U	3	arivale_7dc746dbdbdf	I have a vivid imagination.	Arivale	0.4699
+76	17	A,I,U	3	arivale_e7b67bf0f52d	I do not have a good imagination.	Arivale	0.4699
+76	17	A,I,U	3	il10k_early_life_adopted	Adopted as a child	Israeli10K	0.4699
+76	17	A,I,U	3	il10k_family_history_adopted_father_alive	Adopted father still alive	Israeli10K	0.4699
+76	17	A,I,U	3	il10k_family_history_past_adopted_father_illness_1	Illnesses of adopted father	Israeli10K	0.4699
+76	17	A,I,U	3	il10k_family_history_past_adopted_father_illness_2	Illnesses of adopted father	Israeli10K	0.4699
+76	17	A,I,U	3	il10k_family_history_adopted_mother_alive	Adopted mother still alive	Israeli10K	0.4699
+76	17	A,I,U	3	il10k_family_history_past_adopted_mother_illness_1	Illnesses of adopted mother	Israeli10K	0.4699
+76	17	A,I,U	3	il10k_family_history_past_adopted_mother_illness_2	Illnesses of adopted mother	Israeli10K	0.4699
+76	17	A,I,U	3	il10k_family_history_number_adopted_brothers	Number of adopted brothers	Israeli10K	0.4699
+76	17	A,I,U	3	il10k_family_history_number_adopted_sisters	Number of adopted sisters	Israeli10K	0.4699
+76	17	A,I,U	3	il10k_family_history_past_adopted_siblings_illness_1	Illnesses of adopted siblings	Israeli10K	0.4699
+76	17	A,I,U	3	il10k_family_history_past_adopted_siblings_illness_2	Illnesses of adopted siblings	Israeli10K	0.4699
+76	17	A,I,U	3	il10k_diet_vegeterian_indicator	Are you vegeterian?	Israeli10K	0.4699
+76	17	A,I,U	3	ukbb_4979	ACE touchscreen question If Truda's mother's brother is Tim's sister's father, what relation is Truda to Tim?. Part 5 of Fluid Intelligence test.	UKBB	0.4699
+77	12	A,I,U	3	arivale_508c17dd28ce	I have very warm feelings towards almost everyone.	Arivale	0.4688
+77	12	A,I,U	3	arivale_5f762d7b0da4	I am not particularly optimistic about the future.	Arivale	0.4688
+77	12	A,I,U	3	arivale_ddeabe7a6a4d	I feel that I am not especially in control of my life.	Arivale	0.4688
+77	12	A,I,U	3	arivale_27675e94686d	I feel fully mentally alert.	Arivale	0.4688
+77	12	A,I,U	3	arivale_1f7470e2e1f8	Anxiety disorder	Arivale	0.4688
+77	12	A,I,U	3	arivale_cc6c2cb4aa20	Seizures or Epilepsy	Arivale	0.4688
+77	12	A,I,U	3	arivale_0ccb7fcce84f	I feel others' emotions.	Arivale	0.4688
+77	12	A,I,U	3	arivale_530acde22433	I make people feel at ease.	Arivale	0.4688
+77	12	A,I,U	3	il10k_anxiety_treatment_past	Ever been offered/sought treatment for anxiety	Israeli10K	0.4688
+77	12	A,I,U	3	il10k_health_mental_current_nervous	Nervous feelings	Israeli10K	0.4688
+77	12	A,I,U	3	il10k_health_mental_current_worrier	Worrier / anxious feelings	Israeli10K	0.4688
+77	12	A,I,U	3	ukbb_1970	ACE touchscreen question Would you call yourself a nervous person?	UKBB	0.4688
+78	10	A,I,U	3	arivale_d2aec542bc97	Please select the goal which is most important for you as you start your Arivale journey.	Arivale	0.4672
+78	10	A,I,U	3	il10k_activity_walking_minutes_daily	Duration of walks	Israeli10K	0.4672
+78	10	A,I,U	3	il10k_activity_walking_pleasure_duration	Duration walking for pleasure	Israeli10K	0.4672
+78	10	A,I,U	3	ukbb_6348	Duration to complete numeric path (trail #1)	UKBB	0.4672
+78	10	A,I,U	3	ukbb_6349	Total errors made while traversing numeric path. A zero value here does not indicate that the participant completed the trail without problems as it is possible they abandoned during the process prior...	UKBB	0.4672
+78	10	A,I,U	3	ukbb_6350	Duration to complete alphanumeric path (trail #2)	UKBB	0.4672
+78	10	A,I,U	3	ukbb_6351	Total errors traversing alphanumeric path (trail #2). A zero value here does not indicate that the participant completed the trail without problems as it is possible they abandoned during the process ...	UKBB	0.4672
+78	10	A,I,U	3	ukbb_6772	Interval between previous point and current one in numeric path (trail #1). Note that these intervals are unlikely to sum to	UKBB	0.4672
+78	10	A,I,U	3	ukbb_6773	Interval between previous point and current one in alphanumeric path (trail #2). Note that these intervals are unlikely to sum to	UKBB	0.4672
+78	10	A,I,U	3	ukbb_981	ACE touchscreen question Each time you went walking for pleasure, about how long did you spend doing it?	UKBB	0.4672
+79	6	A,I,U	3	arivale_a16daba4c91c	Sleep apnea	Arivale	0.4665
+79	6	A,I,U	3	arivale_76931a18919b	Gout	Arivale	0.4665
+79	6	A,I,U	3	arivale_52983e3d20fa	Gout	Arivale	0.4665
+79	6	A,I,U	3	arivale_d736a5da726e	Sleep Apnea	Arivale	0.4665
+79	6	A,I,U	3	il10k_sleep_snoring	Snoring	Israeli10K	0.4665
+79	6	A,I,U	3	ukbb_1210	ACE touchscreen question Does your partner or a close relative or friend complain about your snoring?	UKBB	0.4665
+80	6	A,I,U	3	arivale_b10425547ba6	Head or neck masses	Arivale	0.4661
+80	6	A,I,U	3	il10k_early_life_handedness	Handedness (chirality/laterality)	Israeli10K	0.4661
+80	6	A,I,U	3	il10k_mobile_phone_side	Usual side of head for mobile phone use	Israeli10K	0.4661
+80	6	A,I,U	3	ukbb_20141	Position of first letter not identified correctly.	UKBB	0.4661
+80	6	A,I,U	3	ukbb_1150	ACE touchscreen question On what side of the head do you usually use a mobile phone?	UKBB	0.4661
+80	6	A,I,U	3	ukbb_1757	ACE touchscreen question Do people say that you look:	UKBB	0.4661
+81	8	A,I,U	3	arivale_2ce55c84c3e4	I experience gas.	Arivale	0.4636
+81	8	A,I,U	3	arivale_7479d3921284	Myasthenia Gravis	Arivale	0.4636
+81	8	A,I,U	3	arivale_18f8912fe779	In the last month, how often have you felt that you were unable to control the important things in your life?	Arivale	0.4636
+81	8	A,I,U	3	arivale_32fe6e78e4c6	In the last month, how often have you felt difficulties were piling up so high that you could not overcome them?	Arivale	0.4636
+81	8	A,I,U	3	il10k_are_you_suffering_for_the_following_symptoms	Are you suffering for the following symptoms	Israeli10K	0.4636
+81	8	A,I,U	3	il10k_mlhfq_liability	Have you felt a burden on your environment due to physical difficulty?	Israeli10K	0.4636
+81	8	A,I,U	3	il10k_health_mental_past_two_week_disinterest_frequency	Frequency of unenthusiasm / disinterest in last 2 weeks	Israeli10K	0.4636
+81	8	A,I,U	3	ukbb_5674	ACE touchscreen question How much of a problem have these high or irritable periods caused you?	UKBB	0.4636
+82	7	A,I,U	3	arivale_71a455486f0f	Blood clots	Arivale	0.4582
+82	7	A,I,U	3	arivale_cbb442b31f38	Anti-coagulation medications (e.g. blood thinners)	Arivale	0.4582
+82	7	A,I,U	3	arivale_d15ee0d2122c	Routine blood donations	Arivale	0.4582
+82	7	A,I,U	3	arivale_bd3473e0626f	Blood Clot (leg)	Arivale	0.4582
+82	7	A,I,U	3	il10k_carotid_ultrasound_results	Carotid ultrasound results	Israeli10K	0.4582
+82	7	A,I,U	3	il10k_clotting_family_number	Clotting family number	Israeli10K	0.4582
+82	7	A,I,U	3	ukbb_4012	ACE touchscreen question What was your age when the blood clot in the leg (DVT) was first diagnosed?	UKBB	0.4582
+83	8	A,I,U	3	arivale_bdb4c8e048c8	Breast lump (benign)	Arivale	0.4534
+83	8	A,I,U	3	arivale_0291ef445751	Mammogram	Arivale	0.4534
+83	8	A,I,U	3	arivale_c7be7f28c66c	I have difficulty understanding abstract ideas.	Arivale	0.4534
+83	8	A,I,U	3	arivale_8e9d48558b85	Breast Lump (benign)	Arivale	0.4534
+83	8	A,I,U	3	il10k_psa_test_past_year_result	Normal mammogram	Israeli10K	0.4534
+83	8	A,I,U	3	ukbb_6332	This indicates the item selected for each puzzle as illustrated in	UKBB	0.4534
+83	8	A,I,U	3	ukbb_6314	The challenge for each round consisted of a single word and four pictures. This field is an index identifying the word and its associated picture set, as listed in	UKBB	0.4534
+83	8	A,I,U	3	ukbb_7674	This is the time interval presenting an image and the participant pressing (after having made a selection) the Next button.	UKBB	0.4534
+84	3	A,I,U	3	arivale_f6fa9f167a8d	I laugh a lot.	Arivale	0.451
+84	3	A,I,U	3	il10k_health_mental_past_irritable_two_days	Ever highly irritable/argumentative for 2 days	Israeli10K	0.451
+84	3	A,I,U	3	ukbb_4653	ACE touchscreen question Have you ever had a period of time lasting at least two days when you were so irritable that you found yourself shouting at people or starting fights or arguments?	UKBB	0.451
+85	8	A,I,U	3	arivale_a9c9d63208e4	Recurrent miscarriage (2+)	Arivale	0.451
+85	8	A,I,U	3	il10k_pregnancy_end_week_1	Pregnancy end week 1	Israeli10K	0.451
+85	8	A,I,U	3	il10k_pregnancy_end_week_2	Pregnancy end week 2	Israeli10K	0.451
+85	8	A,I,U	3	il10k_pregnancy_end_week_3	Pregnancy end week 3	Israeli10K	0.451
+85	8	A,I,U	3	il10k_pregnancy_end_week_4	Pregnancy end week 4	Israeli10K	0.451
+85	8	A,I,U	3	il10k_family_history_non_accidental_death	Non-accidental death in close genetic family	Israeli10K	0.451
+85	8	A,I,U	3	ukbb_2774	ACE touchscreen question Have you ever had any stillbirths, spontaneous miscarriages or terminations?	UKBB	0.451
+85	8	A,I,U	3	ukbb_3839	ACE touchscreen question How many spontaneous miscarriages? (enter 0 if none)	UKBB	0.451
+86	47	A,I,U	3	arivale_8ad13f6d5c50	Are you currently lactating?	Arivale	0.4455
+86	47	A,I,U	3	arivale_81670e043223	Breast cancer	Arivale	0.4455
+86	47	A,I,U	3	arivale_852eaf9f25d3	Lung cancer (non-small cell)	Arivale	0.4455
+86	47	A,I,U	3	arivale_6e4014a7a422	Lung cancer (small cell)	Arivale	0.4455
+86	47	A,I,U	3	arivale_c881ae38a22c	Leukemia	Arivale	0.4455
+86	47	A,I,U	3	arivale_936fea167ba9	Liver cancer	Arivale	0.4455
+86	47	A,I,U	3	arivale_eece7a0b0436	Cervical cancer	Arivale	0.4455
+86	47	A,I,U	3	arivale_c7f51c9ddc6f	Bladder cancer	Arivale	0.4455
+86	47	A,I,U	3	arivale_5a18cb155745	Melanoma	Arivale	0.4455
+86	47	A,I,U	3	arivale_7477f801d7fa	Basal cell carcinoma	Arivale	0.4455
+86	47	A,I,U	3	arivale_9b5e4ca71fec	Vaginal/vulvar cancer	Arivale	0.4455
+86	47	A,I,U	3	arivale_847327cb8b49	Other cancer	Arivale	0.4455
+86	47	A,I,U	3	arivale_2718fcaa8093	Shingles	Arivale	0.4455
+86	47	A,I,U	3	arivale_99966c69cf3f	Herpes type 1 or 2 (HSV)	Arivale	0.4455
+86	47	A,I,U	3	arivale_204092f15c85	Cellulitis	Arivale	0.4455
+86	47	A,I,U	3	arivale_432246e7255d	BRCA1 associated hereditary breast cancer	Arivale	0.4455
+86	47	A,I,U	3	arivale_a6fdf6cde28d	BRCA2 associated hereditary breast cancer	Arivale	0.4455
+86	47	A,I,U	3	arivale_6d0549309d51	BRCA1 associated hereditary ovarian cancer	Arivale	0.4455
+86	47	A,I,U	3	arivale_6e68fc1be2d9	BRCA2 associated hereditary ovarian cancer	Arivale	0.4455
+86	47	A,I,U	3	arivale_89c2a8e59b9e	Malignant hyperthermia	Arivale	0.4455
+86	47	A,I,U	3	arivale_c265ac2e37bb	Anemia (pernicious or vitamin deficiency anemia)	Arivale	0.4455
+86	47	A,I,U	3	arivale_81a167f147de	Anemia (other or unknown type)	Arivale	0.4455
+86	47	A,I,U	3	arivale_e75b9153dae9	Chemotherapy	Arivale	0.4455
+86	47	A,I,U	3	arivale_1f7ec3b769a6	Cancer Breast	Arivale	0.4455
+86	47	A,I,U	3	arivale_13053b6f04b4	Cancer Other Type	Arivale	0.4455
+86	47	A,I,U	3	arivale_a352cc82a3f5	Cancer Ovarian	Arivale	0.4455
+86	47	A,I,U	3	arivale_9eb4a2f8a5b6	High Cholesterol	Arivale	0.4455
+86	47	A,I,U	3	il10k_number_of_hospitalization_this_year	Number of hospitalization this year	Israeli10K	0.4455
+86	47	A,I,U	3	il10k_borderline_or_malignant_yn	Borderline or malignant	Israeli10K	0.4455
+86	47	A,I,U	3	il10k_hospitalization_since_recruitment_number	Where you hospitalized since you were recruited for the study	Israeli10K	0.4455
+86	47	A,I,U	3	il10k_hospitalization_since_recruitment_date_1	Reason for hospitalization	Israeli10K	0.4455
+86	47	A,I,U	3	il10k_hospitalization_since_recruitment_date_2	Reason for hospitalization	Israeli10K	0.4455
+86	47	A,I,U	3	il10k_hospitalization_since_recruitment_date_3	Reason for hospitalization	Israeli10K	0.4455
+86	47	A,I,U	3	il10k_hospitalization_since_recruitment_date_4	Reason for hospitalization	Israeli10K	0.4455
+86	47	A,I,U	3	il10k_hospitalization_since_recruitment_date_5	Reason for hospitalization	Israeli10K	0.4455
+86	47	A,I,U	3	il10k_hyperlipidemia_family_number	Hyperlipidemia family number	Israeli10K	0.4455
+86	47	A,I,U	3	il10k_hypercoagulation_family_number	Hypercoagulation family number	Israeli10K	0.4455
+86	47	A,I,U	3	il10k_cancer_type_family	Cancer type family	Israeli10K	0.4455
+86	47	A,I,U	3	il10k_early_life_breastfeeding	Breastfed as a baby	Israeli10K	0.4455
+86	47	A,I,U	3	il10k_family_history_past_siblings_illness_1	Illnesses of siblings	Israeli10K	0.4455
+86	47	A,I,U	3	il10k_family_history_past_siblings_illness_2	Illnesses of siblings	Israeli10K	0.4455
+86	47	A,I,U	3	ukbb_2834	ACE touchscreen question Have you had BOTH ovaries removed?	UKBB	0.4455
+86	47	A,I,U	3	ukbb_134	Number of cancers entered	UKBB	0.4455
+86	47	A,I,U	3	ukbb_135	Number of non-cancer illnesses entered	UKBB	0.4455
+86	47	A,I,U	3	ukbb_20001	Code for cancer. If the participant was uncertain of the type of cancer they had had, then they described it to the interviewer (a trained nurse) who attempted to place it within the coding tree. If t...	UKBB	0.4455
+86	47	A,I,U	3	ukbb_20002	Code for non-cancer illness. If the participant was uncertain of the type of illness they had had, then they described it to the interviewer (a trained nurse) who attempted to place it within the codi...	UKBB	0.4455
+86	47	A,I,U	3	ukbb_20004	Code for operation. If the participant was uncertain of the type of operation they had undergone, then they described it to the interviewer (a trained nurse) who attempted to place it within the codin...	UKBB	0.4455
+87	10	A,I,U	3	arivale_0b3f2443c4f7	I don't think I look attractive.	Arivale	0.4447
+87	10	A,I,U	3	arivale_648d4a3aa164	I don't feel particularly healthy.	Arivale	0.4447
+87	10	A,I,U	3	arivale_7ba457e5aafb	I feel little concern for others.	Arivale	0.4447
+87	10	A,I,U	3	arivale_9019f786e889	I am always prepared.	Arivale	0.4447
+87	10	A,I,U	3	arivale_97fd8fc45dba	I worry about things.	Arivale	0.4447
+87	10	A,I,U	3	arivale_c33f1dea003c	I don't mind being the center of attention.	Arivale	0.4447
+87	10	A,I,U	3	il10k_worried_about_your_health	Worried about your health	Israeli10K	0.4447
+87	10	A,I,U	3	il10k_mlhfq_medical_state_concers	Are you worried about your health?	Israeli10K	0.4447
+87	10	A,I,U	3	il10k_health_mental_current_worry_after_embarassment	Worry too long after embarrassment	Israeli10K	0.4447
+87	10	A,I,U	3	ukbb_2000	ACE touchscreen question Do you worry too long after an embarrassing experience?	UKBB	0.4447
+88	9	A,I,U	3	arivale_695e2bfe8d61	I don't have particularly happy memories of the past.	Arivale	0.4426
+88	9	A,I,U	3	arivale_4d6f249f8151	How many grandchildren do you have?	Arivale	0.4426
+88	9	A,I,U	3	il10k_family_history	Family history	Israeli10K	0.4426
+88	9	A,I,U	3	il10k_family_history_number_full_brothers	Number of full brothers	Israeli10K	0.4426
+88	9	A,I,U	3	il10k_family_history_number_older_siblings	Number of older siblings	Israeli10K	0.4426
+88	9	A,I,U	3	ukbb_6481	The correct word associated with old was house.	UKBB	0.4426
+88	9	A,I,U	3	ukbb_2754	ACE touchscreen question How old were you when you had your FIRST child?	UKBB	0.4426
+88	9	A,I,U	3	ukbb_2764	ACE touchscreen question How old were you when you had your LAST child?	UKBB	0.4426
+88	9	A,I,U	3	ukbb_3829	ACE touchscreen question How many stillbirths? (enter 0 if none)	UKBB	0.4426
+89	14	A,I,U	3	arivale_2657ccbf9e8d	On an average night I sleep (round to the nearest hour)	Arivale	0.438
+89	14	A,I,U	3	arivale_7a2af87ffea1	On average, how many times do you wake up during the night?	Arivale	0.438
+89	14	A,I,U	3	arivale_b23e6cd7ca33	In the past six months, how would you rate your sleep?	Arivale	0.438
+89	14	A,I,U	3	il10k_hospitalization_since_recruitment_reason_1	How many times	Israeli10K	0.438
+89	14	A,I,U	3	il10k_sleep_hours_daily	Sleep duration	Israeli10K	0.438
+89	14	A,I,U	3	ukbb_4254	When the participant touched the first key while entering a remembered number.	UKBB	0.438
+89	14	A,I,U	3	ukbb_4255	When the participant touched the last key while entering a remembered number.	UKBB	0.438
+89	14	A,I,U	3	ukbb_403	This indicates the number of times the snap-button was pressed (i.e. the user indicated the cards matched) in each round.	UKBB	0.438
+89	14	A,I,U	3	ukbb_10141	This indicates the number of times the snap-button was pressed (i.e. the user indicated the cards matched) in each round.	UKBB	0.438
+89	14	A,I,U	3	ukbb_1011	ACE touchscreen question How many times in the last 4 weeks did you do light DIY?	UKBB	0.438
+89	14	A,I,U	3	ukbb_2624	ACE touchscreen question How many times in the last 4 weeks did you do heavy DIY?	UKBB	0.438
+89	14	A,I,U	3	ukbb_2277	ACE touchscreen question How many times a year would you use a solarium or sunlamp?	UKBB	0.438
+89	14	A,I,U	3	ukbb_1160	ACE touchscreen question About how many hours sleep do you get in every 24 hours? (please include naps)	UKBB	0.438
+89	14	A,I,U	3	ukbb_136	Number of operations entered	UKBB	0.438
+90	8	A,I,U	3	arivale_0aeea0f73c96	I don't feel particularly pleased with the way I am.	Arivale	0.4378
+90	8	A,I,U	3	arivale_c32956512c5e	Overall, I feel my health is on the right track.	Arivale	0.4378
+90	8	A,I,U	3	arivale_06164ab25ee4	How would you rate your quality of life?	Arivale	0.4378
+90	8	A,I,U	3	arivale_32964a906837	Highest level of education received	Arivale	0.4378
+90	8	A,I,U	3	il10k_health_general_rating	Overall health rating	Israeli10K	0.4378
+90	8	A,I,U	3	ukbb_20128	Number of fluid intelligence questions attempted within time limit. As the questions were asked in a constant order, and it was not possible to skip any, this value also represents the highest numbere...	UKBB	0.4378
+90	8	A,I,U	3	ukbb_2178	ACE touchscreen question In general how would you rate your overall health?	UKBB	0.4378
+90	8	A,I,U	3	ukbb_4548	ACE touchscreen question In general how satisfied are you with your HEALTH?	UKBB	0.4378
+91	16	A,I,U	3	arivale_edc7a52bc409	Obsessive-compulsive disorder	Arivale	0.4291
+91	16	A,I,U	3	arivale_1be3f0b97278	Anorexia	Arivale	0.4291
+91	16	A,I,U	3	arivale_3adad2f0ea4b	Gastroesophageal reflux disease (GERD) or Barret's esophagus	Arivale	0.4291
+91	16	A,I,U	3	arivale_48b007eebcf4	When focusing on making a behavior change, I want my Arivale Coach to:	Arivale	0.4291
+91	16	A,I,U	3	arivale_9959fbfa045d	I insult people.	Arivale	0.4291
+91	16	A,I,U	3	arivale_152c89ea1d19	I am not interested in other people's problems.	Arivale	0.4291
+91	16	A,I,U	3	arivale_a04b0adf6c78	I am easily disturbed.	Arivale	0.4291
+91	16	A,I,U	3	arivale_16eb22b298a4	I get upset easily.	Arivale	0.4291
+91	16	A,I,U	3	arivale_26e7607546a7	I don't like to draw attention to myself.	Arivale	0.4291
+91	16	A,I,U	3	arivale_efc83a57c2e2	I get irritated easily.	Arivale	0.4291
+91	16	A,I,U	3	arivale_fd5df40b90a0	Irritable Bowel Syndrome	Arivale	0.4291
+91	16	A,I,U	3	il10k_abdomen_pain_current_general_interference	Degree to which abdominal pain/discomfort/altered bowel habits affect/interfere with life in general	Israeli10K	0.4291
+91	16	A,I,U	3	il10k_health_mental_current_irritable	Irritability	Israeli10K	0.4291
+91	16	A,I,U	3	il10k_health_mental_past_disinterest_week	Ever unenthusiastic/disinterested for a whole week	Israeli10K	0.4291
+91	16	A,I,U	3	ukbb_4814	ACE touchscreen question How much do these noises worry, annoy or upset you when they are at their worst?	UKBB	0.4291
+91	16	A,I,U	3	ukbb_1940	ACE touchscreen question Are you an irritable person?	UKBB	0.4291
+92	5	A,I,U	3	arivale_8b7adc53a162	I can fit in (find time for) everything I want to.	Arivale	0.4249
+92	5	A,I,U	3	arivale_79119a07647d	I pay attention to details.	Arivale	0.4249
+92	5	A,I,U	3	arivale_c193312afa03	I am quick to understand things.	Arivale	0.4249
+92	5	A,I,U	3	il10k_activity_driving_daily	Time spent driving	Israeli10K	0.4249
+92	5	A,I,U	3	ukbb_1090	ACE touchscreen question In a typical DAY, how many hours do you spend driving?	UKBB	0.4249
+93	3	A,I,U	3	arivale_2ded7ae8a8c0	I don't find it easy to make decisions.	Arivale	0.4226
+93	3	A,I,U	3	il10k_health_mental_current_risk_taker	Risk taking	Israeli10K	0.4226
+93	3	A,I,U	3	ukbb_2040	ACE touchscreen question Would you describe yourself as someone who takes risks?	UKBB	0.4226
+94	5	A,I,U	3	arivale_98da8faba153	I do not think that the world is a good place.	Arivale	0.4215
+94	5	A,I,U	3	il10k_timezone	Timezone	Israeli10K	0.4215
+94	5	A,I,U	3	il10k_history_birth_caesarian_section	Born by caesarian section	Israeli10K	0.4215
+94	5	A,I,U	3	ukbb_129	Place born - north co-ordinate	UKBB	0.4215
+94	5	A,I,U	3	ukbb_130	Place born - east co-ordinate	UKBB	0.4215
+95	3	A,I,U	3	arivale_5b820041a0cb	Erectile dysfunction	Arivale	0.4209
+95	3	A,I,U	3	il10k_hard_to_have_sex	Hard to have sex	Israeli10K	0.4209
+95	3	A,I,U	3	ukbb_2129	ACE touchscreen question The next section contains questions about your sexual history. If you feel that a question is too sensitive, you can skip the question or skip the entire section if you prefer...	UKBB	0.4209
+96	12	A,I,U	3	arivale_5a1a7a9ef210	Pelvic inflammatory disease	Arivale	0.4146
+96	12	A,I,U	3	arivale_a95c4556b3ec	Other gynecological conditions	Arivale	0.4146
+96	12	A,I,U	3	arivale_0ca24a7b7947	What is your biological sex?	Arivale	0.4146
+96	12	A,I,U	3	arivale_d8a7ef7a5305	I have little to say.	Arivale	0.4146
+96	12	A,I,U	3	arivale_daa6fec08219	I use difficult words.	Arivale	0.4146
+96	12	A,I,U	3	arivale_53f6f72dae19	Gynecological Conditions (Other)	Arivale	0.4146
+96	12	A,I,U	3	il10k_hard_to_work	Hard to work	Israeli10K	0.4146
+96	12	A,I,U	3	il10k_mlhfq_difficulty_intercourse	Do you have difficulty having sex?	Israeli10K	0.4146
+96	12	A,I,U	3	il10k_intercourse_pain_past_3_months	Degree bothered by pain/problems during intercourse in the last 3 months	Israeli10K	0.4146
+96	12	A,I,U	3	ukbb_6536	The correct word associated with tiny was cat.	UKBB	0.4146
+96	12	A,I,U	3	ukbb_2139	ACE touchscreen question What was your age when you first had sexual intercourse? (Sexual intercourse includes vaginal, oral or anal intercourse)	UKBB	0.4146
+96	12	A,I,U	3	ukbb_2159	ACE touchscreen question Have you ever had sexual intercourse with someone of the same sex?	UKBB	0.4146
+97	5	A,I,U	3	arivale_43453fd23738	Inner ear disorder (infection, vertigo, Meniere's)	Arivale	0.4114
+97	5	A,I,U	3	il10k_dizziness_past_3_months	Degree bothered by dizziness in the last 3 months	Israeli10K	0.4114
+97	5	A,I,U	3	ukbb_2247	ACE touchscreen question Do you have any difficulty with your hearing?	UKBB	0.4114
+97	5	A,I,U	3	ukbb_4803	ACE touchscreen question Do you get or have you had noises (such as ringing or buzzing) in your head or in one or both ears that lasts for more than five minutes at a time?	UKBB	0.4114
+97	5	A,I,U	3	ukbb_10793	ACE touchscreen question Do you have any difficulty with your hearing?	UKBB	0.4114
+98	27	A,I,U	3	arivale_88653629bedd	Warts	Arivale	0.4054
+98	27	A,I,U	3	il10k_hrt	HRT	Israeli10K	0.4054
+98	27	A,I,U	3	il10k_activity_indoors_pc_daily	Time spent using computer	Israeli10K	0.4054
+98	27	A,I,U	3	il10k_activiy_indoors_pc_daily	Time spent using computer	Israeli10K	0.4054
+98	27	A,I,U	3	ukbb_4253	The time the number to be memorised was visible to the participant.	UKBB	0.4054
+98	27	A,I,U	3	ukbb_4285	Total time use by numeric memory test from first to last rounds.	UKBB	0.4054
+98	27	A,I,U	3	ukbb_6154	ACE touchscreen question Do you regularly take any of the following? (You can select more than one answer)	UKBB	0.4054
+98	27	A,I,U	3	ukbb_6155	ACE touchscreen question Do you regularly take any of the following? (You can select more than one answer)	UKBB	0.4054
+98	27	A,I,U	3	ukbb_6179	ACE touchscreen question Do you regularly take any of the following? (You can select more than one answer)	UKBB	0.4054
+98	27	A,I,U	3	ukbb_10007	ACE touchscreen question Do you regularly take any of the following? (You can select more than one answer)	UKBB	0.4054
+98	27	A,I,U	3	ukbb_10723	ACE touchscreen question Do you regularly take any of the following? (You can select more than one answer)	UKBB	0.4054
+98	27	A,I,U	3	ukbb_10854	ACE touchscreen question Do you regularly take any of the following? (You can select more than one answer)	UKBB	0.4054
+98	27	A,I,U	3	ukbb_2415	ACE touchscreen question Have you had any major operations? (For example, operations that required an overnight stay in hospital)	UKBB	0.4054
+98	27	A,I,U	3	ukbb_2237	ACE touchscreen question Do you play computer games?	UKBB	0.4054
+98	27	A,I,U	3	ukbb_10105	ACE touchscreen question Do you use the internet?	UKBB	0.4054
+98	27	A,I,U	3	ukbb_1021	ACE touchscreen question Each time you did light DIY, about how long did you spend doing it?	UKBB	0.4054
+98	27	A,I,U	3	ukbb_1080	ACE touchscreen question In a typical DAY, how many hours do you spend using the computer? (Do not include using a computer at work; put 0 if you do not spend any time doing it)	UKBB	0.4054
+98	27	A,I,U	3	ukbb_2634	ACE touchscreen question Each time you did heavy DIY, about how long did you spend doing it?	UKBB	0.4054
+98	27	A,I,U	3	ukbb_6164	ACE touchscreen question In the last 4 weeks did you spend any time doing the following? (You can select more than one answer)	UKBB	0.4054
+98	27	A,I,U	3	ukbb_1180	ACE touchscreen question Do you consider yourself to be?	UKBB	0.4054
+98	27	A,I,U	3	ukbb_4537	ACE touchscreen question In general how satisfied are you with the WORK that you do?	UKBB	0.4054
+98	27	A,I,U	3	ukbb_4631	ACE touchscreen question Have you ever had a time when you were uninterested in things or unable to enjoy the things you used to for at least a whole week?	UKBB	0.4054
+98	27	A,I,U	3	ukbb_5375	ACE touchscreen question How many weeks was the longest period when you were uninterested in things or unable to enjoy the things you used to?	UKBB	0.4054
+98	27	A,I,U	3	ukbb_5386	ACE touchscreen question How many periods have you had when you were uninterested in things or unable to enjoy the things you used to for at least a whole week?	UKBB	0.4054
+98	27	A,I,U	3	ukbb_3536	ACE touchscreen question How old were you when you first used HRT?	UKBB	0.4054
+98	27	A,I,U	3	ukbb_3546	ACE touchscreen question How old were you when you last used HRT?	UKBB	0.4054
+98	27	A,I,U	3	ukbb_10132	ACE touchscreen question Are you NOW taking any of the following?	UKBB	0.4054
+99	7	A,I,U	3	arivale_401a3e27f607	Do you:	Arivale	0.3934
+99	7	A,I,U	3	arivale_653e16b5a1ed	When I'm focused on making changes in my life I:	Arivale	0.3934
+99	7	A,I,U	3	arivale_7d77b53f0ffc	I make a mess of things.	Arivale	0.3934
+99	7	A,I,U	3	arivale_166c2c0f4a5a	I get chores done right away.	Arivale	0.3934
+99	7	A,I,U	3	arivale_459b3f41cdfb	I shirk my duties.	Arivale	0.3934
+99	7	A,I,U	3	il10k_mlhfq_difficulty_house_work	Do you have difficulty doing routine tasks at home?	Israeli10K	0.3934
+99	7	A,I,U	3	ukbb_1170	ACE touchscreen question On an average day, how easy do you find getting up in the morning?	UKBB	0.3934
+100	11	A,I,U	3	arivale_2badc16b7da7	Multiple sclerosis	Arivale	0.3834
+100	11	A,I,U	3	arivale_3b5cad159bd8	Carpal tunnel syndrome	Arivale	0.3834
+100	11	A,I,U	3	arivale_051482994274	Multiple Sclerosis	Arivale	0.3834
+100	11	A,I,U	3	il10k_health_general_dissability_illness	Long-standing illness, disability or infirmity	Israeli10K	0.3834
+100	11	A,I,U	3	ukbb_2188	ACE touchscreen question Do you have any long-standing illness, disability or infirmity?	UKBB	0.3834
+100	11	A,I,U	3	ukbb_2473	ACE touchscreen question Has a doctor ever told you that you have had any other serious medical conditions or disabilities?	UKBB	0.3834
+100	11	A,I,U	3	ukbb_6150	ACE touchscreen question Has a doctor ever told you that you have had any of the following conditions? (You can select more than one answer)	UKBB	0.3834
+100	11	A,I,U	3	ukbb_6152	ACE touchscreen question Has a doctor ever told you that you have had any of the following conditions? (You can select more than one answer)	UKBB	0.3834
+100	11	A,I,U	3	ukbb_1980	ACE touchscreen question Are you a worrier?	UKBB	0.3834
+100	11	A,I,U	3	ukbb_6145	ACE touchscreen question In the last 2 years have you experienced any of the following? (You can select more than one answer)	UKBB	0.3834
+100	11	A,I,U	3	ukbb_10721	ACE touchscreen question In the last 2 years have you experienced any of the following? (You can select more than one answer)	UKBB	0.3834
+101	13	A,I,U	3	arivale_70f82f328200	I am intensely interested in other people.	Arivale	0.3824
+101	13	A,I,U	3	arivale_603e2cf01c05	I find most things amusing.	Arivale	0.3824
+101	13	A,I,U	3	arivale_1e08d682f4d3	There is a gap between what I would like to do and what I have done.	Arivale	0.3824
+101	13	A,I,U	3	arivale_e4fd1678a3c6	I don't have a particular sense of meaning and purpose in my life.	Arivale	0.3824
+101	13	A,I,U	3	arivale_9669c2c86397	I don't have fun with other people.	Arivale	0.3824
+101	13	A,I,U	3	arivale_08827df41442	I feel empowered to do the things I love in life.	Arivale	0.3824
+101	13	A,I,U	3	arivale_318c20f7aee1	What types of MODERATE activities do you typically do?	Arivale	0.3824
+101	13	A,I,U	3	arivale_0fb713385fb9	I am not interested in abstract ideas.	Arivale	0.3824
+101	13	A,I,U	3	arivale_7b27d0106e7f	I have excellent ideas.	Arivale	0.3824
+101	13	A,I,U	3	arivale_a7127ff80222	I am full of ideas.	Arivale	0.3824
+101	13	A,I,U	3	il10k_mlhfq_difficulty_maintining_hobbies	Do you find it difficult to engage in hobbies for your enjoyment?	Israeli10K	0.3824
+101	13	A,I,U	3	il10k_activity_social_weekly	Leisure/social activities	Israeli10K	0.3824
+101	13	A,I,U	3	ukbb_2060	ACE touchscreen question Over the past two weeks, how often have you had little interest or pleasure in doing things?	UKBB	0.3824
+102	50	A,I,U	3	arivale_ec90ee2947bd	Other screening exam	Arivale	0.3719
+102	50	A,I,U	3	il10k_collection_timestamp	Collection timestamp	Israeli10K	0.3719
+102	50	A,I,U	3	il10k_collection_date	Collection date	Israeli10K	0.3719
+102	50	A,I,U	3	il10k_performed_tests	Performed tests	Israeli10K	0.3719
+102	50	A,I,U	3	il10k_colonoscopy_past_year_result	Other test performed past year description	Israeli10K	0.3719
+102	50	A,I,U	3	ukbb_6374	This is the number of puzzles which the participant viewed irrespective of whether they supplied any answer (though the were unable to progress to the next puzzle without supplying an answer). The ran...	UKBB	0.3719
+102	50	A,I,U	3	ukbb_6362	The tests were described by an outer array of 32 symbol-digit arrays each containing the digits 0-7. To present some element of unpredictability between participants, each run of the program chose a r...	UKBB	0.3719
+102	50	A,I,U	3	ukbb_23321	This is an array of values indicating the digit that the participant would have entered if they had correctly matched the symbols above and below.	UKBB	0.3719
+102	50	A,I,U	3	ukbb_23324	This is the number of symbols correctly matched to digits by the participant.	UKBB	0.3719
+102	50	A,I,U	3	ukbb_6383	This is the number of puzzles which the participant viewed irrespective of whether they supplied any answer (though the were unable to progress to the next puzzle without supplying an answer)	UKBB	0.3719
+102	50	A,I,U	3	ukbb_21004	Number of puzzles correct, scored from the participant answers in	UKBB	0.3719
+102	50	A,I,U	3	ukbb_6315	Which of the four pictures was chosen by the participant, for each round.	UKBB	0.3719
+102	50	A,I,U	3	ukbb_6365	This is the Standard Error (corresponding to the MLE calculation) in the final estimate of the participant's vocabulary level as given in	UKBB	0.3719
+102	50	A,I,U	3	ukbb_7670	This is the letter displayed to participant.	UKBB	0.3719
+102	50	A,I,U	3	ukbb_7671	The letter selected by the participant for each round of the test.	UKBB	0.3719
+102	50	A,I,U	3	ukbb_7672	This is an audit trail of the keys pressed by a participant at each round of the trial. It records what was pressed and when it was pressed. To illustrate	UKBB	0.3719
+102	50	A,I,U	3	ukbb_7676	The number of letters displayed before the test was concluded. Usually this will be a multiple of five corresponding to the end of a round at a particular fragmentation level, however other values are...	UKBB	0.3719
+102	50	A,I,U	3	ukbb_7677	Indicates the reason that a particular test sequence was concluded.	UKBB	0.3719
+102	50	A,I,U	3	ukbb_7678	This is the interval between the participant ending the test due to reaching the incorrect-answer threshold or being timed-out.	UKBB	0.3719
+102	50	A,I,U	3	ukbb_20139	This is the total number of letters a participant correctly identified before the test was concluded.	UKBB	0.3719
+102	50	A,I,U	3	ukbb_4935	ACE touchscreen question Add the following numbers together: 1 2 3 4 5 - is the answer?. Part 1 of Fluid Intelligence test.	UKBB	0.3719
+102	50	A,I,U	3	ukbb_4946	ACE touchscreen question Which number is the largest?. Part 2 of Fluid Intelligence test.	UKBB	0.3719
+102	50	A,I,U	3	ukbb_4968	ACE touchscreen question 11 12 13 14 15 16 17 18 Divide the sixth number to the right of twelve by three. Is the answer?. Part 4 of Fluid Intelligence test.	UKBB	0.3719
+102	50	A,I,U	3	ukbb_5001	ACE touchscreen question Stop means the same as?. Part 7 of Fluid Intelligence test.	UKBB	0.3719
+102	50	A,I,U	3	ukbb_5699	ACE touchscreen question 150 ... 137 ... 125 ... 114 ... 104 ... What comes next?. Part 10 of Fluid Intelligence test.	UKBB	0.3719
+102	50	A,I,U	3	ukbb_5779	ACE touchscreen question Relaxed means the opposite of?. Part 11 of Fluid Intelligence test.	UKBB	0.3719
+102	50	A,I,U	3	ukbb_5790	ACE touchscreen question 100 ... 99 ... 95 ... 86 ... 70 ... What comes next?. Part 12 of Fluid Intelligence test.	UKBB	0.3719
+102	50	A,I,U	3	ukbb_10142	This is the number of columns in the lights memory test.	UKBB	0.3719
+102	50	A,I,U	3	ukbb_10143	This is the number of rows in the lights memory test.	UKBB	0.3719
+102	50	A,I,U	3	ukbb_4251	The number displayed to the participant.	UKBB	0.3719
+102	50	A,I,U	3	ukbb_4252	This is the number the participant was expected to enter - the reverse of	UKBB	0.3719
+102	50	A,I,U	3	ukbb_4256	This is the time the participant had been using the touchscreen before beginning the numeric memory test.	UKBB	0.3719
+102	50	A,I,U	3	ukbb_4257	This records the actual keys touched by the participant while entering a number, including edits/deletions.	UKBB	0.3719
+102	50	A,I,U	3	ukbb_4259	Indicates whether the participant correctly entered all the digits in reverse order. This is true if	UKBB	0.3719
+102	50	A,I,U	3	ukbb_4260	Indicates which round of the numeric memory test the associated results belong to.	UKBB	0.3719
+102	50	A,I,U	3	ukbb_4281	Completion status of numeric memory test	UKBB	0.3719
+102	50	A,I,U	3	ukbb_4282	Longest number correctly recalled during the numeric memory test. A value of -1 is recorded if the participant chose to abandon the test before completing the first round.	UKBB	0.3719
+102	50	A,I,U	3	ukbb_4283	Number of rounds of numeric memory test performed	UKBB	0.3719
+102	50	A,I,U	3	ukbb_399	A value of 0 indicates the participant made no mistakes.	UKBB	0.3719
+102	50	A,I,U	3	ukbb_6334	This field describes the screen layout of the pairs test displayed to the participant (the layouts were generated randomly so differ between participants). It is a sequence of values like	UKBB	0.3719
+102	50	A,I,U	3	ukbb_10137	A value of 0 indicates the participant made no mistakes.	UKBB	0.3719
+102	50	A,I,U	3	ukbb_4295	Records the history of attempts the user made at answering.	UKBB	0.3719
+102	50	A,I,U	3	ukbb_20018	This field condenses the results of the prospective memory test into 3 groups. It does not distinguish between people who, at the first attempt, followed the on-screen instruction (thereby giving an i...	UKBB	0.3719
+102	50	A,I,U	3	ukbb_404	This gives the interval between the cards being displayed and the participant pressing the snap-button to indicate a match. Note that the time is recorded regardless of whether the cards shown formed ...	UKBB	0.3719
+102	50	A,I,U	3	ukbb_10147	This gives the interval between the cards being displayed and the participant pressing the snap-button to indicate a match. Note that the time is recorded regardless of whether the cards shown formed ...	UKBB	0.3719
+102	50	A,I,U	3	ukbb_2355	ACE touchscreen question How many years ago was the most recent one of these tests?	UKBB	0.3719
+102	50	A,I,U	3	ukbb_3809	ACE touchscreen question How many years ago was your last test?	UKBB	0.3719
+102	50	A,I,U	3	ukbb_2704	ACE touchscreen question How many years ago was your last cervical smear test?	UKBB	0.3719
+102	50	A,I,U	3	ukbb_20012	Participants were able to record the time the cancer was diagnosed by entering either their age or the year. Some participants recorded an event but were unable to recall the time.	UKBB	0.3719
+102	50	A,I,U	3	ukbb_20014	Participants were able to record the time the operation took place by entering either their age or the year. Some participants recorded an operation but were unable to recall the time.	UKBB	0.3719
+103	42	A,I,U	3	arivale_2c054907660d	Type 2 diabetes	Arivale	0.3556
+103	42	A,I,U	3	arivale_6b41c2b871db	Diabetes - Type 2	Arivale	0.3556
+103	42	A,I,U	3	arivale_1a23e5ffe089	Metabolic Syndrome diagnosis	Arivale	0.3556
+103	42	A,I,U	3	il10k_type_2_diabetes_family_number	Type 2 diabetes family number	Israeli10K	0.3556
+103	42	A,I,U	3	ukbb_4936	Field description available on UK Biobank website	UKBB	0.3556
+103	42	A,I,U	3	ukbb_4947	Field description available on UK Biobank website	UKBB	0.3556
+103	42	A,I,U	3	ukbb_4958	Field description available on UK Biobank website	UKBB	0.3556
+103	42	A,I,U	3	ukbb_4969	Field description available on UK Biobank website	UKBB	0.3556
+103	42	A,I,U	3	ukbb_4980	Field description available on UK Biobank website	UKBB	0.3556
+103	42	A,I,U	3	ukbb_4991	Field description available on UK Biobank website	UKBB	0.3556
+103	42	A,I,U	3	ukbb_5002	Field description available on UK Biobank website	UKBB	0.3556
+103	42	A,I,U	3	ukbb_5013	Field description available on UK Biobank website	UKBB	0.3556
+103	42	A,I,U	3	ukbb_5557	Field description available on UK Biobank website	UKBB	0.3556
+103	42	A,I,U	3	ukbb_5700	Field description available on UK Biobank website	UKBB	0.3556
+103	42	A,I,U	3	ukbb_5780	Field description available on UK Biobank website	UKBB	0.3556
+103	42	A,I,U	3	ukbb_5791	Field description available on UK Biobank website	UKBB	0.3556
+103	42	A,I,U	3	ukbb_5867	Field description available on UK Biobank website	UKBB	0.3556
+103	42	A,I,U	3	ukbb_10144	Field description available on UK Biobank website	UKBB	0.3556
+103	42	A,I,U	3	ukbb_10145	Field description available on UK Biobank website	UKBB	0.3556
+103	42	A,I,U	3	ukbb_10146	Field description available on UK Biobank website	UKBB	0.3556
+103	42	A,I,U	3	ukbb_396	Field description available on UK Biobank website	UKBB	0.3556
+103	42	A,I,U	3	ukbb_397	Field description available on UK Biobank website	UKBB	0.3556
+103	42	A,I,U	3	ukbb_400	Field description available on UK Biobank website	UKBB	0.3556
+103	42	A,I,U	3	ukbb_10133	Field description available on UK Biobank website	UKBB	0.3556
+103	42	A,I,U	3	ukbb_10134	Field description available on UK Biobank website	UKBB	0.3556
+103	42	A,I,U	3	ukbb_10138	Field description available on UK Biobank website	UKBB	0.3556
+103	42	A,I,U	3	ukbb_4286	Field description available on UK Biobank website	UKBB	0.3556
+103	42	A,I,U	3	ukbb_4287	Field description available on UK Biobank website	UKBB	0.3556
+103	42	A,I,U	3	ukbb_4289	Field description available on UK Biobank website	UKBB	0.3556
+103	42	A,I,U	3	ukbb_4291	Field description available on UK Biobank website	UKBB	0.3556
+103	42	A,I,U	3	ukbb_401	Field description available on UK Biobank website	UKBB	0.3556
+103	42	A,I,U	3	ukbb_402	Field description available on UK Biobank website	UKBB	0.3556
+103	42	A,I,U	3	ukbb_10139	Field description available on UK Biobank website	UKBB	0.3556
+103	42	A,I,U	3	ukbb_10140	Field description available on UK Biobank website	UKBB	0.3556
+103	42	A,I,U	3	ukbb_10609	Field description available on UK Biobank website	UKBB	0.3556
+103	42	A,I,U	3	ukbb_10610	Field description available on UK Biobank website	UKBB	0.3556
+103	42	A,I,U	3	ukbb_2443	ACE touchscreen question Has a doctor ever told you that you have diabetes?	UKBB	0.3556
+103	42	A,I,U	3	ukbb_20117	Field description available on UK Biobank website	UKBB	0.3556
+103	42	A,I,U	3	ukbb_120	Field description available on UK Biobank website	UKBB	0.3556
+103	42	A,I,U	3	ukbb_20121	Field description available on UK Biobank website	UKBB	0.3556
+103	42	A,I,U	3	ukbb_20003	Field description available on UK Biobank website	UKBB	0.3556
+103	42	A,I,U	3	ukbb_20199	Field description available on UK Biobank website	UKBB	0.3556
+104	2	A,I	2	arivale_c5f90322357e	I have frequent mood swings.	Arivale	0.8349
+104	2	A,I	2	il10k_health_mental_current_mood_swings_frequency	Mood swings	Israeli10K	0.8349
+105	2	I,U	2	il10k_health_eyes_long_sight_eye	Which eye(s) affected by hypermetropia (long sight)	Israeli10K	0.8107
+105	2	I,U	2	ukbb_5832	ACE touchscreen question Which eye(s) are affected by hypermetropia (long sight)?	UKBB	0.8107
+106	2	I,U	2	il10k_health_eyes_amblyopia_eye	Which eye(s) affected by amblyopia (lazy eye)	Israeli10K	0.8043
+106	2	I,U	2	ukbb_5408	ACE touchscreen question Which eye(s) are affected by amblyopia (lazy eye)?	UKBB	0.8043
+107	2	I,U	2	il10k_health_eyes_squint_eye	Which eye(s) affected by strabismus (squint)	Israeli10K	0.7811
+107	2	I,U	2	ukbb_6205	ACE touchscreen question Which eye(s) are affected by strabismus (squint)?	UKBB	0.7811
+108	2	I,U	2	il10k_health_eyes_short_sight_eye	Which eye(s) affected by myopia (short sight)	Israeli10K	0.7773
+108	2	I,U	2	ukbb_5843	ACE touchscreen question Which eye(s) are affected by myopia (short sight)?	UKBB	0.7773
+109	2	I,U	2	il10k_health_eyes_reading_glasses_eye	Which eye(s) affected by presbyopia	Israeli10K	0.7672
+109	2	I,U	2	ukbb_5610	ACE touchscreen question Which eye(s) are affected by presbyopia?	UKBB	0.7672
+110	2	I,U	2	il10k_hair_color	Hair colour (natural, before greying)	Israeli10K	0.7549
+110	2	I,U	2	ukbb_1747	ACE touchscreen question What best describes your natural hair colour? (If your hair colour is grey, the colour before you went grey)	UKBB	0.7549
+111	2	I,U	2	il10k_health_eyes_diabetes_eye	Which eye(s) affected by diabetes-related eye disease	Israeli10K	0.7417
+111	2	I,U	2	ukbb_5890	ACE touchscreen question Which eye(s) are affected by diabetes related eye disease?	UKBB	0.7417
+112	3	I,U	2	il10k_health_eyes_glasses_contacts_start_age	Age started wearing glasses or contact lenses	Israeli10K	0.7316
+112	3	I,U	2	il10k_eye_health_eyeglasses_age	Age started wearing glasses	Israeli10K	0.7316
+112	3	I,U	2	ukbb_2217	ACE touchscreen question What age did you first start to wear glasses or contact lenses?	UKBB	0.7316
+113	2	I,U	2	il10k_diet_add_salt_to_food	Salt added to food indication	Israeli10K	0.7301
+113	2	I,U	2	ukbb_1478	ACE touchscreen question Do you add salt to your food? (Do not include salt used in cooking)	UKBB	0.7301
+114	2	I,U	2	il10k_health_eyes_other_serious_condition_eye	Which eye(s) affected by other serious eye condition	Israeli10K	0.7201
+114	2	I,U	2	ukbb_5934	ACE touchscreen question Which eye(s) are affected by the other serious eye condition?	UKBB	0.7201
+115	2	I,U	2	il10k_smoking_current_cigar_past_status	Previously smoked cigarettes on most/all days	Israeli10K	0.6994
+115	2	I,U	2	ukbb_5959	ACE touchscreen question Did you previously smoke cigarettes on most or all days?	UKBB	0.6994
+116	4	I,U	2	il10k_health_eyes_glasses_contacts	Wears glasses or contact lenses	Israeli10K	0.6879
+116	4	I,U	2	il10k_health_eyes_glasses_contacts_reason	Reason for glasses/contact lenses	Israeli10K	0.6879
+116	4	I,U	2	ukbb_2207	ACE touchscreen question Do you wear glasses or contact lenses to correct your vision?	UKBB	0.6879
+116	4	I,U	2	ukbb_6147	ACE touchscreen question Why were you prescribed glasses/contacts? (You can select more than one answer)	UKBB	0.6879
+117	2	I,U	2	il10k_activity_outdoors_winter_daily	Time spent outdoors in winter	Israeli10K	0.685
+117	2	I,U	2	ukbb_1060	ACE touchscreen question In a typical DAY in winter, how many hours do you spend outdoors?	UKBB	0.685
+118	2	A,I	2	arivale_323d4609c423	Pap smear	Arivale	0.6723
+118	2	A,I	2	il10k_vaccinations_past_year	Normal PAP test	Israeli10K	0.6723
+119	4	A,I	2	arivale_c77d8e33e444	I have loose stools or diarrhea.	Arivale	0.6652
+119	4	A,I	2	il10k_soft_stool_during_abdomen_pain	Stools looser when abdominal discomfort/pain started	Israeli10K	0.6652
+119	4	A,I	2	il10k_hard_stool_frequency_past_3_months	Frequency of hard/lumpy stools in the last 3 months	Israeli10K	0.6652
+119	4	A,I	2	il10k_soft_stool_frequency_past_3_months	Frequency of loose/mushy/watery stools in the last 3 months	Israeli10K	0.6652
+120	2	I,U	2	il10k_diet_pork_intake	Pork intake	Israeli10K	0.6614
+120	2	I,U	2	ukbb_1389	ACE touchscreen question How often do you eat pork? (Do not count processed meats such as bacon or ham)	UKBB	0.6614
+121	2	A,U	2	arivale_0ed8e50d6d0a	How many servings of fruit (including juice) do you have each day? (1 serving = 1 medium piece of whole fruit, ½ cup sliced fruit/berries or ½ cup juice)	Arivale	0.6596
+121	2	A,U	2	ukbb_1309	ACE touchscreen question About how many pieces of FRESH fruit would you eat per DAY? (Count one apple, one banana, 10 grapes etc as one piece; put '0' if you do not eat any)	UKBB	0.6596
+122	3	I,U	2	il10k_alcohol_weekly_white_champagne_intake_choice	Average weekly champagne plus white wine intake	Israeli10K	0.6575
+122	3	I,U	2	il10k_alcohol_weekly_white_champagne_intake_number	Average weekly champagne plus white wine intake	Israeli10K	0.6575
+122	3	I,U	2	ukbb_1578	ACE touchscreen question In an average WEEK, how many glasses of WHITE wine or champagne would you drink? (There are six glasses in an average bottle)	UKBB	0.6575
+123	3	I,U	2	il10k_alcohol_monthly_white_champagne_intake_choice	Average monthly champagne plus white wine intake	Israeli10K	0.6573
+123	3	I,U	2	il10k_alcohol_monthly_white_champagne_intake_number	Average monthly champagne plus white wine intake	Israeli10K	0.6573
+123	3	I,U	2	ukbb_4418	ACE touchscreen question In an average MONTH, how many glasses of WHITE wine or champagne would you drink? (There are six glasses in an average bottle)	UKBB	0.6573
+124	4	A,I	2	arivale_736ece16f75f	Flu vaccine	Arivale	0.6549
+124	4	A,I	2	arivale_7b6c13d8dd70	Shingles vaccine	Arivale	0.6549
+124	4	A,I	2	arivale_5f1c3513c84d	Hepatitis Type B	Arivale	0.6549
+124	4	A,I	2	il10k_vaccine_flue	Vaccine influenza	Israeli10K	0.6549
+125	5	A,I	2	arivale_4c1a7e6872ca	Endometrial cancer	Arivale	0.6527
+125	5	A,I	2	arivale_cfc1863fb569	Endometriosis	Arivale	0.6527
+125	5	A,I	2	arivale_0da903722f98	Gynecological Conditions (Endometriosis)	Arivale	0.6527
+125	5	A,I	2	arivale_fea96a2f28b3	Gynecological Conditions (Fibroids)	Arivale	0.6527
+125	5	A,I	2	il10k_endometriosis_surgery_year	Endometriosis surgery year	Israeli10K	0.6527
+126	2	I,U	2	il10k_activity_walking_pace	Usual walking pace	Israeli10K	0.6515
+126	2	I,U	2	ukbb_924	ACE touchscreen question How would you describe your usual walking pace?	UKBB	0.6515
+127	3	A,I	2	arivale_c008ee3c5b87	I consider myself a morning person.	Arivale	0.6504
+127	3	A,I	2	il10k_sleep_waking_morning_easy	Getting up in morning	Israeli10K	0.6504
+127	3	A,I	2	il10k_sleep_chronotype	Morning/evening person (chronotype)	Israeli10K	0.6504
+128	3	I,U	2	il10k_health_eyes_cataract_eye_start_age	Age cataract diagnosed	Israeli10K	0.65
+128	3	I,U	2	il10k_eye_health_surgery_improve_vision_age	Eye health LASIK surgery age	Israeli10K	0.65
+128	3	I,U	2	ukbb_4700	ACE touchscreen question What was your age when a cataract was first diagnosed?	UKBB	0.65
+129	3	I,U	2	il10k_diet_meat_last_ate_choice	Age when last ate meat	Israeli10K	0.6486
+129	3	I,U	2	il10k_diet_meat_last_ate_age	Age when last ate meat	Israeli10K	0.6486
+129	3	I,U	2	ukbb_3680	ACE touchscreen question How old were you when you last ate any kind of meat? (Enter 0 if you have never eaten meat in your lifetime)	UKBB	0.6486
+130	4	I,U	2	il10k_smoking_total_above_100	Light smokers, at least 100 smokes in lifetime	Israeli10K	0.6457
+130	4	I,U	2	il10k_smoking_current_cigar_past_choice	Number of cigarettes previously smoked daily (current cigar/pipe smokers)	Israeli10K	0.6457
+130	4	I,U	2	il10k_smoking_current_cigar_past_number	Number of cigarettes previously smoked daily (current cigar/pipe smokers)	Israeli10K	0.6457
+130	4	I,U	2	ukbb_20161	Pack years calculated for individuals who have ever smoked according to data field Ever smoking status=1, using appropriate data: Current cigarette (either manufactured or hand rolled) smokers who smo...	UKBB	0.6457
+131	6	A,I	2	arivale_4bf209887b92	Colon polyps (benign)	Arivale	0.6442
+131	6	A,I	2	arivale_f2796cfd94b1	Polycystic ovarian syndrome	Arivale	0.6442
+131	6	A,I	2	arivale_3536e32e04ef	Colonoscopy	Arivale	0.6442
+131	6	A,I	2	il10k_repeat_colonoscopy_years	Recommendation to repeat colonoscopy in XXX years	Israeli10K	0.6442
+131	6	A,I	2	il10k_gender_related_tests_past_year	gender specific tests + colonoscopy	Israeli10K	0.6442
+131	6	A,I	2	il10k_mammogram_past_year_result	Normal colonoscopy	Israeli10K	0.6442
+132	2	I,U	2	il10k_health_pain_past_3_months_neck_shoulders	Neck/shoulder pain for 3+ months	Israeli10K	0.6437
+132	2	I,U	2	ukbb_3404	ACE touchscreen question Have you had neck or shoulder pains for more than 3 months?	UKBB	0.6437
+133	3	I,U	2	il10k_diet_fruit_dried_intake_choice	Dried fruit daily intake	Israeli10K	0.6413
+133	3	I,U	2	il10k_diet_fruit_dried_intake_number	Dried fruit daily intake	Israeli10K	0.6413
+133	3	I,U	2	ukbb_1319	ACE touchscreen question About how many pieces of DRIED fruit would you eat per DAY? (Count one prune, one dried apricot, 10 raisins as one piece; put '0' if you do not eat any)	UKBB	0.6413
+134	2	I,U	2	il10k_activity_outdoors_summer_daily	Time spend outdoors in summer	Israeli10K	0.6404
+134	2	I,U	2	ukbb_1050	ACE touchscreen question In a typical DAY in summer, how many hours do you spend outdoors?	UKBB	0.6404
+135	10	A,I	2	arivale_c63907c8b057	I have bowel movements	Arivale	0.6384
+135	10	A,I	2	arivale_c30d845c973d	My bowel movements are	Arivale	0.6384
+135	10	A,I	2	arivale_74c32326ca12	My bowel movements feel complete	Arivale	0.6384
+135	10	A,I	2	il10k_abdomen_pain_improve_after_bowl_movement	Frequency of discomfort/pain getting better or stopping after a bowel movement	Israeli10K	0.6384
+135	10	A,I	2	il10k_abdomen_pain_increases_bowl_movements	More frequent bowel movements when abdominal discomfort/pain started	Israeli10K	0.6384
+135	10	A,I	2	il10k_abdomen_pain_decreases_bowl_movements	Less frequent bowel movements when abdominal discomfort/pain started	Israeli10K	0.6384
+135	10	A,I	2	il10k_bowl_movements_current_satisfaction	Satisfaction with bowel habits	Israeli10K	0.6384
+135	10	A,I	2	il10k_bowl_movements_daily_max	Greatest number of times bowels opened per day	Israeli10K	0.6384
+135	10	A,I	2	il10k_bowl_movements_daily_min	Least number of times bowels opened per week	Israeli10K	0.6384
+135	10	A,I	2	il10k_bowl_movements_daily_average	Average number of times bowels opened per day	Israeli10K	0.6384
+136	3	I,U	2	il10k_alcohol_monthly_red_intake_choice	Average monthly red wine intake	Israeli10K	0.6329
+136	3	I,U	2	il10k_alcohol_monthly_red_intake_number	Average monthly red wine intake	Israeli10K	0.6329
+136	3	I,U	2	ukbb_4407	ACE touchscreen question In an average MONTH, how many glasses of RED wine would you drink? (There are six glasses in an average bottle)	UKBB	0.6329
+137	4	A,I	2	arivale_77e519e35769	Crohn's disease (other or unknown type)	Arivale	0.6216
+137	4	A,I	2	arivale_df9c147814f5	Crohn's disease (ileal)	Arivale	0.6216
+137	4	A,I	2	arivale_86dfdea0549a	Crohn's disease (colonic)	Arivale	0.6216
+137	4	A,I	2	il10k_crohn_family_number	Crohn family number	Israeli10K	0.6216
+138	2	I,U	2	il10k_health_mental_current_tense	Tense / 'highly strung'	Israeli10K	0.6206
+138	2	I,U	2	ukbb_1990	ACE touchscreen question Would you call yourself tense or 'highly strung'?	UKBB	0.6206
+139	3	I,U	2	il10k_alcohol_monthly_beer_cider_intake_choice	Average monthly beer plus cider intake	Israeli10K	0.6188
+139	3	I,U	2	il10k_alcohol_monthly_beer_cider_intake_number	Average monthly beer plus cider intake	Israeli10K	0.6188
+139	3	I,U	2	ukbb_4429	ACE touchscreen question In an average MONTH, how many pints of beer or cider would you drink? (Include bitter, lager, stout, ale, Guinness)	UKBB	0.6188
+140	3	I,U	2	il10k_alcohol_monthly_other_intake_choice	Average monthly intake of other alcoholic drinks	Israeli10K	0.6175
+140	3	I,U	2	il10k_alcohol_monthly_other_intake_number	Average monthly intake of other alcoholic drinks	Israeli10K	0.6175
+140	3	I,U	2	ukbb_4462	ACE touchscreen question In an average MONTH, how many glasses of other alcoholic drinks (such as alcopops) would you drink?	UKBB	0.6175
+141	8	A,I	2	arivale_dd3f2e0691c1	Other infectious disease	Arivale	0.6142
+141	8	A,I	2	arivale_b94928402771	Hepatitis C	Arivale	0.6142
+141	8	A,I	2	arivale_44f3fa96a25a	Lung infection (e.g. pneumonia)	Arivale	0.6142
+141	8	A,I	2	arivale_3b59f1f2b26f	Pneumonia vaccine	Arivale	0.6142
+141	8	A,I	2	arivale_a5e560af6150	Hepatitis Type C	Arivale	0.6142
+141	8	A,I	2	arivale_d3cef11be34c	Hepatitis Other	Arivale	0.6142
+141	8	A,I	2	arivale_226b8109e83c	Pneumonia	Arivale	0.6142
+141	8	A,I	2	il10k_vaccine_pneumonia	Vaccine pneumonia	Israeli10K	0.6142
+142	4	A,U	2	arivale_9fc0a4d66482	How many slices of bread/rolls do you usually eat in a day?	Arivale	0.6141
+142	4	A,U	2	arivale_3bef47714a1e	How many cookies, cakes, scones, sweet pies, and pastries do you usually eat in a day?	Arivale	0.6141
+142	4	A,U	2	arivale_47c6f074ab8a	How many servings of whole grains do you have each day (1 serving = 1 slice of whole grain bread, ½ cup cooked oats, brown rice, whole wheat pasta, etc.)?	Arivale	0.6141
+142	4	A,U	2	ukbb_1438	ACE touchscreen question How many slices of bread do you eat each WEEK?	UKBB	0.6141
+143	2	I,U	2	il10k_activity_staires_daily	Frequency of stair climbing in last 4 weeks	Israeli10K	0.6138
+143	2	I,U	2	ukbb_943	ACE touchscreen question At home, during the last 4 weeks, about how many times a DAY do you climb a flight of stairs? (approx 10 steps)	UKBB	0.6138
+144	3	I,U	2	il10k_alcohol_weekly_red_intake_choice	Average weekly red wine intake	Israeli10K	0.6119
+144	3	I,U	2	il10k_alcohol_weekly_red_intake_number	Average weekly red wine intake	Israeli10K	0.6119
+144	3	I,U	2	ukbb_1568	ACE touchscreen question In an average WEEK, how many glasses of RED wine would you drink? (There are six glasses in an average bottle)	UKBB	0.6119
+145	3	I,U	2	il10k_alcohol_weekly_beer_cider_intake_choice	Average weekly beer plus cider intake	Israeli10K	0.6113
+145	3	I,U	2	il10k_alcohol_weekly_beer_cider_intake_number	Average weekly beer plus cider intake	Israeli10K	0.6113
+145	3	I,U	2	ukbb_1588	ACE touchscreen question In an average WEEK, how many pints of beer or cider would you drink? (Include bitter, lager, stout, ale, Guinness)	UKBB	0.6113
+146	4	I,U	2	il10k_health_eyes_diabetes_eye_start_age	Age when diabetes-related eye disease diagnosed	Israeli10K	0.6096
+146	4	I,U	2	ukbb_5901	ACE touchscreen question What was your age when diabetes related eye disease was first diagnosed?	UKBB	0.6096
+146	4	I,U	2	ukbb_2976	ACE touchscreen question What was your age when the diabetes was first diagnosed?	UKBB	0.6096
+146	4	I,U	2	ukbb_3627	ACE touchscreen question What was your age when the angina was first diagnosed?	UKBB	0.6096
+147	2	I,U	2	il10k_activity_driving_fast_frequency	Drive faster than motorway speed limit	Israeli10K	0.6089
+147	2	I,U	2	ukbb_1100	ACE touchscreen question How often do you drive faster than the speed limit on the motorway?	UKBB	0.6089
+148	7	A,I	2	arivale_c5c184f3d880	Lyme disease	Arivale	0.6087
+148	7	A,I	2	arivale_ee226caee48f	Throat condition (chronic strep, irritation, chronic clearing of throat)	Arivale	0.6087
+148	7	A,I	2	arivale_2ddc03727aff	Periodontal disease	Arivale	0.6087
+148	7	A,I	2	arivale_435ef3461a08	Lyme Disease	Arivale	0.6087
+148	7	A,I	2	il10k_periodontal_diseases_diagnosis	Periodontal diseases diagnosis	Israeli10K	0.6087
+148	7	A,I	2	il10k_periodontal_diseases_diagnosis_family	Periodontal diseases diagnosis family	Israeli10K	0.6087
+148	7	A,I	2	il10k_oralheatlh_abscess_or_gingivitis	Oral heatlh periodontal abscess or gingivitis	Israeli10K	0.6087
+149	2	I,U	2	il10k_health_breathing_past_year_wheezing	Wheeze or whistling in the chest in last year	Israeli10K	0.6064
+149	2	I,U	2	ukbb_2316	ACE touchscreen question In the last year have you ever had wheeze or whistling in the chest?	UKBB	0.6064
+150	2	I,U	2	il10k_health_general_past_year_weight_change	Weight change compared with 1 year ago	Israeli10K	0.5993
+150	2	I,U	2	ukbb_2306	ACE touchscreen question Compared with one year ago, has your weight changed?	UKBB	0.5993
+151	19	A,I	2	arivale_e114339f64e0	I experience vomiting	Arivale	0.5979
+151	19	A,I	2	arivale_54276ecaa73b	I take laxatives	Arivale	0.5979
+151	19	A,I	2	arivale_cd5b6ed310fd	Ulcerative colitis	Arivale	0.5979
+151	19	A,I	2	arivale_1ef85a81085b	Irritable bowel syndrome (IBS)	Arivale	0.5979
+151	19	A,I	2	arivale_0d213d1cb061	Liver abscess or cyst	Arivale	0.5979
+151	19	A,I	2	arivale_86b00343f24f	Inflammatory Bowel Disease	Arivale	0.5979
+151	19	A,I	2	il10k_abdomen_pain_work_weeks_missed_number	Number of weeks absent from work due to IBS, in the last year	Israeli10K	0.5979
+151	19	A,I	2	il10k_abdomen_pain_work_weeks_missed_choice	When gave up work due to IBS	Israeli10K	0.5979
+151	19	A,I	2	il10k_abdomen_pain_work_weeks_suffering	Number of weeks (in the last year) at work suffering because of IBS	Israeli10K	0.5979
+151	19	A,I	2	il10k_nausea_past_3_months	Degree bothered by nausea in the last 3 months	Israeli10K	0.5979
+151	19	A,I	2	il10k_history_family_ibs	Family history of IBS	Israeli10K	0.5979
+151	19	A,I	2	il10k_history_diagnoses_ibs	Ever diagnosed with IBS	Israeli10K	0.5979
+151	19	A,I	2	il10k_history_ibs_symptoms_speed	Speed of onset of IBS symptoms	Israeli10K	0.5979
+151	19	A,I	2	il10k_history_ibs_first_symptoms_infection	Infectious illness diagnosis status when IBS symptoms first began	Israeli10K	0.5979
+151	19	A,I	2	il10k_history_ibs_first_symptoms_infection_choice	Infection diagnosed alongside IBS when IBS symptoms began	Israeli10K	0.5979
+151	19	A,I	2	il10k_history_ibs_first_symptoms_fever	Fever when IBS symptoms first began	Israeli10K	0.5979
+151	19	A,I	2	il10k_history_ibs_first_symptoms_diarrhoea	Diarrhoea when IBS symptoms first began	Israeli10K	0.5979
+151	19	A,I	2	il10k_history_ibs_first_symptoms_bloody_diarrhoea	Bloody diarrhoea when IBS symptoms first began	Israeli10K	0.5979
+151	19	A,I	2	il10k_history_ibs_first_symptoms_vomiting	Vomiting when IBS symptoms first began	Israeli10K	0.5979
+152	3	A,I	2	arivale_e3e7b2f4ec23	Bone density scan (e.g. DEXA)	Arivale	0.5977
+152	3	A,I	2	arivale_1bbdf0ba14ba	Skin Condition (Abnormal Moles)	Arivale	0.5977
+152	3	A,I	2	il10k_mole_biopsy_yn	Mole biopsy	Israeli10K	0.5977
+153	3	A,U	2	arivale_54bd57828842	How many servings of sugary drinks (including soda, energy drinks, sweetened tea or coffee, etc) do you have each day?	Arivale	0.5974
+153	3	A,U	2	ukbb_1488	ACE touchscreen question How many cups of tea do you drink each DAY? (Include black and green tea)	UKBB	0.5974
+153	3	A,U	2	ukbb_1498	ACE touchscreen question How many cups of coffee do you drink each DAY? (Include decaffeinated coffee)	UKBB	0.5974
+154	2	A,I	2	arivale_9464cbfb3cbb	I rarely wake up feeling rested.	Arivale	0.5944
+154	2	A,I	2	il10k_mlhfq_rest_during_day	Do you feel the need to rest during the day?	Israeli10K	0.5944
+155	3	A,I	2	arivale_d53bb9034eb7	Do you usually take sugar in tea?	Arivale	0.5925
+155	3	A,I	2	il10k_diet_tea_intake_choice	Tea intake	Israeli10K	0.5925
+155	3	A,I	2	il10k_diet_tea_intake_number	Tea intake	Israeli10K	0.5925
+156	4	I,U	2	il10k_smoking_current_time_after_wake	Time from waking to first cigarette	Israeli10K	0.592
+156	4	I,U	2	il10k_smoking_former_start_again	Likelihood of resuming smoking	Israeli10K	0.592
+156	4	I,U	2	ukbb_6325	This is the interval between either the answer grid becoming avaiolable (first press) or between two successive key presses.	UKBB	0.592
+156	4	I,U	2	ukbb_3466	ACE touchscreen question How soon after waking do you smoke your first cigarette of the day?	UKBB	0.592
+157	4	A,U	2	arivale_a7f4606856d4	Gestational diabetes	Arivale	0.5889
+157	4	A,U	2	arivale_482c63b4d3ad	Diabetes - Gestational	Arivale	0.5889
+157	4	A,U	2	ukbb_4041	ACE touchscreen question Did you only have diabetes during pregnancy?	UKBB	0.5889
+157	4	A,U	2	ukbb_10844	ACE touchscreen question Did you only have diabetes during pregnancy?	UKBB	0.5889
+158	11	A,I	2	arivale_783ca6563c3f	Celiac disease	Arivale	0.5878
+158	11	A,I	2	arivale_4cb31c04e46c	Fatty liver disease (NAFLD or NASH)	Arivale	0.5878
+158	11	A,I	2	arivale_8ee794a94023	Lynch syndrome	Arivale	0.5878
+158	11	A,I	2	arivale_8ac63334a5ad	Non-celiac gluten sensitivity	Arivale	0.5878
+158	11	A,I	2	arivale_ff9ee3246a08	Cystic fibrosis	Arivale	0.5878
+158	11	A,I	2	arivale_c2d8e8b1938d	Celiac Disease	Arivale	0.5878
+158	11	A,I	2	il10k_history_diagnoses_celiac	Diagnosed with coeliac disease or gluten sensitivity	Israeli10K	0.5878
+158	11	A,I	2	il10k_history_diagnoses_celiac_method	Method of coeliac disease/gluten sensitivity diagnosis	Israeli10K	0.5878
+158	11	A,I	2	il10k_sensitivity_bees	Sensitivity bees	Israeli10K	0.5878
+158	11	A,I	2	il10k_sudden_death_family	Sudden death family	Israeli10K	0.5878
+158	11	A,I	2	il10k_celiac_family_number	Celiac family number	Israeli10K	0.5878
+159	4	I,U	2	il10k_contraception	Contraception	Israeli10K	0.5837
+159	4	I,U	2	ukbb_2784	ACE touchscreen question Have you ever taken the contraceptive pill? (include the 'mini-pill')	UKBB	0.5837
+159	4	I,U	2	ukbb_2794	ACE touchscreen question About how old were you when you first went on the contraceptive pill?	UKBB	0.5837
+159	4	I,U	2	ukbb_2804	ACE touchscreen question How old were you when you last used the contraceptive pill?	UKBB	0.5837
+160	2	I,U	2	il10k_alcohol_current_frequency	Alcohol intake frequency	Israeli10K	0.5803
+160	2	I,U	2	ukbb_1558	ACE touchscreen question About how often do you drink alcohol?	UKBB	0.5803
+161	3	I,U	2	il10k_health_legs_pain_action	Leg pain on walking : action taken	Israeli10K	0.5763
+161	3	I,U	2	ukbb_4728	ACE touchscreen question Do you get a pain in either leg on walking?	UKBB	0.5763
+161	3	I,U	2	ukbb_5507	ACE touchscreen question What do you do if you get pain when you are walking?	UKBB	0.5763
+162	3	I,U	2	il10k_activity_social_visit_frequency	Frequency of friend/family visits	Israeli10K	0.5747
+162	3	I,U	2	ukbb_1031	ACE touchscreen question How often do you visit friends or family or have them visit you?	UKBB	0.5747
+162	3	I,U	2	ukbb_10740	ACE touchscreen question How often do you visit friends or family or have them visit you?	UKBB	0.5747
+163	6	I,U	2	il10k_alcohol_monthly_fortified_wine_intake_choice	Average monthly fortified wine intake	Israeli10K	0.5744
+163	6	I,U	2	il10k_alcohol_monthly_fortified_wine_intake_number	Average monthly fortified wine intake	Israeli10K	0.5744
+163	6	I,U	2	il10k_alcohol_weekly_fortified_wine_intake_choice	Average weekly fortified wine intake	Israeli10K	0.5744
+163	6	I,U	2	il10k_alcohol_weekly_fortified_wine_intake_number	Average weekly fortified wine intake	Israeli10K	0.5744
+163	6	I,U	2	ukbb_1608	ACE touchscreen question In an average WEEK, how many glasses of fortified wine would you drink? (There are 12 glasses in an average bottle) (Fortified wines include drinks such as sherry, port, vermo...	UKBB	0.5744
+163	6	I,U	2	ukbb_4451	ACE touchscreen question In an average MONTH, how many glasses of fortified wine would you drink? (There are 12 glasses in an average bottle) (Fortified wines include drinks such as sherry, port, verm...	UKBB	0.5744
+164	7	A,I	2	arivale_e51c77890bc4	Prostate cancer	Arivale	0.5733
+164	7	A,I	2	arivale_bf025d8eddb5	Prostate enlargement or benign prostatic hyperplasia	Arivale	0.5733
+164	7	A,I	2	arivale_e79a59cd2455	Prostate nodules	Arivale	0.5733
+164	7	A,I	2	arivale_5d65f4a98170	Cancer Prostate	Arivale	0.5733
+164	7	A,I	2	arivale_1030dcd80404	Prostate (enlargement)	Arivale	0.5733
+164	7	A,I	2	arivale_41fae3e3f726	Prostate (nodules)	Arivale	0.5733
+164	7	A,I	2	il10k_prostatectomy_year	Prostatectomy year	Israeli10K	0.5733
+165	5	A,U	2	arivale_4efc3efe12a2	I take medications (over the counter or prescription) for heartburn or acid reflux	Arivale	0.5729
+165	5	A,U	2	arivale_40968b5bfb43	Do you currently take over-the-counter medications (e.g. Ibuprofen, Aspirin, Pepto-Bismol)?	Arivale	0.5729
+165	5	A,U	2	arivale_b0cdb359a645	Please list all current over-the-counter medications (e.g. Ibuprofen, Aspirin, Pepto-Bismol).	Arivale	0.5729
+165	5	A,U	2	ukbb_10004	ACE touchscreen question Do you regularly take any of the following over-the-counter medications? (You can select more than one answer)	UKBB	0.5729
+165	5	A,U	2	ukbb_10005	ACE touchscreen question Do you regularly take any of the following over-the-counter medications? (You can select more than one answer)	UKBB	0.5729
+166	3	I,U	2	il10k_skin_current_sunscreen_use	Use of sun/uv protection	Israeli10K	0.5728
+166	3	I,U	2	ukbb_1727	ACE touchscreen question What would happen to your skin if it was repeatedly exposed to bright sunlight without any protection?	UKBB	0.5728
+166	3	I,U	2	ukbb_2267	ACE touchscreen question Do you wear sun protection (e.g. sunscreen lotion, hat) when you spend time outdoors in the summer?	UKBB	0.5728
+167	9	A,I	2	arivale_a715d5857c00	HPV	Arivale	0.5679
+167	9	A,I	2	arivale_c53bafd73e4c	Cytomegalovirus (CMV)	Arivale	0.5679
+167	9	A,I	2	arivale_d0c65d5b6609	Immunotherapy	Arivale	0.5679
+167	9	A,I	2	arivale_55382989de04	Diphtheria, Tetanus, or Pertussis vaccine	Arivale	0.5679
+167	9	A,I	2	arivale_a7b769a0d33d	Other vaccine	Arivale	0.5679
+167	9	A,I	2	il10k_vaccine_childhood	Vaccine childhood	Israeli10K	0.5679
+167	9	A,I	2	il10k_vaccine_army	Vaccines during recruitment to the army	Israeli10K	0.5679
+167	9	A,I	2	il10k_vaccine_travel	Vaccine travel	Israeli10K	0.5679
+167	9	A,I	2	il10k_vaccine_papilloma	Vaccine for papilloma virus	Israeli10K	0.5679
+168	4	I,U	2	il10k_health_legs_pain_change_stopping	Leg pain on walking : effect of standing still	Israeli10K	0.5672
+168	4	I,U	2	ukbb_5485	ACE touchscreen question Do you get pain when you walk at an ordinary pace on the level?	UKBB	0.5672
+168	4	I,U	2	ukbb_5518	ACE touchscreen question What happens to the pain you get while walking if you stand still?	UKBB	0.5672
+168	4	I,U	2	ukbb_3606	ACE touchscreen question Do you get this pain or discomfort when you walk at an ordinary pace on the level?	UKBB	0.5672
+169	2	I,U	2	il10k_sleep_nap	Nap during day	Israeli10K	0.5651
+169	2	I,U	2	ukbb_1190	ACE touchscreen question Do you have a nap during the day?	UKBB	0.5651
+170	2	I,U	2	il10k_activity_walking_pleasure_monthly	Frequency of walking for pleasure in last 4 weeks	Israeli10K	0.5609
+170	2	I,U	2	ukbb_971	ACE touchscreen question How many times in the last 4 weeks did you go walking for pleasure?	UKBB	0.5609
+171	3	A,I	2	arivale_600fbbc23979	Parkinson's disease	Arivale	0.5581
+171	3	A,I	2	arivale_3d848da6a5c0	Huntington's disease	Arivale	0.5581
+171	3	A,I	2	il10k_parkinson_family_number	Parkinson family number	Israeli10K	0.5581
+172	2	I,U	2	il10k_smoking_stop_wish	Wants to stop smoking	Israeli10K	0.5551
+172	2	I,U	2	ukbb_3496	ACE touchscreen question Do you want to stop smoking?	UKBB	0.5551
+173	6	A,I	2	arivale_65104e7b1c1c	Excessive menstruation	Arivale	0.5464
+173	6	A,I	2	arivale_c8e6c79cc8b0	Irregular menstrual bleeding (not due to pre-menopause/menopause)	Arivale	0.5464
+173	6	A,I	2	arivale_a2d662af1181	No menstrual bleeding (amenorrhea, not due to pre-menopause/menopause)	Arivale	0.5464
+173	6	A,I	2	il10k_abdomen_pain_women_during_period	Discomfort/pain occurring only during menstrual bleed	Israeli10K	0.5464
+173	6	A,I	2	il10k_menstural_cramps_past_3_months	Degree bothered by menstrual cramps or other problems with period in the last 3 months	Israeli10K	0.5464
+173	6	A,I	2	il10k_health_mental_past_disinterest_longest	Longest period of unenthusiasm / disinterest	Israeli10K	0.5464
+174	2	I,U	2	il10k_diet_hot_drink_temperature	Hot drink temperature	Israeli10K	0.5446
+174	2	I,U	2	ukbb_1518	ACE touchscreen question How do you like your hot drinks? (Such as coffee or tea)	UKBB	0.5446
+175	4	A,I	2	arivale_6f46342c7bc1	Male infertility	Arivale	0.5401
+175	4	A,I	2	il10k_fertility_treatment_final_year	Fertility treatment final year	Israeli10K	0.5401
+175	4	A,I	2	il10k_fertility_treatment_no_pregnancy	Fertility treatment no pregnancy	Israeli10K	0.5401
+175	4	A,I	2	il10k_fertility_treatments_number	Unsuccessful fertility treatment	Israeli10K	0.5401
+176	2	I,U	2	il10k_health_mental_current_nerves	Suffer from 'nerves'	Israeli10K	0.5398
+176	2	I,U	2	ukbb_2010	ACE touchscreen question Do you suffer from 'nerves'?	UKBB	0.5398
+177	4	A,U	2	arivale_4d32e0cf27b7	Are you post-menopausal?	Arivale	0.5379
+177	4	A,U	2	ukbb_2724	ACE touchscreen question Have you had your menopause (periods stopped)?	UKBB	0.5379
+177	4	A,U	2	ukbb_2814	ACE touchscreen question Have you ever used hormone replacement therapy (HRT)?	UKBB	0.5379
+177	4	A,U	2	ukbb_3720	ACE touchscreen question Are you menstruating today? (We are asking this as it may affect the urine sample that you have been asked to provide)	UKBB	0.5379
+178	3	I,U	2	il10k_activity_walking_10min_days_weekly	Number of days/week walked 10+ minutes	Israeli10K	0.5374
+178	3	I,U	2	ukbb_23322	Digits entered by participant	UKBB	0.5374
+178	3	I,U	2	ukbb_864	ACE touchscreen question In a typical WEEK, on how many days did you walk for at least 10 minutes at a time? (Include walking that you do at work, travelling to and from work, and for sport or leisure...	UKBB	0.5374
+179	2	A,I	2	arivale_d454eaca3c37	To what extent do you feel that physical pain prevents you from doing what you need to do?	Arivale	0.537
+179	2	A,I	2	il10k_mlhfq_difficulty_working	Do you feel physical difficulty working for a living?	Israeli10K	0.537
+180	5	A,I	2	arivale_835454ae7631	Bladder infection	Arivale	0.5355
+180	5	A,I	2	arivale_eefb5d636554	Urinary incontinence	Arivale	0.5355
+180	5	A,I	2	arivale_0a5b6f5e6b1f	Other bladder or kidney condition	Arivale	0.5355
+180	5	A,I	2	arivale_82bc763ee447	Bladder / Kidney Problems	Arivale	0.5355
+180	5	A,I	2	il10k_bladder_irritability_past_3_months	Degree bothered by urinary frequency/bladder irritability in the last 3 months	Israeli10K	0.5355
+181	2	A,U	2	arivale_02976c4e93ce	Blood Clot (lung)	Arivale	0.5231
+181	2	A,U	2	ukbb_4022	ACE touchscreen question What was your age when the blood clot in the lung was first diagnosed?	UKBB	0.5231
+182	4	I,U	2	il10k_chest_pain_dissipates_with_rest	Chest pain dissipates with rest	Israeli10K	0.5228
+182	4	I,U	2	il10k_health_pain_chest_walking_normal	Chest pain or discomfort walking normally	Israeli10K	0.5228
+182	4	I,U	2	il10k_health_pain_chest_dissapear_stopping	Chest pain due to walking ceases when standing still	Israeli10K	0.5228
+182	4	I,U	2	ukbb_3616	ACE touchscreen question Does this chest pain go away when you stand still?	UKBB	0.5228
+183	2	I,U	2	il10k_smoking_current_difficulty_to_avoid_one_day	Difficulty not smoking for 1 day	Israeli10K	0.5187
+183	2	I,U	2	ukbb_3476	ACE touchscreen question How easy or difficult would you find it to go without smoking for a whole day?	UKBB	0.5187
+184	2	I,U	2	il10k_health_mental_past_two_week_restless_frequency	Frequency of tenseness / restlessness in last 2 weeks	Israeli10K	0.5168
+184	2	I,U	2	ukbb_2070	ACE touchscreen question Over the past two weeks, how often have you felt tense, fidgety or restless?	UKBB	0.5168
+185	2	I,U	2	il10k_health_pain_past_3_months_general	General pain for 3+ months	Israeli10K	0.5135
+185	2	I,U	2	ukbb_2956	ACE touchscreen question Have you had pains all over the body for more than 3 months?	UKBB	0.5135
+186	9	A,I	2	arivale_18d289dd1ac3	Mouth ulcers	Arivale	0.5127
+186	9	A,I	2	arivale_bcd2c6cff152	Chronic sinus infections	Arivale	0.5127
+186	9	A,I	2	arivale_298b7500c0e4	Other oral health conditions	Arivale	0.5127
+186	9	A,I	2	arivale_594d90a0de99	Do you wear dentures?	Arivale	0.5127
+186	9	A,I	2	il10k_health_mouth_problems	Mouth/teeth dental problems	Israeli10K	0.5127
+186	9	A,I	2	il10k_oralheatlh_bleeding_gums	Oral heatlh bleeding gums	Israeli10K	0.5127
+186	9	A,I	2	il10k_oralheatlh_antibiotics_for_gingivitis	Oral heatlh taken antibiotics for gingivitis	Israeli10K	0.5127
+186	9	A,I	2	il10k_oralheatlh_bad_breath	Oral heatlh halitosis	Israeli10K	0.5127
+186	9	A,I	2	il10k_oralheatlh_teeth_mobility_lately	Oral heatlh teeth mobility lately	Israeli10K	0.5127
+187	2	A,U	2	arivale_815cf903d94f	White fish (e.g. cod, halibut, flounder, etc.)	Arivale	0.5112
+187	2	A,U	2	ukbb_1339	ACE touchscreen question How often do you eat other types of fish? (e.g. cod, tinned tuna, haddock)	UKBB	0.5112
+188	10	A,I	2	arivale_4aa64ee04d46	I experience nausea.	Arivale	0.5107
+188	10	A,I	2	arivale_41eb4d814a64	Anemia (iron deficiency)	Arivale	0.5107
+188	10	A,I	2	arivale_937205d1b550	Chronic Fatigue Syndrome	Arivale	0.5107
+188	10	A,I	2	arivale_e0d5eeb974ef	Other conditions involving chronic fatigue	Arivale	0.5107
+188	10	A,I	2	arivale_1e11c69e956e	Anemia	Arivale	0.5107
+188	10	A,I	2	arivale_511d749e1c7a	Chronic Fatigue Syndrome	Arivale	0.5107
+188	10	A,I	2	il10k_tired_day	Tired day	Israeli10K	0.5107
+188	10	A,I	2	il10k_feeling_tired	Feeling tired	Israeli10K	0.5107
+188	10	A,I	2	il10k_tired_past_3_months	Degree bothered by feeling tired all the time in the last 3 months	Israeli10K	0.5107
+188	10	A,I	2	il10k_health_mental_past_two_week_tired_frequency	Frequency of tiredness / lethargy in last 2 weeks	Israeli10K	0.5107
+189	2	I,U	2	il10k_pre_pregnancy_genetic_testing	Pre pregnancy genetic testing	Israeli10K	0.5097
+189	2	I,U	2	ukbb_3140	Participants asked by interviewer if they might be pregnant before the body impedance measures. Impedance measurement was not performed if they answered Yes or Possibly.	UKBB	0.5097
+190	4	A,U	2	arivale_54a9b13881a1	Emphysema	Arivale	0.5001
+190	4	A,U	2	arivale_8967173e8387	Bronchitis (chronic)	Arivale	0.5001
+190	4	A,U	2	arivale_c901584e7894	Emphysema	Arivale	0.5001
+190	4	A,U	2	ukbb_3992	ACE touchscreen question What was your age when the emphysema/chronic bronchitis was first diagnosed?	UKBB	0.5001
+191	7	A,U	2	arivale_5dc9be2b7207	Fracture	Arivale	0.4984
+191	7	A,U	2	arivale_1206c95d5f91	Osteoporosis	Arivale	0.4984
+191	7	A,U	2	arivale_515d4132e4b5	Fractures (broken bones)	Arivale	0.4984
+191	7	A,U	2	arivale_c4887bc8f681	Osteoporosis	Arivale	0.4984
+191	7	A,U	2	ukbb_2463	ACE touchscreen question Have you fractured/broken any bones in the last 5 years?	UKBB	0.4984
+191	7	A,U	2	ukbb_3005	ACE touchscreen question Did the fracture result from a simple fall (i.e. from standing height)?	UKBB	0.4984
+191	7	A,U	2	ukbb_6151	ACE touchscreen question Which bones did you fracture/break? (You can select more than one answer)	UKBB	0.4984
+192	13	A,U	2	arivale_bbc02602a507	Do you currently take prescription medications?	Arivale	0.4975
+192	13	A,U	2	arivale_e6ddd9ce6755	Please list all current prescription medications with dosages.	Arivale	0.4975
+192	13	A,U	2	arivale_638f7d3c7574	Other medical treatments	Arivale	0.4975
+192	13	A,U	2	arivale_5f139cb82332	Cholesterol-lowering medications	Arivale	0.4975
+192	13	A,U	2	arivale_3213b072bf39	Blood sugar lowering medications	Arivale	0.4975
+192	13	A,U	2	arivale_10d006888541	Blood pressure lowering medications	Arivale	0.4975
+192	13	A,U	2	arivale_f5df29bf4d9e	Osteoporosis medications	Arivale	0.4975
+192	13	A,U	2	arivale_c60fe2c524e3	Allergy medications	Arivale	0.4975
+192	13	A,U	2	arivale_e976471d138c	How much medical support or treatment do you need to get through the day?	Arivale	0.4975
+192	13	A,U	2	ukbb_2492	ACE touchscreen question Do you regularly take any other PRESCRIPTION medications? (Do not forget medications such as puffers or patches)	UKBB	0.4975
+192	13	A,U	2	ukbb_6153	ACE touchscreen question Do you regularly take any of the following medications? (You can select more than one answer)	UKBB	0.4975
+192	13	A,U	2	ukbb_6177	ACE touchscreen question Do you regularly take any of the following medications? (you can select more than one answer)	UKBB	0.4975
+192	13	A,U	2	ukbb_137	Number of treatments (medications) entered	UKBB	0.4975
+193	6	I,U	2	il10k_smoking_former_stop_attempts_choice	Number of unsuccessful stop-smoking attempts	Israeli10K	0.4971
+193	6	I,U	2	il10k_smoking_former_stop_attempts_number	Number of unsuccessful stop-smoking attempts	Israeli10K	0.4971
+193	6	I,U	2	ukbb_23323	Number of symbol digit matches attempted before the participant timed-out.	UKBB	0.4971
+193	6	I,U	2	ukbb_20197	This is the number of word pairs correctly associated out of ten attempts.	UKBB	0.4971
+193	6	I,U	2	ukbb_2926	ACE touchscreen question How many times did you try to give up smoking before you were successful?	UKBB	0.4971
+193	6	I,U	2	ukbb_3849	ACE touchscreen question How many terminations? (enter 0 if none)	UKBB	0.4971
+194	5	I,U	2	il10k_diet_spread_type_used	Spread type	Israeli10K	0.4896
+194	5	I,U	2	il10k_diet_spread_type_used_more	Spread type	Israeli10K	0.4896
+194	5	I,U	2	ukbb_1428	ACE touchscreen question What type of spread do you mainly use?	UKBB	0.4896
+194	5	I,U	2	ukbb_2654	ACE touchscreen question What type of spread do you mainly use?	UKBB	0.4896
+194	5	I,U	2	ukbb_10767	ACE touchscreen question What type of spread do you mainly use?	UKBB	0.4896
+195	2	A,I	2	arivale_e4e098f84ac5	Heart Arrhythmias (such as A-fib, SVT)	Arivale	0.4887
+195	2	A,I	2	il10k_ablation_of_atrial_fibrillation_or_flutter_year	Ablation of atrial fibrillation or flutter year	Israeli10K	0.4887
+196	3	A,I	2	arivale_fe24eff21e5e	How tall are you?	Arivale	0.488
+196	3	A,I	2	il10k_early_life_comparative_body_weight	Comparative body size at age 10	Israeli10K	0.488
+196	3	A,I	2	il10k_early_life_comparative_body_height	Comparative height size at age 10	Israeli10K	0.488
+197	8	I,U	2	il10k_smoking_former_stop_why	Why did you stop smoking? (You can select more than one answer)	Israeli10K	0.4869
+197	8	I,U	2	ukbb_6149	ACE touchscreen question Do you have any of the following? (You can select more than one answer)	UKBB	0.4869
+197	8	I,U	2	ukbb_10006	ACE touchscreen question In the last year have you experienced any of the following? (You can select more than one answer)	UKBB	0.4869
+197	8	I,U	2	ukbb_6144	ACE touchscreen question Which of the following do you NEVER eat? (You can select more than one answer)	UKBB	0.4869
+197	8	I,U	2	ukbb_10855	ACE touchscreen question Which of the following do you NEVER eat? (You can select more than one answer)	UKBB	0.4869
+197	8	I,U	2	ukbb_6157	ACE touchscreen question Why did you stop smoking? (You can select more than one answer)	UKBB	0.4869
+197	8	I,U	2	ukbb_6158	ACE touchscreen question Why did you reduce your smoking? (You can select more than one answer)	UKBB	0.4869
+197	8	I,U	2	ukbb_10115	ACE touchscreen question Why did you stop smoking?	UKBB	0.4869
+198	10	A,I	2	arivale_1adae3c226d6	Kidney cancer	Arivale	0.4862
+198	10	A,I	2	arivale_b335c20afa2d	Kidney stones	Arivale	0.4862
+198	10	A,I	2	arivale_d984ed75d4de	Kidney disease	Arivale	0.4862
+198	10	A,I	2	arivale_9fd3b0bde8b0	Kidney failure	Arivale	0.4862
+198	10	A,I	2	arivale_86f2c471de61	Kidney transplant	Arivale	0.4862
+198	10	A,I	2	arivale_26014e364afa	Polycystic kidney disease	Arivale	0.4862
+198	10	A,I	2	arivale_93f8d46bfaf4	Kidney Disease / Failure	Arivale	0.4862
+198	10	A,I	2	arivale_f639ea0be193	Kidney Stones	Arivale	0.4862
+198	10	A,I	2	il10k_kidney_artery_doppler_past_year	Renal Doppler [ultrasound]	Israeli10K	0.4862
+198	10	A,I	2	il10k_kidney_disease_dialysis_family_number	Kidney disease dialysis family number	Israeli10K	0.4862
+199	7	A,I	2	arivale_61a1009512c2	Hyperthyroidism (overactive thyroid)	Arivale	0.486
+199	7	A,I	2	arivale_9eaa5389d7c5	Hypothyroidism (underactive thyroid)	Arivale	0.486
+199	7	A,I	2	arivale_6e5fc1e6fe61	Thyroid nodule	Arivale	0.486
+199	7	A,I	2	arivale_07ff50b82041	Thyroid (Nodule)	Arivale	0.486
+199	7	A,I	2	arivale_099d46289438	Thyroid High (Overactive) / Hyperthyroidism	Arivale	0.486
+199	7	A,I	2	arivale_76f088371dc1	Thyroid Low (Underactive) / Hypothyroidism	Arivale	0.486
+199	7	A,I	2	il10k_total_or_partial_thyroidectomy_year	Total or partial thyroidectomy year	Israeli10K	0.486
+200	5	A,I	2	arivale_957acbee5ff5	Pericardial disease	Arivale	0.4823
+200	5	A,I	2	arivale_c5f7e172ea0b	Blood transfusion	Arivale	0.4823
+200	5	A,I	2	arivale_cd056d986916	Blood Transfusion	Arivale	0.4823
+200	5	A,I	2	il10k_myocardial_perfusion_imaging_results	Myocardial perfusion imaging results	Israeli10K	0.4823
+200	5	A,I	2	il10k_heart_mapping_past_year	Myocardial perfusion imaging	Israeli10K	0.4823
+201	5	A,I	2	arivale_11404393eef7	Chronic obstructive pulmonary disease (COPD)	Arivale	0.4823
+201	5	A,I	2	arivale_461451b89255	Pulmonary hypertension (high blood pressure in the lungs)	Arivale	0.4823
+201	5	A,I	2	arivale_6299a0f118cd	Collapse of part or all of the lung (atelectasis or pneumothorax)	Arivale	0.4823
+201	5	A,I	2	arivale_3b0bdc87b247	Other lung condition	Arivale	0.4823
+201	5	A,I	2	il10k_spirometry_results	Pulmonary function test results	Israeli10K	0.4823
+202	12	I,U	2	il10k_mobile_phone_years	Length of mobile phone use	Israeli10K	0.4803
+202	12	I,U	2	il10k_mobile_phone_weekly	Weekly usage of mobile phone in last 3 months	Israeli10K	0.4803
+202	12	I,U	2	ukbb_4250	This is the length of the number shown to the participant. The length was capped at 12 digits.	UKBB	0.4803
+202	12	I,U	2	ukbb_4836	ACE touchscreen question Have you ever listened to music for more than 3 hours per week at a volume which you would need to shout to be heard or, if wearing headphones, someone else would need to shou...	UKBB	0.4803
+202	12	I,U	2	ukbb_1110	ACE touchscreen question For approximately how many years have you been using a mobile phone at least once per week to make or receive calls?	UKBB	0.4803
+202	12	I,U	2	ukbb_1120	ACE touchscreen question Over the last 3 months, on average how much time per week did you spend making or receiving calls on a mobile phone?	UKBB	0.4803
+202	12	I,U	2	ukbb_1130	ACE touchscreen question Over the last 3 months, how often have you used a hands-free device/speakerphone when making or receiving calls on your mobile?	UKBB	0.4803
+202	12	I,U	2	ukbb_1140	ACE touchscreen question Is there any difference between your mobile phone use now compared to two years ago?	UKBB	0.4803
+202	12	I,U	2	ukbb_10016	ACE touchscreen question Do you use a hands-free device/speakerphone regularly, i.e. for more than half the calls you make or receive on a mobile phone?	UKBB	0.4803
+202	12	I,U	2	ukbb_10749	ACE touchscreen question Over the last 3 months, on average how much time per week did you spend making or receiving calls on a mobile phone?	UKBB	0.4803
+202	12	I,U	2	ukbb_10886	ACE touchscreen question Is there any difference between your mobile phone use now compared to one year ago?	UKBB	0.4803
+202	12	I,U	2	ukbb_2385	ACE touchscreen question When did your voice break?	UKBB	0.4803
+203	3	A,U	2	arivale_a3c3fdfd569c	Alopecia (hair loss)	Arivale	0.4802
+203	3	A,U	2	ukbb_2375	ACE touchscreen question When did you start to grow facial hair?	UKBB	0.4802
+203	3	A,U	2	ukbb_2395	ACE touchscreen question Which of the following best describes your hair/balding pattern?	UKBB	0.4802
+204	18	A,I	2	arivale_7862931e38c2	Abnormal heart rhythm (arrhythmia)	Arivale	0.4784
+204	18	A,I	2	arivale_1a2c0005b45e	Heart valve disease	Arivale	0.4784
+204	18	A,I	2	arivale_a3e56d144227	Congenital heart disease	Arivale	0.4784
+204	18	A,I	2	arivale_c513e4476c83	Heart muscle disease (cardiomyopathy)	Arivale	0.4784
+204	18	A,I	2	arivale_674253dfbdc3	Aortic disease	Arivale	0.4784
+204	18	A,I	2	arivale_a162d7c66990	Other cardiovascular condition	Arivale	0.4784
+204	18	A,I	2	arivale_d4374606ec82	Heart murmur	Arivale	0.4784
+204	18	A,I	2	arivale_90a09bd9f781	Heart transplant	Arivale	0.4784
+204	18	A,I	2	arivale_a8287965f151	I have a soft heart.	Arivale	0.4784
+204	18	A,I	2	arivale_110a2cffc14b	Congestive Heart Failure	Arivale	0.4784
+204	18	A,I	2	arivale_182ff9417ded	Heart valve disease/Heart murmur	Arivale	0.4784
+204	18	A,I	2	arivale_302595d4342b	Congenital Heart Disease	Arivale	0.4784
+204	18	A,I	2	il10k_heart_race_past_3_months	Degree bothered by feeling heart pound/race in the last 3 months	Israeli10K	0.4784
+204	18	A,I	2	il10k_resting_echo_results	Resting echocardiography results	Israeli10K	0.4784
+204	18	A,I	2	il10k_stress_echo_results	Stress echocardiography results	Israeli10K	0.4784
+204	18	A,I	2	il10k_cardiac_mri_results	Cardiac MRI results	Israeli10K	0.4784
+204	18	A,I	2	il10k_eco_heart_in_effort_past_year	Stress echocardiogram	Israeli10K	0.4784
+204	18	A,I	2	il10k_cardica_mri_past_year	Cardiac MRI	Israeli10K	0.4784
+205	8	A,I	2	arivale_68756ad99ca0	I share my home with:	Arivale	0.4734
+205	8	A,I	2	arivale_6ed7cad7ccbb	Do you have a pet?	Arivale	0.4734
+205	8	A,I	2	arivale_e62f2dc4c096	I leave my belongings around.	Arivale	0.4734
+205	8	A,I	2	arivale_0b2423d12c80	I keep in the background.	Arivale	0.4734
+205	8	A,I	2	arivale_3568d0916632	I often forget to put things back in their proper place.	Arivale	0.4734
+205	8	A,I	2	arivale_43744cd3d90d	I take time out for others.	Arivale	0.4734
+205	8	A,I	2	il10k_rarely_leave_home	Rarely leave home	Israeli10K	0.4734
+205	8	A,I	2	il10k_mlhfq_rarely_leave_house	Do you rarely leave your house?	Israeli10K	0.4734
+206	3	I,U	2	il10k_activity_strenuous_duration	Duration of strenuous sports	Israeli10K	0.4726
+206	3	I,U	2	ukbb_20023	This field is the mean duration to first press of snap-button summed over rounds in which both cards matched. It gives a crude measure of the raw processing+reaction speed of a participant.	UKBB	0.4726
+206	3	I,U	2	ukbb_1001	ACE touchscreen question Each time you did strenuous sports, about how long did you spend doing it?	UKBB	0.4726
+207	6	A,I	2	arivale_8ce5c60efa85	ADHD or ADD	Arivale	0.4715
+207	6	A,I	2	arivale_63f2d477f404	Essential tremor	Arivale	0.4715
+207	6	A,I	2	arivale_28202293bbdb	Narcolepsy	Arivale	0.4715
+207	6	A,I	2	arivale_9ce108c36919	Drug abuse	Arivale	0.4715
+207	6	A,I	2	arivale_4fcad7d1a3f1	Metabolic syndrome	Arivale	0.4715
+207	6	A,I	2	il10k_ritalin	Ritalin	Israeli10K	0.4715
+208	15	I,U	2	il10k_hospitalization_since_recruitment	TImezone of measurement	Israeli10K	0.4707
+208	15	I,U	2	il10k_hospitalization_since_recruitment_reason_2	Date of hospitalization	Israeli10K	0.4707
+208	15	I,U	2	il10k_hospitalization_since_recruitment_reason_3	Date of hospitalization	Israeli10K	0.4707
+208	15	I,U	2	il10k_hospitalization_since_recruitment_reason_4	Date of hospitalization	Israeli10K	0.4707
+208	15	I,U	2	il10k_hospitalization_since_recruitment_reason_5	Date of hospitalization	Israeli10K	0.4707
+208	15	I,U	2	il10k_surgery_since_recruitment	Date of hospitalization	Israeli10K	0.4707
+208	15	I,U	2	ukbb_84	For each cancer entered, the nurse entered the date or age at diagnosis using a pop-up screen, depending on the participant's response. See Related Data-fields tab for further information on where to ...	UKBB	0.4707
+208	15	I,U	2	ukbb_87	For each disease entered, the nurse entered the date or age at diagnosis using a pop-up screen, depending on the participant's response. See Related Data-fields tab for further information on where to...	UKBB	0.4707
+208	15	I,U	2	ukbb_20006	This is the interpolated time when the participant indicated the corresponding cancer was first diagnosed by a doctor, measured in years.	UKBB	0.4707
+208	15	I,U	2	ukbb_20007	This is the interpolated time when the participant indicated the corresponding cancer was first diagnosed by a doctor, given as their estimated age.	UKBB	0.4707
+208	15	I,U	2	ukbb_20008	This is the interpolated time when the participant indicated the corresponding condition was first diagnosed by a doctor, measured in years.	UKBB	0.4707
+208	15	I,U	2	ukbb_20009	This is the interpolated time when the participant indicated the corresponding condition was first diagnosed by a doctor, given as their estimated age.	UKBB	0.4707
+208	15	I,U	2	ukbb_20013	Participants were able to record the time the non-cancer illness was diagnosed by entering either their age or the year. Some participants recorded an event but were unable to recall the time.	UKBB	0.4707
+208	15	I,U	2	ukbb_92	For each operation entered, the nurse entered the date or age at diagnosis using a pop-up screen, depending on the participant's response. See Related Data-fields tab for further information on where ...	UKBB	0.4707
+208	15	I,U	2	ukbb_20011	This is the age participant indicated they were when the corresponding operation took place.	UKBB	0.4707
+209	2	I,U	2	il10k_activity_transport_types	Types of transport used (excluding work)	Israeli10K	0.4599
+209	2	I,U	2	ukbb_6162	ACE touchscreen question In the last 4 weeks, which forms of transport have you used most often to get about? (Not including any journeys to and from work; you can select more than one answer)	UKBB	0.4599
+210	8	A,I	2	arivale_23e7c07aa8dc	I have acid reflux/heartburn.	Arivale	0.4585
+210	8	A,I	2	arivale_0640116c6ba9	I have bloating.	Arivale	0.4585
+210	8	A,I	2	arivale_f6ab1188a60f	Bulimia	Arivale	0.4585
+210	8	A,I	2	arivale_3b770a326602	Peptic ulcer	Arivale	0.4585
+210	8	A,I	2	arivale_33a355596917	Gastritis	Arivale	0.4585
+210	8	A,I	2	arivale_01bf469bc30b	Stomach Ulcer	Arivale	0.4585
+210	8	A,I	2	il10k_sensitive_stomach	Sensitive stomach	Israeli10K	0.4585
+210	8	A,I	2	il10k_epipen_carrying	Epipen carrying	Israeli10K	0.4585
+211	4	A,I	2	arivale_846f5bdef61d	Alzheimer's disease or dementia	Arivale	0.4487
+211	4	A,I	2	arivale_d63d5a7931c2	Graves' disease	Arivale	0.4487
+211	4	A,I	2	arivale_daf5c242cde6	Graves Disease	Arivale	0.4487
+211	4	A,I	2	il10k_dementia_under_60_family_number	Dementia under 60 family number	Israeli10K	0.4487
+212	5	A,U	2	arivale_4de243cc937d	Eczema	Arivale	0.4483
+212	5	A,U	2	arivale_a66f9828f009	Seasonal allergies	Arivale	0.4483
+212	5	A,U	2	arivale_d1351b2c6770	Allergy (Hay Fever)	Arivale	0.4483
+212	5	A,U	2	arivale_97635ba53c20	Skin Condition (Eczema)	Arivale	0.4483
+212	5	A,U	2	ukbb_3761	ACE touchscreen question What was your age when the hayfever, rhinitis or eczema was first diagnosed?	UKBB	0.4483
+213	8	A,I	2	arivale_9032fc20e322	Epstein-Barr virus (EBV)	Arivale	0.4376
+213	8	A,I	2	arivale_0157391d77b8	Other hepatitis (A, B, D, E or autoimmune)	Arivale	0.4376
+213	8	A,I	2	arivale_c3eb7f10acf2	Marfan syndrome	Arivale	0.4376
+213	8	A,I	2	arivale_bded4ed8e413	Rheumatoid arthritis	Arivale	0.4376
+213	8	A,I	2	arivale_21f002dac29f	Sjogren's syndrome	Arivale	0.4376
+213	8	A,I	2	arivale_55c511358f80	Other autoimmune conditions	Arivale	0.4376
+213	8	A,I	2	arivale_b153e723766c	Arthritis (Rheumatoid)	Arivale	0.4376
+213	8	A,I	2	il10k_autoimmune_diseases_family_number	Autoimmune diseases family number	Israeli10K	0.4376
+214	3	A,U	2	arivale_97d72368c67d	Other neurocognitive condition	Arivale	0.4325
+214	3	A,U	2	ukbb_26302	Estimate of each persons cognitive ability when performing the picture vocabulary task. Value has been scaled to the range 0-1.	UKBB	0.4325
+214	3	A,U	2	ukbb_20127	This is an externally derived summary score of neuroticism, based on 12 neurotic behaviour domains as reported from fields 1920, 1930, 1940, 1950, 1960, 1970, 1980, 1990, 2000, 2010, 2020 and 2030 fro...	UKBB	0.4325
+215	2	A,I	2	arivale_7403e39de103	Coronary artery disease	Arivale	0.4297
+215	2	A,I	2	il10k_doppler_of_the_carotid_arteries_past_year	Carotid artery Doppler ultrasound	Israeli10K	0.4297
+216	2	I,U	2	il10k_health_general_past_year_falling	Falls in the last year	Israeli10K	0.4291
+216	2	I,U	2	ukbb_2296	ACE touchscreen question In the last year have you had any falls?	UKBB	0.4291
+217	5	A,I	2	arivale_f120b6dfee05	French fries	Arivale	0.4238
+217	5	A,I	2	arivale_7baccaaecf71	Plant based protein (e.g. tofu, beans, lentils, tempeh)	Arivale	0.4238
+217	5	A,I	2	arivale_2fcc31629e83	Elevated cholesterol or triglycerides	Arivale	0.4238
+217	5	A,I	2	il10k_extra_diet_frying_oil_type	Type of fat used for frying	Israeli10K	0.4238
+217	5	A,I	2	il10k_extra_diet_press_oil_type	Main oil for frying	Israeli10K	0.4238
+218	9	I,U	2	il10k_chest_pain_during_power_walking_up_stairs_uphill	Chest pain during power walking up stairs uphill	Israeli10K	0.4235
+218	9	I,U	2	il10k_hard_to_climb	Hard to climb	Israeli10K	0.4235
+218	9	I,U	2	il10k_mlhfq_difficulty_walking	Do you feel difficulty walking or climbing stairs?	Israeli10K	0.4235
+218	9	I,U	2	il10k_health_legs_pain_walking_uphill	Leg pain when walking uphill or hurrying	Israeli10K	0.4235
+218	9	I,U	2	il10k_health_pain_chest_walking_uphill	Chest pain or discomfort when walking uphill or hurrying	Israeli10K	0.4235
+218	9	I,U	2	ukbb_6770	Errors before selecting a particular correct item in numeric path (trail #1). Only values greater than zero are recorded.	UKBB	0.4235
+218	9	I,U	2	ukbb_6771	Errors before selecting a particular correct item in alphanumeric path (trail #2). Only values greater than zero are recorded.	UKBB	0.4235
+218	9	I,U	2	ukbb_5474	ACE touchscreen question Do you get pain when you walk uphill or hurry?	UKBB	0.4235
+218	9	I,U	2	ukbb_3751	ACE touchscreen question Do you get this pain or discomfort when you walk uphill or hurry?	UKBB	0.4235
+219	4	I,U	2	il10k_activity_strenuous_monthly	Frequency of strenuous sports in last 4 weeks	Israeli10K	0.4228
+219	4	I,U	2	ukbb_398	This is the number of correct matches in the round. It should always be 3 for a 2x3 game and 6 for a 3x4 game, unless the participant abandoned before finishing.	UKBB	0.4228
+219	4	I,U	2	ukbb_10136	This is the number of correct matches in the round. It should always be 3 for a 2x3 game and 6 for a 3x4 game, unless the participant abandoned before finishing.	UKBB	0.4228
+219	4	I,U	2	ukbb_991	ACE touchscreen question How many times in the last 4 weeks did you do strenuous sports?	UKBB	0.4228
+220	6	A,I	2	arivale_ce93120db8fe	Liver failure	Arivale	0.4205
+220	6	A,I	2	arivale_92b73d5a213b	Post-traumatic stress disorder (PTSD)	Arivale	0.4205
+220	6	A,I	2	arivale_acf694176e29	Do you have any conditions not previously listed? If so, please list them here.	Arivale	0.4205
+220	6	A,I	2	arivale_e3015c1ef568	Post Traumatic Stress Disorder	Arivale	0.4205
+220	6	A,I	2	arivale_5074c5b420b9	Do you have any conditions not listed? Please list them here.	Arivale	0.4205
+220	6	A,I	2	il10k_health_mental_past_two_years_event	Illness, injury, bereavement, stress in last 2 years	Israeli10K	0.4205
+221	2	A,U	2	arivale_c116de3ba981	I start conversations.	Arivale	0.3975
+221	2	A,U	2	ukbb_2257	ACE touchscreen question Do you find it difficult to follow a conversation if there is background noise (such as TV, radio, children playing)?	UKBB	0.3975
+222	2	A,I	2	arivale_02fb3a9cf8c6	Fermented foods (e.g. sauerkraut, kombucha, kimchi, etc.)	Arivale	0.3838
+222	2	A,I	2	il10k_extra_diet_kosher	Keep kosher	Israeli10K	0.3838
+223	4	A,I	2	arivale_5be86c01a6f6	I am always committed and involved.	Arivale	0.3506
+223	4	A,I	2	arivale_7f7802b5cdd3	I prefer my Arivale Coach to be:	Arivale	0.3506
+223	4	A,I	2	arivale_39df161f4405	When it comes to accountability:	Arivale	0.3506
+223	4	A,I	2	il10k_health_mental_current_able_to_confide	Able to confide	Israeli10K	0.3506
+224	2	A,U	2	arivale_2a954dad3c8b	I am interested in people.	Arivale	0.3488
+224	2	A,U	2	ukbb_10114	ACE touchscreen question Would you be willing for the study organisers to contact you in the future by email?	UKBB	0.3488
+225	4	A,U	2	arivale_b92d62da0c56	I am exacting in my work.	Arivale	0.3379
+225	4	A,U	2	ukbb_4990	ACE touchscreen question If sixty is more than half of seventy-five, multiply twenty-three by three. If not subtract 15 from eighty-five. Is the answer?. Part 6 of Fluid Intelligence test.	UKBB	0.3379
+225	4	A,U	2	ukbb_4294	True if final answer given was correct.	UKBB	0.3379
+225	4	A,U	2	ukbb_20277	This is a truncated version of the fully detailed job codes where participants have been grouped at the first 4 digits level of	UKBB	0.3379
+226	7	A,U	2	arivale_543acb318135	I have a rich vocabulary.	Arivale	0.3341
+226	7	A,U	2	ukbb_6448	The correct word associated with huge was trousers.	UKBB	0.3341
+226	7	A,U	2	ukbb_6470	The correct word associated with tattered was dress.	UKBB	0.3341
+226	7	A,U	2	ukbb_6492	The correct word associated with long was curtains.	UKBB	0.3341
+226	7	A,U	2	ukbb_6503	The correct word associated with red was car.	UKBB	0.3341
+226	7	A,U	2	ukbb_6514	The correct word associated with sulking was elephant.	UKBB	0.3341
+226	7	A,U	2	ukbb_6525	The correct word associated with pretty was dish.	UKBB	0.3341
