@@ -1,0 +1,2189 @@
+{
+  "summary": {
+    "total_fields": 120,
+    "resolution_strategies": {
+      "phenotype_description": 120
+    },
+    "entity_types_used": {
+      "biolink:PhenotypicFeature": 92,
+      "biolink:ClinicalFinding": 28
+    },
+    "resolved_rate": 1.0
+  },
+  "mappings": [
+    {
+      "demographic_category": "Sex / Gender",
+      "data_type": "Self-reported",
+      "phenotype_description": "What gender do you identify with at the moment?",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:285116001",
+        "SNOMEDCT:33821000087103"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "SNOMEDCT:285116001",
+      "biomapper_name": "What gender do you identify with at the moment?",
+      "biomapper_kg_id": null,
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Race / Ethnicity",
+      "data_type": "Self-reported",
+      "phenotype_description": "For as many as you know, what are the ancestral ethnic groups of your biological parents and grandparents? / Aboriginal (e.g. North American Indian and Australian)",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:364699009",
+        "SNOMEDCT:397731000"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "SNOMEDCT:364699009",
+      "biomapper_name": "For as many as you know, what are the ancestral ethnic groups of your biological parents and grandparents? / Aboriginal (e.g. North American Indian and Australian)",
+      "biomapper_kg_id": null,
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Race / Ethnicity",
+      "data_type": "Self-reported",
+      "phenotype_description": "For as many as you know, what are the ancestral ethnic groups of your biological parents and grandparents? / African",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:364699009",
+        "SNOMEDCT:397731000"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "SNOMEDCT:364699009",
+      "biomapper_name": "For as many as you know, what are the ancestral ethnic groups of your biological parents and grandparents? / African",
+      "biomapper_kg_id": null,
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Race / Ethnicity",
+      "data_type": "Self-reported",
+      "phenotype_description": "For as many as you know, what are the ancestral ethnic groups of your biological parents and grandparents? / Arab/Middle Eastern (e.g. Egyptian, Iraqi, Lebanese, Moroccan, Palestinian, Syrian)",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:364699009",
+        "SNOMEDCT:397731000"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "SNOMEDCT:364699009",
+      "biomapper_name": "For as many as you know, what are the ancestral ethnic groups of your biological parents and grandparents? / Arab/Middle Eastern (e.g. Egyptian, Iraqi, Lebanese, Moroccan, Palestinian, Syrian)",
+      "biomapper_kg_id": null,
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Race / Ethnicity",
+      "data_type": "Self-reported",
+      "phenotype_description": "For as many as you know, what are the ancestral ethnic groups of your biological parents and grandparents? / Australian/New Zealander",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:364699009",
+        "SNOMEDCT:397731000"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "SNOMEDCT:364699009",
+      "biomapper_name": "For as many as you know, what are the ancestral ethnic groups of your biological parents and grandparents? / Australian/New Zealander",
+      "biomapper_kg_id": null,
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Race / Ethnicity",
+      "data_type": "Self-reported",
+      "phenotype_description": "For as many as you know, what are the ancestral ethnic groups of your biological parents and grandparents? / British (e.g. English, Irish, Scottish, Welsh)",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:364699009",
+        "SNOMEDCT:397731000"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "SNOMEDCT:364699009",
+      "biomapper_name": "For as many as you know, what are the ancestral ethnic groups of your biological parents and grandparents? / British (e.g. English, Irish, Scottish, Welsh)",
+      "biomapper_kg_id": null,
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Race / Ethnicity",
+      "data_type": "Self-reported",
+      "phenotype_description": "For as many as you know, what are the ancestral ethnic groups of your biological parents and grandparents? / Caribbean (e.g. Barbadian, Cuban, Haitian, Jamaican, Trinidadian, Tobagonian)",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:364699009",
+        "SNOMEDCT:397731000"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "SNOMEDCT:364699009",
+      "biomapper_name": "For as many as you know, what are the ancestral ethnic groups of your biological parents and grandparents? / Caribbean (e.g. Barbadian, Cuban, Haitian, Jamaican, Trinidadian, Tobagonian)",
+      "biomapper_kg_id": null,
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Race / Ethnicity",
+      "data_type": "Self-reported",
+      "phenotype_description": "For as many as you know, what are the ancestral ethnic groups of your biological parents and grandparents? / East/Central Asian (e.g. Chinese, Japanese, Korean, Vietnamese, Filipino)",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:364699009",
+        "SNOMEDCT:397731000"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "SNOMEDCT:364699009",
+      "biomapper_name": "For as many as you know, what are the ancestral ethnic groups of your biological parents and grandparents? / East/Central Asian (e.g. Chinese, Japanese, Korean, Vietnamese, Filipino)",
+      "biomapper_kg_id": null,
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Race / Ethnicity",
+      "data_type": "Self-reported",
+      "phenotype_description": "For as many as you know, what are the ancestral ethnic groups of your biological parents and grandparents? / Eastern European (e.g. Czech Republic, Hungarian, Polish, Romanian, Russian)",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:364699009",
+        "SNOMEDCT:397731000"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "SNOMEDCT:364699009",
+      "biomapper_name": "For as many as you know, what are the ancestral ethnic groups of your biological parents and grandparents? / Eastern European (e.g. Czech Republic, Hungarian, Polish, Romanian, Russian)",
+      "biomapper_kg_id": null,
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Race / Ethnicity",
+      "data_type": "Self-reported",
+      "phenotype_description": "For as many as you know, what are the ancestral ethnic groups of your biological parents and grandparents? / French (e.g. French, Acadian, French Canadian)",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:364699009",
+        "SNOMEDCT:397731000"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "SNOMEDCT:364699009",
+      "biomapper_name": "For as many as you know, what are the ancestral ethnic groups of your biological parents and grandparents? / French (e.g. French, Acadian, French Canadian)",
+      "biomapper_kg_id": null,
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Race / Ethnicity",
+      "data_type": "Self-reported",
+      "phenotype_description": "For as many as you know, what are the ancestral ethnic groups of your biological parents and grandparents? / Latin/South American (e.g. Argentinean, Brazilian, Costa Rican, Mexican)",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:364699009",
+        "SNOMEDCT:397731000"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "SNOMEDCT:364699009",
+      "biomapper_name": "For as many as you know, what are the ancestral ethnic groups of your biological parents and grandparents? / Latin/South American (e.g. Argentinean, Brazilian, Costa Rican, Mexican)",
+      "biomapper_kg_id": null,
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Race / Ethnicity",
+      "data_type": "Self-reported",
+      "phenotype_description": "For as many as you know, what are the ancestral ethnic groups of your biological parents and grandparents? / North American (e.g. American, Canadian)",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:364699009",
+        "SNOMEDCT:397731000"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "SNOMEDCT:364699009",
+      "biomapper_name": "For as many as you know, what are the ancestral ethnic groups of your biological parents and grandparents? / North American (e.g. American, Canadian)",
+      "biomapper_kg_id": null,
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Race / Ethnicity",
+      "data_type": "Self-reported",
+      "phenotype_description": "For as many as you know, what are the ancestral ethnic groups of your biological parents and grandparents? / Northern European (e.g. Danish, Finnish, Icelandic, Norwegian, Swedish)",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:364699009",
+        "SNOMEDCT:397731000"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "SNOMEDCT:364699009",
+      "biomapper_name": "For as many as you know, what are the ancestral ethnic groups of your biological parents and grandparents? / Northern European (e.g. Danish, Finnish, Icelandic, Norwegian, Swedish)",
+      "biomapper_kg_id": null,
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Race / Ethnicity",
+      "data_type": "Self-reported",
+      "phenotype_description": "For as many as you know, what are the ancestral ethnic groups of your biological parents and grandparents? / Pacific Islands (e.g. Fijian, Polynesian, Hawaiian, Maori)",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:364699009",
+        "SNOMEDCT:397731000"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "SNOMEDCT:364699009",
+      "biomapper_name": "For as many as you know, what are the ancestral ethnic groups of your biological parents and grandparents? / Pacific Islands (e.g. Fijian, Polynesian, Hawaiian, Maori)",
+      "biomapper_kg_id": null,
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Race / Ethnicity",
+      "data_type": "Self-reported",
+      "phenotype_description": "For as many as you know, what are the ancestral ethnic groups of your biological parents and grandparents? / South African",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:364699009",
+        "SNOMEDCT:397731000"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "SNOMEDCT:364699009",
+      "biomapper_name": "For as many as you know, what are the ancestral ethnic groups of your biological parents and grandparents? / South African",
+      "biomapper_kg_id": null,
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Race / Ethnicity",
+      "data_type": "Self-reported",
+      "phenotype_description": "For as many as you know, what are the ancestral ethnic groups of your biological parents and grandparents? / South Asian (e.g. Bangladeshi, Bengali, East Indian, Pakistani, Sri Lankan)",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:364699009",
+        "SNOMEDCT:397731000"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "SNOMEDCT:364699009",
+      "biomapper_name": "For as many as you know, what are the ancestral ethnic groups of your biological parents and grandparents? / South Asian (e.g. Bangladeshi, Bengali, East Indian, Pakistani, Sri Lankan)",
+      "biomapper_kg_id": null,
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Race / Ethnicity",
+      "data_type": "Self-reported",
+      "phenotype_description": "For as many as you know, what are the ancestral ethnic groups of your biological parents and grandparents? / Southern European (e.g. Bulgarian, Cypriot, Greek, Italian, Spanish, former Yugoslavia)",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:364699009",
+        "SNOMEDCT:397731000"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "SNOMEDCT:364699009",
+      "biomapper_name": "For as many as you know, what are the ancestral ethnic groups of your biological parents and grandparents? / Southern European (e.g. Bulgarian, Cypriot, Greek, Italian, Spanish, former Yugoslavia)",
+      "biomapper_kg_id": null,
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Race / Ethnicity",
+      "data_type": "Self-reported",
+      "phenotype_description": "For as many as you know, what are the ancestral ethnic groups of your biological parents and grandparents? / West Asian (e.g., Afghan, Armenian, Iranian, Israeli, Kurdish, Turkish)",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:364699009",
+        "SNOMEDCT:397731000"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "SNOMEDCT:364699009",
+      "biomapper_name": "For as many as you know, what are the ancestral ethnic groups of your biological parents and grandparents? / West Asian (e.g., Afghan, Armenian, Iranian, Israeli, Kurdish, Turkish)",
+      "biomapper_kg_id": null,
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Race / Ethnicity",
+      "data_type": "Self-reported",
+      "phenotype_description": "For as many as you know, what are the ancestral ethnic groups of your biological parents and grandparents? / Western European (e.g. Austrian, Dutch, Belgian, German, Swiss)",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:364699009",
+        "SNOMEDCT:397731000"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "SNOMEDCT:364699009",
+      "biomapper_name": "For as many as you know, what are the ancestral ethnic groups of your biological parents and grandparents? / Western European (e.g. Austrian, Dutch, Belgian, German, Swiss)",
+      "biomapper_kg_id": null,
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Race / Ethnicity",
+      "data_type": "Self-reported",
+      "phenotype_description": "For as many as you know, what are the ancestral ethnic groups of your biological parents and grandparents? Other",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:364699009",
+        "SNOMEDCT:397731000"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "SNOMEDCT:364699009",
+      "biomapper_name": "For as many as you know, what are the ancestral ethnic groups of your biological parents and grandparents? Other",
+      "biomapper_kg_id": null,
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Race / Ethnicity",
+      "data_type": "Self-reported",
+      "phenotype_description": "For as many as you know, what are the ancestral ethnic groups of your biological parents and grandparents? Other, specify",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:364699009",
+        "SNOMEDCT:397731000"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "SNOMEDCT:364699009",
+      "biomapper_name": "For as many as you know, what are the ancestral ethnic groups of your biological parents and grandparents? Other, specify",
+      "biomapper_kg_id": null,
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Race / Ethnicity",
+      "data_type": "Self-reported",
+      "phenotype_description": "Which category best describes your ethnic group or background.",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:364699009"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "SNOMEDCT:364699009",
+      "biomapper_name": "Which category best describes your ethnic group or background.",
+      "biomapper_kg_id": null,
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Race / Ethnicity",
+      "data_type": "Self-reported",
+      "phenotype_description": "Which category best describes your ethnic group or background?",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:397731000",
+        "SNOMEDCT:186747009"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "SNOMEDCT:397731000",
+      "biomapper_name": "Which category best describes your ethnic group or background?",
+      "biomapper_kg_id": null,
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Race / Ethnicity",
+      "data_type": "Self-reported",
+      "phenotype_description": "Which of the following best describes your ethnic origin?",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:397731000"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "SNOMEDCT:397731000",
+      "biomapper_name": "Which of the following best describes your ethnic origin?",
+      "biomapper_kg_id": null,
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Education",
+      "data_type": "Self-reported",
+      "phenotype_description": "What is the highest academic/educational qualification (or its nearest equivalent), that you have received?",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:105421008",
+        "SNOMEDCT:365461001"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "SNOMEDCT:105421008",
+      "biomapper_name": "What is the highest academic/educational qualification (or its nearest equivalent), that you have received?",
+      "biomapper_kg_id": "UMLS:C0013658",
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Education",
+      "data_type": "Self-reported",
+      "phenotype_description": "What is the highest education qualification of your father?",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:105421008",
+        "SNOMEDCT:365461001"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "SNOMEDCT:105421008",
+      "biomapper_name": "What is the highest education qualification of your father?",
+      "biomapper_kg_id": "UMLS:C0013658",
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Education",
+      "data_type": "Self-reported",
+      "phenotype_description": "What is the highest education qualification of your mother?",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:105421008",
+        "SNOMEDCT:365461001"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "SNOMEDCT:105421008",
+      "biomapper_name": "What is the highest education qualification of your mother?",
+      "biomapper_kg_id": "UMLS:C0013658",
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Education",
+      "data_type": "Self-reported",
+      "phenotype_description": "At what age did you finish full time education?",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:276031006",
+        "SNOMEDCT:365461001"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "SNOMEDCT:276031006",
+      "biomapper_name": "At what age did you finish full time education?",
+      "biomapper_kg_id": "UMLS:C0424927",
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Education",
+      "data_type": "Self-reported",
+      "phenotype_description": "At what age did you finish continuous full-time education? \\ years",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:276031006"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "SNOMEDCT:276031006",
+      "biomapper_name": "At what age did you finish continuous full-time education? \\ years",
+      "biomapper_kg_id": "UMLS:C0424927",
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Education",
+      "data_type": "Self-reported",
+      "phenotype_description": "At what age did you finish or stop full-time education?",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:276031006"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "SNOMEDCT:276031006",
+      "biomapper_name": "At what age did you finish or stop full-time education?",
+      "biomapper_kg_id": "UMLS:C0424927",
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Education",
+      "data_type": "Self-reported",
+      "phenotype_description": "At what age did you finish or stop full-time education? Not finished yet",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:276031006"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "SNOMEDCT:276031006",
+      "biomapper_name": "At what age did you finish or stop full-time education? Not finished yet",
+      "biomapper_kg_id": "UMLS:C0424927",
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Education",
+      "data_type": "Self-reported",
+      "phenotype_description": "I am still in full-time education",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:276031006"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "SNOMEDCT:276031006",
+      "biomapper_name": "I am still in full-time education",
+      "biomapper_kg_id": "UMLS:C0424927",
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Marital / Relationship Status",
+      "data_type": "Self-reported",
+      "phenotype_description": "Are you currently married or in a relationship?",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:125680007"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "SNOMEDCT:125680007",
+      "biomapper_name": "Are you currently married or in a relationship?",
+      "biomapper_kg_id": "UMLS:C0024819",
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Marital / Relationship Status",
+      "data_type": "Self-reported",
+      "phenotype_description": "Are you currently married?",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:125680007"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "SNOMEDCT:125680007",
+      "biomapper_name": "Are you currently married?",
+      "biomapper_kg_id": "UMLS:C0024819",
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Marital / Relationship Status",
+      "data_type": "Self-reported",
+      "phenotype_description": "Is your relationship status different from ten years ago?",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:125680007"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "SNOMEDCT:125680007",
+      "biomapper_name": "Is your relationship status different from ten years ago?",
+      "biomapper_kg_id": "UMLS:C0024819",
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Marital / Relationship Status",
+      "data_type": "Self-reported",
+      "phenotype_description": "What is your current marital status?",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:125680007"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "SNOMEDCT:125680007",
+      "biomapper_name": "What is your current marital status?",
+      "biomapper_kg_id": "UMLS:C0024819",
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Marital / Relationship Status",
+      "data_type": "Self-reported",
+      "phenotype_description": "What is your current relationship status? (please click on more than one answer, if applicable)  Divorced",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:125680007"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "SNOMEDCT:125680007",
+      "biomapper_name": "What is your current relationship status? (please click on more than one answer, if applicable)  Divorced",
+      "biomapper_kg_id": "UMLS:C0024819",
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Marital / Relationship Status",
+      "data_type": "Self-reported",
+      "phenotype_description": "What is your current relationship status? (please click on more than one answer, if applicable)  In a relationship, living together",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:125680007"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "SNOMEDCT:125680007",
+      "biomapper_name": "What is your current relationship status? (please click on more than one answer, if applicable)  In a relationship, living together",
+      "biomapper_kg_id": "UMLS:C0024819",
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Marital / Relationship Status",
+      "data_type": "Self-reported",
+      "phenotype_description": "What is your current relationship status? (please click on more than one answer, if applicable)  In a relationship, not living together",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:125680007"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "SNOMEDCT:125680007",
+      "biomapper_name": "What is your current relationship status? (please click on more than one answer, if applicable)  In a relationship, not living together",
+      "biomapper_kg_id": "UMLS:C0024819",
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Marital / Relationship Status",
+      "data_type": "Self-reported",
+      "phenotype_description": "What is your current relationship status? (please click on more than one answer, if applicable)  Married",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:125680007"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "SNOMEDCT:125680007",
+      "biomapper_name": "What is your current relationship status? (please click on more than one answer, if applicable)  Married",
+      "biomapper_kg_id": "UMLS:C0024819",
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Marital / Relationship Status",
+      "data_type": "Self-reported",
+      "phenotype_description": "What is your current relationship status? (please click on more than one answer, if applicable)  Separated",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:125680007"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "SNOMEDCT:125680007",
+      "biomapper_name": "What is your current relationship status? (please click on more than one answer, if applicable)  Separated",
+      "biomapper_kg_id": "UMLS:C0024819",
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Marital / Relationship Status",
+      "data_type": "Self-reported",
+      "phenotype_description": "What is your current relationship status? (please click on more than one answer, if applicable)  Single, but dating someone",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:125680007"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "SNOMEDCT:125680007",
+      "biomapper_name": "What is your current relationship status? (please click on more than one answer, if applicable)  Single, but dating someone",
+      "biomapper_kg_id": "UMLS:C0024819",
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Marital / Relationship Status",
+      "data_type": "Self-reported",
+      "phenotype_description": "What is your current relationship status? (please click on more than one answer, if applicable)  Single, not seeing anyone",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:125680007"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "SNOMEDCT:125680007",
+      "biomapper_name": "What is your current relationship status? (please click on more than one answer, if applicable)  Single, not seeing anyone",
+      "biomapper_kg_id": "UMLS:C0024819",
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Marital / Relationship Status",
+      "data_type": "Self-reported",
+      "phenotype_description": "What is your current relationship status? (please click on more than one answer, if applicable)  Widowed",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:125680007"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "SNOMEDCT:125680007",
+      "biomapper_name": "What is your current relationship status? (please click on more than one answer, if applicable)  Widowed",
+      "biomapper_kg_id": "UMLS:C0024819",
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Marital / Relationship Status",
+      "data_type": "Self-reported",
+      "phenotype_description": "What is your marital status?",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:125680007"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "SNOMEDCT:125680007",
+      "biomapper_name": "What is your marital status?",
+      "biomapper_kg_id": "UMLS:C0024819",
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Marital / Relationship Status",
+      "data_type": "Self-reported",
+      "phenotype_description": "Has your relationship status changed as a direct result of COVID-19 related isolation measures?",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:365581002",
+        "SNOMEDCT:186747009"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "SNOMEDCT:365581002",
+      "biomapper_name": "Has your relationship status changed as a direct result of COVID-19 related isolation measures?",
+      "biomapper_kg_id": "SNOMEDCT:365581002",
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Marital / Relationship Status",
+      "data_type": "Self-reported",
+      "phenotype_description": "Has your relationship status changes in the last 6 months?",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:365581002",
+        "SNOMEDCT:186747009"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "SNOMEDCT:365581002",
+      "biomapper_name": "Has your relationship status changes in the last 6 months?",
+      "biomapper_kg_id": "SNOMEDCT:365581002",
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Marital / Relationship Status",
+      "data_type": "Self-reported",
+      "phenotype_description": "What is your relationship status?",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:365581002",
+        "SNOMEDCT:186747009"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "SNOMEDCT:365581002",
+      "biomapper_name": "What is your relationship status?",
+      "biomapper_kg_id": "SNOMEDCT:365581002",
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Marital / Relationship Status",
+      "data_type": "Self-reported",
+      "phenotype_description": "Are you currently living with a spouse or partner",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:38070000",
+        "SNOMEDCT:224130005"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "SNOMEDCT:38070000",
+      "biomapper_name": "Are you currently living with a spouse or partner",
+      "biomapper_kg_id": null,
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Marital / Relationship Status",
+      "data_type": "Self-reported",
+      "phenotype_description": "What is your marital status?",
+      "historical_id": "P002888",
+      "source_snomed_codes": [],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "UMLS:C0024819",
+      "biomapper_name": "What is your marital status?",
+      "biomapper_kg_id": "UMLS:C0024819",
+      "confidence_score": 0.7847400680749098,
+      "assigned_ids": {
+        "kestrel-hybrid-search": {
+          "UMLS": {
+            "C0024819": {
+              "score": 0.7847400680749098
+            }
+          }
+        }
+      },
+      "error": null
+    },
+    {
+      "demographic_category": "Employment Status",
+      "data_type": "Self-reported",
+      "phenotype_description": "What best describes your main occupation throughout most of your life?",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:14679004",
+        "SNOMEDCT:6300007",
+        "SNOMEDCT:15188001",
+        "SNOMEDCT:252577008"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "SNOMEDCT:14679004",
+      "biomapper_name": "What best describes your main occupation throughout most of your life?",
+      "biomapper_kg_id": "MESH:D009790",
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Employment Status",
+      "data_type": "Self-reported",
+      "phenotype_description": "Do you currently work? Full-time or part-time",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:224362002"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "SNOMEDCT:224362002",
+      "biomapper_name": "Do you currently work? Full-time or part-time",
+      "biomapper_kg_id": "EFO:0005241",
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Employment Status",
+      "data_type": "Self-reported",
+      "phenotype_description": "Which one of these best describes your current working situation? Select one only. If you are doing more than one of these, please choose the one you spend the most time doing.",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:224362002"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "SNOMEDCT:224362002",
+      "biomapper_name": "Which one of these best describes your current working situation? Select one only. If you are doing more than one of these, please choose the one you spend the most time doing.",
+      "biomapper_kg_id": "EFO:0005241",
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Employment Status",
+      "data_type": "Self-reported",
+      "phenotype_description": "Have you ever been in paid employment or self-employment, full or part-time?",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:364703007"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "SNOMEDCT:364703007",
+      "biomapper_name": "Have you ever been in paid employment or self-employment, full or part-time?",
+      "biomapper_kg_id": "UMLS:C1286384",
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Employment Status",
+      "data_type": "Self-reported",
+      "phenotype_description": "What is your present occupation?",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:364703007"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "SNOMEDCT:364703007",
+      "biomapper_name": "What is your present occupation?",
+      "biomapper_kg_id": "UMLS:C1286384",
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Employment Status",
+      "data_type": "Self-reported",
+      "phenotype_description": "Which of the following describes your current employment status?",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:364703007"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "SNOMEDCT:364703007",
+      "biomapper_name": "Which of the following describes your current employment status?",
+      "biomapper_kg_id": "UMLS:C1286384",
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Employment Status",
+      "data_type": "Self-reported",
+      "phenotype_description": "Which of the following describes your paid work activity last week?",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:364703007"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "SNOMEDCT:364703007",
+      "biomapper_name": "Which of the following describes your paid work activity last week?",
+      "biomapper_kg_id": "UMLS:C1286384",
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Employment Status",
+      "data_type": "Self-reported",
+      "phenotype_description": "Select the description that best describes the sort of work you do. If you are not working now, please select what you did in your last job.",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:719701000000106",
+        "SNOMEDCT:14679004"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "SNOMEDCT:719701000000106",
+      "biomapper_name": "Select the description that best describes the sort of work you do. If you are not working now, please select what you did in your last job.",
+      "biomapper_kg_id": null,
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Income / Deprivation",
+      "data_type": "Self-reported",
+      "phenotype_description": "Please estimate in which band is your total yearly household income before taxes. Includes all those who earn and live in the same household as yourself.",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:224168007"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "SNOMEDCT:224168007",
+      "biomapper_name": "Please estimate in which band is your total yearly household income before taxes. Includes all those who earn and live in the same household as yourself.",
+      "biomapper_kg_id": "UMLS:C0557163",
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Income / Deprivation",
+      "data_type": "Self-reported",
+      "phenotype_description": "Please indicate in which band is your total yearly household income before taxes. (This includes all those who earn and live in the same household as yourself.)",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:224168007"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "SNOMEDCT:224168007",
+      "biomapper_name": "Please indicate in which band is your total yearly household income before taxes. (This includes all those who earn and live in the same household as yourself.)",
+      "biomapper_kg_id": "UMLS:C0557163",
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Income / Deprivation",
+      "data_type": "Self-reported",
+      "phenotype_description": "What is the yearly total income before tax received by your household?",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:224168007"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "SNOMEDCT:224168007",
+      "biomapper_name": "What is the yearly total income before tax received by your household?",
+      "biomapper_kg_id": "UMLS:C0557163",
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Income / Deprivation",
+      "data_type": "Self-reported",
+      "phenotype_description": "What was yearly total income before tax received by your family (household) during your childhood?",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:224168007"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "SNOMEDCT:224168007",
+      "biomapper_name": "What was yearly total income before tax received by your family (household) during your childhood?",
+      "biomapper_kg_id": "UMLS:C0557163",
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Income / Deprivation",
+      "data_type": "Self-reported",
+      "phenotype_description": "What are your normal earnings in your job before any taxes and other deductions?",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:365552003",
+        "SNOMEDCT:224168007"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "SNOMEDCT:365552003",
+      "biomapper_name": "What are your normal earnings in your job before any taxes and other deductions?",
+      "biomapper_kg_id": "UMLS:C1287209",
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Income / Deprivation",
+      "data_type": "Other dataset",
+      "phenotype_description": "Other Datasets: DS00050: Index of Multiple Deprivation",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:386409003"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "SNOMEDCT:386409003",
+      "biomapper_name": "Other Datasets: DS00050: Index of Multiple Deprivation",
+      "biomapper_kg_id": null,
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Height (Measured)",
+      "data_type": "Measurements",
+      "phenotype_description": "Measured standing height at examination",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:50373000",
+        "SNOMEDCT:248333004"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:ClinicalFinding",
+      "biomapper_curie": "SNOMEDCT:50373000",
+      "biomapper_name": "Measured standing height at examination",
+      "biomapper_kg_id": "EFO:0004339",
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Height (Self-reported)",
+      "data_type": "Self-reported",
+      "phenotype_description": "What has been your maximum adult height? (the tallest you have been since turning 18) Centimetres",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:248333004",
+        "SNOMEDCT:1153637007"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:ClinicalFinding",
+      "biomapper_curie": "SNOMEDCT:248333004",
+      "biomapper_name": "What has been your maximum adult height? (the tallest you have been since turning 18) Centimetres",
+      "biomapper_kg_id": null,
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Height (Self-reported)",
+      "data_type": "Self-reported",
+      "phenotype_description": "What is your current height? (Only one measurement type is required) \\ Don't know",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:50373000",
+        "SNOMEDCT:248333004"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:ClinicalFinding",
+      "biomapper_curie": "SNOMEDCT:50373000",
+      "biomapper_name": "What is your current height? (Only one measurement type is required) \\ Don't know",
+      "biomapper_kg_id": "EFO:0004339",
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Height (Self-reported)",
+      "data_type": "Self-reported",
+      "phenotype_description": "What is your current height? (Only one measurement type is required) \\ feet",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:50373000",
+        "SNOMEDCT:248333004"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:ClinicalFinding",
+      "biomapper_curie": "SNOMEDCT:50373000",
+      "biomapper_name": "What is your current height? (Only one measurement type is required) \\ feet",
+      "biomapper_kg_id": "EFO:0004339",
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Height (Self-reported)",
+      "data_type": "Self-reported",
+      "phenotype_description": "What is your current height? (Only one measurement type is required) \\ inches",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:50373000",
+        "SNOMEDCT:248333004"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:ClinicalFinding",
+      "biomapper_curie": "SNOMEDCT:50373000",
+      "biomapper_name": "What is your current height? (Only one measurement type is required) \\ inches",
+      "biomapper_kg_id": "EFO:0004339",
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Height (Self-reported)",
+      "data_type": "Self-reported",
+      "phenotype_description": "What is your current height? \\ centimetres",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:50373000",
+        "SNOMEDCT:248333004"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:ClinicalFinding",
+      "biomapper_curie": "SNOMEDCT:50373000",
+      "biomapper_name": "What is your current height? \\ centimetres",
+      "biomapper_kg_id": "EFO:0004339",
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Weight (Measured)",
+      "data_type": "Measurements",
+      "phenotype_description": "Measured weight at examination",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:363808001",
+        "SNOMEDCT:27113001"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:ClinicalFinding",
+      "biomapper_curie": "SNOMEDCT:363808001",
+      "biomapper_name": "Measured weight at examination",
+      "biomapper_kg_id": null,
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Weight (Self-reported)",
+      "data_type": "Self-reported",
+      "phenotype_description": "What has been your maximum adult weight? (the most you have weighed since turning 18, not including pregnancy ) Kilograms",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:363808001",
+        "SNOMEDCT:27113001",
+        "SNOMEDCT:852321000000100"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:ClinicalFinding",
+      "biomapper_curie": "SNOMEDCT:363808001",
+      "biomapper_name": "What has been your maximum adult weight? (the most you have weighed since turning 18, not including pregnancy ) Kilograms",
+      "biomapper_kg_id": null,
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Weight (Self-reported)",
+      "data_type": "Self-reported",
+      "phenotype_description": "What has been your maximum lifetime weight, excluding pregnancy? \\ Kilograms",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:363808001",
+        "SNOMEDCT:27113001",
+        "SNOMEDCT:852321000000100"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:ClinicalFinding",
+      "biomapper_curie": "SNOMEDCT:363808001",
+      "biomapper_name": "What has been your maximum lifetime weight, excluding pregnancy? \\ Kilograms",
+      "biomapper_kg_id": null,
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Weight (Self-reported)",
+      "data_type": "Self-reported",
+      "phenotype_description": "What has been your minimum adult weight (i.e. your lowest weight since age 18)? \\ Kilograms",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:363808001",
+        "SNOMEDCT:27113001",
+        "SNOMEDCT:852311000000106"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:ClinicalFinding",
+      "biomapper_curie": "SNOMEDCT:363808001",
+      "biomapper_name": "What has been your minimum adult weight (i.e. your lowest weight since age 18)? \\ Kilograms",
+      "biomapper_kg_id": null,
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Weight (Self-reported)",
+      "data_type": "Self-reported",
+      "phenotype_description": "What is your current weight? (Only one measurement type is required) \\ Don't know",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:363808001",
+        "SNOMEDCT:27113001"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:ClinicalFinding",
+      "biomapper_curie": "SNOMEDCT:363808001",
+      "biomapper_name": "What is your current weight? (Only one measurement type is required) \\ Don't know",
+      "biomapper_kg_id": null,
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Weight (Self-reported)",
+      "data_type": "Self-reported",
+      "phenotype_description": "What is your current weight? (Only one measurement type is required) \\ pounds",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:363808001",
+        "SNOMEDCT:27113001"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:ClinicalFinding",
+      "biomapper_curie": "SNOMEDCT:363808001",
+      "biomapper_name": "What is your current weight? (Only one measurement type is required) \\ pounds",
+      "biomapper_kg_id": null,
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Weight (Self-reported)",
+      "data_type": "Self-reported",
+      "phenotype_description": "What is your current weight? (Only one measurement type is required) \\ stones",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:363808001",
+        "SNOMEDCT:27113001"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:ClinicalFinding",
+      "biomapper_curie": "SNOMEDCT:363808001",
+      "biomapper_name": "What is your current weight? (Only one measurement type is required) \\ stones",
+      "biomapper_kg_id": null,
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Weight (Self-reported)",
+      "data_type": "Self-reported",
+      "phenotype_description": "What is your current weight? \\ kilograms",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:363808001",
+        "SNOMEDCT:27113001"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:ClinicalFinding",
+      "biomapper_curie": "SNOMEDCT:363808001",
+      "biomapper_name": "What is your current weight? \\ kilograms",
+      "biomapper_kg_id": null,
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "BMI",
+      "data_type": "Measurements",
+      "phenotype_description": "DEXA: Total body mass divided by height squared (BMI)",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:241686001"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:ClinicalFinding",
+      "biomapper_curie": "SNOMEDCT:241686001",
+      "biomapper_name": "DEXA: Total body mass divided by height squared (BMI)",
+      "biomapper_kg_id": null,
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Waist Circumference",
+      "data_type": "Self-reported",
+      "phenotype_description": "What is your current waist measurement? (Please measure around your body, just above your belly button. Note this is not necessarily your trouser size)/ centimetres",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:276361009"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:ClinicalFinding",
+      "biomapper_curie": "SNOMEDCT:276361009",
+      "biomapper_name": "What is your current waist measurement? (Please measure around your body, just above your belly button. Note this is not necessarily your trouser size)/ centimetres",
+      "biomapper_kg_id": "EFO:0004342",
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Waist Circumference",
+      "data_type": "Measurements",
+      "phenotype_description": "Measured waist circumference",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:445396007"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:ClinicalFinding",
+      "biomapper_curie": "SNOMEDCT:445396007",
+      "biomapper_name": "Measured waist circumference",
+      "biomapper_kg_id": null,
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Hip Circumference",
+      "data_type": "Measurements",
+      "phenotype_description": "Measured hip circumference",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:284472007"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:ClinicalFinding",
+      "biomapper_curie": "SNOMEDCT:284472007",
+      "biomapper_name": "Measured hip circumference",
+      "biomapper_kg_id": "EFO:0005093",
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Blood Pressure",
+      "data_type": "Measurements",
+      "phenotype_description": "Diastolic blood pressure third measurement",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:163035008",
+        "SNOMEDCT:75367002"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:ClinicalFinding",
+      "biomapper_curie": "SNOMEDCT:163035008",
+      "biomapper_name": "Diastolic blood pressure third measurement",
+      "biomapper_kg_id": null,
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Blood Pressure",
+      "data_type": "Measurements",
+      "phenotype_description": "Systolic blood pressure first measurement",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:163035008",
+        "SNOMEDCT:75367002"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:ClinicalFinding",
+      "biomapper_curie": "SNOMEDCT:163035008",
+      "biomapper_name": "Systolic blood pressure first measurement",
+      "biomapper_kg_id": null,
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Blood Pressure",
+      "data_type": "Measurements",
+      "phenotype_description": "Diastolic blood pressure",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:75367002",
+        "SNOMEDCT:163035008"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:ClinicalFinding",
+      "biomapper_curie": "SNOMEDCT:75367002",
+      "biomapper_name": "Diastolic blood pressure",
+      "biomapper_kg_id": "EFO:0004325",
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Blood Pressure",
+      "data_type": "Measurements",
+      "phenotype_description": "Diastolic blood pressure (repeat measurement)",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:75367002",
+        "SNOMEDCT:163035008"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:ClinicalFinding",
+      "biomapper_curie": "SNOMEDCT:75367002",
+      "biomapper_name": "Diastolic blood pressure (repeat measurement)",
+      "biomapper_kg_id": "EFO:0004325",
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Blood Pressure",
+      "data_type": "Measurements",
+      "phenotype_description": "Diastolic blood pressure first measurement",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:75367002",
+        "SNOMEDCT:163035008"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:ClinicalFinding",
+      "biomapper_curie": "SNOMEDCT:75367002",
+      "biomapper_name": "Diastolic blood pressure first measurement",
+      "biomapper_kg_id": "EFO:0004325",
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Blood Pressure",
+      "data_type": "Measurements",
+      "phenotype_description": "Diastolic blood pressure second measurement",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:75367002",
+        "SNOMEDCT:163035008"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:ClinicalFinding",
+      "biomapper_curie": "SNOMEDCT:75367002",
+      "biomapper_name": "Diastolic blood pressure second measurement",
+      "biomapper_kg_id": "EFO:0004325",
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Blood Pressure",
+      "data_type": "Measurements",
+      "phenotype_description": "Systolic blood pressure",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:75367002",
+        "SNOMEDCT:163035008"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:ClinicalFinding",
+      "biomapper_curie": "SNOMEDCT:75367002",
+      "biomapper_name": "Systolic blood pressure",
+      "biomapper_kg_id": "EFO:0004325",
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Blood Pressure",
+      "data_type": "Measurements",
+      "phenotype_description": "Systolic blood pressure (repeat measurement)",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:75367002",
+        "SNOMEDCT:163035008"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:ClinicalFinding",
+      "biomapper_curie": "SNOMEDCT:75367002",
+      "biomapper_name": "Systolic blood pressure (repeat measurement)",
+      "biomapper_kg_id": "EFO:0004325",
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Blood Pressure",
+      "data_type": "Measurements",
+      "phenotype_description": "Systolic blood pressure second measurement",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:75367002",
+        "SNOMEDCT:163035008"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:ClinicalFinding",
+      "biomapper_curie": "SNOMEDCT:75367002",
+      "biomapper_name": "Systolic blood pressure second measurement",
+      "biomapper_kg_id": "EFO:0004325",
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Blood Pressure",
+      "data_type": "Measurements",
+      "phenotype_description": "Systolic blood pressure third measurement",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:75367002",
+        "SNOMEDCT:163035008"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:ClinicalFinding",
+      "biomapper_curie": "SNOMEDCT:75367002",
+      "biomapper_name": "Systolic blood pressure third measurement",
+      "biomapper_kg_id": "EFO:0004325",
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Birth Country / Place of Birth",
+      "data_type": "Self-reported",
+      "phenotype_description": "What country were you born in?",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:315354004",
+        "SNOMEDCT:366344009"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "SNOMEDCT:315354004",
+      "biomapper_name": "What country were you born in?",
+      "biomapper_kg_id": "UMLS:C1300001",
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Birth Country / Place of Birth",
+      "data_type": "Self-reported",
+      "phenotype_description": "Were you born in the British Isles?",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:315354004",
+        "SNOMEDCT:370159000"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "SNOMEDCT:315354004",
+      "biomapper_name": "Were you born in the British Isles?",
+      "biomapper_kg_id": "UMLS:C1300001",
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Birth Country / Place of Birth",
+      "data_type": "Self-reported",
+      "phenotype_description": "Were you born in the United Kingdom?",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:366344009",
+        "SNOMEDCT:315354004"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "SNOMEDCT:366344009",
+      "biomapper_name": "Were you born in the United Kingdom?",
+      "biomapper_kg_id": null,
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Birth Country / Place of Birth",
+      "data_type": "Self-reported",
+      "phenotype_description": "Country of birth",
+      "historical_id": "P001754",
+      "source_snomed_codes": [],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "GENEPIO:0001094",
+      "biomapper_name": "Country of birth",
+      "biomapper_kg_id": "GENEPIO:0001094",
+      "confidence_score": 2.436840454990239,
+      "assigned_ids": {
+        "kestrel-hybrid-search": {
+          "GENEPIO": {
+            "0001094": {
+              "score": 2.436840454990239
+            }
+          }
+        }
+      },
+      "error": null
+    },
+    {
+      "demographic_category": "Birth Country / Place of Birth",
+      "data_type": "Self-reported",
+      "phenotype_description": "Town of birth",
+      "historical_id": "P001753",
+      "source_snomed_codes": [],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "HP:0001622",
+      "biomapper_name": "Town of birth",
+      "biomapper_kg_id": "HP:0001622",
+      "confidence_score": 0.7034645500222239,
+      "assigned_ids": {
+        "kestrel-hybrid-search": {
+          "HP": {
+            "0001622": {
+              "score": 0.7034645500222239
+            }
+          }
+        }
+      },
+      "error": null
+    },
+    {
+      "demographic_category": "Birth Country / Place of Birth",
+      "data_type": "Self-reported",
+      "phenotype_description": "Where were you born?",
+      "historical_id": "P002886",
+      "source_snomed_codes": [],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "UMLS:C3166752",
+      "biomapper_name": "Where were you born?",
+      "biomapper_kg_id": "UMLS:C3166752",
+      "confidence_score": 4.851008572530051,
+      "assigned_ids": {
+        "kestrel-hybrid-search": {
+          "UMLS": {
+            "C3166752": {
+              "score": 4.851008572530051
+            }
+          }
+        }
+      },
+      "error": null
+    },
+    {
+      "demographic_category": "Birth Weight",
+      "data_type": "Self-reported",
+      "phenotype_description": "What was your twin's weight at birth? \\ kilograms",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:364589006",
+        "SNOMEDCT:147092001",
+        "SNOMEDCT:28030000"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "SNOMEDCT:364589006",
+      "biomapper_name": "What was your twin's weight at birth? \\ kilograms",
+      "biomapper_kg_id": "EFO:0004344",
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Birth Weight",
+      "data_type": "Self-reported",
+      "phenotype_description": "What was your weight at birth? \\ don't know",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:47340003",
+        "SNOMEDCT:364589006"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "SNOMEDCT:47340003",
+      "biomapper_name": "What was your weight at birth? \\ don't know",
+      "biomapper_kg_id": "EFO:0004344",
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Birth Weight",
+      "data_type": "Self-reported",
+      "phenotype_description": "What was your weight at birth? \\ grams",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:47340003",
+        "SNOMEDCT:364589006"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "SNOMEDCT:47340003",
+      "biomapper_name": "What was your weight at birth? \\ grams",
+      "biomapper_kg_id": "EFO:0004344",
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Birth Weight",
+      "data_type": "Self-reported",
+      "phenotype_description": "What was your weight at birth? \\ kilograms",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:47340003",
+        "SNOMEDCT:364589006"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "SNOMEDCT:47340003",
+      "biomapper_name": "What was your weight at birth? \\ kilograms",
+      "biomapper_kg_id": "EFO:0004344",
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Birth Weight",
+      "data_type": "Self-reported",
+      "phenotype_description": "What was your weight at birth? \\ ounces",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:47340003",
+        "SNOMEDCT:364589006"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "SNOMEDCT:47340003",
+      "biomapper_name": "What was your weight at birth? \\ ounces",
+      "biomapper_kg_id": "EFO:0004344",
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Birth Weight",
+      "data_type": "Self-reported",
+      "phenotype_description": "What was your weight at birth? \\ pounds",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:47340003",
+        "SNOMEDCT:364589006"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "SNOMEDCT:47340003",
+      "biomapper_name": "What was your weight at birth? \\ pounds",
+      "biomapper_kg_id": "EFO:0004344",
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Birth Weight",
+      "data_type": "Self-reported",
+      "phenotype_description": "What was your weight at birth?\\ Don't know",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:47340003",
+        "SNOMEDCT:364589006"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "SNOMEDCT:47340003",
+      "biomapper_name": "What was your weight at birth?\\ Don't know",
+      "biomapper_kg_id": "EFO:0004344",
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Birth Weight",
+      "data_type": "Self-reported",
+      "phenotype_description": "What was your weight at birth?\\ Grams",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:47340003",
+        "SNOMEDCT:364589006"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "SNOMEDCT:47340003",
+      "biomapper_name": "What was your weight at birth?\\ Grams",
+      "biomapper_kg_id": "EFO:0004344",
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Premature Birth",
+      "data_type": "Self-reported",
+      "phenotype_description": "Was your birth premature? In other words were you born before 36 weeks of pregnancy?",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:13859001",
+        "SNOMEDCT:28030000"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "SNOMEDCT:13859001",
+      "biomapper_name": "Was your birth premature? In other words were you born before 36 weeks of pregnancy?",
+      "biomapper_kg_id": null,
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Premature Birth",
+      "data_type": "Self-reported",
+      "phenotype_description": "Do you know if your were born at:",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:366343003",
+        "SNOMEDCT:412726003"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "SNOMEDCT:366343003",
+      "biomapper_name": "Do you know if your were born at:",
+      "biomapper_kg_id": "HP:0033623",
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Premature Birth",
+      "data_type": "Self-reported",
+      "phenotype_description": "Were you a premature baby (e.g. were you born before 35 weeks gestation)?",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:367494004",
+        "SNOMEDCT:364739001"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "SNOMEDCT:367494004",
+      "biomapper_name": "Were you a premature baby (e.g. were you born before 35 weeks gestation)?",
+      "biomapper_kg_id": "HP:0001622",
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Handedness",
+      "data_type": "Self-reported",
+      "phenotype_description": "Handedness",
+      "historical_id": "P001752",
+      "source_snomed_codes": [],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "EFO:0009902",
+      "biomapper_name": "Handedness",
+      "biomapper_kg_id": "EFO:0009902",
+      "confidence_score": 4.856927953681712,
+      "assigned_ids": {
+        "kestrel-hybrid-search": {
+          "EFO": {
+            "0009902": {
+              "score": 4.856927953681712
+            }
+          }
+        }
+      },
+      "error": null
+    },
+    {
+      "demographic_category": "Smoking Status (Summary)",
+      "data_type": "Self-reported",
+      "phenotype_description": "Do you CURRENTLY smoke cigarettes?",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:65568007",
+        "SNOMEDCT:77176002"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "SNOMEDCT:65568007",
+      "biomapper_name": "Do you CURRENTLY smoke cigarettes?",
+      "biomapper_kg_id": "UMLS:C0337667",
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Smoking Status (Summary)",
+      "data_type": "Self-reported",
+      "phenotype_description": "Have you ever smoked cigarettes?",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:65568007",
+        "SNOMEDCT:77176002"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "SNOMEDCT:65568007",
+      "biomapper_name": "Have you ever smoked cigarettes?",
+      "biomapper_kg_id": "UMLS:C0337667",
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Smoking Status (Summary)",
+      "data_type": "Self-reported",
+      "phenotype_description": "Do you smoke at all nowadays?",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:77176002"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "SNOMEDCT:77176002",
+      "biomapper_name": "Do you smoke at all nowadays?",
+      "biomapper_kg_id": "UMLS:C0337664",
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Smoking Status (Summary)",
+      "data_type": "Self-reported",
+      "phenotype_description": "Have you ever smoked?",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:77176002"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "SNOMEDCT:77176002",
+      "biomapper_name": "Have you ever smoked?",
+      "biomapper_kg_id": "UMLS:C0337664",
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Smoking Status (Summary)",
+      "data_type": "Self-reported",
+      "phenotype_description": "Smoking Summary Status",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:77176002"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "SNOMEDCT:77176002",
+      "biomapper_name": "Smoking Summary Status",
+      "biomapper_kg_id": "UMLS:C0337664",
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Smoking Status (Summary)",
+      "data_type": "Self-reported",
+      "phenotype_description": "Do you smoke at all nowadays?",
+      "historical_id": "P002394",
+      "source_snomed_codes": [],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "UMLS:C4289697",
+      "biomapper_name": "Do you smoke at all nowadays?",
+      "biomapper_kg_id": "UMLS:C4289697",
+      "confidence_score": 0.7657685276473962,
+      "assigned_ids": {
+        "kestrel-hybrid-search": {
+          "UMLS": {
+            "C4289697": {
+              "score": 0.7657685276473962
+            }
+          }
+        }
+      },
+      "error": null
+    },
+    {
+      "demographic_category": "Smoking Status (Summary)",
+      "data_type": "Self-reported",
+      "phenotype_description": "Have you ever smoked?",
+      "historical_id": "P002389",
+      "source_snomed_codes": [],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "UMLS:C3475470",
+      "biomapper_name": "Have you ever smoked?",
+      "biomapper_kg_id": "UMLS:C3475470",
+      "confidence_score": 1.5355909908321679,
+      "assigned_ids": {
+        "kestrel-hybrid-search": {
+          "UMLS": {
+            "C3475470": {
+              "score": 1.5355909908321679
+            }
+          }
+        }
+      },
+      "error": null
+    },
+    {
+      "demographic_category": "Alcohol Intake (Summary)",
+      "data_type": "Self-reported",
+      "phenotype_description": "In general, how would you describe your current alcohol intake?",
+      "historical_id": NaN,
+      "source_snomed_codes": [
+        "SNOMEDCT:897148007",
+        "SNOMEDCT:365967005"
+      ],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "SNOMEDCT:897148007",
+      "biomapper_name": "In general, how would you describe your current alcohol intake?",
+      "biomapper_kg_id": null,
+      "confidence_score": null,
+      "assigned_ids": {},
+      "error": null
+    },
+    {
+      "demographic_category": "Alcohol Intake (Summary)",
+      "data_type": "Self-reported",
+      "phenotype_description": "What is your current average alcohol consumption?",
+      "historical_id": "P002391",
+      "source_snomed_codes": [],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "MONDO:0002046",
+      "biomapper_name": "What is your current average alcohol consumption?",
+      "biomapper_kg_id": "MONDO:0002046",
+      "confidence_score": 0.7853212430824704,
+      "assigned_ids": {
+        "kestrel-hybrid-search": {
+          "MONDO": {
+            "0002046": {
+              "score": 0.7853212430824704
+            }
+          }
+        }
+      },
+      "error": null
+    },
+    {
+      "demographic_category": "Alcohol Intake (Summary)",
+      "data_type": "Self-reported",
+      "phenotype_description": "What is your lifetime average alcohol consumption?",
+      "historical_id": "P002392",
+      "source_snomed_codes": [],
+      "search_strategy": "phenotype_description",
+      "entity_type_used": "biolink:PhenotypicFeature",
+      "biomapper_curie": "MONDO:0002046",
+      "biomapper_name": "What is your lifetime average alcohol consumption?",
+      "biomapper_kg_id": "MONDO:0002046",
+      "confidence_score": 0.7853212430824704,
+      "assigned_ids": {
+        "kestrel-hybrid-search": {
+          "MONDO": {
+            "0002046": {
+              "score": 0.7853212430824704
+            }
+          }
+        }
+      },
+      "error": null
+    }
+  ]
+}
