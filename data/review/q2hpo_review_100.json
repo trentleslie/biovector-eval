@@ -23,7 +23,8 @@
         "variable_name": "Anorexia",
         "response_options": "['Currently', 'Within the last year', 'More than a year ago', 'Mother', 'Father', 'Sibling(s)', \"Mother's side\", \"Father's side\"]",
         "assessment": "Health History"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "Ice cream",
@@ -48,7 +49,8 @@
         "variable_name": "Ice cream",
         "response_options": "['Less than once per month', '1-3 times per month', 'Once per week', '2-4 times per week', '5-6 times per week', 'Once per day', '2-3 times per day', '4-5 times per day', '6+ times per day']",
         "assessment": "Diet"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "Anemia (iron deficiency)",
@@ -73,7 +75,8 @@
         "variable_name": "Anemia (iron deficiency)",
         "response_options": "['Currently', 'Within the last year', 'More than a year ago', 'Mother', 'Father', 'Sibling(s)', \"Mother's side\", \"Father's side\"]",
         "assessment": "Health History"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "Malignant hyperthermia",
@@ -98,7 +101,8 @@
         "variable_name": "Malignant hyperthermia",
         "response_options": "['Currently', 'Within the last year', 'More than a year ago', 'Mother', 'Father', 'Sibling(s)', \"Mother's side\", \"Father's side\"]",
         "assessment": "Health History"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "Blocked lung artery (pulmonary embolus)",
@@ -123,7 +127,8 @@
         "variable_name": "Blocked lung artery (pulmonary embolus)",
         "response_options": "['Currently', 'Within the last year', 'More than a year ago', 'Mother', 'Father', 'Sibling(s)', \"Mother's side\", \"Father's side\"]",
         "assessment": "Health History"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "Other neurocognitive condition",
@@ -148,7 +153,8 @@
         "variable_name": "Other neurocognitive condition",
         "response_options": "['Currently', 'Within the last year', 'More than a year ago', 'Mother', 'Father', 'Sibling(s)', \"Mother's side\", \"Father's side\"]",
         "assessment": "Health History"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "Are you currently lactating?",
@@ -171,7 +177,8 @@
         "variable_name": "Are you currently lactating?",
         "response_options": "['Yes', 'No']",
         "assessment": "Health History"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "Heart Transplantation",
@@ -196,7 +203,8 @@
         "variable_name": "Heart Transplantation",
         "response_options": "['Currently', 'Previously', 'Mother', 'Father', 'Siblings', 'Grandmother', 'Grandfather']",
         "assessment": "Health History (Old)"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "I don't find it easy to make decisions.",
@@ -221,7 +229,8 @@
         "variable_name": "I don't find it easy to make decisions.",
         "response_options": "['Strongly Agree', 'Moderately Agree', 'Slightly Agree', 'Slightly Disagree', 'Moderately Disagree', 'Strongly Disagree']",
         "assessment": "Happiness"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "I keep in the background.",
@@ -244,7 +253,8 @@
         "variable_name": "I keep in the background.",
         "response_options": "['Strongly agree', 'Agree', 'Neither disagree nor agree', 'Disagree', 'Strongly disagree']",
         "assessment": "Personality"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "What type of alcohol do you most often drink?",
@@ -267,7 +277,8 @@
         "variable_name": "What type of alcohol do you most often drink?",
         "response_options": "['Beer', 'Wine', 'Liquor', 'Other kind', 'No usual type', 'I do not know', 'I do not drink alcohol']",
         "assessment": "Diet"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "Water (e.g. 8 oz. cups)",
@@ -290,7 +301,8 @@
         "variable_name": "Water (e.g. 8 oz. cups)",
         "response_options": "['Less than once per month', '1-3 times per month', 'Once per week', '2-4 times per week', '5-6 times per week', 'Once per day', '2-3 times per day', '4-5 times per day', '6+ times per day']",
         "assessment": "Diet"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "I don't have particularly happy memories of the past.",
@@ -313,7 +325,8 @@
         "variable_name": "I don't have particularly happy memories of the past.",
         "response_options": "['Strongly Agree', 'Moderately Agree', 'Slightly Agree', 'Slightly Disagree', 'Moderately Disagree', 'Strongly Disagree']",
         "assessment": "Happiness"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "Bronchitis (chronic)",
@@ -338,7 +351,8 @@
         "variable_name": "Bronchitis (chronic)",
         "response_options": "['Currently', 'Within the last year', 'More than a year ago', 'Mother', 'Father', 'Sibling(s)', \"Mother's side\", \"Father's side\"]",
         "assessment": "Health History"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "Myasthenia Gravis",
@@ -363,7 +377,8 @@
         "variable_name": "Myasthenia Gravis",
         "response_options": "['Currently', 'Within the last year', 'More than a year ago', 'Mother', 'Father', 'Sibling(s)', \"Mother's side\", \"Father's side\"]",
         "assessment": "Health History"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "High Blood Pressure",
@@ -388,7 +403,8 @@
         "variable_name": "High Blood Pressure",
         "response_options": "['Currently', 'Previously', 'Mother', 'Father', 'Siblings', 'Grandmother', 'Grandfather']",
         "assessment": "Health History (Old)"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "100% fruit juice",
@@ -411,7 +427,8 @@
         "variable_name": "100% fruit juice",
         "response_options": "['Less than once per month', '1-3 times per month', 'Once per week', '2-4 times per week', '5-6 times per week', 'Once per day', '2-3 times per day', '4-5 times per day', '6+ times per day']",
         "assessment": "Diet"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "Vitiligo",
@@ -436,7 +453,8 @@
         "variable_name": "Vitiligo",
         "response_options": "['Currently', 'Within the last year', 'More than a year ago', 'Mother', 'Father', 'Sibling(s)', \"Mother's side\", \"Father's side\"]",
         "assessment": "Health History"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "I pay attention to details.",
@@ -459,7 +477,8 @@
         "variable_name": "I pay attention to details.",
         "response_options": "['Strongly disagree', 'Disagree', 'Neither disagree nor agree', 'Agree', 'Strongly agree']",
         "assessment": "Personality"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "Sarcoidosis",
@@ -484,7 +503,8 @@
         "variable_name": "Sarcoidosis",
         "response_options": "['Currently', 'Within the last year', 'More than a year ago', 'Mother', 'Father', 'Sibling(s)', \"Mother's side\", \"Father's side\"]",
         "assessment": "Health History"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "I follow a schedule.",
@@ -507,7 +527,8 @@
         "variable_name": "I follow a schedule.",
         "response_options": "['Strongly disagree', 'Disagree', 'Neither disagree nor agree', 'Agree', 'Strongly agree']",
         "assessment": "Personality"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "Chronic Fatigue Syndrome",
@@ -532,7 +553,8 @@
         "variable_name": "Chronic Fatigue Syndrome",
         "response_options": "['Currently', 'Within the last year', 'More than a year ago', 'Mother', 'Father', 'Sibling(s)', \"Mother's side\", \"Father's side\"]",
         "assessment": "Health History"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "Do you usually take sugar in tea?",
@@ -555,7 +577,8 @@
         "variable_name": "Do you usually take sugar in tea?",
         "response_options": "[\"I don't drink tea\", 'No', 'Yes']",
         "assessment": "Diet"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "Diverticulosis",
@@ -580,7 +603,8 @@
         "variable_name": "Diverticulosis",
         "response_options": "['Currently', 'Within the last year', 'More than a year ago', 'Mother', 'Father', 'Sibling(s)', \"Mother's side\", \"Father's side\"]",
         "assessment": "Health History"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "Carpal tunnel syndrome",
@@ -605,7 +629,8 @@
         "variable_name": "Carpal tunnel syndrome",
         "response_options": "['Currently', 'Within the last year', 'More than a year ago', 'Mother', 'Father', 'Sibling(s)', \"Mother's side\", \"Father's side\"]",
         "assessment": "Health History"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "Peptic ulcer",
@@ -630,7 +655,8 @@
         "variable_name": "Peptic ulcer",
         "response_options": "['Currently', 'Within the last year', 'More than a year ago', 'Mother', 'Father', 'Sibling(s)', \"Mother's side\", \"Father's side\"]",
         "assessment": "Health History"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "Shortness of breath",
@@ -655,7 +681,8 @@
         "variable_name": "Shortness of breath",
         "response_options": "['Currently', 'Within the last year', 'More than a year ago', 'Mother', 'Father', 'Sibling(s)', \"Mother's side\", \"Father's side\"]",
         "assessment": "Health History"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "Back pain or back problems",
@@ -680,7 +707,8 @@
         "variable_name": "Back pain or back problems",
         "response_options": "['Currently', 'Within the last year', 'More than a year ago', 'Mother', 'Father', 'Sibling(s)', \"Mother's side\", \"Father's side\"]",
         "assessment": "Health History"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "I don't feel particularly healthy.",
@@ -703,7 +731,8 @@
         "variable_name": "I don't feel particularly healthy.",
         "response_options": "['Strongly Agree', 'Moderately Agree', 'Slightly Agree', 'Slightly Disagree', 'Moderately Disagree', 'Strongly Disagree']",
         "assessment": "Happiness"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "Are you exposed to second-hand smoke?",
@@ -728,7 +757,8 @@
         "variable_name": "Are you exposed to second-hand smoke?",
         "response_options": "['No', 'Rarely/Occasionally', 'Yes']",
         "assessment": "Lifestyle"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "Please list all current prescription medications with dosages.",
@@ -751,7 +781,8 @@
         "variable_name": "Please list all current prescription medications with dosages.",
         "response_options": "[None]",
         "assessment": "Health History"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "When it comes to accountability:",
@@ -774,7 +805,8 @@
         "variable_name": "When it comes to accountability:",
         "response_options": "['Be strict. I need you to hold me accountable no matter what. Ask me the hard questions even when it might make me uncomfortable.', \"Let's collaborate. I want to talk about what system of accountability might work for me. Let's figure this out together.\", \"I need a cheerleader. Please just encourage me. I'm doing the best I can right now, and I need your unwavering support.\", \"I'm self-directed. I'm going to work on these changes on my own and I'll report back when we talk next.\"]",
         "assessment": "Journey"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "I feel rundown and don't have much energy.",
@@ -799,7 +831,8 @@
         "variable_name": "I feel rundown and don't have much energy.",
         "response_options": "['Strongly disagree', 'Disagree', 'Neither Disagree Nor Agree', 'Agree', 'Strongly agree']",
         "assessment": "Journey"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "Seizures or Epilepsy",
@@ -824,7 +857,8 @@
         "variable_name": "Seizures or Epilepsy",
         "response_options": "['Currently', 'Within the last year', 'More than a year ago', 'Mother', 'Father', 'Sibling(s)', \"Mother's side\", \"Father's side\"]",
         "assessment": "Health History"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "Currently suffer from abdominal distension",
@@ -854,7 +888,8 @@
         "data_coding": "503",
         "category": "Questionnaires",
         "strata": "Primary"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "Age other serious eye condition diagnosed",
@@ -884,7 +919,8 @@
         "units": "Years",
         "category": "Questionnaires",
         "strata": "Primary"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "Recommendation to repeat colonoscopy in XXX years",
@@ -911,7 +947,8 @@
         "data_type_pandas": "int",
         "category": "Questionnaires",
         "strata": "Primary"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "Average weekly intake of other alcoholic drinks",
@@ -939,7 +976,8 @@
         "units": "glasses",
         "category": "Questionnaires",
         "strata": "Primary"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "Fever when IBS symptoms first began",
@@ -969,7 +1007,8 @@
         "data_coding": "503",
         "category": "Questionnaires",
         "strata": "Primary"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "Difficulty not smoking for 1 day",
@@ -999,7 +1038,8 @@
         "data_coding": "100357",
         "category": "Questionnaires",
         "strata": "Primary"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "Average monthly spirits intake",
@@ -1027,7 +1067,8 @@
         "data_coding": "P100291_1",
         "category": "Questionnaires",
         "strata": "Primary"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "Family history",
@@ -1055,7 +1096,8 @@
         "data_coding": "052_01",
         "category": "Questionnaires",
         "strata": "Primary"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "Family history of IBS",
@@ -1083,7 +1125,8 @@
         "data_coding": "502",
         "category": "Questionnaires",
         "strata": "Primary"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "Satisfaction with bowel habits",
@@ -1112,7 +1155,8 @@
         "data_type_pandas": "int",
         "category": "Questionnaires",
         "strata": "Primary"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "Mother's age at death",
@@ -1140,7 +1184,8 @@
         "units": "Years",
         "category": "Questionnaires",
         "strata": "Primary"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "Age stopped smoking cigarettes (current cigar/pipe or previous cigarette smoker)",
@@ -1168,7 +1213,8 @@
         "units": "Years",
         "category": "Questionnaires",
         "strata": "Primary"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "Diarrhoea when IBS symptoms first began",
@@ -1198,7 +1244,8 @@
         "data_coding": "503",
         "category": "Questionnaires",
         "strata": "Primary"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "Illnesses of adopted mother",
@@ -1228,7 +1275,8 @@
         "data_coding": "1010",
         "category": "Questionnaires",
         "strata": "Primary"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "Splenectomy year",
@@ -1257,7 +1305,8 @@
         "data_type_pandas": "int",
         "category": "Questionnaires",
         "strata": "Primary"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "Alcohol intake versus 10 years previously",
@@ -1287,7 +1336,8 @@
         "data_coding": "100417",
         "category": "Questionnaires",
         "strata": "Primary"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "Snoring",
@@ -1317,7 +1367,8 @@
         "data_coding": "100345",
         "category": "Questionnaires",
         "strata": "Primary"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "Age when loss of vision due to injury or trauma diagnosed",
@@ -1347,7 +1398,8 @@
         "units": "Years",
         "category": "Questionnaires",
         "strata": "Primary"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "Average monthly fortified wine intake",
@@ -1375,7 +1427,8 @@
         "units": "glasses",
         "category": "Questionnaires",
         "strata": "Primary"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "Renal Doppler [ultrasound]",
@@ -1405,7 +1458,8 @@
         "data_coding": "046_01",
         "category": "Questionnaires",
         "strata": "Primary"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "Average weekly champagne plus white wine intake",
@@ -1433,7 +1487,8 @@
         "units": "glasses",
         "category": "Questionnaires",
         "strata": "Primary"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "Former alcohol drinker",
@@ -1463,7 +1518,8 @@
         "data_coding": "100352",
         "category": "Questionnaires",
         "strata": "Primary"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "Comparative height size at age 10",
@@ -1493,7 +1549,8 @@
         "data_coding": "100429",
         "category": "Questionnaires",
         "strata": "Primary"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "Time spent using computer",
@@ -1520,7 +1577,8 @@
         "data_type_pandas": "int",
         "category": "Questionnaires",
         "strata": "Primary"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "Long-term/recurrent antibiotics as child or teenager",
@@ -1550,7 +1608,8 @@
         "data_coding": "502",
         "category": "Questionnaires",
         "strata": "Primary"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "Pre pregnancy genetic testing",
@@ -1578,7 +1637,8 @@
         "data_coding": "7.0",
         "category": "Questionnaires",
         "strata": "Primary"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "Number of days/week walked 10+ minutes",
@@ -1606,7 +1666,8 @@
         "units": "Days/Week",
         "category": "Questionnaires",
         "strata": "Primary"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "Chest / abdomen / pelvis / head CT / MRI examination",
@@ -1636,7 +1697,8 @@
         "data_coding": "046_01",
         "category": "Questionnaires",
         "strata": "Primary"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "Weight change compared with 1 year ago",
@@ -1666,7 +1728,8 @@
         "data_coding": "100540",
         "category": "Questionnaires",
         "strata": "Primary"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "Alcohol usually taken with meals",
@@ -1694,7 +1757,8 @@
         "data_coding": "100416",
         "category": "Questionnaires",
         "strata": "Primary"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "Length of mobile phone use",
@@ -1723,7 +1787,8 @@
         "data_coding": "100335",
         "category": "Questionnaires",
         "strata": "Primary"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "Father's age at death",
@@ -1751,7 +1816,8 @@
         "units": "Years",
         "category": "Questionnaires",
         "strata": "Primary"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "Are you vegeterian?",
@@ -1779,7 +1845,8 @@
         "data_coding": "7",
         "category": "Questionnaires",
         "strata": "Primary"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "ACE touchscreen question How many years ago was your last screen?",
@@ -1806,7 +1873,8 @@
         "units": "Years",
         "value_encoding": "Coding 100567",
         "participant_count": "228,499"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "ACE touchscreen question Are you often troubled by feelings of guilt?",
@@ -1834,7 +1902,8 @@
         "data_type": "Categorical",
         "value_encoding": "Coding 100349",
         "participant_count": "501,276"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "ACE touchscreen question Over the past two weeks, how often have you felt tense, fidgety or restless?",
@@ -1862,7 +1931,8 @@
         "data_type": "Categorical",
         "value_encoding": "Coding 100484",
         "participant_count": "501,274"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "Interval between previous point and current one in alphanumeric path (trail #2). Note that these intervals are unlikely to sum to",
@@ -1888,7 +1958,8 @@
         "data_type": "Integer",
         "units": "second",
         "participant_count": "73,902"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "Participants were allowed up to 2 attempts to correctly recall the colour/shape shown to them earlier in the touchscreen section. This is the first answer they gave.",
@@ -1914,7 +1985,8 @@
         "data_type": "Categorical",
         "value_encoding": "Coding 16",
         "participant_count": "236,375"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "This derived data field has come from Professor Jill Pell from the Institute of Health Wellbeing, University of Glasgow. Methods on how these fields were derived can be found in the Additional Resourc...",
@@ -1940,7 +2012,8 @@
         "data_type": "Categorical",
         "value_encoding": "Coding 100694",
         "participant_count": "1,613"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "This is the time that a participant looked at each word/picture group before selecting a picture.",
@@ -1965,7 +2038,8 @@
         "subcategory": "504",
         "data_type": "Integer",
         "participant_count": "74,249"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "ACE touchscreen question Have you ever had a period of time lasting at least two days when you were so irritable that you found yourself shouting at people or starting fights or arguments?",
@@ -1993,7 +2067,8 @@
         "data_type": "Categorical",
         "value_encoding": "Coding 100349",
         "participant_count": "240,523"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "ACE touchscreen question What was your age when injury or trauma resulting in loss of vision was first diagnosed?",
@@ -2022,7 +2097,8 @@
         "units": "years",
         "value_encoding": "Coding 100291",
         "participant_count": "1,403"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "ACE touchscreen question What was your age when the blood clot in the lung was first diagnosed?",
@@ -2051,7 +2127,8 @@
         "units": "years",
         "value_encoding": "Coding 100291",
         "participant_count": "4,700"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "ACE touchscreen question Does this pain ever begin when you are standing still or sitting?",
@@ -2079,7 +2156,8 @@
         "data_type": "Categorical",
         "value_encoding": "Coding 100349",
         "participant_count": "60,451"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "The correct word associated with long was curtains.",
@@ -2105,7 +2183,8 @@
         "data_type": "Categorical",
         "value_encoding": "Coding 6492",
         "participant_count": "74,695"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "This is the number of correct matches in the round. It should always be 3 for a 2x3 game and 6 for a 3x4 game, unless the participant abandoned before finishing.",
@@ -2130,7 +2209,8 @@
         "subcategory": "100030",
         "data_type": "Integer",
         "participant_count": "3,712"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "Field description available on UK Biobank website",
@@ -2156,7 +2236,8 @@
         "data_type": "Categorical",
         "value_encoding": "Coding 100258",
         "participant_count": "501,293"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "This is the interpolated time when the participant indicated the corresponding cancer was first diagnosed by a doctor, measured in years.",
@@ -2183,7 +2264,8 @@
         "units": "Year",
         "value_encoding": "Coding 13",
         "participant_count": "50,513"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "ACE touchscreen question For approximately how many years have you been using a mobile phone at least once per week to make or receive calls?",
@@ -2210,7 +2292,8 @@
         "units": "years",
         "value_encoding": "Coding 100335",
         "participant_count": "501,298"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "ACE touchscreen question How old were you when you last used HRT?",
@@ -2237,7 +2320,8 @@
         "units": "years",
         "value_encoding": "Coding 100598",
         "participant_count": "108,555"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "ACE touchscreen question Have you tried to give up smoking?",
@@ -2263,7 +2347,8 @@
         "data_type": "Categorical",
         "value_encoding": "Coding 100358",
         "participant_count": "39,650"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "ACE touchscreen question Do you wear sun protection (e.g. sunscreen lotion, hat) when you spend time outdoors in the summer?",
@@ -2291,7 +2376,8 @@
         "data_type": "Categorical",
         "value_encoding": "Coding 100536",
         "participant_count": "498,686"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "ACE touchscreen question Why did you stop drinking?",
@@ -2317,7 +2403,8 @@
         "data_type": "Categorical",
         "value_encoding": "Coding 100669",
         "participant_count": "138"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "ACE touchscreen question What was your age when the heart attack was first diagnosed?",
@@ -2346,7 +2433,8 @@
         "units": "years",
         "value_encoding": "Coding 100291",
         "participant_count": "12,994"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "ACE touchscreen question How many days is your usual menstrual cycle? (The number of days between each menstrual period)",
@@ -2374,7 +2462,8 @@
         "data_type": "Integer",
         "value_encoding": "Coding 100582",
         "participant_count": "64,155"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "Place born - north co-ordinate",
@@ -2400,7 +2489,8 @@
         "data_type": "Integer",
         "value_encoding": "Coding 170",
         "participant_count": "451,996"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "ACE touchscreen question In a typical DAY in winter, how many hours do you spend outdoors?",
@@ -2426,7 +2516,8 @@
         "data_type": "Integer",
         "value_encoding": "Coding 100329",
         "participant_count": "498,722"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "ACE touchscreen question Have you had facial pains for more than 3 months?",
@@ -2454,7 +2545,8 @@
         "data_type": "Categorical",
         "value_encoding": "Coding 100349",
         "participant_count": "10,331"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "Field description available on UK Biobank website",
@@ -2479,7 +2571,8 @@
         "subcategory": "100027",
         "data_type": "Integer",
         "participant_count": "27,322"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "ACE touchscreen question Do you get short of breath walking with people of your own age on level ground?",
@@ -2507,7 +2600,8 @@
         "data_type": "Categorical",
         "value_encoding": "Coding 100349",
         "participant_count": "240,523"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "Field description available on UK Biobank website",
@@ -2532,7 +2626,8 @@
         "subcategory": "100027",
         "data_type": "Integer",
         "participant_count": "51,754"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "Field description available on UK Biobank website",
@@ -2558,7 +2653,8 @@
         "data_type": "Categorical",
         "value_encoding": "Coding 92",
         "participant_count": "3,712"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "Average number of pack-years smoked by an individual each year, over their adult lifetime, calculated using pack-years data field. Pack years as a proportion of lifespan exposed to smoking is defined ...",
@@ -2584,7 +2680,8 @@
         "data_type": "Continuous",
         "units": "years",
         "participant_count": "153,624"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "ACE touchscreen question What type of bread do you mainly eat?",
@@ -2610,7 +2707,8 @@
         "data_type": "Categorical",
         "value_encoding": "Coding 100674",
         "participant_count": "3,650"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "ACE touchscreen question Do you add salt to your food? (Do not include salt used in cooking)",
@@ -2637,7 +2735,8 @@
         "units": "year",
         "value_encoding": "Coding 100394",
         "participant_count": "501,286"
-      }
+      },
+      "pair_type": "questionnaire_match"
     },
     {
       "source_text": "ACE touchscreen question In the last year have you ever had wheeze or whistling in the chest?",
@@ -2666,7 +2765,8 @@
         "units": "year",
         "value_encoding": "Coding 100349",
         "participant_count": "501,262"
-      }
+      },
+      "pair_type": "questionnaire_match"
     }
   ]
 }

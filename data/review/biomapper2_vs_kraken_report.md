@@ -1,7 +1,7 @@
 # Biomapper2 vs Kraken: Demographics Mapping Comparison Report
 
-**Date:** February 18, 2026
-**Dataset:** 120 UK Biobank demographic survey fields
+**Date:** February 19, 2026 (Updated with SNOMED cross-reference analysis)
+**Dataset:** 120 TwinsUK demographic survey fields
 **Purpose:** Compare entity resolution quality between direct Kraken queries and the Biomapper2 API layer
 
 ---
@@ -13,14 +13,16 @@ Biomapper2 and Kraken serve complementary roles in biomedical entity resolution:
 | Aspect | Biomapper2 | Kraken (Direct) |
 |--------|------------|-----------------|
 | **Primary Use Case** | Code validation | Entity discovery |
-| **Identifier Output** | SNOMED CT | UMLS |
+| **Identifier Output** | SNOMED CT | UMLS (with SNOMED cross-refs) |
 | **KG Resolution Rate** | 64% (77/120) | 100% |
+| **SNOMED Coverage** | 100% (passthrough) | 30% (via equivalent_ids) |
 | **False Positive Rate** | 0% | 10% (12/120) |
 | **Best For** | Known concepts, validation pipelines | Free-text search, unknown entities |
 | **Architecture** | Ensemble pipeline + reranking | Direct hybrid search |
-| **Metabolite EM** | 95.2% (with vocab reranking) | 86.4% baseline |
 
-**Key Differentiator:** Biomapper2's ensemble orchestration + vocabulary preference reranking improves hybrid search exact match from 86.4% → 95.2% (+8.8%) for metabolites.
+**Key Differentiator:** Biomapper2's ensemble orchestration with multi-annotator voting and category-aware filtering achieves 0% false positive rate on demographics mapping, compared to Kraken's 10% (12/120 ethnicity → cholesterol errors).
+
+**Key Insight:** Biomapper2's 100% SNOMED coverage is because it **echoes your input codes** (validation mode), not because it "found" them. Kraken's 30% SNOMED coverage measures **knowledge graph cross-reference completeness** — a fundamentally different metric.
 
 **Recommendation:** Use Biomapper2 when SNOMED codes are available and need validation. Use Kraken when discovering entities from free text. Cross-reference both for highest confidence.
 
@@ -45,6 +47,81 @@ Survey Text + SNOMED hints → /map/entity → Normalization → SNOMED validati
 - Prioritizes identifier hints when provided
 - Returns validated SNOMED codes with optional KG cross-references
 - "SNOMED Passthrough" behavior: validates known codes rather than searching for alternatives
+
+---
+
+## SNOMED Cross-Reference Analysis
+
+### The Apples-to-Oranges Problem
+
+Comparing Biomapper2's SNOMED output to Kraken's UMLS output is inherently unfair:
+
+| System | Primary Identifier | SNOMED Access |
+|--------|-------------------|---------------|
+| **Biomapper2** | SNOMEDCT codes | Direct (you provide codes, it validates/echoes them) |
+| **Kraken** | UMLS/EFO/NCIT | Cross-reference only (in `equivalent_ids` field) |
+
+Biomapper2's 100% SNOMED coverage is an artifact of its **validation mode** — it echoes input codes. This measures code validity, not entity discovery capability.
+
+### Why Server-Side SNOMED Filtering Fails
+
+Kraken's `prefix_filter` parameter only operates on **primary identifiers**, not cross-references:
+
+```
+Query: "blood pressure" with prefix_filter: ["SNOMEDCT"]
+Result: ZERO MATCHES
+
+Query: "blood pressure" without filter
+Result: NCIT:C54707 (Blood Pressure Finding)
+        equivalent_ids: ['NCIT:C54707', 'SNOMEDCT:392570002', 'UMLS:C1271104']
+```
+
+SNOMED codes exist in `equivalent_ids`, but `prefix_filter` can't find them.
+
+### Client-Side SNOMED Extraction
+
+To enable fair comparison, we extract SNOMED codes from Kraken's `equivalent_ids`:
+
+```python
+def extract_snomed_from_equivalents(entity: dict) -> list[str]:
+    equiv_ids = entity.get("equivalent_ids", [])
+    return [eid for eid in equiv_ids if eid.startswith("SNOMEDCT:")]
+```
+
+### Three-Outcome Classification
+
+Each Kraken result falls into one of three categories:
+
+| Outcome | Count | % | Interpretation |
+|---------|-------|---|----------------|
+| **Success** — Best match has SNOMED | 36 | 30.0% | Kraken selected clinically-grounded entity |
+| **True Miss** — No SNOMED in top-10 | 61 | 50.8% | Knowledge graph lacks SNOMED cross-refs |
+| **Ranking Failure** — SNOMED exists but not selected | 23 | 19.2% | Kraken ranked noise above valid entity |
+
+**Key Finding:** Half of the SNOMED gaps are **knowledge graph coverage issues** (entities lack SNOMED cross-references), not Kraken search failures.
+
+### Ranking Failure Examples
+
+Cases where SNOMED-grounded candidates existed but Kraken selected a non-SNOMED entity:
+
+| Query | Selected (No SNOMED) | Best SNOMED Candidate (Rank) |
+|-------|---------------------|------------------------------|
+| "What gender do you identify with?" | UMLS:C4722293 (Other Gender) | DOID:1234 (gender incongruence) at rank 3 |
+| "Do you currently work? Full-time..." | UMLS:C4724936 (Working Full Time Hours) | UMLS:C0682295 (Full-time employment) at rank 3 |
+| "I am still in full-time education" | UMLS:C4035866 (Still in Hospital) | UMLS:C0682295 (Full-time employment) at rank 9 |
+
+These represent **ranking quality issues** that could be addressed with vocabulary preference reranking.
+
+### Ethnicity → Cholesterol Bug: SNOMED Analysis
+
+The 12 ethnicity fields incorrectly mapped to `UMLS:C4735577` have **no SNOMED codes** in their `equivalent_ids`:
+
+```
+UMLS:C4735577 ("Cholesterol Levels: What You Need to Know")
+  equivalent_ids: ['UMLS:C4735577']  ← No SNOMED cross-references!
+```
+
+This confirms the entity is **embedding noise** from clinical literature, not a valid clinical concept. Legitimate clinical entities typically have SNOMED cross-references.
 
 ---
 
@@ -79,7 +156,7 @@ Raw Entity → [Annotation] → [Normalization] → [Linking] → [Resolution]
 
 | Step | Module | Purpose | Code Reference |
 |------|--------|---------|----------------|
-| 1. Annotation | `annotation_engine.py` | Query annotators (Kestrel, MetabolomicsWorkbench) for vocab IDs | `mapper.py:87-98` |
+| 1. Annotation | `annotation_engine.py` | Query annotators (Kestrel, etc.) for vocab IDs | `mapper.py:87-98` |
 | 2. Normalization | `normalizer.py` | Convert arbitrary column names → Biolink CURIEs | `mapper.py:100-108` |
 | 3. Linking | `linker.py` | Batch canonicalize CURIEs → KG node IDs | `mapper.py:110-113` |
 | 4. Resolution | `resolver.py` | Vote to select best KG ID | `mapper.py:115-118` |
@@ -92,7 +169,7 @@ Biomapper2 achieves lower false discovery rate through **four complementary mech
 |---|-----------|---------------|-----------------|
 | 1 | Score threshold filtering | `kestrel_hybrid.py:88` | Removes scores < 0.5 |
 | 2 | Multi-annotator voting | `resolver.py:63-80` | Consensus reduces outliers |
-| 3 | Vocabulary preference reranking | `kg_o1_utils.py:430-468` | +8.8% EM (86.4% → 95.2%) |
+| 3 | Vocabulary preference reranking | `kg_o1_utils.py:430-468` | Domain-specific vocabulary prioritization |
 | 4 | Category-aware filtering | `category_filter` param in API | Prevents cross-category confusion |
 
 #### Mechanism 1: Score Threshold Filtering
@@ -126,31 +203,9 @@ The KG ID with the **most supporting CURIEs** wins. When multiple annotators agr
 
 **✅ Verified from `kg_o1_utils.py:66-82` and `kg_o1_utils.py:430-468`:**
 
-Preferred vocabularies (metabolites):
-```python
-METABOLITE_PREFERRED_VOCABS = {
-    "CHEBI", "HMDB", "KEGG.COMPOUND", "PUBCHEM.COMPOUND",
-    "DRUGBANK", "LIPIDMAPS", "INCHIKEY", "CAS"
-}
-```
+Vocabulary preference reranking allows domain-specific prioritization of identifier vocabularies. For demographics/phenotypes, this can be configured to prefer clinical vocabularies like SNOMED and NCIT over general-purpose vocabularies.
 
-Penalized vocabularies:
-```python
-NON_METABOLITE_VOCABS = {
-    "NCBITaxon", "MESH", "UMLS", "RXCUI"
-}
-```
-
-**Why this works:** MESH/UMLS are clinical vocabularies optimized for clinical text, not molecular identity resolution. Reranking pushes biochemical vocabularies to the top.
-
-**Benchmark results (n=125, 95% bootstrap CIs):**
-
-| Strategy | Exact Match | 95% CI | Impact |
-|----------|-------------|--------|--------|
-| Baseline (none) | 86.4% | [80.0%, 92.0%] | — |
-| **Vocabulary Preference** | **95.2%** | — | **+8.8%** |
-
-Source: `biomapper2/notebooks/KG_O1_EXPLORATION_REPORT.md:196-207`
+**Why this works:** Different domains have authoritative vocabularies. Reranking ensures results from domain-appropriate sources are prioritized, reducing cross-domain confusion.
 
 #### Mechanism 4: Category-Aware Filtering
 
@@ -160,33 +215,6 @@ json={"limit": limit, "category_filter": category, "prefix_filter": prefixes}
 ```
 
 The `category_filter` parameter restricts results to specific Biolink categories, preventing cross-domain confusion.
-
-### The Glycine Problem: Why Vocabulary Reranking Matters
-
-**✅ Verified from `KG_O1_EXPLORATION_REPORT.md:147-150`:**
-
-```
-Query: "glycine" → Expected: PUBCHEM.COMPOUND:22316
-  Rank 1: NCBITaxon:3846 (Glycine genus - the plant!)
-  Rank 2: PUBCHEM.COMPOUND:22316 (correct)
-```
-
-Without reranking, the **plant genus Glycine** (taxonomy) outranks the **amino acid glycine** (small molecule). Vocabulary preference reranking solves this by demoting NCBITaxon results.
-
-### Why Vector Search Fails (0% Exact Match)
-
-**✅ Verified from evaluation:**
-
-| Method | Exact Match | 95% CI |
-|--------|-------------|--------|
-| Text | 98.4% | [96.0%, 100%] |
-| Hybrid | 86.4% | [80.0%, 92.0%] |
-| **Vector** | **0%** | [0%, 0%] |
-
-**Root cause:** Vector search returns **semantically related but different entities**:
-- Query: "glucose" → Returns: "Blood Glucose" (MESH:D001786), NOT the glucose molecule
-
-The embedding model captures semantic similarity but not entity identity. This is correct behavior for similarity search but wrong for entity resolution.
 
 ### Fuzzy Vocabulary Matching (Normalizer)
 
@@ -199,7 +227,7 @@ The normalizer converts arbitrary column names to standardized vocabularies usin
 3. **Implicit alias:** Match on root vocab (e.g., 'kegg' for 'kegg.compound')
 4. **Substring match:** Find vocab within field name (e.g., 'labcorploincid' → 'loinc')
 
-This handles diverse input formats like "Labcorp LOINC id", "CHEBI ID", "PubChem CID" → standardized CURIE prefixes.
+This handles diverse input formats like "Labcorp LOINC id", "SNOMED code", "NCIT ID" → standardized CURIE prefixes.
 
 ### Knowledge Graph Operations (Separate from Search)
 
@@ -227,14 +255,22 @@ Biomapper2's lower KG resolution reflects incomplete UMLS cross-references for c
 ### 2. Identifier Types
 
 **Biomapper2 Output:**
-- Primary: `SNOMEDCT:*` codes
+- Primary: `SNOMEDCT:*` codes (100% coverage — validates/echoes input)
 - Secondary: `UMLS:*` when KG cross-reference exists
 - Entity types: 92 PhenotypicFeature, 28 ClinicalFinding
 
 **Kraken Output:**
 - Primary: `UMLS:*` codes
+- SNOMED via `equivalent_ids`: 30% of best matches (36/120)
 - Secondary: Various (NCIT, MONDO, HANCESTRO, DOID)
 - Categories: Mixed (PhenotypicFeature, PopulationOfIndividualOrganisms, Publication, Disease)
+
+**SNOMED Coverage Details (Kraken):**
+| Metric | Count | % |
+|--------|-------|---|
+| Best match has SNOMED in equivalent_ids | 36 | 30.0% |
+| Any top-10 candidate has SNOMED | 59 | 49.2% |
+| SNOMED-grounded entity ranked #1 | 27 | 22.5% |
 
 ### 3. Quality Issues
 
@@ -254,6 +290,15 @@ This is a textbook example of **learned spurious correlation** in embedding spac
 1. **Training data bias:** Medical literature extensively discusses ethnicity in the context of cardiovascular disease risk factors
 2. **Embedding proximity:** The model learned "African", "Caribbean", etc. → cardiovascular risk → cholesterol
 3. **Vector similarity:** These ethnicity terms are now embedded near cholesterol-related documents
+
+**✅ SNOMED Confirmation:**
+
+The entity `UMLS:C4735577` has **no SNOMED codes** in its `equivalent_ids`:
+```
+equivalent_ids: ['UMLS:C4735577']  ← Self-reference only, no clinical vocabulary cross-refs
+```
+
+This confirms it's a **document/publication entity**, not a clinical concept. Legitimate clinical entities typically have SNOMED, NCIT, or MESH cross-references.
 
 **Why Biomapper2 avoids this:**
 - Category filtering (`category_filter="PhenotypicFeature"`) would exclude documents
@@ -329,7 +374,6 @@ Fields without KG IDs (43/120) share common patterns:
 
 | Use Case | Recommended | Rationale |
 |----------|-------------|-----------|
-| Metabolite entity resolution | Biomapper2 | 95.2% EM with vocab reranking |
 | Demographics/phenotypes | Biomapper2 with category filter | Avoids cross-domain false positives |
 | SNOMED code validation | Biomapper2 | SNOMED passthrough behavior |
 | Free-text entity discovery | Kraken (with category filter) | Higher coverage, accept some noise |
@@ -341,7 +385,6 @@ Fields without KG IDs (43/120) share common patterns:
 2. You want standardized SNOMED CT identifiers
 3. Precision > recall (avoid false positives)
 4. Building validation/QA pipelines
-5. **Metabolite or small molecule mapping** — vocabulary reranking provides +8.8% EM improvement
 
 ### When to Use Kraken (Direct)
 1. Discovery of unknown entities from free text
@@ -366,7 +409,7 @@ To achieve comparable FDR to Biomapper2 when querying Kraken directly:
 # Always specify category filter
 results = kestrel_hybrid_search(
     search_text=query,
-    category_filter="biolink:SmallMolecule",  # or PhenotypicFeature, etc.
+    category_filter="biolink:PhenotypicFeature",  # or ClinicalFinding, etc.
     limit=10
 )
 
@@ -385,10 +428,19 @@ Without these safeguards, expect 10-15% higher false positive rate.
 
 | File | Description |
 |------|-------------|
-| `demographics_kraken_mapping.json` | Direct Kraken hybrid search results |
+| `demographics_kraken_mapping.json` | Direct Kraken hybrid search results with SNOMED extraction |
+| `demographics_kraken_mapping.tsv` | Flat TSV export with SNOMED cross-reference fields |
 | `demographics_biomapper2_mapping.json` | Biomapper2 API mapping results |
 | `demographics_biomapper2_mapping.tsv` | Flat TSV export for spreadsheet analysis |
 | `biomapper2_vs_kraken_report.md` | This comparison report |
+
+### New Fields in Kraken Output (Feb 19, 2026)
+
+| Field | Description |
+|-------|-------------|
+| `kraken_snomed_codes` | SNOMED codes extracted from best match's `equivalent_ids` |
+| `candidates_with_snomed` | Count of top-10 candidates with SNOMED in equivalent_ids |
+| `top_snomed_candidate` | First candidate (by rank) with SNOMED codes, if different from best |
 
 ---
 
@@ -413,34 +465,7 @@ CATEGORY_TO_ENTITY_TYPE = {
 
 ---
 
-## Appendix B: Benchmark Performance Data
-
-### Search Method Comparison (n=125, Metabolites)
-
-**Source:** `biomapper2/notebooks/KG_O1_EXPLORATION_REPORT.md:100-106`
-
-| Method | Exact Match | 95% CI | Recall@5 | Recall@10 | MRR | Latency |
-|--------|-------------|--------|----------|-----------|-----|---------|
-| **Text** | **98.4%** | [96.0%, 100%] | 99.2% | 99.2% | 0.988 | 239ms |
-| Hybrid | 86.4% | [80.0%, 92.0%] | 99.2% | 99.2% | 0.923 | 251ms |
-| Vector | 0% | [0%, 0%] | 0.8% | 1.6% | 0.005 | 217ms |
-
-### Reranking Strategy Impact
-
-**Source:** `biomapper2/notebooks/KG_O1_EXPLORATION_REPORT.md:196-207`
-
-| Strategy | EM | ΔEM |
-|----------|-----|-----|
-| Baseline (none) | 86.4% | — |
-| Category-Based | 86.4% | +0.0% |
-| **Vocabulary Preference** | **95.2%** | **+8.8%** |
-| Combined Pipeline | 95.2% | +8.8% |
-
-**Target (90%+): MET** ✓
-
----
-
-## Appendix C: Code References
+## Appendix B: Code References
 
 ### Biomapper2 Source Files
 
@@ -484,7 +509,7 @@ def vocab_score(result: dict) -> tuple[int, float]:
 
 ---
 
-## Appendix D: Evidence Quality Summary
+## Appendix C: Evidence Quality Summary
 
 This report distinguishes between verified and inferred claims:
 
@@ -493,9 +518,8 @@ This report distinguishes between verified and inferred claims:
 | 4-step pipeline architecture | ✅ Verified | Source code inspection |
 | Score threshold = 0.5 | ✅ Verified | `kestrel_hybrid.py:88` |
 | Voting resolution logic | ✅ Verified | `resolver.py:63-80` |
-| Vocabulary preference lists | ✅ Verified | `kg_o1_utils.py:66-82` |
-| 86.4% → 95.2% EM improvement | ✅ Verified | Evaluation with n=125, bootstrap CIs |
+| Vocabulary preference mechanism | ✅ Verified | `kg_o1_utils.py:66-82` |
 | Ethnicity → Cholesterol bug | ✅ Verified | Demographics mapping results |
+| SNOMED cross-reference extraction | ✅ Verified | Demographics mapping analysis |
 | Embedding model identity | ⚠️ Inferred | Not visible in source |
 | Internal ranking formula | ⚠️ Inferred | Black box behavior |
-| One-hop 99.4% recall | ⚠️ Inferred | KG-o1 exploration, not direct test |
